@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "yearMin": 1770,
+    "yearMax": 1795,
+    "filterThemes": ["Daily Life", "Security Threats", "Court & State", "Conspiracy"]
+  },
+  "nodes": [
+    {
+      "id": "gustav_iii",
+      "name": "Gustav III",
+      "kind": "person",
+      "lat": null,
+      "lng": null,
+      "yearStart": 1771,
+      "yearEnd": 1792,
+      "themes": ["Court & State", "Daily Life"]
+    },
+    {
+      "id": "johan_anckarstrom",
+      "name": "Johan Anckarström",
+      "kind": "person",
+      "lat": null,
+      "lng": null,
+      "yearStart": 1762,
+      "yearEnd": 1792,
+      "themes": ["Security Threats", "Conspiracy"]
+    },
+    {
+      "id": "claes_f_horn",
+      "name": "Claes Fredrik Horn",
+      "kind": "person",
+      "lat": null,
+      "lng": null,
+      "yearStart": 1760,
+      "yearEnd": 1792,
+      "themes": ["Conspiracy"]
+    },
+    {
+      "id": "operan",
+      "name": "Gustavianska Operahuset",
+      "kind": "place",
+      "lat": 59.3297,
+      "lng": 18.0706,
+      "yearStart": 1782,
+      "yearEnd": 1825,
+      "themes": ["Court & State", "Daily Life", "Security Threats"],
+      "markerType": "event"
+    },
+    {
+      "id": "anckarstrom_hem",
+      "name": "Anckarströms bostad",
+      "kind": "place",
+      "lat": 59.3248,
+      "lng": 18.0688,
+      "yearStart": 1785,
+      "yearEnd": 1795,
+      "themes": ["Daily Life", "Conspiracy"],
+      "markerType": "residence"
+    },
+    {
+      "id": "poliskammaren",
+      "name": "Poliskammaren (Skeppar Olofs Gränd)",
+      "kind": "place",
+      "lat": 59.3255,
+      "lng": 18.0715,
+      "yearStart": 1770,
+      "yearEnd": 1820,
+      "themes": ["Security Threats", "Court & State"],
+      "markerType": "security"
+    },
+    {
+      "id": "horn_hem",
+      "name": "Claes Fredrik Horns bostad",
+      "kind": "place",
+      "lat": 59.3272,
+      "lng": 18.0652,
+      "yearStart": 1780,
+      "yearEnd": 1795,
+      "themes": ["Daily Life", "Conspiracy"],
+      "markerType": "residence"
+    },
+    {
+      "id": "maskeraden_1792",
+      "name": "Den maskerade operaföreställningen (16 mars)",
+      "kind": "event",
+      "lat": 59.32965,
+      "lng": 18.07065,
+      "yearStart": 1792,
+      "yearEnd": 1792,
+      "themes": ["Court & State", "Security Threats", "Daily Life"],
+      "markerType": "event"
+    }
+  ],
+  "links": [
+    {
+      "source": "anckarstrom_hem",
+      "target": "operan",
+      "label": "Vägen till lönnmördarens position",
+      "themes": ["Conspiracy", "Security Threats"]
+    },
+    {
+      "source": "operan",
+      "target": "poliskammaren",
+      "label": "Gripande & förhör",
+      "themes": ["Security Threats"]
+    },
+    {
+      "source": "horn_hem",
+      "target": "anckarstrom_hem",
+      "label": "Hemliga sammanträden",
+      "themes": ["Conspiracy"]
+    },
+    {
+      "source": "johan_anckarstrom",
+      "target": "anckarstrom_hem",
+      "label": "Bostad",
+      "themes": ["Daily Life", "Security Threats"]
+    },
+    {
+      "source": "johan_anckarstrom",
+      "target": "operan",
+      "label": "Plats för dådet",
+      "themes": ["Security Threats"]
+    },
+    {
+      "source": "claes_f_horn",
+      "target": "horn_hem",
+      "label": "Bostad",
+      "themes": ["Daily Life"]
+    },
+    {
+      "source": "claes_f_horn",
+      "target": "anckarstrom_hem",
+      "label": "Konspiratorsk koppling",
+      "themes": ["Conspiracy"]
+    },
+    {
+      "source": "gustav_iii",
+      "target": "operan",
+      "label": "Närvaro vid föreställningen",
+      "themes": ["Court & State", "Daily Life"]
+    },
+    {
+      "source": "gustav_iii",
+      "target": "maskeraden_1792",
+      "label": "Måltavla",
+      "themes": ["Security Threats"]
+    },
+    {
+      "source": "johan_anckarstrom",
+      "target": "gustav_iii",
+      "label": "Attentatsman ↔ monark",
+      "themes": ["Security Threats"]
+    },
+    {
+      "source": "maskeraden_1792",
+      "target": "operan",
+      "label": "Inträffade i lokaler",
+      "themes": ["Court & State"]
+    }
+  ]
+}
