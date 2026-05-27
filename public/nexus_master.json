@@ -1,0 +1,298 @@
+{
+  "nodes": [
+    {
+      "id": "person:anckarstrom",
+      "label": "Jacob Johan Anckarstrom",
+      "type": "person",
+      "lat": null,
+      "lng": null,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "person:gustaviii",
+      "label": "Gustav III",
+      "type": "person",
+      "lat": null,
+      "lng": null,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "person:carlmichael",
+      "label": "Carl Michael Bellman",
+      "type": "person",
+      "lat": null,
+      "lng": null,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "person:anna",
+      "label": "Anna Sophia Lind",
+      "type": "person",
+      "lat": null,
+      "lng": null,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "person:magdalena",
+      "label": "Magdalena Rudenschold",
+      "type": "person",
+      "lat": null,
+      "lng": null,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "place:opera",
+      "label": "The Opera House",
+      "type": "place",
+      "lat": 59.3299,
+      "lng": 18.0686,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "place:skeppar-olofs-grand",
+      "label": "Skeppar Olofs Grand",
+      "type": "place",
+      "lat": 59.3249,
+      "lng": 18.0708,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "place:stortorget",
+      "label": "Stortorget",
+      "type": "place",
+      "lat": 59.3254,
+      "lng": 18.0703,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "place:slottet",
+      "label": "Royal Palace",
+      "type": "place",
+      "lat": 59.3269,
+      "lng": 18.0717,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "place:riddarhuset",
+      "label": "Riddarhuset",
+      "type": "place",
+      "lat": 59.3262,
+      "lng": 18.0654,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "place:jarntorget",
+      "label": "Jarntorget",
+      "type": "place",
+      "lat": 59.3236,
+      "lng": 18.0679,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "event:opera-assassination",
+      "label": "Opera House Assassination",
+      "type": "event",
+      "lat": 59.3299,
+      "lng": 18.0686,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "event:tax-dispute-1778",
+      "label": "Tax Dispute in Stortorget",
+      "type": "event",
+      "lat": 59.3254,
+      "lng": 18.0703,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "event:fire-1763",
+      "label": "Warehouse Fire 1763",
+      "type": "event",
+      "lat": 59.3236,
+      "lng": 18.0679,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "event:royal-procession",
+      "label": "Royal Procession",
+      "type": "event",
+      "lat": 59.3269,
+      "lng": 18.0717,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "person:nils",
+      "label": "Nils Bjork",
+      "type": "person",
+      "lat": null,
+      "lng": null,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "person:marta",
+      "label": "Marta Ekeblad",
+      "type": "person",
+      "lat": null,
+      "lng": null,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "place:svartmangatan",
+      "label": "Svartmangatan 12",
+      "type": "place",
+      "lat": 59.3248,
+      "lng": 18.0701,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "event:smuggling-raid",
+      "label": "Smuggling Raid",
+      "type": "event",
+      "lat": 59.3248,
+      "lng": 18.0701,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    },
+    {
+      "id": "place:kakbrinken",
+      "label": "Kakbrinken 5",
+      "type": "place",
+      "lat": 59.3258,
+      "lng": 18.0678,
+      "metadata": {
+        "source": "mock",
+        "period": "1750-1850"
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "person:anckarstrom",
+      "target": "event:opera-assassination",
+      "relationship": "witnessed",
+      "strength": 1.0
+    },
+    {
+      "source": "event:opera-assassination",
+      "target": "place:opera",
+      "relationship": "witnessed",
+      "strength": 1.0
+    },
+    {
+      "source": "person:gustaviii",
+      "target": "place:slottet",
+      "relationship": "lived_in",
+      "strength": 0.95
+    },
+    {
+      "source": "person:carlmichael",
+      "target": "place:jarntorget",
+      "relationship": "lived_in",
+      "strength": 0.72
+    },
+    {
+      "source": "person:anna",
+      "target": "place:svartmangatan",
+      "relationship": "lived_in",
+      "strength": 0.83
+    },
+    {
+      "source": "person:marta",
+      "target": "event:tax-dispute-1778",
+      "relationship": "witnessed",
+      "strength": 0.66
+    },
+    {
+      "source": "person:nils",
+      "target": "event:smuggling-raid",
+      "relationship": "witnessed",
+      "strength": 0.7
+    },
+    {
+      "source": "event:smuggling-raid",
+      "target": "place:svartmangatan",
+      "relationship": "witnessed",
+      "strength": 0.89
+    },
+    {
+      "source": "event:tax-dispute-1778",
+      "target": "place:stortorget",
+      "relationship": "witnessed",
+      "strength": 0.9
+    },
+    {
+      "source": "event:fire-1763",
+      "target": "place:jarntorget",
+      "relationship": "witnessed",
+      "strength": 0.87
+    },
+    {
+      "source": "event:royal-procession",
+      "target": "place:slottet",
+      "relationship": "witnessed",
+      "strength": 0.93
+    },
+    {
+      "source": "person:gustaviii",
+      "target": "person:magdalena",
+      "relationship": "related_to",
+      "strength": 0.5
+    }
+  ]
+}

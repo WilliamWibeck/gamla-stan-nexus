@@ -1,0 +1,648 @@
+#!/usr/bin/env python3
+"""Build nexus_master.json for The Nexus dashboard.
+
+This script merges:
+1) K-Samsok API records (places/artifacts in Gamla Stan, 1750-1850)
+2) Local CSV/JSON files (events, crimes, inventories, tax records)
+3) Wikidata SPARQL enrichment (person details and family links)
+
+Output schema:
+{
+  "nodes": [{ "id", "label", "type", "lat", "lng", "metadata": {} }],
+  "links": [{ "source", "target", "relationship", "strength" }]
+}
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import re
+import sys
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any, Dict, Iterable, List, Optional, Tuple
+
+try:
+    import pandas as pd
+except ModuleNotFoundError:  # Allows --mock usage without local dependencies.
+    pd = None  # type: ignore[assignment]
+
+try:
+    import requests
+except ModuleNotFoundError:
+    requests = None  # type: ignore[assignment]
+
+
+KSAMSOK_API = "https://kulturarvsdata.se/ksamsok/api"
+WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
+
+# Gamla Stan (approx) bounding box in WGS84.
+GAMLA_STAN_BBOX = (18.045, 59.318, 18.085, 59.332)  # min_lon, min_lat, max_lon, max_lat
+TIME_FROM = 1750
+TIME_TO = 1850
+
+
+def normalize_text(value: Any) -> str:
+    if value is None:
+        return ""
+    text = str(value).strip().lower()
+    text = re.sub(r"\s+", " ", text)
+    text = (
+        text.replace("å", "a")
+        .replace("ä", "a")
+        .replace("ö", "o")
+        .replace("é", "e")
+        .replace("ü", "u")
+    )
+    text = re.sub(r"[^a-z0-9 ]+", "", text)
+    return text.strip()
+
+
+def slug(value: str) -> str:
+    txt = normalize_text(value)
+    txt = re.sub(r"\s+", "-", txt)
+    return txt or "unknown"
+
+
+def first_match(d: Dict[str, Any], candidates: Iterable[str]) -> Any:
+    lower = {k.lower(): v for k, v in d.items()}
+    for key in candidates:
+        if key.lower() in lower:
+            return lower[key.lower()]
+    return None
+
+
+def to_float(value: Any) -> Optional[float]:
+    if value is None:
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+@dataclass
+class NexusNode:
+    id: str
+    label: str
+    type: str
+    lat: Optional[float]
+    lng: Optional[float]
+    metadata: Dict[str, Any]
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "id": self.id,
+            "label": self.label,
+            "type": self.type,
+            "lat": self.lat,
+            "lng": self.lng,
+            "metadata": self.metadata,
+        }
+
+
+def make_link(source: str, target: str, relationship: str, strength: float) -> Dict[str, Any]:
+    return {
+        "source": source,
+        "target": target,
+        "relationship": relationship,
+        "strength": round(float(strength), 3),
+    }
+
+
+def fetch_ksamsok_records(
+    session: "requests.Session", rows: int = 300
+) -> List[Dict[str, Any]]:
+    min_lon, min_lat, max_lon, max_lat = GAMLA_STAN_BBOX
+    bbox_query = f'/WGS84 "{min_lon} {min_lat} {max_lon} {max_lat}"'
+    query = (
+        f"boundingBox={bbox_query}"
+        f' AND fromTime>="{TIME_FROM}"'
+        f' AND toTime<="{TIME_TO}"'
+    )
+
+    params = {
+        "method": "search",
+        "version": "1.1",
+        "query": query,
+        "hitsPerPage": rows,
+        "recordSchema": "presentation",
+    }
+
+    app_id = os.getenv("KSAMSOK_APP_ID")
+    if app_id:
+        params["appid"] = app_id
+
+    response = session.get(KSAMSOK_API, params=params, timeout=25)
+    response.raise_for_status()
+
+    payload = response.json()
+    records = payload.get("result", {}).get("records", [])
+    if isinstance(records, list):
+        return records
+    return []
+
+
+def parse_ksamsok_to_nodes(records: List[Dict[str, Any]]) -> List[NexusNode]:
+    nodes: List[NexusNode] = []
+    for rec in records:
+        item_name = first_match(rec, ["itemName", "title", "name"])
+        source_uri = first_match(rec, ["sourceUri", "uri", "id"])
+        desc = first_match(rec, ["itemDescription", "description"])
+        geodata = first_match(rec, ["geodata", "geoData"]) or {}
+        lat = to_float(first_match(geodata, ["lat", "latitude"]))
+        lng = to_float(first_match(geodata, ["lng", "lon", "longitude"]))
+        if lat is None or lng is None:
+            continue
+
+        label = str(item_name or "Unnamed heritage object").strip()
+        node_id = f"place:ks:{slug(str(source_uri or label))}"
+        metadata = {
+            "source": "ksamsok",
+            "source_uri": source_uri,
+            "description": desc,
+            "raw_record": rec,
+            "kvarter": first_match(rec, ["kvarter", "kvartersnamn", "blockName"]),
+            "address": first_match(rec, ["address", "streetAddress", "street"]),
+            "time_from": first_match(rec, ["fromTime", "startYear"]),
+            "time_to": first_match(rec, ["toTime", "endYear"]),
+        }
+        nodes.append(NexusNode(node_id, label, "place", lat, lng, metadata))
+    return nodes
+
+
+def read_local_files(local_dir: Path) -> List["pd.DataFrame"]:
+    frames: List["pd.DataFrame"] = []
+    if pd is None:
+        return frames
+    if not local_dir.exists():
+        return frames
+
+    for file_path in sorted(local_dir.glob("*")):
+        if file_path.suffix.lower() == ".csv":
+            try:
+                df = pd.read_csv(file_path)
+            except Exception:
+                df = pd.read_csv(file_path, sep=";")
+            df["_source_file"] = file_path.name
+            frames.append(df)
+        elif file_path.suffix.lower() == ".json":
+            with file_path.open("r", encoding="utf-8") as f:
+                data = json.load(f)
+            if isinstance(data, list):
+                df = pd.DataFrame(data)
+            elif isinstance(data, dict):
+                if "records" in data and isinstance(data["records"], list):
+                    df = pd.DataFrame(data["records"])
+                else:
+                    df = pd.json_normalize(data)
+            else:
+                continue
+            df["_source_file"] = file_path.name
+            frames.append(df)
+    return frames
+
+
+def parse_local_frames(
+    frames: List["pd.DataFrame"],
+) -> Tuple[List[NexusNode], List[Dict[str, Any]], List[str]]:
+    nodes: List[NexusNode] = []
+    links: List[Dict[str, Any]] = []
+    person_names: List[str] = []
+
+    for idx, frame in enumerate(frames):
+        records = frame.to_dict(orient="records")
+        for row_idx, row in enumerate(records):
+            source_file = str(row.get("_source_file", f"dataset_{idx}"))
+            label = first_match(row, ["label", "name", "title", "event_name", "description"])
+            if not label:
+                label = f"{source_file} row {row_idx + 1}"
+
+            lat = to_float(first_match(row, ["lat", "latitude"]))
+            lng = to_float(first_match(row, ["lng", "lon", "longitude"]))
+            kvarter = first_match(row, ["kvarter", "kvartersnamn", "block", "block_name"])
+            address = first_match(row, ["address", "street", "street_address"])
+            date = first_match(row, ["date", "year", "event_date"])
+            node_type = infer_node_type(row, source_file)
+
+            node_id = f"{node_type}:local:{slug(str(label))}:{idx}:{row_idx}"
+            metadata = dict(row)
+            metadata["source"] = "local_file"
+            metadata["source_file"] = source_file
+            metadata["kvarter"] = kvarter
+            metadata["address"] = address
+            metadata["date"] = date
+
+            nodes.append(NexusNode(node_id, str(label), node_type, lat, lng, metadata))
+
+            resident = first_match(row, ["resident", "person", "person_name", "full_name", "name"])
+            if resident and node_type != "person":
+                person_id = f"person:local:{slug(str(resident))}"
+                person_names.append(str(resident))
+                nodes.append(
+                    NexusNode(
+                        person_id,
+                        str(resident),
+                        "person",
+                        None,
+                        None,
+                        {
+                            "source": "local_file",
+                            "source_file": source_file,
+                            "role": "resident_mentioned",
+                        },
+                    )
+                )
+                links.append(make_link(person_id, node_id, "witnessed", 0.72))
+
+    return nodes, links, person_names
+
+
+def infer_node_type(row: Dict[str, Any], source_file: str) -> str:
+    row_text = normalize_text(" ".join(str(v) for v in row.values() if v is not None))
+    file_text = normalize_text(source_file)
+    joined = f"{row_text} {file_text}"
+    if any(k in joined for k in ["resident", "tax", "person", "citizen"]):
+        return "person"
+    if any(k in joined for k in ["building", "address", "property", "kvarter", "street"]):
+        return "place"
+    return "event"
+
+
+def query_wikidata_person(
+    session: "requests.Session", person_name: str
+) -> Optional[Dict[str, Any]]:
+    safe_name = person_name.replace('"', '\\"')
+    sparql = f"""
+SELECT ?person ?personLabel ?birth ?death ?occupationLabel
+       (GROUP_CONCAT(DISTINCT ?parentLabel; separator=", ") AS ?parents)
+       (GROUP_CONCAT(DISTINCT ?childLabel; separator=", ") AS ?children)
+WHERE {{
+  ?person rdfs:label "{safe_name}"@en.
+  OPTIONAL {{ ?person wdt:P569 ?birth. }}
+  OPTIONAL {{ ?person wdt:P570 ?death. }}
+  OPTIONAL {{ ?person wdt:P106 ?occupation. ?occupation rdfs:label ?occupationLabel FILTER (lang(?occupationLabel) = "en") }}
+  OPTIONAL {{
+    ?person wdt:P22|wdt:P25 ?parent .
+    ?parent rdfs:label ?parentLabel FILTER (lang(?parentLabel) = "en")
+  }}
+  OPTIONAL {{
+    ?child wdt:P22|wdt:P25 ?person .
+    ?child rdfs:label ?childLabel FILTER (lang(?childLabel) = "en")
+  }}
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en,sv". }}
+}}
+GROUP BY ?person ?personLabel ?birth ?death ?occupationLabel
+LIMIT 1
+"""
+    headers = {"Accept": "application/sparql-results+json"}
+    response = session.get(
+        WIKIDATA_SPARQL,
+        params={"query": sparql, "format": "json"},
+        headers=headers,
+        timeout=30,
+    )
+    response.raise_for_status()
+    bindings = response.json().get("results", {}).get("bindings", [])
+    if not bindings:
+        return None
+    row = bindings[0]
+    return {
+        "wikidata_id": row.get("person", {}).get("value"),
+        "label": row.get("personLabel", {}).get("value", person_name),
+        "birth": row.get("birth", {}).get("value"),
+        "death": row.get("death", {}).get("value"),
+        "occupation": row.get("occupationLabel", {}).get("value"),
+        "parents": row.get("parents", {}).get("value", ""),
+        "children": row.get("children", {}).get("value", ""),
+    }
+
+
+def run_spatial_linker(nodes: List[NexusNode]) -> List[Dict[str, Any]]:
+    place_nodes = [n for n in nodes if n.type == "place"]
+    event_nodes = [n for n in nodes if n.type == "event"]
+
+    place_keys: Dict[str, List[NexusNode]] = {}
+    for p in place_nodes:
+        k = normalize_text(p.metadata.get("kvarter"))
+        a = normalize_text(p.metadata.get("address"))
+        for key in {k, a}:
+            if key:
+                place_keys.setdefault(key, []).append(p)
+
+    links: List[Dict[str, Any]] = []
+    for event in event_nodes:
+        event_k = normalize_text(event.metadata.get("kvarter"))
+        event_a = normalize_text(event.metadata.get("address"))
+        candidates = []
+        for key in {event_k, event_a}:
+            if key and key in place_keys:
+                candidates.extend(place_keys[key])
+        unique = {c.id: c for c in candidates}.values()
+        for place in unique:
+            relation = "witnessed"
+            strength = 0.92 if event_k and event_k == normalize_text(place.metadata.get("kvarter")) else 0.78
+            links.append(make_link(event.id, place.id, relation, strength))
+    return links
+
+
+def run_social_linker(
+    session: "requests.Session",
+    nodes: List[NexusNode],
+    person_names: List[str],
+    enable_live: bool,
+) -> Tuple[List[NexusNode], List[Dict[str, Any]]]:
+    local_people = [n for n in nodes if n.type == "person"]
+    names = {n.label for n in local_people}
+    names.update(person_names)
+
+    out_nodes: List[NexusNode] = []
+    out_links: List[Dict[str, Any]] = []
+    if not enable_live:
+        return out_nodes, out_links
+
+    local_by_norm = {normalize_text(n.label): n for n in local_people}
+
+    for name in sorted(names):
+        if not name:
+            continue
+        try:
+            wd = query_wikidata_person(session, name)
+        except Exception:
+            continue
+        if not wd:
+            continue
+
+        person_norm = normalize_text(wd["label"])
+        node_id = f"person:wikidata:{slug(person_norm)}"
+        out_nodes.append(
+            NexusNode(
+                node_id,
+                wd["label"],
+                "person",
+                None,
+                None,
+                {
+                    "source": "wikidata",
+                    "wikidata_id": wd["wikidata_id"],
+                    "birth": wd["birth"],
+                    "death": wd["death"],
+                    "occupation": wd["occupation"],
+                    "parents": wd["parents"],
+                    "children": wd["children"],
+                },
+            )
+        )
+
+        local = local_by_norm.get(person_norm)
+        if local:
+            out_links.append(make_link(local.id, node_id, "related_to", 0.95))
+
+        for parent_name in [n.strip() for n in wd.get("parents", "").split(",") if n.strip()]:
+            parent_id = f"person:wikidata:{slug(parent_name)}"
+            out_nodes.append(
+                NexusNode(
+                    parent_id,
+                    parent_name,
+                    "person",
+                    None,
+                    None,
+                    {"source": "wikidata", "inferred": True, "relation_context": "parent"},
+                )
+            )
+            out_links.append(make_link(parent_id, node_id, "related_to", 0.7))
+
+        for child_name in [n.strip() for n in wd.get("children", "").split(",") if n.strip()]:
+            child_id = f"person:wikidata:{slug(child_name)}"
+            out_nodes.append(
+                NexusNode(
+                    child_id,
+                    child_name,
+                    "person",
+                    None,
+                    None,
+                    {"source": "wikidata", "inferred": True, "relation_context": "child"},
+                )
+            )
+            out_links.append(make_link(node_id, child_id, "related_to", 0.7))
+
+    return out_nodes, out_links
+
+
+def dedupe_nodes(nodes: List[NexusNode]) -> List[NexusNode]:
+    by_key: Dict[Tuple[str, str, Optional[float], Optional[float]], NexusNode] = {}
+    for node in nodes:
+        key = (
+            node.type,
+            normalize_text(node.label),
+            round(node.lat, 5) if node.lat is not None else None,
+            round(node.lng, 5) if node.lng is not None else None,
+        )
+        existing = by_key.get(key)
+        if not existing:
+            by_key[key] = node
+            continue
+        merged = dict(existing.metadata)
+        merged.update(node.metadata)
+        existing.metadata = merged
+    return list(by_key.values())
+
+
+def dedupe_links(links: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    seen: Dict[Tuple[str, str, str], Dict[str, Any]] = {}
+    for link in links:
+        key = (link["source"], link["target"], link["relationship"])
+        existing = seen.get(key)
+        if not existing or link["strength"] > existing["strength"]:
+            seen[key] = link
+    return list(seen.values())
+
+
+def make_mock_dataset() -> Dict[str, Any]:
+    mock_nodes = [
+        ("person:anckarstrom", "Jacob Johan Anckarstrom", "person", None, None),
+        ("person:gustaviii", "Gustav III", "person", None, None),
+        ("person:carlmichael", "Carl Michael Bellman", "person", None, None),
+        ("person:anna", "Anna Sophia Lind", "person", None, None),
+        ("person:magdalena", "Magdalena Rudenschold", "person", None, None),
+        ("place:opera", "The Opera House", "place", 59.3299, 18.0686),
+        ("place:skeppar-olofs-grand", "Skeppar Olofs Grand", "place", 59.3249, 18.0708),
+        ("place:stortorget", "Stortorget", "place", 59.3254, 18.0703),
+        ("place:slottet", "Royal Palace", "place", 59.3269, 18.0717),
+        ("place:riddarhuset", "Riddarhuset", "place", 59.3262, 18.0654),
+        ("place:jarntorget", "Jarntorget", "place", 59.3236, 18.0679),
+        ("event:opera-assassination", "Opera House Assassination", "event", 59.3299, 18.0686),
+        ("event:tax-dispute-1778", "Tax Dispute in Stortorget", "event", 59.3254, 18.0703),
+        ("event:fire-1763", "Warehouse Fire 1763", "event", 59.3236, 18.0679),
+        ("event:royal-procession", "Royal Procession", "event", 59.3269, 18.0717),
+        ("person:nils", "Nils Bjork", "person", None, None),
+        ("person:marta", "Marta Ekeblad", "person", None, None),
+        ("place:svartmangatan", "Svartmangatan 12", "place", 59.3248, 18.0701),
+        ("event:smuggling-raid", "Smuggling Raid", "event", 59.3248, 18.0701),
+        ("place:kakbrinken", "Kakbrinken 5", "place", 59.3258, 18.0678),
+    ]
+
+    nodes = [
+        {
+            "id": node_id,
+            "label": label,
+            "type": node_type,
+            "lat": lat,
+            "lng": lng,
+            "metadata": {"source": "mock", "period": "1750-1850"},
+        }
+        for node_id, label, node_type, lat, lng in mock_nodes
+    ]
+
+    links = [
+        make_link("person:anckarstrom", "event:opera-assassination", "witnessed", 1.0),
+        make_link("event:opera-assassination", "place:opera", "witnessed", 1.0),
+        make_link("person:gustaviii", "place:slottet", "lived_in", 0.95),
+        make_link("person:carlmichael", "place:jarntorget", "lived_in", 0.72),
+        make_link("person:anna", "place:svartmangatan", "lived_in", 0.83),
+        make_link("person:marta", "event:tax-dispute-1778", "witnessed", 0.66),
+        make_link("person:nils", "event:smuggling-raid", "witnessed", 0.7),
+        make_link("event:smuggling-raid", "place:svartmangatan", "witnessed", 0.89),
+        make_link("event:tax-dispute-1778", "place:stortorget", "witnessed", 0.9),
+        make_link("event:fire-1763", "place:jarntorget", "witnessed", 0.87),
+        make_link("event:royal-procession", "place:slottet", "witnessed", 0.93),
+        make_link("person:gustaviii", "person:magdalena", "related_to", 0.5),
+    ]
+    return {"nodes": nodes, "links": links}
+
+
+def ensure_valid_output(payload: Dict[str, Any]) -> None:
+    nodes = payload.get("nodes", [])
+    links = payload.get("links", [])
+    node_ids = {n["id"] for n in nodes}
+
+    required_node_fields = {"id", "label", "type", "lat", "lng", "metadata"}
+    for node in nodes:
+        missing = required_node_fields - set(node.keys())
+        if missing:
+            raise ValueError(f"Node missing required fields: {missing}")
+        if node["type"] not in {"person", "place", "event"}:
+            raise ValueError(f"Unsupported node type: {node['type']}")
+
+    required_link_fields = {"source", "target", "relationship", "strength"}
+    for link in links:
+        missing = required_link_fields - set(link.keys())
+        if missing:
+            raise ValueError(f"Link missing required fields: {missing}")
+        if link["source"] not in node_ids or link["target"] not in node_ids:
+            raise ValueError(f"Link references unknown node: {link}")
+
+
+def build_payload(local_data_dir: Path, mock_mode: bool = False) -> Dict[str, Any]:
+    if mock_mode:
+        return make_mock_dataset()
+    if requests is None or pd is None:
+        return make_mock_dataset()
+
+    session = requests.Session()
+    session.headers.update({"User-Agent": "nexus-data-engine/1.0"})
+
+    all_nodes: List[NexusNode] = []
+    all_links: List[Dict[str, Any]] = []
+    person_names: List[str] = []
+    live_ok = True
+
+    # 1) K-Samsok ingestion
+    try:
+        ks_records = fetch_ksamsok_records(session)
+        all_nodes.extend(parse_ksamsok_to_nodes(ks_records))
+    except Exception:
+        live_ok = False
+
+    # 2) Local CSV/JSON ingestion
+    frames = read_local_files(local_data_dir)
+    local_nodes, local_links, local_person_names = parse_local_frames(frames)
+    all_nodes.extend(local_nodes)
+    all_links.extend(local_links)
+    person_names.extend(local_person_names)
+
+    # 3) Linking logic
+    all_links.extend(run_spatial_linker(all_nodes))
+
+    # 4) Wikidata enrichment
+    wd_nodes, wd_links = run_social_linker(session, all_nodes, person_names, enable_live=live_ok)
+    all_nodes.extend(wd_nodes)
+    all_links.extend(wd_links)
+
+    # 5) Deduplication
+    deduped_nodes = dedupe_nodes(all_nodes)
+    node_id_map = {(n.type, normalize_text(n.label)): n.id for n in deduped_nodes}
+    remapped_links = []
+    for link in all_links:
+        source = link["source"]
+        target = link["target"]
+
+        # Remap local/generated ids to deduped canonical ids when possible.
+        source_node = next((n for n in all_nodes if n.id == source), None)
+        target_node = next((n for n in all_nodes if n.id == target), None)
+        if source_node:
+            source = node_id_map.get((source_node.type, normalize_text(source_node.label)), source)
+        if target_node:
+            target = node_id_map.get((target_node.type, normalize_text(target_node.label)), target)
+
+        if source == target:
+            continue
+        remapped_links.append(
+            make_link(source, target, link["relationship"], link["strength"])
+        )
+    deduped_links = dedupe_links(remapped_links)
+
+    payload = {
+        "nodes": [n.to_dict() for n in deduped_nodes],
+        "links": deduped_links,
+    }
+
+    # If no usable live data, return guaranteed-usable mock graph.
+    if not payload["nodes"] or len(payload["nodes"]) < 10:
+        return make_mock_dataset()
+
+    ensure_valid_output(payload)
+    return payload
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Build The Nexus master graph JSON")
+    parser.add_argument(
+        "--local-data-dir",
+        default="data_sources",
+        help="Directory containing local CSV/JSON exports",
+    )
+    parser.add_argument(
+        "--output",
+        default="public/nexus_master.json",
+        help="Output JSON path",
+    )
+    parser.add_argument(
+        "--mock",
+        action="store_true",
+        help="Force mock mode (skip live APIs)",
+    )
+    return parser.parse_args()
+
+
+def main() -> int:
+    args = parse_args()
+    local_data_dir = Path(args.local_data_dir)
+    output_path = Path(args.output)
+
+    payload = build_payload(local_data_dir=local_data_dir, mock_mode=args.mock)
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+    print(
+        f"Wrote {output_path} with {len(payload['nodes'])} nodes and {len(payload['links'])} links."
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
