@@ -1,36 +1,67 @@
+import { forceCollide } from 'd3-force-3d'
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d'
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 
+import { categoryColor } from '../lib/nexusCategories'
 import type { ForceLink, ForceNode } from '../lib/nexusPoc'
 
 const GOLD = '#e7c547'
-const PLACE_BLUE = '#38bdf8'
-const EVENT_RED = '#f97373'
 
-function kindColor(kind: ForceNode['kind']): string {
-  switch (kind) {
-    case 'person':
-      return GOLD
-    case 'place':
-      return PLACE_BLUE
-    case 'event':
-      return EVENT_RED
-    default:
-      return '#94a3b8'
-  }
+function nodeColor(node: Pick<ForceNode, 'kind' | 'category'>): string {
+  // People keep the warm gold accent in the graph so social threads stand out;
+  // events and places use their shared category colors.
+  if (node.kind === 'person') return GOLD
+  return categoryColor(node.category)
+}
+
+/**
+ * All sizes live in graph-space units (not divided by zoom), so the collision
+ * force can reserve exactly the room each node + label needs: what the physics
+ * separates is what gets drawn, and nodes/labels cannot overlap once settled.
+ */
+type SizedNode = ForceNode & {
+  x?: number
+  y?: number
+  __r: number
+  __font: number
+  __label: string
+  __collideR: number
+}
+
+const MAX_LABEL_CHARS = 22
+const LABEL_GAP = 2.5
+/** Approximate glyph width as a fraction of font size (sans-serif average). */
+const GLYPH_W = 0.58
+
+function truncateLabel(name: string): string {
+  const text = name.trim()
+  if (text.length <= MAX_LABEL_CHARS) return text
+  return `${text.slice(0, MAX_LABEL_CHARS - 1)}…`
+}
+
+/** Base node radius shrinks as the graph gets busier, so big years stay readable. */
+function baseRadiusFor(count: number): number {
+  if (count <= 30) return 8
+  if (count <= 80) return 6.5
+  if (count <= 150) return 5.5
+  return 4.5
 }
 
 type NexusMindmapProps = {
   data: { nodes: ForceNode[]; links: ForceLink[] }
   highlightId: string | null
   onHighlightChange: (id: string | null) => void
+  /** Open a node: jump the year for ghosts, then show its map popup. */
+  onNodeOpen?: (node: ForceNode) => void
 }
 
-export function NexusMindmap({ data, highlightId, onHighlightChange }: NexusMindmapProps) {
+export function NexusMindmap({ data, highlightId, onHighlightChange, onNodeOpen }: NexusMindmapProps) {
   const wrapRef = useRef<HTMLDivElement>(null)
   const fgRef = useRef<ForceGraphMethods | undefined>(undefined)
   const [dims, setDims] = useState({ w: 400, h: 400 })
   const [pulseKey, setPulseKey] = useState(0)
+  /** Screen-space rects of labels drawn this frame, for overlap culling. */
+  const labelRectsRef = useRef<{ x: number; y: number; w: number; h: number }[]>([])
 
   useLayoutEffect(() => {
     const el = wrapRef.current
@@ -53,53 +84,129 @@ export function NexusMindmap({ data, highlightId, onHighlightChange }: NexusMind
     return () => clearInterval(id)
   }, [])
 
-  const graphData = useMemo(() => ({ nodes: [...data.nodes], links: [...data.links] }), [data])
+  const graphData = useMemo(() => {
+    const count = data.nodes.length
+    const base = baseRadiusFor(count)
+    const font = Math.max(3.4, base * 0.85)
+
+    const degree = new Map<string, number>()
+    for (const l of data.links) {
+      degree.set(l.source, (degree.get(l.source) ?? 0) + 1)
+      degree.set(l.target, (degree.get(l.target) ?? 0) + 1)
+    }
+
+    const nodes: SizedNode[] = data.nodes.map((n) => {
+      const deg = degree.get(n.id) ?? 0
+      const r = base * (1 + Math.min(deg, 6) * 0.12)
+      const label = truncateLabel(n.name)
+      const labelW = label.length * font * GLYPH_W
+      // Circle must cover the label hanging below the node (vertically) and
+      // its width (horizontally) so the collision force keeps text apart too.
+      const collideR = Math.max(r + LABEL_GAP + font + 1.5, labelW / 2 + 2)
+      return { ...n, __r: r, __font: font, __label: label, __collideR: collideR }
+    })
+
+    return { nodes, links: data.links.map((l) => ({ ...l })) }
+  }, [data])
+
+  // Scale the physics with graph size: busier graphs need more repulsion and
+  // room, and the collision force reserves each node's node+label footprint.
+  useEffect(() => {
+    const fg = fgRef.current
+    if (!fg) return
+    const count = graphData.nodes.length || 1
+
+    const charge = fg.d3Force('charge') as { strength?: (s: number) => void } | undefined
+    charge?.strength?.(-(40 + count * 1.6))
+
+    const link = fg.d3Force('link') as { distance?: (d: number) => void } | undefined
+    link?.distance?.(45 + Math.min(count, 160) * 0.25)
+
+    fg.d3Force(
+      'collide',
+      forceCollide((node: unknown) => (node as SizedNode).__collideR ?? 12).iterations(2),
+    )
+    fg.d3ReheatSimulation()
+  }, [graphData])
 
   useEffect(() => {
-    const t = window.setTimeout(() => fgRef.current?.zoomToFit(400, 24), 80)
+    const t = window.setTimeout(() => fgRef.current?.zoomToFit(400, 24), 600)
     return () => window.clearTimeout(t)
   }, [graphData.nodes.length, graphData.links.length])
 
   const nodeCanvasObject = useCallback(
     (node: Record<string, unknown>, ctx: CanvasRenderingContext2D, globalScale: number) => {
-      const nx = node as ForceNode & { x?: number; y?: number }
+      const nx = node as SizedNode
       const id = String(nx.id ?? '')
       const x = nx.x ?? 0
       const y = nx.y ?? 0
-      const kind = nx.kind ?? 'person'
       const hi = highlightId === id
-      const rPx = (hi ? 9 : 7) / globalScale
-      const c = kindColor(kind as ForceNode['kind'])
+      const ghost = nx.ghost && !hi
+      const r = (nx.__r ?? 6) * (hi ? 1.25 : 1)
+      const c = nodeColor(nx)
 
       ctx.save()
-      ctx.shadowBlur = (hi ? 28 : 16) / globalScale
+      ctx.shadowBlur = hi ? 22 : ghost ? 0 : 12
       ctx.shadowColor = c
       ctx.beginPath()
-      ctx.arc(x, y, rPx, 0, 2 * Math.PI, false)
+      ctx.arc(x, y, r, 0, 2 * Math.PI, false)
       ctx.fillStyle = hi ? '#fefce8' : c
-      ctx.globalAlpha = hi ? 1 : 0.92
+      ctx.globalAlpha = hi ? 1 : ghost ? 0.3 : 0.92
       ctx.fill()
 
-      ctx.lineWidth = (hi ? 1.6 : 1) / globalScale
-      ctx.strokeStyle = 'rgba(255,255,255,0.42)'
+      ctx.lineWidth = hi ? 1.4 : 0.9
+      ctx.strokeStyle = ghost ? 'rgba(255,255,255,0.18)' : 'rgba(255,255,255,0.42)'
       ctx.stroke()
+
+      // Ghosts wear their year as a badge: they belong to another point in time.
+      if (ghost && nx.yearStart) {
+        ctx.globalAlpha = 0.55
+        ctx.font = `${Math.max(2.8, (nx.__font ?? 5) * 0.7)}px var(--font-nexus-mono, ui-monospace)`
+        ctx.textAlign = 'center'
+        ctx.textBaseline = 'middle'
+        ctx.fillStyle = '#e7e5e4'
+        ctx.fillText(String(nx.yearStart), x, y)
+      }
       ctx.globalAlpha = 1
       ctx.restore()
 
-      const g = Math.max(globalScale, 0.12)
-      if (globalScale > 0.28) {
-        const label = String(nx.name ?? id)
-        const fontPx = (hi ? 7.5 : 6.5) / g
-        ctx.font = `${fontPx}px var(--font-nexus-ui, ui-sans-serif)`
-        ctx.textAlign = 'center'
-        ctx.textBaseline = 'top'
-        const pad = rPx + 4 / g
-        ctx.shadowBlur = 4 / g
-        ctx.shadowColor = '#000'
-        ctx.fillStyle = 'rgba(250,245,230,0.92)'
-        ctx.fillText(label, x, y + pad)
-        ctx.shadowBlur = 0
+      const font = nx.__font ?? 5
+      // Skip labels that would render smaller than ~2.5 device px: unreadable smudge.
+      if (!hi && font * globalScale < 2.5) return
+
+      const label = nx.__label ?? String(nx.name ?? id)
+      ctx.font = `${font}px var(--font-nexus-ui, ui-sans-serif)`
+      const w = ctx.measureText(label).width
+      const rect = { x: x - w / 2, y: y + r + LABEL_GAP, w, h: font }
+
+      // Greedy overlap culling as a safety net while the simulation is still
+      // settling; the highlighted node's label always wins.
+      if (!hi) {
+        for (const other of labelRectsRef.current) {
+          if (
+            rect.x < other.x + other.w &&
+            rect.x + rect.w > other.x &&
+            rect.y < other.y + other.h &&
+            rect.y + rect.h > other.y
+          ) {
+            return
+          }
+        }
       }
+      labelRectsRef.current.push(rect)
+
+      ctx.save()
+      ctx.textAlign = 'center'
+      ctx.textBaseline = 'top'
+      ctx.shadowBlur = 3
+      ctx.shadowColor = '#000'
+      ctx.fillStyle = hi
+        ? 'rgba(254,252,232,0.98)'
+        : ghost
+          ? 'rgba(250,245,230,0.35)'
+          : 'rgba(250,245,230,0.92)'
+      ctx.fillText(label, x, rect.y)
+      ctx.restore()
     },
     [highlightId],
   )
@@ -107,7 +214,10 @@ export function NexusMindmap({ data, highlightId, onHighlightChange }: NexusMind
   const linkCanvasObject = useCallback(
     (link: Record<string, unknown>, ctx: CanvasRenderingContext2D, globalScale: number) => {
       const pulse = Math.sin(pulseKey * 0.31) * 0.5 + 0.5
-      const ln = link as ForceLink & { source?: { x?: number; y?: number }; target?: { x?: number; y?: number } }
+      const ln = link as ForceLink & {
+        source?: { x?: number; y?: number; ghost?: boolean }
+        target?: { x?: number; y?: number; ghost?: boolean }
+      }
       const s = ln.source
       const t = ln.target
       if (!s || !t || s.x == null || s.y == null || t.x == null || t.y == null) return
@@ -116,14 +226,16 @@ export function NexusMindmap({ data, highlightId, onHighlightChange }: NexusMind
       const sy = s.y
       const tx = t.x
       const ty = t.y
-      const wGlow = ((4 + pulse * 2.5) / globalScale)
-      const wCore = Math.max(0.7, (1 + pulse * 0.35) / globalScale)
+      const wGlow = 4 + pulse * 2.5
+      const wCore = 1 + pulse * 0.35
+      const toGhost = Boolean(s.ghost || t.ghost)
 
       ctx.save()
+      if (toGhost) ctx.globalAlpha = 0.3
       ctx.lineCap = 'round'
       ctx.strokeStyle = 'rgba(124,58,237,0.05)'
       ctx.lineWidth = wGlow * 2.2
-      ctx.shadowBlur = (22 + pulse * 10) / globalScale
+      ctx.shadowBlur = 22 + pulse * 10
       ctx.shadowColor = 'rgba(167,139,250,0.55)'
       ctx.beginPath()
       ctx.moveTo(sx, sy)
@@ -132,7 +244,7 @@ export function NexusMindmap({ data, highlightId, onHighlightChange }: NexusMind
 
       ctx.strokeStyle = 'rgba(167,139,250,0.22)'
       ctx.lineWidth = wGlow
-      ctx.shadowBlur = 10 / globalScale
+      ctx.shadowBlur = 10
       ctx.beginPath()
       ctx.moveTo(sx, sy)
       ctx.lineTo(tx, ty)
@@ -147,23 +259,24 @@ export function NexusMindmap({ data, highlightId, onHighlightChange }: NexusMind
       ctx.stroke()
       ctx.restore()
 
-      const mx = (sx + tx) / 2
-      const my = (sy + ty) / 2
       const label = String(ln.label ?? '')
-      const lg = Math.max(globalScale, 0.14)
-      if (label && globalScale > 0.38) {
+      // Link labels only appear once zoomed in enough to read them.
+      if (label && globalScale > 0.9) {
+        const mx = (sx + tx) / 2
+        const my = (sy + ty) / 2
+        const fontPx = 4.5
         ctx.save()
-        ctx.font = `${6 / lg}px var(--font-nexus-mono, ui-monospace)`
+        ctx.font = `${fontPx}px var(--font-nexus-mono, ui-monospace)`
         ctx.textAlign = 'center'
         ctx.textBaseline = 'middle'
-        const padX = 3 / lg
+        const padX = 2.5
         const tw = ctx.measureText(label).width + padX * 2
-        const th = 10 / lg
+        const th = fontPx + 4
         ctx.fillStyle = 'rgba(12,10,9,0.78)'
         ctx.strokeStyle = 'rgba(139,92,246,0.35)'
-        ctx.lineWidth = 1 / lg
+        ctx.lineWidth = 0.7
         ctx.beginPath()
-        const rx = 1.5 / lg
+        const rx = 1.5
         const bx = mx - tw / 2
         const by = my - th / 2
         if (typeof ctx.roundRect === 'function') {
@@ -190,6 +303,9 @@ export function NexusMindmap({ data, highlightId, onHighlightChange }: NexusMind
         <div className="mt-0.5 font-[family-name:var(--font-nexus-mono)] text-[8px] uppercase tracking-[0.14em] text-violet-300/65">
           Force layout · dossier linkage
         </div>
+        <div className="mt-0.5 font-[family-name:var(--font-nexus-mono)] text-[8px] uppercase tracking-[0.14em] text-stone-600">
+          Click a node to open it · faded nodes jump to their year
+        </div>
       </header>
 
       <ForceGraph2D
@@ -198,12 +314,15 @@ export function NexusMindmap({ data, highlightId, onHighlightChange }: NexusMind
         height={dims.h}
         graphData={graphData}
         backgroundColor="#09080b"
+        onRenderFramePre={() => {
+          labelRectsRef.current = []
+        }}
         nodeCanvasObjectMode={() => 'replace'}
         nodeCanvasObject={nodeCanvasObject}
-        nodePointerAreaPaint={(node, color, ctx, globalScale) => {
-          const n = node as ForceNode & { x?: number; y?: number }
+        nodePointerAreaPaint={(node, color, ctx) => {
+          const n = node as SizedNode
           if (n.x == null || n.y == null) return
-          const r = 14 / globalScale
+          const r = (n.__r ?? 6) + 4
           ctx.fillStyle = color
           ctx.beginPath()
           ctx.arc(n.x, n.y, r, 0, 2 * Math.PI, false)
@@ -223,9 +342,11 @@ export function NexusMindmap({ data, highlightId, onHighlightChange }: NexusMind
           ctx.lineTo(t.x, t.y)
           ctx.stroke()
         }}
-        cooldownTicks={120}
+        cooldownTicks={160}
         d3VelocityDecay={0.28}
+        onEngineStop={() => fgRef.current?.zoomToFit(400, 30)}
         onNodeHover={(node) => onHighlightChange(node ? String(node.id ?? '') : null)}
+        onNodeClick={(node) => onNodeOpen?.(node as ForceNode)}
       />
     </div>
   )

@@ -4,10 +4,12 @@ import mapboxgl from 'mapbox-gl'
 import MapboxCspWorker from 'mapbox-gl/dist/mapbox-gl-csp-worker.js?worker'
 import { useLayoutEffect, useRef, useState } from 'react'
 
+import { NEXUS_CATEGORIES } from '../lib/nexusCategories'
 import {
   installNexusHistoricalGraph,
   NEXUS_LINK_HIT_LAYERS,
   type NexusGraph,
+  type NexusHistoricalGraphController,
 } from '../lib/nexusHistoricalGraph'
 
 mapboxgl.workerClass = MapboxCspWorker as unknown as typeof mapboxgl.workerClass
@@ -40,16 +42,24 @@ const KSAMSOK_SOURCE_ID = 'ksamsok-points'
 const KSAMSOK_LAYER_ID = 'ksamsok-points-layer'
 const KSAMSOK_REFRESH_MS = 30_000
 
+export type FocusRequest = {
+  nodeId: string
+  /** Monotonic token so re-clicking the same node re-opens its popup. */
+  token: number
+}
+
 export type NexusMapProps = {
   mapGraph: NexusGraph
   /** Map-marked peer to pulse when the focused graph entity has no coords (e.g. a person → linked place). */
   highlightTargetId: string | null
+  /** Ease to this node and open its popup (kept pending across map rebuilds, e.g. after a year jump). */
+  focusRequest?: FocusRequest | null
   onMarkerHover?: (nodeId: string | null) => void
 }
 
 const mapFingerprint = (g: NexusGraph) =>
   JSON.stringify({
-    nodes: g.nodes.map((n) => [n.id, n.lat, n.lng, n.type]),
+    nodes: g.nodes.map((n) => [n.id, n.lat, n.lng, n.type, n.category]),
     links: g.links.map((l) => [l.source, l.target, l.label]),
   })
 
@@ -61,37 +71,10 @@ function escapeHtml(text: string): string {
     .replace(/"/g, '&quot;')
 }
 
-function buildPopupHtml(): string {
-  return `
-    <div class="nexus-popup-inner min-w-[240px] max-w-[280px] rounded-sm border border-amber-900/40 bg-gradient-to-b from-stone-950/98 to-stone-900/98 px-4 py-3 shadow-[0_0_0_1px_rgba(0,0,0,0.6),0_12px_40px_rgba(0,0,0,0.55)] backdrop-blur-sm">
-      <div class="mb-1 font-[family-name:var(--font-nexus-serif)] text-[11px] font-semibold uppercase tracking-[0.22em] text-amber-200/70">
-        Nexus · Location
-      </div>
-      <div class="space-y-3 border-t border-stone-800/80 pt-3">
-        <div>
-          <div class="mb-0.5 font-[family-name:var(--font-nexus-mono)] text-[9px] uppercase tracking-wider text-stone-500">
-            Address
-          </div>
-          <div class="font-[family-name:var(--font-nexus-mono)] text-[13px] leading-snug text-amber-100/95">
-            [Fetching...]
-          </div>
-        </div>
-        <div>
-          <div class="mb-0.5 font-[family-name:var(--font-nexus-mono)] text-[9px] uppercase tracking-wider text-stone-500">
-            Historical Events
-          </div>
-          <div class="font-[family-name:var(--font-nexus-mono)] text-[13px] leading-snug text-violet-200/90">
-            [Search Archives]
-          </div>
-        </div>
-      </div>
-    </div>
-  `
-}
-
 export function NexusMap({
   mapGraph,
   highlightTargetId,
+  focusRequest,
   onMarkerHover,
 }: NexusMapProps) {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -101,6 +84,9 @@ export function NexusMap({
   const [mapError, setMapError] = useState<string | null>(null)
   const highlightTargetRef = useRef<string | null>(null)
   const onMarkerHoverRef = useRef(onMarkerHover)
+  const graphControllerRef = useRef<NexusHistoricalGraphController | null>(null)
+  /** Focus not yet satisfied (its node may only exist after the next graph rebuild). */
+  const pendingFocusRef = useRef<FocusRequest | null>(null)
 
   const token = (import.meta.env.VITE_MAPBOX_ACCESS_TOKEN ?? '').trim()
   const graphKey = mapFingerprint(mapGraph)
@@ -109,6 +95,16 @@ export function NexusMap({
     highlightTargetRef.current = highlightTargetId
     onMarkerHoverRef.current = onMarkerHover
   }, [highlightTargetId, onMarkerHover])
+
+  useLayoutEffect(() => {
+    if (!focusRequest) return
+    pendingFocusRef.current = focusRequest
+    // Try immediately; if the node isn't on the map yet (year jump in flight),
+    // the request stays pending and is retried after the graph reinstalls.
+    if (graphControllerRef.current?.openPopup(focusRequest.nodeId)) {
+      pendingFocusRef.current = null
+    }
+  }, [focusRequest])
 
   useLayoutEffect(() => {
     const el = containerRef.current
@@ -368,10 +364,17 @@ export function NexusMap({
         }
 
         try {
-          teardownHistorical = installNexusHistoricalGraph(map, mapGraph, () => disposed, {
+          const controller = installNexusHistoricalGraph(map, mapGraph, () => disposed, {
             getMarkerHighlightId: () => highlightTargetRef.current,
             onMarkerHover: (nodeId) => onMarkerHoverRef.current?.(nodeId),
           })
+          graphControllerRef.current = controller
+          teardownHistorical = controller.dispose
+          // Satisfy a focus request that arrived before this rebuild (e.g. a ghost-click year jump).
+          const pending = pendingFocusRef.current
+          if (pending && controller.openPopup(pending.nodeId)) {
+            pendingFocusRef.current = null
+          }
         } catch (histErr) {
           console.error('[NexusMap] failed to add historical graph layers', histErr)
         }
@@ -480,19 +483,6 @@ export function NexusMap({
           popupRef.current = popup
           return
         }
-
-        const popup = new mapboxgl.Popup({
-          closeButton: true,
-          closeOnClick: false,
-          className: 'nexus-popup',
-          maxWidth: '320px',
-          offset: 12,
-        })
-          .setLngLat(e.lngLat)
-          .setHTML(buildPopupHtml())
-          .addTo(map)
-
-        popupRef.current = popup
       })
 
       mapRef.current = map
@@ -525,6 +515,7 @@ export function NexusMap({
       LOG('effect cleanup — removing map instance')
       popupRef.current?.remove()
       popupRef.current = null
+      graphControllerRef.current = null
       teardownHistorical?.()
       teardownHistorical = undefined
       try {
@@ -547,9 +538,32 @@ export function NexusMap({
     // eslint-disable-next-line react-hooks/exhaustive-deps -- graphKey fingerprints `mapGraph` content
   }, [token, graphKey])
 
+  const visibleCategories = NEXUS_CATEGORIES.filter((c) =>
+    mapGraph.nodes.some((n) => n.category === c.id),
+  )
+
   return (
     <div className="absolute inset-0 isolate z-0 min-h-0 min-w-0 overflow-hidden bg-stone-950">
       <div ref={containerRef} className="absolute inset-0 z-0 min-h-0 min-w-0 bg-stone-950" />
+
+      {visibleCategories.length > 0 && (
+        <div className="pointer-events-none absolute right-3 top-3 z-10 rounded border border-stone-800/60 bg-[#070608]/85 px-2.5 py-2 backdrop-blur-sm">
+          <ul className="flex flex-col gap-1">
+            {visibleCategories.map((c) => (
+              <li key={c.id} className="flex items-center gap-1.5">
+                <span
+                  aria-hidden
+                  className="size-2 shrink-0 rounded-full"
+                  style={{ background: c.color, boxShadow: `0 0 5px ${c.color}` }}
+                />
+                <span className="font-[family-name:var(--font-nexus-mono)] text-[8px] uppercase tracking-wider text-stone-400">
+                  {c.label}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {mapError && token && (
         <div className="pointer-events-none absolute bottom-6 left-1/2 z-20 max-w-lg -translate-x-1/2 px-4">

@@ -1,0 +1,8 @@
+DATE: 1792-04-12
+SOURCE: Stockholm Poliskammare
+TYPE: Police Record
+CRIME: Stöld av silverskedar
+SUSPECT: Olof Berg
+VICTIM: Helena Lovisin
+ADDRESS: Skomakargatan
+CONTENT: Gesällen Olof Berg greps på Skomakargatan för stöld av flera värdefulla silverskedar från Helena Lovisins hem.

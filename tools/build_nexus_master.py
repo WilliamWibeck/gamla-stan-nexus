@@ -16,6 +16,7 @@ Output schema:
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import os
 import re
@@ -23,11 +24,6 @@ import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
-
-try:
-    import pandas as pd
-except ModuleNotFoundError:  # Allows --mock usage without local dependencies.
-    pd = None  # type: ignore[assignment]
 
 try:
     import requests
@@ -173,89 +169,100 @@ def parse_ksamsok_to_nodes(records: List[Dict[str, Any]]) -> List[NexusNode]:
     return nodes
 
 
-def read_local_files(local_dir: Path) -> List["pd.DataFrame"]:
-    frames: List["pd.DataFrame"] = []
-    if pd is None:
-        return frames
+def read_local_files(local_dir: Path) -> List[Dict[str, Any]]:
+    """Read local CSV and JSON files without requiring pandas."""
+    all_records: List[Dict[str, Any]] = []
     if not local_dir.exists():
-        return frames
+        return all_records
 
     for file_path in sorted(local_dir.glob("*")):
+        if file_path.name.startswith("."):
+            continue  # skip hidden files like .extraction_cache.json
         if file_path.suffix.lower() == ".csv":
             try:
-                df = pd.read_csv(file_path)
-            except Exception:
-                df = pd.read_csv(file_path, sep=";")
-            df["_source_file"] = file_path.name
-            frames.append(df)
+                with file_path.open("r", encoding="utf-8") as f:
+                    content = f.read(1024)
+                    f.seek(0)
+                    dialect = csv.Sniffer().sniff(content)
+                    f.seek(0)
+                    reader = csv.DictReader(f, dialect=dialect)
+                    for row in reader:
+                        row["_source_file"] = file_path.name
+                        all_records.append(row)
+            except Exception as e:
+                print(f"Warning: Could not parse CSV {file_path.name}: {e}")
         elif file_path.suffix.lower() == ".json":
-            with file_path.open("r", encoding="utf-8") as f:
-                data = json.load(f)
-            if isinstance(data, list):
-                df = pd.DataFrame(data)
-            elif isinstance(data, dict):
-                if "records" in data and isinstance(data["records"], list):
-                    df = pd.DataFrame(data["records"])
-                else:
-                    df = pd.json_normalize(data)
-            else:
-                continue
-            df["_source_file"] = file_path.name
-            frames.append(df)
-    return frames
+            try:
+                with file_path.open("r", encoding="utf-8") as f:
+                    data = json.load(f)
+                
+                records = []
+                if isinstance(data, list):
+                    records = data
+                elif isinstance(data, dict):
+                    if "records" in data and isinstance(data["records"], list):
+                        records = data["records"]
+                    else:
+                        records = [data]
+                
+                for rec in records:
+                    if isinstance(rec, dict):
+                        rec["_source_file"] = file_path.name
+                        all_records.append(rec)
+            except Exception as e:
+                print(f"Warning: Could not parse JSON {file_path.name}: {e}")
+    return all_records
 
 
-def parse_local_frames(
-    frames: List["pd.DataFrame"],
+def parse_local_records(
+    records: List[Dict[str, Any]],
 ) -> Tuple[List[NexusNode], List[Dict[str, Any]], List[str]]:
     nodes: List[NexusNode] = []
     links: List[Dict[str, Any]] = []
     person_names: List[str] = []
 
-    for idx, frame in enumerate(frames):
-        records = frame.to_dict(orient="records")
-        for row_idx, row in enumerate(records):
-            source_file = str(row.get("_source_file", f"dataset_{idx}"))
-            label = first_match(row, ["label", "name", "title", "event_name", "description"])
-            if not label:
-                label = f"{source_file} row {row_idx + 1}"
+    for row_idx, row in enumerate(records):
+        source_file = str(row.get("_source_file", "unknown_source"))
+        label = first_match(row, ["label", "name", "title", "event_name", "description"])
+        if not label:
+            label = f"{source_file} entry {row_idx + 1}"
 
-            lat = to_float(first_match(row, ["lat", "latitude"]))
-            lng = to_float(first_match(row, ["lng", "lon", "longitude"]))
-            kvarter = first_match(row, ["kvarter", "kvartersnamn", "block", "block_name"])
-            address = first_match(row, ["address", "street", "street_address"])
-            date = first_match(row, ["date", "year", "event_date"])
-            node_type = infer_node_type(row, source_file)
+        lat = to_float(first_match(row, ["lat", "latitude"]))
+        lng = to_float(first_match(row, ["lng", "lon", "longitude"]))
+        kvarter = first_match(row, ["kvarter", "kvartersnamn", "block", "block_name"])
+        address = first_match(row, ["address", "street", "street_address"])
+        date = first_match(row, ["date", "year", "event_date"])
+        node_type = infer_node_type(row, source_file)
 
-            node_id = f"{node_type}:local:{slug(str(label))}:{idx}:{row_idx}"
-            metadata = dict(row)
-            metadata["source"] = "local_file"
-            metadata["source_file"] = source_file
-            metadata["kvarter"] = kvarter
-            metadata["address"] = address
-            metadata["date"] = date
+        node_id = f"{node_type}:local:{slug(str(label))}:{row_idx}"
+        metadata = dict(row)
+        metadata["source"] = "local_file"
+        metadata["source_file"] = source_file
+        metadata["kvarter"] = kvarter
+        metadata["address"] = address
+        metadata["date"] = date
 
-            nodes.append(NexusNode(node_id, str(label), node_type, lat, lng, metadata))
+        nodes.append(NexusNode(node_id, str(label), node_type, lat, lng, metadata))
 
-            resident = first_match(row, ["resident", "person", "person_name", "full_name", "name"])
-            if resident and node_type != "person":
-                person_id = f"person:local:{slug(str(resident))}"
-                person_names.append(str(resident))
-                nodes.append(
-                    NexusNode(
-                        person_id,
-                        str(resident),
-                        "person",
-                        None,
-                        None,
-                        {
-                            "source": "local_file",
-                            "source_file": source_file,
-                            "role": "resident_mentioned",
-                        },
-                    )
+        resident = first_match(row, ["resident", "person", "person_name", "full_name", "name"])
+        if resident and node_type != "person":
+            person_id = f"person:local:{slug(str(resident))}"
+            person_names.append(str(resident))
+            nodes.append(
+                NexusNode(
+                    person_id,
+                    str(resident),
+                    "person",
+                    None,
+                    None,
+                    {
+                        "source": "local_file",
+                        "source_file": source_file,
+                        "role": "resident_mentioned",
+                    },
                 )
-                links.append(make_link(person_id, node_id, "witnessed", 0.72))
+            )
+            links.append(make_link(person_id, node_id, "witnessed", 0.72))
 
     return nodes, links, person_names
 
@@ -460,59 +467,6 @@ def dedupe_links(links: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return list(seen.values())
 
 
-def make_mock_dataset() -> Dict[str, Any]:
-    mock_nodes = [
-        ("person:anckarstrom", "Jacob Johan Anckarstrom", "person", None, None),
-        ("person:gustaviii", "Gustav III", "person", None, None),
-        ("person:carlmichael", "Carl Michael Bellman", "person", None, None),
-        ("person:anna", "Anna Sophia Lind", "person", None, None),
-        ("person:magdalena", "Magdalena Rudenschold", "person", None, None),
-        ("place:opera", "The Opera House", "place", 59.3299, 18.0686),
-        ("place:skeppar-olofs-grand", "Skeppar Olofs Grand", "place", 59.3249, 18.0708),
-        ("place:stortorget", "Stortorget", "place", 59.3254, 18.0703),
-        ("place:slottet", "Royal Palace", "place", 59.3269, 18.0717),
-        ("place:riddarhuset", "Riddarhuset", "place", 59.3262, 18.0654),
-        ("place:jarntorget", "Jarntorget", "place", 59.3236, 18.0679),
-        ("event:opera-assassination", "Opera House Assassination", "event", 59.3299, 18.0686),
-        ("event:tax-dispute-1778", "Tax Dispute in Stortorget", "event", 59.3254, 18.0703),
-        ("event:fire-1763", "Warehouse Fire 1763", "event", 59.3236, 18.0679),
-        ("event:royal-procession", "Royal Procession", "event", 59.3269, 18.0717),
-        ("person:nils", "Nils Bjork", "person", None, None),
-        ("person:marta", "Marta Ekeblad", "person", None, None),
-        ("place:svartmangatan", "Svartmangatan 12", "place", 59.3248, 18.0701),
-        ("event:smuggling-raid", "Smuggling Raid", "event", 59.3248, 18.0701),
-        ("place:kakbrinken", "Kakbrinken 5", "place", 59.3258, 18.0678),
-    ]
-
-    nodes = [
-        {
-            "id": node_id,
-            "label": label,
-            "type": node_type,
-            "lat": lat,
-            "lng": lng,
-            "metadata": {"source": "mock", "period": "1750-1850"},
-        }
-        for node_id, label, node_type, lat, lng in mock_nodes
-    ]
-
-    links = [
-        make_link("person:anckarstrom", "event:opera-assassination", "witnessed", 1.0),
-        make_link("event:opera-assassination", "place:opera", "witnessed", 1.0),
-        make_link("person:gustaviii", "place:slottet", "lived_in", 0.95),
-        make_link("person:carlmichael", "place:jarntorget", "lived_in", 0.72),
-        make_link("person:anna", "place:svartmangatan", "lived_in", 0.83),
-        make_link("person:marta", "event:tax-dispute-1778", "witnessed", 0.66),
-        make_link("person:nils", "event:smuggling-raid", "witnessed", 0.7),
-        make_link("event:smuggling-raid", "place:svartmangatan", "witnessed", 0.89),
-        make_link("event:tax-dispute-1778", "place:stortorget", "witnessed", 0.9),
-        make_link("event:fire-1763", "place:jarntorget", "witnessed", 0.87),
-        make_link("event:royal-procession", "place:slottet", "witnessed", 0.93),
-        make_link("person:gustaviii", "person:magdalena", "related_to", 0.5),
-    ]
-    return {"nodes": nodes, "links": links}
-
-
 def ensure_valid_output(payload: Dict[str, Any]) -> None:
     nodes = payload.get("nodes", [])
     links = payload.get("links", [])
@@ -535,14 +489,10 @@ def ensure_valid_output(payload: Dict[str, Any]) -> None:
             raise ValueError(f"Link references unknown node: {link}")
 
 
-def build_payload(local_data_dir: Path, mock_mode: bool = False) -> Dict[str, Any]:
-    if mock_mode:
-        return make_mock_dataset()
-    if requests is None or pd is None:
-        return make_mock_dataset()
-
-    session = requests.Session()
-    session.headers.update({"User-Agent": "nexus-data-engine/1.0"})
+def build_payload(local_data_dir: Path) -> Dict[str, Any]:
+    session = requests.Session() if requests else None
+    if session:
+        session.headers.update({"User-Agent": "nexus-data-engine/1.0"})
 
     all_nodes: List[NexusNode] = []
     all_links: List[Dict[str, Any]] = []
@@ -550,15 +500,18 @@ def build_payload(local_data_dir: Path, mock_mode: bool = False) -> Dict[str, An
     live_ok = True
 
     # 1) K-Samsok ingestion
-    try:
-        ks_records = fetch_ksamsok_records(session)
-        all_nodes.extend(parse_ksamsok_to_nodes(ks_records))
-    except Exception:
+    if session:
+        try:
+            ks_records = fetch_ksamsok_records(session)
+            all_nodes.extend(parse_ksamsok_to_nodes(ks_records))
+        except Exception:
+            live_ok = False
+    else:
         live_ok = False
 
     # 2) Local CSV/JSON ingestion
-    frames = read_local_files(local_data_dir)
-    local_nodes, local_links, local_person_names = parse_local_frames(frames)
+    records = read_local_files(local_data_dir)
+    local_nodes, local_links, local_person_names = parse_local_records(records)
     all_nodes.extend(local_nodes)
     all_links.extend(local_links)
     person_names.extend(local_person_names)
@@ -567,9 +520,10 @@ def build_payload(local_data_dir: Path, mock_mode: bool = False) -> Dict[str, An
     all_links.extend(run_spatial_linker(all_nodes))
 
     # 4) Wikidata enrichment
-    wd_nodes, wd_links = run_social_linker(session, all_nodes, person_names, enable_live=live_ok)
-    all_nodes.extend(wd_nodes)
-    all_links.extend(wd_links)
+    if session:
+        wd_nodes, wd_links = run_social_linker(session, all_nodes, person_names, enable_live=live_ok)
+        all_nodes.extend(wd_nodes)
+        all_links.extend(wd_links)
 
     # 5) Deduplication
     deduped_nodes = dedupe_nodes(all_nodes)
@@ -599,30 +553,34 @@ def build_payload(local_data_dir: Path, mock_mode: bool = False) -> Dict[str, An
         "links": deduped_links,
     }
 
-    # If no usable live data, return guaranteed-usable mock graph.
-    if not payload["nodes"] or len(payload["nodes"]) < 10:
-        return make_mock_dataset()
+    if not payload["nodes"]:
+        raise RuntimeError(
+            "No nodes produced. Add data under data_sources/ or check K-Samsok/Wikidata connectivity."
+        )
 
     ensure_valid_output(payload)
     return payload
 
 
 def parse_args() -> argparse.Namespace:
+    # Determine script and project root paths
+    script_path = Path(__file__).resolve()
+    project_root = script_path.parent.parent
+
+    # Default paths relative to project root
+    default_local_data_dir = project_root / "data_sources"
+    default_output = project_root / "public" / "nexus_master.json"
+
     parser = argparse.ArgumentParser(description="Build The Nexus master graph JSON")
     parser.add_argument(
         "--local-data-dir",
-        default="data_sources",
-        help="Directory containing local CSV/JSON exports",
+        default=str(default_local_data_dir),
+        help=f"Directory containing local CSV/JSON exports (default: {default_local_data_dir})",
     )
     parser.add_argument(
         "--output",
-        default="public/nexus_master.json",
-        help="Output JSON path",
-    )
-    parser.add_argument(
-        "--mock",
-        action="store_true",
-        help="Force mock mode (skip live APIs)",
+        default=str(default_output),
+        help=f"Output JSON path (default: {default_output})",
     )
     return parser.parse_args()
 
@@ -632,7 +590,7 @@ def main() -> int:
     local_data_dir = Path(args.local_data_dir)
     output_path = Path(args.output)
 
-    payload = build_payload(local_data_dir=local_data_dir, mock_mode=args.mock)
+    payload = build_payload(local_data_dir=local_data_dir)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as f:

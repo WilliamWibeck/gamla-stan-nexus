@@ -37,6 +37,143 @@ body {
   padding: 0;
   background: transparent;
   box-shadow: none;
+  max-height: min(70vh, 520px);
+  overflow: auto;
+}
+
+.mapboxgl-popup.nexus-node-popup-shell .mapboxgl-popup-content {
+  border-radius: 2px;
+}
+
+.nexus-node-popup {
+  min-width: 260px;
+  max-width: 380px;
+  border: 1px solid rgba(180, 83, 9, 0.35);
+  background: linear-gradient(to bottom, rgba(12, 10, 9, 0.98), rgba(28, 25, 23, 0.98));
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.55),
+    0 12px 40px rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(8px);
+}
+
+.nexus-node-popup-header {
+  padding: 14px 16px 12px;
+  border-bottom: 1px solid rgba(68, 64, 60, 0.45);
+}
+
+.nexus-node-popup-kicker {
+  font-family: var(--font-nexus-mono), ui-monospace, monospace;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.nexus-node-popup-title {
+  margin: 6px 0 0;
+  font-family: var(--font-nexus-serif), serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: rgba(250, 250, 249, 0.98);
+}
+
+.nexus-node-popup-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.nexus-node-popup-tag {
+  border: 1px solid rgba(139, 92, 246, 0.35);
+  border-radius: 9999px;
+  background: rgba(46, 16, 101, 0.45);
+  padding: 2px 8px;
+  font-family: var(--font-nexus-mono), ui-monospace, monospace;
+  font-size: 8px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(196, 181, 253, 0.92);
+}
+
+.nexus-node-popup-resident {
+  margin: 10px 0 0;
+  font-family: var(--font-nexus-mono), ui-monospace, monospace;
+  font-size: 10px;
+  color: rgba(168, 162, 158, 0.92);
+}
+
+.nexus-node-popup-resident span {
+  color: rgba(120, 113, 108, 0.95);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 8px;
+  margin-right: 6px;
+}
+
+.nexus-node-popup-section {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(68, 64, 60, 0.35);
+}
+
+.nexus-node-popup-section-title {
+  margin: 0 0 8px;
+  font-family: var(--font-nexus-mono), ui-monospace, monospace;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(120, 113, 108, 0.95);
+}
+
+.nexus-node-popup-description,
+.nexus-node-popup-original {
+  margin: 0;
+  font-family: var(--font-nexus-serif), serif;
+  font-size: 12px;
+  line-height: 1.55;
+  color: rgba(231, 229, 228, 0.94);
+}
+
+.nexus-node-popup-original {
+  font-style: italic;
+  color: rgba(214, 211, 209, 0.9);
+}
+
+.nexus-node-popup-details {
+  margin: 0;
+  padding: 10px 16px 14px;
+  display: grid;
+  gap: 8px;
+}
+
+.nexus-node-popup-detail {
+  display: grid;
+  grid-template-columns: minmax(88px, 34%) 1fr;
+  gap: 8px;
+  align-items: start;
+}
+
+.nexus-node-popup-detail dt {
+  margin: 0;
+  font-family: var(--font-nexus-mono), ui-monospace, monospace;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(120, 113, 108, 0.95);
+  line-height: 1.45;
+}
+
+.nexus-node-popup-detail dd {
+  margin: 0;
+  font-family: var(--font-nexus-mono), ui-monospace, monospace;
+  font-size: 10px;
+  line-height: 1.45;
+  color: rgba(214, 211, 209, 0.92);
+  word-break: break-word;
 }
 
 .mapboxgl-popup.nexus-popup .mapboxgl-popup-tip {
@@ -56,6 +193,75 @@ body {
 .nexus-map-marker-dot.nexus-map-marker-dot--hot {
   filter: brightness(1.25) saturate(1.15);
   animation: nexus-marker-bob 720ms cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+.nexus-marker-cluster {
+  /* Mapbox positions markers with `position: absolute; top: 0; left: 0;` plus a
+     per-frame `transform: translate(x, y)` computed from the projected lng/lat.
+     `.mapboxgl-marker` (mapbox-gl.css) sets this, but it has the same specificity
+     as this rule and loses the cascade since this stylesheet loads after it —
+     without re-declaring position/top/left here, the marker falls into normal
+     document flow and the projected offset is added on top of that flow
+     position instead of the map's (0,0) origin. That flow offset doesn't scale
+     with zoom while the projected offset does, so the marker visibly drifts
+     away from its true geolocation as you zoom. Keep these three properties in
+     sync with `.mapboxgl-marker` to prevent that drift. */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 52px;
+  height: 52px;
+  pointer-events: auto;
+}
+
+.nexus-marker-cluster-items {
+  position: absolute;
+  inset: 0;
+}
+
+.nexus-marker-cluster-item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) translate(var(--x, 0px), var(--y, 0px));
+  transition: transform 180ms cubic-bezier(0.34, 1.2, 0.64, 1);
+  z-index: calc(10 + var(--stack-i, 0));
+}
+
+.nexus-marker-cluster:not(.nexus-marker-cluster--expanded) .nexus-marker-cluster-item {
+  --x: var(--stack-x);
+  --y: var(--stack-y);
+}
+
+.nexus-marker-cluster--expanded .nexus-marker-cluster-item {
+  --x: var(--fan-x);
+  --y: var(--fan-y);
+}
+
+.nexus-marker-cluster-badge {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  z-index: 40;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 9999px;
+  border: 1px solid rgba(254, 249, 239, 0.35);
+  background: rgba(46, 16, 101, 0.92);
+  color: rgba(253, 244, 255, 0.95);
+  font-family: var(--font-nexus-mono), ui-monospace, monospace;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+  pointer-events: none;
+  box-shadow: 0 0 10px rgba(167, 139, 250, 0.55);
+  transition: opacity 140ms ease;
+}
+
+.nexus-marker-cluster--expanded .nexus-marker-cluster-badge {
+  opacity: 0;
 }
 
 @keyframes nexus-marker-bob {

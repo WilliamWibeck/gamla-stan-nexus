@@ -1,0 +1,7 @@
+DATE: 1788-08-15
+SOURCE: Stadsarkivet Brandförsäkring
+TYPE: Fire Record
+FIRE_CAUSE: Slarv med talgljus
+DAMAGE_LEVEL: Svåra skador på vindsvåningen
+ADDRESS: Svartmangatan
+CONTENT: Eldsvåda i kvarteret Cepheus på Svartmangatan efter vårdslöshet med talgljus av en piga.
