@@ -1,5 +1,6 @@
 import { forceCollide } from 'd3-force-3d'
 import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d'
+import { ChevronRight } from 'lucide-react'
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 
 import { categoryColor } from '../lib/nexusCategories'
@@ -53,9 +54,10 @@ type NexusMindmapProps = {
   onHighlightChange: (id: string | null) => void
   /** Open a node: jump the year for ghosts, then show its map popup. */
   onNodeOpen?: (node: ForceNode) => void
+  onCollapse?: () => void
 }
 
-export function NexusMindmap({ data, highlightId, onHighlightChange, onNodeOpen }: NexusMindmapProps) {
+export function NexusMindmap({ data, highlightId, onHighlightChange, onNodeOpen, onCollapse }: NexusMindmapProps) {
   const wrapRef = useRef<HTMLDivElement>(null)
   const fgRef = useRef<ForceGraphMethods | undefined>(undefined)
   const [dims, setDims] = useState({ w: 400, h: 400 })
@@ -296,16 +298,28 @@ export function NexusMindmap({ data, highlightId, onHighlightChange, onNodeOpen 
 
   return (
     <div ref={wrapRef} className="relative h-full min-h-0 w-full min-w-0 bg-[#09080b]">
-      <header className="pointer-events-none absolute left-4 top-3 z-10">
-        <div className="font-[family-name:var(--font-nexus-serif)] text-xs font-semibold tracking-wide text-stone-200">
-          Mindmap threads
+      <header className="pointer-events-none absolute left-4 top-3 z-10 flex items-start justify-between gap-3 pr-3">
+        <div>
+          <div className="font-[family-name:var(--font-nexus-serif)] text-xs font-semibold tracking-wide text-stone-200">
+            Mindmap threads
+          </div>
+          <div className="mt-0.5 font-[family-name:var(--font-nexus-mono)] text-[8px] uppercase tracking-[0.14em] text-violet-300/65">
+            Force layout · dossier linkage
+          </div>
+          <div className="mt-0.5 font-[family-name:var(--font-nexus-mono)] text-[8px] uppercase tracking-[0.14em] text-stone-600">
+            Click a node to open it · faded nodes jump to their year
+          </div>
         </div>
-        <div className="mt-0.5 font-[family-name:var(--font-nexus-mono)] text-[8px] uppercase tracking-[0.14em] text-violet-300/65">
-          Force layout · dossier linkage
-        </div>
-        <div className="mt-0.5 font-[family-name:var(--font-nexus-mono)] text-[8px] uppercase tracking-[0.14em] text-stone-600">
-          Click a node to open it · faded nodes jump to their year
-        </div>
+        {onCollapse && (
+          <button
+            type="button"
+            onClick={onCollapse}
+            title="Collapse mindmap"
+            className="pointer-events-auto rounded border border-stone-700/70 bg-stone-950/80 p-1.5 text-stone-400 transition-colors hover:border-stone-600 hover:text-stone-100"
+          >
+            <ChevronRight className="size-3.5" aria-hidden />
+          </button>
+        )}
       </header>
 
       <ForceGraph2D

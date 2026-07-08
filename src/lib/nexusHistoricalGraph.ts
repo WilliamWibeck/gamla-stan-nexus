@@ -2,7 +2,7 @@ import type { FeatureCollection, Feature, LineString } from 'geojson'
 import mapboxgl from 'mapbox-gl'
 
 import { categoryColor, type CategoryId } from './nexusCategories'
-import { markerPopupHtml, markerPopupOptions } from './nexusMarkerPopup'
+import { clusterListPopupHtml, markerPopupHtml, markerPopupOptions } from './nexusMarkerPopup'
 
 export type NexusNodeType = 'event' | 'residence' | 'security'
 
@@ -95,14 +95,37 @@ function createMarkerRoot(
   return { wrap, dot }
 }
 
-function locationKey(lat: number, lng: number): string {
-  return `${lng.toFixed(6)}:${lat.toFixed(6)}`
+function normalizePlaceKey(value: string): string {
+  return value
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function placeGroupKey(node: NexusNode): string | null {
+  const root = node.metadata as Record<string, unknown> | undefined
+  const inner = root?.metadata as Record<string, unknown> | undefined
+  const matched = inner?.matched_place ?? root?.matched_place
+  const address = root?.address ?? inner?.address
+  const raw =
+    (typeof matched === 'string' && matched.trim()) ||
+    (typeof address === 'string' && address.trim()) ||
+    ''
+  return raw ? normalizePlaceKey(raw) : null
+}
+
+function locationKey(node: NexusNode): string {
+  const placeKey = placeGroupKey(node)
+  if (placeKey) return `place:${placeKey}`
+  return `${node.lng!.toFixed(6)}:${node.lat!.toFixed(6)}`
 }
 
 function groupNodesByLocation(nodes: NexusNode[]): NexusNode[][] {
   const groups = new Map<string, NexusNode[]>()
   for (const node of nodes) {
-    const key = locationKey(node.lat, node.lng)
+    const key = locationKey(node)
     const group = groups.get(key) ?? []
     group.push(node)
     groups.set(key, group)
@@ -111,6 +134,14 @@ function groupNodesByLocation(nodes: NexusNode[]): NexusNode[][] {
 }
 
 const FAN_RADIUS_PX = 36
+/** Above this count, show one hub marker + list popup instead of a hover fan. */
+const CLUSTER_HUB_THRESHOLD = 5
+
+type PopupController = {
+  openNode: (nodeId: string, ease?: boolean) => boolean
+  openClusterList: (nodes: NexusNode[], anchor: NexusNode) => void
+  close: () => void
+}
 
 function stackOffset(index: number, total: number): { x: number; y: number } {
   const layer = total - 1 - index
@@ -137,12 +168,15 @@ function installClusterMarker(
   hooks: NexusHistoricalGraphHooks | undefined,
   markerDotsById: Map<string, HTMLElement>,
   clusterControllers: ClusterController[],
+  popups: PopupController,
 ): mapboxgl.Marker {
   const anchor = nodes[0]
   const total = nodes.length
+  const useHub = total >= CLUSTER_HUB_THRESHOLD
 
   const clusterEl = document.createElement('div')
   clusterEl.className = 'nexus-marker-cluster'
+  if (useHub) clusterEl.classList.add('nexus-marker-cluster--hub')
   clusterEl.setAttribute('aria-label', `${total} records at this location`)
 
   const itemsEl = document.createElement('div')
@@ -155,43 +189,66 @@ function installClusterMarker(
 
   const nodeIds = new Set(nodes.map((n) => n.id))
 
-  for (let i = 0; i < nodes.length; i++) {
-    const node = nodes[i]
-    const stack = stackOffset(i, total)
-    const fan = fanOffset(i, total)
-    const { wrap, dot } = createMarkerRoot(node, hooks, { suppressHoverClear: true })
-    wrap.classList.add('nexus-marker-cluster-item')
-    wrap.style.setProperty('--stack-x', `${stack.x}px`)
-    wrap.style.setProperty('--stack-y', `${stack.y}px`)
-    wrap.style.setProperty('--fan-x', `${fan.x}px`)
-    wrap.style.setProperty('--fan-y', `${fan.y}px`)
-    wrap.style.setProperty('--stack-i', String(i))
-    markerDotsById.set(node.id, dot)
-
-    wrap.addEventListener('click', (e) => {
+  if (useHub) {
+    const hub = document.createElement('div')
+    hub.className = 'nexus-marker-cluster-hub'
+    const categories = [...new Set(nodes.map((n) => n.category).filter(Boolean))] as CategoryId[]
+    const slice = 360 / Math.max(categories.length, 1)
+    hub.style.background = categories.length
+      ? `conic-gradient(${categories.map((c, i) => `${categoryColor(c)} ${i * slice}deg ${(i + 1) * slice}deg`).join(', ')})`
+      : 'radial-gradient(circle at 30% 30%, rgba(255,255,255,0.9), #94a3b8)'
+    hub.addEventListener('click', (e) => {
       e.stopPropagation()
-      new mapboxgl.Popup(markerPopupOptions())
-        .setLngLat([anchor.lng, anchor.lat])
-        .setHTML(markerPopupHtml(node))
-        .addTo(map)
+      popups.openClusterList(nodes, anchor)
     })
+    itemsEl.appendChild(hub)
+    for (const node of nodes) {
+      markerDotsById.set(node.id, hub)
+    }
+  } else {
+    for (let i = 0; i < nodes.length; i++) {
+      const node = nodes[i]
+      const stack = stackOffset(i, total)
+      const fan = fanOffset(i, total)
+      const { wrap, dot } = createMarkerRoot(node, hooks, { suppressHoverClear: true })
+      wrap.classList.add('nexus-marker-cluster-item')
+      wrap.style.setProperty('--stack-x', `${stack.x}px`)
+      wrap.style.setProperty('--stack-y', `${stack.y}px`)
+      wrap.style.setProperty('--fan-x', `${fan.x}px`)
+      wrap.style.setProperty('--fan-y', `${fan.y}px`)
+      wrap.style.setProperty('--stack-i', String(i))
+      markerDotsById.set(node.id, dot)
 
-    itemsEl.appendChild(wrap)
+      wrap.addEventListener('click', (e) => {
+        e.stopPropagation()
+        popups.openNode(node.id)
+      })
+
+      itemsEl.appendChild(wrap)
+    }
   }
 
   clusterEl.appendChild(itemsEl)
   clusterEl.appendChild(badge)
 
   const setExpanded = (next: boolean) => {
+    if (useHub) return
     clusterEl.classList.toggle('nexus-marker-cluster--expanded', next)
     badge.hidden = next
   }
 
-  clusterEl.addEventListener('mouseenter', () => setExpanded(true))
-  clusterEl.addEventListener('mouseleave', () => {
-    setExpanded(false)
-    hooks?.onMarkerHover?.(null)
-  })
+  if (!useHub) {
+    clusterEl.addEventListener('mouseenter', () => setExpanded(true))
+    clusterEl.addEventListener('mouseleave', () => {
+      setExpanded(false)
+      hooks?.onMarkerHover?.(null)
+    })
+  } else {
+    badge.addEventListener('click', (e) => {
+      e.stopPropagation()
+      popups.openClusterList(nodes, anchor)
+    })
+  }
 
   clusterControllers.push({
     setExpanded,
@@ -208,14 +265,16 @@ function installSingleMarker(
   node: NexusNode,
   hooks: NexusHistoricalGraphHooks | undefined,
   markerDotsById: Map<string, HTMLElement>,
+  popups: PopupController,
 ): mapboxgl.Marker {
   const { wrap: el, dot } = createMarkerRoot(node, hooks)
   markerDotsById.set(node.id, dot)
+  el.addEventListener('click', (e) => {
+    e.stopPropagation()
+    popups.openNode(node.id)
+  })
   return new mapboxgl.Marker({ element: el, anchor: 'center' })
     .setLngLat([node.lng, node.lat])
-    .setPopup(
-      new mapboxgl.Popup(markerPopupOptions()).setHTML(markerPopupHtml(node)),
-    )
     .addTo(map)
 }
 
@@ -268,6 +327,7 @@ export type NexusHistoricalGraphController = {
   dispose: () => void
   /** Ease to a node's marker and open its detail popup. Returns false if the node isn't on the map. */
   openPopup: (nodeId: string) => boolean
+  closePopup: () => void
 }
 
 /** Markers, neon glowing lines, flowing gradient pulse. */
@@ -328,12 +388,60 @@ export function installNexusHistoricalGraph(
   const markerDotsById = new Map<string, HTMLElement>()
   const clusterControllers: ClusterController[] = []
   const markers: mapboxgl.Marker[] = []
+  const nodesById = new Map(graph.nodes.map((n) => [n.id, n]))
+  let openedPopup: mapboxgl.Popup | null = null
+
+  const popups: PopupController = {
+    close: () => {
+      openedPopup?.remove()
+      openedPopup = null
+    },
+    openNode: (nodeId, ease = true) => {
+      if (isDisposed()) return false
+      const node = nodesById.get(nodeId)
+      if (!node) return false
+      openedPopup?.remove()
+      for (const cluster of clusterControllers) {
+        cluster.setExpanded(cluster.containsNode(nodeId))
+      }
+      if (ease) map.easeTo({ center: [node.lng, node.lat], duration: 650 })
+      openedPopup = new mapboxgl.Popup(markerPopupOptions())
+        .setLngLat([node.lng, node.lat])
+        .setHTML(markerPopupHtml(node))
+        .addTo(map)
+      return true
+    },
+    openClusterList: (nodes, anchor) => {
+      if (isDisposed()) return
+      openedPopup?.remove()
+      const meta = anchor.metadata ?? {}
+      const place =
+        (meta.matched_place as string | undefined) ??
+        (meta.address as string | undefined) ??
+        null
+      openedPopup = new mapboxgl.Popup({
+        ...markerPopupOptions(),
+        className: 'nexus-popup nexus-cluster-popup-shell',
+      })
+        .setLngLat([anchor.lng, anchor.lat])
+        .setHTML(clusterListPopupHtml(nodes, place))
+        .addTo(map)
+      const el = openedPopup.getElement()
+      el?.querySelectorAll<HTMLButtonElement>('.nexus-cluster-popup-item').forEach((btn) => {
+        btn.addEventListener('click', (ev) => {
+          ev.stopPropagation()
+          const id = btn.dataset.nodeId
+          if (id) popups.openNode(id)
+        })
+      })
+    },
+  }
 
   for (const group of groupNodesByLocation(graph.nodes)) {
     if (group.length === 1) {
-      markers.push(installSingleMarker(map, group[0], hooks, markerDotsById))
+      markers.push(installSingleMarker(map, group[0], hooks, markerDotsById, popups))
     } else {
-      markers.push(installClusterMarker(map, group, hooks, markerDotsById, clusterControllers))
+      markers.push(installClusterMarker(map, group, hooks, markerDotsById, clusterControllers, popups))
     }
   }
 
@@ -369,31 +477,13 @@ export function installNexusHistoricalGraph(
 
   raf = requestAnimationFrame(tick)
 
-  const nodesById = new Map(graph.nodes.map((n) => [n.id, n]))
-  let openedPopup: mapboxgl.Popup | null = null
+  const openPopup = (nodeId: string): boolean => popups.openNode(nodeId)
 
-  const openPopup = (nodeId: string): boolean => {
-    if (isDisposed()) return false
-    const node = nodesById.get(nodeId)
-    if (!node) return false
-
-    openedPopup?.remove()
-    // Expand the cluster this node sits in so the marker is visible behind the popup.
-    for (const cluster of clusterControllers) {
-      cluster.setExpanded(cluster.containsNode(nodeId))
-    }
-    map.easeTo({ center: [node.lng, node.lat], duration: 650 })
-    openedPopup = new mapboxgl.Popup(markerPopupOptions())
-      .setLngLat([node.lng, node.lat])
-      .setHTML(markerPopupHtml(node))
-      .addTo(map)
-    return true
-  }
+  const closePopup = () => popups.close()
 
   const dispose = () => {
     cancelAnimationFrame(raf)
-    openedPopup?.remove()
-    openedPopup = null
+    popups.close()
     map.off('mouseenter', OUTER_LAYER, onLineEnter)
     map.off('mouseleave', OUTER_LAYER, onLineLeave)
     map.off('mouseenter', FLOW_LAYER, onLineEnter)
@@ -404,5 +494,5 @@ export function installNexusHistoricalGraph(
     if (map.getSource(SOURCE_ID)) map.removeSource(SOURCE_ID)
   }
 
-  return { dispose, openPopup }
+  return { dispose, openPopup, closePopup }
 }

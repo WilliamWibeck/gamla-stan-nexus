@@ -26,3 +26,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Processed OCR inputs (large scans kept locally, not in git)
+data_sources/images/done/
+Newscript/input_pages/done/

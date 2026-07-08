@@ -1,0 +1,457 @@
+[
+  {
+    "id": "bib13506739_17800124_144030_18_0001:1:dageliga-tidningar",
+    "label": "Dagliga Tidningar, eller: Dagligt Allehanda",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Stockholm nr 18. Den 24 januari 1780, måndag. Utdrag av Kungliga Vetenskapsakademiens meteorologiska observationer, hållna på Astronomiska observatoriet i Stockholm. Fredagen den 21 januari: Termometer: om middagen 1, om aftonen 4 och lördagsmorgonen 5 grader under fryspunkten. Barometer: 25,30. Det har varit mulet och snöigt hela dygnet, med NMD 2 till 3.",
+    "resident": null,
+    "lat": 59.34151,
+    "lng": 18.05467,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "Stockholm N:o 18\nDen 24 Januarii 1780, Måndag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nUtdrag af Kgl. Wetensk. Acad. Meteorol. Observationer, hålne på Observat. Astronom. i Stockh.\nFredagen den 21 Jan. Therm. om middagen 1, om aftenen 4 och Lördrags morgonen 5 grader under fryspunten. Baromet. 25,30. Det har varit muler och snidgat hela dygnet, med NMD 2 a 3.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Observatorium",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:2:biblars-standiga-erhallande",
+    "label": "Ständig tillgång till Biblar",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "De ömmande uttryck varmed Herr Anonymus i Dagligt Allehanda nummer 180 och 200 beledsagar sin omtanke och sorgfällighet, att befordra en så skyndsam som lindrig åtkomst till biblars ständiga erhållande, förtjänar visserligen beröm och tack av en kristen allmänhet. Men det är dock inte utan att vid de uppgivna medlens och utvägarnas närmare övervägande anledning kan synas vara att granska dessa uppgifter och påminnelser huruvida de verkligen må vara i grunden så desintresserade och välmenande, som de vid framställningen tycks.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "De ömmande uttröck hwarmed H:r Anonymi uti Dagligt Allehanda N:o 180 och 200 beledsaga sin omranta och sorgfällighet, at besforda en så skyndsam som lindrig åtkomst til Biblars ständiga erhållande, förtjenar wisserligt berdim och tack af en Christelig Allmänhet. Men så är dock icke utan, at wid de uppsigna medels och utvägars närmare öfvervägande anledning kan synas vara, at granska deße upgifter och påminnelser huruvida de wärteligen mäge vara i grunden så desintereserade och välmenande, som de wid försändet tyckas.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Dagligt Allehanda"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:3:kyrkor-tillsjuktar-forslag",
+    "label": "Kyrkor tillstyrker förslag",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Av den förre upphovsmannen uppmanas de förmögna, och av den senare föreslås att kyrkor skulle tillstyrka förslag; Kronan efterger något av sina inkomster från tullintäkterna, och det allmänna med stillatigande ser en ny väg öppnas, som ofelbart hade en betänklig inverkan på handeln; och sådant, varför? Jo, för att ställa den eller dem, som skulle få ett exklusivt privilegium på bibeltryckeriet, i en fördelaktig situation för vinst, efter allt att döma på allmänhetens bekostnad.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "Af den sörre Nuctorn vmanas de förmögne, och af den senare föreslås at Kyrkor skulle tilsjukta förslag; Kronan estergiva något af sina ingålder i Tullvägen, och det allmänna med stillatigande se en ny wäg dpanas, som ofelbart hade en betänklig märkan på handelen; och sådant at hwarföre? jo, för att ställa den elser dem, som skulle få et Privilegium Exclusivum på Bibel-tryckeriet i en fördelaktig belägenhet till winning efter alt utseende på Publici bekostnad.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Tullvägen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:4:bibliotekssamling",
+    "label": "Bibliotekssamling",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Jag tvivlar inte alls på att det nog finns sådana kristligt sinnade förmögna personer, som av ett gott hjärta var beredvilliga att understödja saken och främja tillgången på Biblar, om det märkbart fanns brist på dem. Men jag är däremot förvissad om att de inte går in i det, utan att med trygghet se sig återfå sitt förskott, och annorlunda torde det inte heller vara nödvändigt; eftersom mångfaldiga, på alla sidor goda och trygga utvägar till ett sådant ändamål inte kan ta slut.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "Jag twistar för ingen del, at ju så Christelig sinnade förmögne gifwes, som af et godt hjerta woro beredwillige at understödja den saken och befrämja tilgäng på Biblar, om därpå märkeligen funnecs brist: men jag är däriamte för säkrad, at de icke gå in däruti, utan at se sig med tryghet åter bekomma sitt förslätt, och annortunda lärer det ej eller vara nödigt; hålst mångfaldiga, på alla sidor goda och trygga utvägar til et sådant ändamål icke kunna tryta.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:5:swad-kyrkorne-ater-betraffar",
+    "label": "Vad kyrkorna beträffar",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Vad kyrkorna beträffar, så är de på flertalet ställen, dels av nybyggnader, dels av gjorda förbättringar, så alldeles utblottade, att församlingarna, då kyrkornas medel inte varit tillräckliga, måste sammanskjuta för behoven, som Inrikes Tidningarna i år och de nästkommande tiderna intygar.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "Swad Kyrkorne åter beträffar, så är de flerestades, dels af nybyggnader, dels af gjorde förbättringar så aldeles utblottade, at Församlingarne, då Kyrkornes medel ej varit tilräckelige, mäst sammansejuta öfver behofwen, som Inrikes Tidningarné det i är och de framslutne tiderne intyga.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Swad Kyrkorne"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:6:forsamlingar-med-gavor",
+    "label": "Förmögna herrskapens församlingar ger generösa gåvor",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Av dessa tidningar finner man även att förmögna och ädelmodiga herrskap på många ställen har stött församlingarna med generösa gåvor, utan vilket också behoven inte lär ha kunnat uppfyllas.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "Af deze Tidningar finner man åfwen, at förmögne och ädelsinne Herrskaper på många ställen hålkt Församlingarne med rundelige gåfvor under armgene, utom hvilket och behofwen ej lärer funnat uppfyllas.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:7:forsamlingars-utlandska-penningar",
+    "label": "Församlingars utländska penningar",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Således tycks förslaget i den delen svårligen kunna verkställas, i synnerhet då man samtidigt av erfarenheten vet att många församlingar ofta med stort besvär måste återsöka och påminna om sina utlånade pengar.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "Således tyckes Förslaget i den delen svärligen kunna werkställas, i synnerhet då man tillika af församrenheten wet, at många Församlingar ofta med stort besväw mäst återsöka och påminna om sina utlännta penningar.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:8:negotiering-av-entrepris",
+    "label": "Negotiering av entrepris",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Det verkar därför rimligt att de som vill utnyttja en sådan entreprenad själva och på egen kredit förhandlar fram förslag, utan att söka dem i sådana sammanhang som på något sätt blev till en börda för allmänheten.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "Det synes väl därför billigt, at de som af en sådan entreprisë wilja sig begagna, mäge sjelfwe och egen Credit negociera sig förslager, utan at söka dem i sådana omgängen, som föllo menigheten i någor måtto til tunga.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:9:pappersvarfk",
+    "label": "Pappersverk",
+    "date": "1780-01-24",
+    "address": "Kronan",
+    "description": "Att Kronan, enbart för några få personers fördel, skulle komma att förlora sin andel, synes inte heller vara tillbörligt: och skulle inte härmed alla de pappersverk som med dryg kostnad anlagts i Riket tillskyndas en skyndsam undergång? Ty vad kunde då hindra att Bibel-Tryckeriet till slut övervann en överlägsen handel med utländskt papper? Och de pengar som därför utgick kom aldrig tillbaka till Riket.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "At åter Kronan, blott för några få personers båtnad skulle komma at förlora sin tuft, synes åfwen se liket tillbörligt: och männe icke härmend tilliska alla de i Riket med dryg kostnad anlagde Pappers-wärfk sulse blottståsas för en skyndsam undergang? Ty hvad kunde då hindra, at Bibel-Tryckeriet til slut öfrewen en öfverlägsen handel med Utländskt papper? Och de penningar, som derföre utgingo kommo aldrig i Riket tilbaks.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kronan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:10:forslag-om-medborgars-uppmarksamhet",
+    "label": "Förslag om medborgares uppmärksamhet",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Herr Anonymus i Dagbladet N:r 200 bör på detta förslag inte vänta annat än tänkande medborgares uppmärksamhet.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "Herr Anonymus i Dagbladet N:o 200, bör på detta Förslag icke wanta annat, än tänkande Medborgers gares upmörksamhet.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Dagbladet"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:11:pappershandelens-framtid",
+    "label": "Framtiden för pappershandeln",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Vilken följd en så beskaffad pappershandel kunde i framtiden ha på Rikets känsliga tryckerier, det faller även var man i ögonen som betänker att denna upptänkta näringsgren, till inrikes värvets förfång, ej annorlunda än i sinom tid skulle göra de övriga tryckerierna till skattdragare av det monopolistiska bibeltryckeriet, som efter vunnen fördel i pappershandeln kunde leka med dem efter behag, och omsider uppjaga papperspriset till förr höjd ånyo, allt efter omständigheterna.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "Hwad föld en så besköffad pappers-handel kunde i en framtid hafta på Rikets kässamma Tryckerier, det faller åfwen hwar man i dgonen, som bestänar, at denne uptänkte näringsgren, til inrikes Wärfens försång, ej annorlunda än i sinningoin skulle göra de öfrige Tryckerien til skatt-dragare af det Monopoliska Bibel-Tryckeriet, som efter wunnen skadga i pappers-handelen, kunde leka med dem efter behag, och omsider upjaga pappers-priset til före högd ånau, alt efter omständigheterne.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Rikets kässamma Tryckerier"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:12:forslag-om-pappers-warfkens-sakerhet",
+    "label": "Förslag till säkerhetsåtgärder för pappersverket",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Vad annat skulle då detta förslag ha gagnat, än pappersverkens säkra undergång och en prisstegring på papper och tryckta exemplar? Åtminstone om sådant inte skedde, vore det en stor och heroisk dygd av förvaltarna, som man väl vill tro om dem, vilka nu först gjort förslaget möjligt, men svårligen kunde man alltid, i en framtid, förvänta sig det.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "Hwad uträktade då detta Förslag gannat, än Pappers-Wärfkens säkra ödestål, Papperets och Tryckeries exemplaren Upstegring? åminstone om sådant ej skedde, woro det en stor och heroiskt dygd af förvaltarne, som man väl wil tro dem, hvilka nu först gjordt Förslaget Capable af, men svärligen kunde altid, i en framtid wanta.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Pappers-Wärfken"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0001:13:auktion-mobler-vid-stortorget",
+    "label": "Auktion av möbler på Stortorget",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Jag tror alldeles att Herr Anonymus haft ansvar för att, till det allmännas tjänst, hjälpa saken; men då tycks det med den egenskapen och de äldsta forskningarna i denna hushållsgren ha passat bättre in.",
+    "resident": null,
+    "lat": 59.325,
+    "lng": 18.07082,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 1,
+      "archive_ref": "bib13506739_17800124_144030_18_0001.jpg",
+      "original_spelling": "Jag tror aldeles, at Herr Anonymus haft afsware med, at til det allmännas tjensk hjelpa saken; men då synes det med den egenkapen och de äldsa Förskningarn in denna hushålls-gren basra m:::a instämt.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

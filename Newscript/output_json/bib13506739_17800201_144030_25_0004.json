@@ -1,0 +1,603 @@
+[
+  {
+    "id": "bib13506739_17800201_144030_25_0004:1:i-kvenst-atundas-ett-ga-e-ifran-landet-nackommande-pasck-om-",
+    "label": "I kvenst åtundas ett Gåše ifrån Landet näckommande Påsck om 20 d:rs älder, at rä",
+    "date": "1780-02-01",
+    "address": "Riddarhustorget",
+    "description": "En gås föds på en gård i landet nära Stockholm omkring påsk, när hon är cirka 20 dagars gammal. Informationen om detta sänds ut varje dag kl. 12 på morgonen från säckboden vid Riddarhustorget.",
+    "resident": null,
+    "lat": 59.3255805,
+    "lng": 18.066145,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "I kvenst åtundas ett Gåše ifrån Landet näckommande Påsck om 20 d:rs älder, at räcka en Håft jämke flere Gärdens smk Sylor; underrättelse härom sjas uti Säckerboden wid Riddarhustorget alla dagar kl. 12 förmiddagen.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Riddarhustorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Riddarhustorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:2:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-01",
+    "address": "Stortorget",
+    "description": "En okänd man, som har god kunskap i teknik och villkor, söker en lämplig adress för att föra sin livsgång vidare.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Åtundas en ogift Man, som kan räcka och skrifwer god til; om stålet och vilkoren sjas adress där dess Lidinggar utgifwas.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:3:anmalan-hos-vaktmastaren",
+    "label": "Anmälan hos Vaktmästaren",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "Den hedersfulla Jungfrun, som i Dagbladet N:o 17 åtundar Condition, behövde anmäla sig hos Vaktmästaren Wengren vid Kungliga Krigs-Collegio.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Den hederliga Jungfrun, som i Dagbladet N:o 17 åtundar Condition, behagade anmåla sig hos Vaktmästaren Wengren i Kgl. Krigs-Collegio.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kgl. Krigs-Collegio"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:4:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-01",
+    "address": "Järntorget",
+    "description": "Stävfordrings-Mål: De som veta sig vara skyldiga till Kramhandlaren Jonas Zetterstrands gölbündna Bo, behöver betala sina skulder till Fabriqueuren Obbarius, som är tillskriven Cuz-rator i dess Manufæcturbod vid Benickebrinken mellan Järntorget och Lyka Brunn. Dessa herrar har länge tagit nytta av hans kredit, men de är okunniga om deras vistande. Torsdagen kräver att de anmälas i tidningarna för att betala sina skulder eller lämnar sig hörda.",
+    "resident": null,
+    "lat": 59.3227388,
+    "lng": 18.0730698,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Stävfordrings-Mål: De som weta sig vara skyldige till Kramhandlaren Jonas Zetterstrands gölbündna Bo, behagade med första til undvikande af Lagsöking, betala sina skulder til Fabriqueuren Obbarius, såsom tilsforordnad Cuz-rator i dess Manufæcturbod wid Benickebrinken emellan Järntorget och Lyka Brunn, och som man om flese hans Herrar Debitorer, hvilka nog länge begagnadt sig af hans credit, är okunnigom deras wistande, torsde utan framdeles nödsakas nygiswa deras namn i Tidningärne, om efter denna anmåning til betalning de teke instana eller låta hörä af sig.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Järntorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:5:anmalningar-om-avdoda-graveur",
+    "label": "Anmälningar om avdöda Graveur",
+    "date": "1780-02-01",
+    "address": "Regeringsgatan",
+    "description": "De som fördra eller skyldiga uti affärerna med gravuren Gustaf Fr. Svarz Sterbhus, behagade tunom 14 dagar anmäla sig hos det enka i huset nummer 74 vid Regeringsgatan i anseende till förestående gos-uppteckning; hvoriäntre mederbrända släktingar tillsänna gifwes, att emellan enkan och den affärade Testamentum Reciprocum är upprättad.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0697,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "De som höfva at fördra eller äro skyldige uti afeade Graveuren Gustaf Fr. Svarz Sterbhus, behagade tunom 14 dagar anmåla sig hos det Enka uti Huset N:o 74 wid Regeringsgatan i anseende til förestående Gos-uppteckning; hvoriänte Mederbrände Släktingar tilsänna gifwes, at emellan Enkan och den afeade, Testamentum Reciprocum är upprättad.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Huset N:o 74 wid Regeringsgatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Regeringsgatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:6:kungorelser-studerande",
+    "label": "Kungörelser: Studerande",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "Diverse Kungörelser: En Studerande, som tillsfrevrat haft hederliga Måns Barn under Information, återundrar att som Informator på något ställe blivit avtagen, eller i annan handelse till Skrifware hos någon hederlig Herre: till Pickelighets vinnande i sedanare afseendet, har bevälgd Student varit, ej allenaft vid Håradsskrivare- och Kronfogde- utan och någon liten tid vid Lands-Contoir; swar begäres med första i dessa Blad.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Diverse Kungörelser: En Studerande, som tilsfrevre haft hederliga Måns Barn under Information, åtundar at som Informator på något ställe blisiva avtagen, eller i annor håndelse til Skrifware hos någon hederlig Herre: til Pickelighets winnande i sednare afseendet, har bewälte Student varit, ej allenaft wid Håradsskrivare- och Kronfogde- utan och någon liten tid wid Lands-Contoir; swar begäres med första i dessa Blad.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Pickelighets"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:7:auktion-sangklader-och-lius",
+    "label": "Auktion: Sängkläder och lius",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "En ungkarl som själv vill ha sängkläder och lius äter under 9 rö plåtar per månad. N:oB, 4 veckor räknat på månaden, får kammarer och städning samt mat, så kallad husmanskost två gånger om dagen; så närmare logementet varierar staden därför säger manz swar begäres med första i dessa Blad.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "En Ungkarl, som sjelf vil hålla sig Sängkläder och lius, åtundar emot 9 a ro Plåtar i månaden. N:oB, 4 weckor räknat på månaden, få Kammarer och Städning samt mat, så kallad Husmanskost två gånger om dagen; su närmare Logementet wore Staden desso håldre säge manz swar begäres med första i dessa Blad.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Staden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:8:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-01",
+    "address": "Stortorget",
+    "description": "Om någon destillator har en likörkammare att sälja, bestående av två eller tre rum med kök och vederbarhet, erbjuder sig en handlare att därfrån göra räkning samt vid tillträdet deponeera 1000 daler koppar som säkerhet. Sådan begärs med första i dessa tidningar eller vid Bryggaren Sundits lilla hus på Badugårdslandet och Nybrogatan i nedre våningen.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Om någon Distillator har Liqueur-Kammare at afståta, bestäende af två eller tre rum med Kök och Wedebod, så erbjuder sig en saker man at därfröre göra räckning, samt wid tilträtet deponegra 1000 daler Kopp:nt; som säkerhet; swar begäres med första i dessa Blad, eller och uti Bryggaren Sundit lilla Hus på Badugårds- lander och Nybrogatan i nedra Wåningen.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:9:pension-till-bergwalls-dotter",
+    "label": "Pension till Bergwalls dotter",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "Köpmannen Bergwall från Kristianstad har förra hösten lämnat sin dotter, som är 13 år gammal, i pension här i Stockholm. En släkting av denna dotter har nyligen ankommit till staden och vill ta kontakt med henne. För att göra det möjligt för honom att träffa henne, besökte han Demis Bergwalls bostad vid Köpmanstorget.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Köpmann Bergwall frän Christinchasen har förfleden Höf lämnat dess Dotter om 13 år här i Stockholm i pension, och som en dess Släktinge nyligen är hitkommen, som ej har sig hennes wistande bekant och är angelägen at tala med henne, täcktes berörde Demoiselle Bergwall til den ändan komma uti Alardi hus wid Köpmans-torget.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Köpmans-torget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:10:annonsering-sokande-efter-kapten-von-beezens-vistande",
+    "label": "Annonsering: Sökande efter kapten von Beezens vistande",
+    "date": "1780-02-01",
+    "address": "Munkbrogatan",
+    "description": "En utlänning i Dagbladet som frågat efter kaptenen von Beezens kunskaper för att han skulle kunna göra sin egen skola måste vara sådan Guds man och hedersfull människa, som han inte under sju års studier i Stockholm lyckades hitta. Även om han sökte efter liknande personer, lämnar jag adressen till mig på huset nummer 109 vid illa Munkbrogatan, en trappa upp.",
+    "resident": null,
+    "lat": 59.3241737,
+    "lng": 18.0671331,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Den främmande i Dagbladet, som frågat efter Capitain von Beezens wistande för dess egit väl skul, måtte vara sådan Guds Man och hederlig Människo-män, som han icke under sju års wistande i Stockholm funnar träha, ehuru han sökt efter dess likar, hvarebre jag med akning för honom, lämnar adress om mig i huset N:o 109 wid illa Munkbrogatan, en trappa up.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Munkbrogatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Munkbrogatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:11:uppdrag-fruntimmer-till-vap",
+    "label": "Uppdrag: Fruntimmer till Våp",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "Olof Westerling. Du är ung och härlig, främling med hedrande bevis på ditt beteende. Åkunder till några vapenblissiva antagit som sällskap hos någon hedersfull änkefru eller som hushållare i ett litet hushåll; gunstigt svaret utspelar sig första i dessa blad.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Olof Westerling. Er ungt och hädigt Fruntimmer med hederande bewis om sitt upförande, åkundar til nåka Våp blisiva antagit som själlskap hos någon hederlig Enke-Fru eller som Hushållerska uti et litet hushåll; gunstigt swar utp bodes med första i dessa Blad.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:12:auktion-schola-vid-norrmalms-torg",
+    "label": "Auktion: Schola vid Norrmalms-torg",
+    "date": "1780-02-01",
+    "address": "Norrbro",
+    "description": "Åtundas frist Husrum hålkt t Staden eller icke längt ifrån Norrmalms-torg, för en liten Schola mot information uti Franjiska och Lyka språken, samt Skrifwa och räknande, åfwen uti alla Fruntimmer-slägder; hvormo underättelse nygtges i Snusboden wid Utropet af Norrbro.",
+    "resident": null,
+    "lat": 59.3282,
+    "lng": 18.0703,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Åtundas frist Husrum hålkt t Staden eller icke längt ifrån Norrmalms-torg, för en liten Schola mot information uti Franjiska och Lyka språken, samt Skrifwa och räknande, åfwen uti alla Fruntimmer-slägder; hvormo underättelse nygtges i Snusboden wid Utropet af Norrbro.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Staden",
+        "Norrmalms-torg"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Norrbro",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:13:distillers-forsaljning",
+    "label": "Distillers Försäljning",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "I dagens tidning nummer 21 från den 27 januari, presenterar Distillers försäljningslista för räkningssyfte till allvarliga damer, som beklagar sig om Morrmalin och stora Badstugugatan på fastigheten nummer 53, 54 och 55.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Det uti Dagbladet N:o 21 under den 27 näckedne Januart, til räknings görande för Distillers Försälgo- ning sig anmålaende alswarsamma Fruntimmer, behagade anmåla sig å Morrmalin och stora Badstugugatan uti Egendomen N:o 53, 54 och 55.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Morrmalin",
+        "Badstugugatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:14:tjanstefolkens-ombyte",
+    "label": "Tjänstefolkens ombyte",
+    "date": "1780-02-01",
+    "address": "Kgl. Krigs-Collegii hus wid Munkbron",
+    "description": "Det tjänstefolk som nu ska ombyta tjenster, skall få adress från Vaktmästaren Wihlgren för goda tjänster, så de kan bitta honom om märkarna och eftermiddagarnas hos honom anmäla. Han bor i Kgl. Krigs-Collegii hus vid Munkbron.",
+    "resident": null,
+    "lat": 59.326,
+    "lng": 18.0658,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Det tjänstefolk som nu skola ombyta tjenster, funna af Vaktmästaren Wihlgren få adress om goda tjens- her, dä de sig därom bittid om märnarne samt eftermiddagarnes hos honom anmåla. Han är boende uti Kgl. Krigs-Collegii hus wid Munkbron.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kgl. Krigs-Collegii hus",
+        "Munkbron"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Munkbron",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:15:auktion-klades-piguesche-och-silke-krumpor",
+    "label": "Auktion: Klädes-Piguesche och Silke-Krumpor",
+    "date": "1780-02-01",
+    "address": "Svartmangatan",
+    "description": "Herrn f. R. såg han haft en ljusgrå klädespiga och ett par grärandiga silkekrumpor. Han var också klädd i silverskor och knäspänningar från huset N:o 80 vid Svartmangatan. Han behagade infinna sig inom åtta dagar, men om han inte kan träffa någon herr på dagen så säljs platsen.",
+    "resident": null,
+    "lat": 59.3239239,
+    "lng": 18.0725023,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Den Heren f. R. sojn wet sig haftwa pantsakt en ljusgrä Klädes-Piguesche, et par grä-randiga Silke- Krumpor, et par Silwer Sko- och Knä-spänne uti Huset N:o 80 wid Swartmangatan, behagade infinna sig innowi åtta dagar, i annor håndelse försäljes panten, hålst man ej kan träffa Herru någon tid på dagen.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Huset N:o 80",
+        "Svartmangatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Svartmangatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:16:begaran-om-adress",
+    "label": "Begäran om adress",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "I dagens Allt om Hushållning nummer 20 frågar en ensam man efter en adress i Delsviks bostad i Trägångssund, där han hoppas att han får anmärkningar.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Den uti Dagl. Allchanda N:o 20 begärte ogifta wannen, önskade få adress uti Delwiks Bod i Tränge- sund, hvareict han får sig anmåla.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Delviks Bod",
+        "Trängesund"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0004:17:auktion-mobler-vid-slottsbacken",
+    "label": "Auktion: Möbler vid Slottsbacken",
+    "date": "1780-02-01",
+    "address": "Lilla Nygatan",
+    "description": "Den som åtundat Utsödning för xne Håstar, kan få underättelse hos Kusken Lundberg i Apelrotshuset vid Slottsbacken. I morgon kl. 8 utgives nästa Blad härav. Tryckt i Kgl. Ordens-Tryckeriet Huset N:o 134 vid Lilla Nygatan.",
+    "resident": null,
+    "lat": 59.3234698,
+    "lng": 18.0691767,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 4,
+      "archive_ref": "bib13506739_17800201_144030_25_0004.jpg",
+      "original_spelling": "Den som åtundadt Utsödning för xne Håstar, kan få underättelse hos Kusken Lundberg i Apelrotss- huset wid Slottsbacken.\nI morgon kl. 8 utgifwes nästa Blad häraf.\nTryckt i Kgl. Ordens-Tryckeriet Huset N:o 134 wid Lilla Nygatan",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Apelrotss-huset",
+        "Slottsbacken"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Lilla Nygatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "id": "1787:1:dageliga-tidningar",
+    "label": "Stockholm N:o 9.",
+    "date": "1787-01-12",
+    "address": null,
+    "description": "Den 12 Januarii 1787, Fredag:",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Okänd tidning",
+      "issue_date": null,
+      "page": null,
+      "archive_ref": "1787.jpg",
+      "original_spelling": "Stockholm N:o 9.\nDen 12 Januarii 1787, Fredag:\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nOnsbags midd. den 10 Jan. Barom. 25:84; 24 gr. kallt, W. klart. Torödags morg. Bar. 25:84 ; 64 gr. kallt, W. klart.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  },
+  {
+    "id": "1787:2:utlandske-nyheter",
+    "label": "Utländske Nyheter",
+    "date": null,
+    "address": null,
+    "description": "Madrik den 4 December. Twåne kostbara lärda Wäckr, som härstädes utkommit, hafwa med största bisäll bifswit emottagne. Det ena är et Historiskt och Geographiskt Lexicon öfver bågge Indierne, utgifwit af Capitaine wid Spaniska Lif-Gardiet, Don Alcedo ; Det andra har Titel af Lexicon för aila Konster, sörattat på Franska, Spaniska, Italienska och Latiniska Spräken af Ex-Fesuiten Terreros. Constanstinoipel den 29 Nov. En den 21 hujus från Egypten ankommen Courir har nu antelis gen medbragt den hugnelliga tidningen, at Stor-Amiralens Trupper wunnit en ny Seger öfver de Rebete liiste Bejerne, men Action hade varit blodig och kostat 300 man Turkar.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Okänd tidning",
+      "issue_date": null,
+      "page": null,
+      "archive_ref": "1787.jpg",
+      "original_spelling": "Utländske Nyheter:\nMadrik den 4 December. Twåne kostbara lärda Wäckr, som härstädes utkommit, hafwa med största bisäll bifswit emottagne. Det ena är et Historiskt och Geographiskt Lexicon öfver bågge Indierne, utgifwit af Capitaine wid Spaniska Lif-Gardiet, Don Alcedo ; Det andra har Titel af Lexicon för aila Konster, sörattat på Franska, Spaniska, Italienska och Latiniska Spräken af Ex-Fesuiten Terreros. Constanstinoipel den 29 Nov. En den 21 hujus från Egypten ankommen Courir har nu antelis gen medbragt den hugnelliga tidningen, at Stor-Amiralens Trupper wunnit en ny Seger öfver de Rebete liiste Bejerne, men Action hade varit blodig och kostat 300 man Turkar.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Madrik",
+        "Constantinopel"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  },
+  {
+    "id": "1787:3:jaktstrid-vid-adelsmannens-agor",
+    "label": "Paris den 22 Dec. Ryget förmåler at Archie-Biskopen af C. under en jagt, däc han",
+    "date": null,
+    "address": null,
+    "description": "En notis om en strid som uppstått under ett jaktfördrag i Paris den 22 december. Archie-Biskopen af C., en biskop från C., försökte jaga på en annan adelsmanens ägor och blev attackerad av jagare från denna ägares sida, vilket ledde till att en av biskopens jakare sköts ihjäl.",
+    "resident": "Archie-Biskopen af C",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Okänd tidning",
+      "issue_date": null,
+      "page": null,
+      "archive_ref": "1787.jpg",
+      "original_spelling": "Paris den 22 Dec. Ryget förmåler at Archie-Biskopen af C. under en jagt, däc han kommit på en annan Adelsmans ägor och bifswit af hans Jagare på högligt sätt tilsagd at icke därstädes jaga, skutie nämde Jagare til döds på stället.",
+      "category": "crime",
+      "themes": [
+        "Crime & Justice"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Archie-Biskopen af C",
+          "role": null
+        }
+      ],
+      "locations": [
+        "Adelsmannens ägor"
+      ],
+      "crime": "Jagd på en annan adelsmans mark",
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  },
+  {
+    "id": "1787:4:nyhet-fran-london",
+    "label": "Nyhet från London",
+    "date": null,
+    "address": null,
+    "description": "London den 19 Dec. Man omtalar et storf vad emellan twåne betydelige Personer, at åtminkos ne an de 13 förenade Amerikanske Provincerne, innom 2:ne dr skal anhålla at åker så komma under Engelskt besedd. — I går upköptes 200 Oxar, som skoa flagkas och insaltas för Erpeditionens behof til Botaniska Wiken. — Hwad kyrka och reise vært Ostindiske Compagnie maste hafwa, kan däraf slus tas, at det åger 44 Skepp, som föra 108 Canoner och 4238 mans besättnin.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Okänd tidning",
+      "issue_date": null,
+      "page": null,
+      "archive_ref": "1787.jpg",
+      "original_spelling": "London den 19 Dec. Man omtalar et storf vad emellan twåne betydelige Personer, at åtminkos ne an de 13 förenade Amerikanske Provincerne, innom 2:ne dr skal anhålla at åker så komma under Engelskt besedd. — I går upköptes 200 Oxar, som skoa flagkas och insaltas för Erpeditionens behof til Botaniska Wiken. — Hwad kyrka och reise vært Ostindiske Compagnie maste hafwa, kan däraf slus tas, at det åger 44 Skepp, som föra 108 Canoner och 4238 mans besättnin.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "London"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  },
+  {
+    "id": "1787:5:utlatelse-fran-kejsaren",
+    "label": "Utlåtelse från Kejsaren",
+    "date": null,
+    "address": null,
+    "description": "En notis om en utlåtelse från kejsaren, som berättar att kejsaren inte tvivlar på att kungen av Preussen också skulle infinna sig i läger vid Jglau. Notisen nämner även ett nytt inbördeskrig i Georgien och att tsar Zeraclius blivit tvungen att begära sig under Portens besedd.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Okänd tidning",
+      "issue_date": null,
+      "page": null,
+      "archive_ref": "1787.jpg",
+      "original_spelling": "Wien den 23 Dec. Hans Majestet Kejsaren skall hafwa utlåtit Sig, at Han icke twifslade, det ju Kungingen af Preusen också skulle infinha Sig i Lägrt wid Jglau. — Man omtalar et nytt infaßt i Georgien af Lesgbierne och at Czaar Zeraclius bifswit twungen å nyo begiswa sig under Portens besedd.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Jglau"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  },
+  {
+    "id": "1787:6:nyhet-betjerska-bytet",
+    "label": "Nyhet: Betjerska bytet",
+    "date": null,
+    "address": null,
+    "description": "En tidningsnotis från 1700-talet om ett nytt äventyr i Betjerska bytet.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Okänd tidning",
+      "issue_date": null,
+      "page": null,
+      "archive_ref": "1787.jpg",
+      "original_spelling": "Töln den 25 December. Man börjar a nyo glunka något om Betjerska bytet.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Töln"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  },
+  {
+    "id": "1787:7:siamens-moraliska-regler",
+    "label": "Förbjudet",
+    "date": null,
+    "address": null,
+    "description": "Denna notis anger inte meta-text eller kort sammanfattningar.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Okänd tidning",
+      "issue_date": null,
+      "page": null,
+      "archive_ref": "1787.jpg",
+      "original_spelling": "Innehåvare i Siam. Öfversättn.\nEn oföränderlig wörndan för de gamla dr i Siam grunden til alla dygder och Samhällets föreningsband: Om twåne Officerare rökas lämnar altid den yngre, ehuru af högre rang, företrädet at den äldre, om och denne wore hans Subaltern. Ofauning är straffad ganska strängt, om den framföres inför en Förman. Enighet och hjelpsamhet råder så öfver alt i Slagterne, at man icke en gång träffar någon fattig, om ej en sådan hvilken öfwerlewat all sin Slägt, ty hvor och en, som ej mera orkar arbeta, finner hos sin Slägt alt det bistand och underhåll som han tarfwär. Tiggeri skulle ej allenast vara skamligt för tiggaren hells, utan åfwen för alla dess anhbrige.\nSiamerne anse sköld så wanbederlig, at de närmaste Släktningar icke waga försvara den som därfire misstänkes; Emedertid är detta tankesätt mycket stridande mot Nationens allmänna böjelse för tjusud, den midgana Resebestrisware öntala och hwarc man åfwen haft nog tydelige exempel; Exår Kunging Lu wig XIV i Frankrike låt de från Siam ditkomne Ambasadeurer resa genom Flandern, blef en af Mandas rinerne warfe en yng med Spelpengar, den han genast bortsnappade i tanka at det inneliggande myntet war Ducater; Dagen däpå gaf han en af deze förmente Ducater til belöning at en Laquai; Stölden blef därigenom upptäckt, men man var för högig at därwid göra någon upmärksamhst. — La Labouré omtilar åfwen en svunnerlig handelse tjenlig til bewis af Siamernes starka böjelse til föld: En Ambetss man wid Kungingens Magaziner i Siam blef beträdd med någon tjusud af upburne penningar, och dömd til det swåra dödsstraff, at en wiss quantitée af smält Silsver skulle sippas i halsen på honom; Den som, efter Domens wärckställande, fadermera anbefaltes at uttaga Silsret utur den döda kroppen, kunde ej af hålla sig at undhandölja en del däräf och blef genast dönid at undergå lika dödsstraff med den före; Dc wu utne den andra tjuswens kropp Silsret fullle borttagas, woro twåne så ohyggeliga exempel ej mägtigga nog at afstråma den tredje Siamern från et lika brott; Kungingen, som man förmodade an mer skul-",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Siam"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  }
+]

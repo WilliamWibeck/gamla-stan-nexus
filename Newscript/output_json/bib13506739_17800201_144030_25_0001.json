@@ -1,0 +1,357 @@
+[
+  {
+    "id": "bib13506739_17800201_144030_25_0001:1:dageliga-tidningar",
+    "label": "Dageliga Tidningar",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "Stockholm N:o 25.\n\nDen 1 Februarii 1780, Tisdag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nLördagen och Söndagen den 29 och 30 Januari var väldigt molntäckt med östlig vind. Temperaturerna låg vid 5-6 grader under fristående is på lördagsmorgonen, då solen var upp till 11 grader. På måndagsmorgonen blåste det en smal västlig vind och temperaturen var 10 grader. Baroniet har haft snöfall, men fortfarande hög med 25,68 cm.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 1,
+      "archive_ref": "bib13506739_17800201_144030_25_0001.jpg",
+      "original_spelling": "Stockholm N:o 25.\nDen 1 Februarii 1780, Tisdag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nLördagen och Söndagen den 29 och 30 Jan. beständigt mulit, med Östlig wind. Therm. Här sig vid 5\n@ 6 grad. under frisp. til Söndags öftonen, då földen var 11 gr. Måndags morgonen bläste litet Västan,\nköden 10 grader. Baront. har smäningsom fallit, dock ännu hög 25,68.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0001:2:utlandska-nyheter",
+    "label": "Utländska Nyheter",
+    "date": "1779-02-15",
+    "address": null,
+    "description": "Utländska Nyheter: Madrid den 24 Decemb. Som Amerikanska Congresens befullmäktigade Minister, H:r John Adams och dess sekreterare H:r Dean anlände från Boston till Corona den 15 december. De förväntas vara dagliga besökare i denna etater.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 1,
+      "archive_ref": "bib13506739_17800201_144030_25_0001.jpg",
+      "original_spelling": "Utländska Nyheter:\nMadrid den 24 Decemb. Som Amerikanske Congresens befullmäktigade Minister, H:r John Adams\nettika med dess Secretare H:r Dean den 15 hujus anländt från Boston til Corona, så förewantas de dageligen till denna Etaden.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Madrid",
+        "Boston"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0001:3:paris-d-11-januarii",
+    "label": "Paris d. 11 Januarii",
+    "date": "1780-01-11",
+    "address": null,
+    "description": "Paris d. 11 Januari. Man tror nu att greve d'Estaing, vars befäl över flottan förbättras dagligen, sedan den 6 januari har haft konferenser med kungen, lär åter få tillbaka kommandot över flottan, vilken detta år ska utföra offensiva fältoperationer i Västindien. Planen för nästa års krigståg skall i det närmaste bli den samma som föregående år, nämligen att särskilt angripa engelsmänna i Ostindien och Amerika.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 1,
+      "archive_ref": "bib13506739_17800201_144030_25_0001.jpg",
+      "original_spelling": "Paris d. 11 Jan. Man tror nu at Grefve d'Estaing,\nhwar blesfurer dageligen förbättras och som\nsedan den 6 hujus merendels haft conferencer med Konungen, lärer åter bekomma Commandot öfwer Flotskan,\nvilken detta år offensive fall operera i Westindien. Planen för nästa års krigstog skall i det närme\nbläwa den samma, som förelidne året, nänligent at i synnerhet angriva Engelsmännerne i Ostindien,\nin Amerika och Westindien.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Paris"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0001:4:flottningsuppgifter",
+    "label": "Flottningsuppgifter",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "Flottan i Brest skulle först senare i vår utlämna att observera den engelska flottan, men sedan man föderminnit att den samma galna talrika flottan redan utlupit, såg såväl spanska som franska fartygen fatta ordren att utan drogsamtal gå till sjöss. Och som det är bekant att engelska flottan under amiralerna Rodney och Ross också är ute, syns det mycket troligt att dessa flottor med första lära stöta på varandra.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 1,
+      "archive_ref": "bib13506739_17800201_144030_25_0001.jpg",
+      "original_spelling": "Den combinerade Flotskan i Brest skulle först sent i Vår utläpa, at observera den\nEngelske, men sedan man födnumnit at den samma gansta talrik redan utlupit, hafwa så väl de Spaniske som Franske Skeppen fätt ordres at utan drogsmål gå til sjöos, och som det är bekant at Engelska Flottan under Amiralerne Rodney och Ross också år ute, synes det mycket troligt at dese Flottor med första lära stöta på hwarandera.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Brest",
+        "Vår"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0001:5:london-den-7-jan",
+    "label": "London den 7 Jan.",
+    "date": "1780-01-07",
+    "address": null,
+    "description": "London den 7 Januari. Här omtalas starka rustningar på vår sida i Ostindien för att företaga något mot de spanska kolonierna i Söderhavet, men säkerheten är ännu osäker därom. Troligare är att man först har de Maniliska hamnarna till syfte; de ligger mycket närmare än Peru och Chili. Med mer vishet ses det att våra amiraler Rodney, Digby och Ross återvänder till Gibraltar för att 1:0 inkludera de trupper som de haft med sig, 2:0 före orten med lissinmedel i 18 månader, 3:0 lämna den krigsammunition och 4:0 angripa den spanska eskadern om den träffas; denna sistnämnde består endast av 17 linjeskepp, medan våra styrkor uppgår till 22 linjeskepp utom 10 andra. Paul Jones har ägnat före sin avgång från Amsterdam en präktig aftonmåltid ombord på Skeppet Seraphis, där engelsmän, fransmän, holländare, amerikaner och även Hectar Sayre och Lee deltog.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 1,
+      "archive_ref": "bib13506739_17800201_144030_25_0001.jpg",
+      "original_spelling": "London den 7 Jan. Här ointalas starka rustningar på vår sida i Ostindien at företaga något emot\nde Spaniske Erbolisementerne i Söderhavets, men ännu fäller säkerhet därom.\nTroligare är at man först har de Maniliske Harne til syfretnål; de dro och mycket närmare,\nän Peru och Chili. Med mera wisheit sås ges, at våra Amiraler Rodney, Digby och Ross afgått til Gibraltar för at 1:0 i samma Fästning inklas\nka de Trupper, som de hafta med sig, 2:0 at före orten med lissinmedel för 18 månader,\n3:0 lämina den krigs-amunition och 4:0 at angripa den Spaniske Esquadren, i fall den träffas;\ndenna sistnämnde består blott\naf 17 Linie-Skepp, då döremot våra stiga til 22 Skepp af Linien, utom 10 andre.\nPaul Jones har aftsven före sin afresa från Amsterdam givit en prägtig aftonmåltid om bord på Skeppet Seraphis,\nhwarvid infunnit sig Engelsmän, Fransöser, Holländare, Amerikaner, äwen Hectar Sayre och Lee.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Ostindien",
+        "Söderhavets"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0001:6:brief-fran-neu-york",
+    "label": "Brief från Neu-York",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "En brev från New York berättar att den amerikanska kongressen återigen avbrutit utväxlingen av fångarna som tagits under kriget. General Washington är sjuk och har blivit anfallen av hemicranie.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 1,
+      "archive_ref": "bib13506739_17800201_144030_25_0001.jpg",
+      "original_spelling": "Entigt brief frän Neu-York har Amerikanske Congresen åter afbrutt utvärlingen af de under kriget tagne fångar. Ges\nneral Washington skall vara sjuklig och hafwa blifwit anfallen af hectique.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Neu-York"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0001:7:krigsskepp-vid-tago",
+    "label": "Krigsskepp vid Tago",
+    "date": "1779-12-17",
+    "address": null,
+    "description": "Lissabon den 17 Dec. Krigsskeppet St. Johannis väntar bara på vind för att avgå från Tago, det har två compagnier infanteri och två dito artilleri om bord; ett annat krigsskepp med 64 kanoner och ett tredje transportfartyg ska följa detta, som bär sex compagnier infanteri och artilleri. Svarta dessa fartyg och trupper skall gå, är ännu en hemlighet, men det sägs att deras avgång blivit förberedd genom telegraf från vår ambassadör i Madrid.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 1,
+      "archive_ref": "bib13506739_17800201_144030_25_0001.jpg",
+      "original_spelling": "Lissabon den 17 Dec. Krigs-Skeppet St. Johannis, väntar blot på wind för at afgå från Tago,\ndet har 2 Compagner Infanteri och 2 dito Artillert om bord;\nEt annat Krigs-Skepp om 64 Canoner och\n3:ne Transport-Skepp skola följa detta, som föra 6 Compagner Infanteri och Artillert.\nSwart dese Skepp och Trupper skola gå, är ännu en hemlighet,\nmen det säges, at deras afsandande blifwit föranlätt igenom\ndepescher frän vår Ambassadeur i Madrid.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Lissabon",
+        "Tago"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0001:8:bastia-pa-corsica",
+    "label": "Bastia på Corsica",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "Bastia på Korsika den 27 december.\n\nPå svårforcerade platser vid vår Sankt-Nicolas nya fästningsverk, där\nekl! var komendant greve Marbeuf gift med Plan;\ndet ser ut som vi hade att befarar något anfall från\nsjösidan; även skulle matroser värvas.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 1,
+      "archive_ref": "bib13506739_17800201_144030_25_0001.jpg",
+      "original_spelling": "Bastia på Corsica d. 27 Decemb.\nPå åtfällige ställen of vår Sankäggas nya Fästningswerk, hwar\nekl! var Commendant Grefve Marbeuf giftwit Plan;\ndet ser ut som wi hade at befara något anfall från\nsjösidan; äwen skola Matroser værfwas.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bastia",
+        "Corsica"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0001:9:handelsforbundet",
+    "label": "Handelsförbundet",
+    "date": "1779-02-27",
+    "address": null,
+    "description": "Dublin den 29 december.\n\nPå den 27 december huvudsakligen glada tidningen om Konungens godkännande av en ny handelskontrakt för detta kungariket,\nhade alla möjliga fröjddebetygelser anställda med illustrationer, etc.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 1,
+      "archive_ref": "bib13506739_17800201_144030_25_0001.jpg",
+      "original_spelling": "Dublin d. 29 Decemb.\nPå den d. 27 hujus inlupne glada tidningen om Konungens bifall til en fräk Handel för detta Konungarke,\nhafwa alla möjelige frögddebetygelser blifwit anstäldte med illuminationer, rc.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0001:10:ebrande-tjanstefolk",
+    "label": "Ebrande Tjänstefolk",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "Slutet av artikeln om brandtjänstemännen. (Se Gårdbagsbladet.) Jag tror mig inte säga för mycket, och jag påstår att alla författningar som beforder folk-nummerns förökande, dro utan all nyttä, ja, snarare fadeliga om de ej beledsagas med andra lagar som har till mål den tillvarande ungdomens syslosättande med losliga närningar. Häribland en visligent inräckad legohjons-stadga är så mycket omisseligare, som att den arbetande hopens förnämsta yrke hos oss är och bör vara jordbruket, och därnäst handailldader och stads-närningar, vilka av ett till sin högd drifwit fördbruk vinner både rudinamaterier, underhåll för arbetarne och affärning. Och som hwarken landtmanna- eller",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 1,
+      "archive_ref": "bib13506739_17800201_144030_25_0001.jpg",
+      "original_spelling": "Slut af Artikeln, ebrande Tjänstefolk.\n(Se Gårdbags-Bladet.)\nJag tror mig således ej säga förmycket,\nok jag påstår, at alla författningar,\nsom beforder folk-nummerns\nförökande, dro utan all nyttä, ja,\nsnarere fadeliga, om de ei beledsagas med andra Lagar,\nsom hafwa til föremål den tillvarande ungdomens syslosättande med losliga närningar,\nhwaribland en wisligent inräckad\nLegohjons-Stadga är så mycket omisseligare, som at den arbetande hopens förnämsta yrke hos os åe och bör\nvara Jordbruket, och därnäst Handailldader och Stads-närningar,\nhvilka af et til sin högd drifwit Fordbruk\nwinna både Rudinamaterier, underhall för Arbetarne och affätning.\nOch som hwarken Landtmanna- eller",
+      "category": "fire",
+      "themes": [
+        "Fires & Accidents"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Tjänstefolk"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

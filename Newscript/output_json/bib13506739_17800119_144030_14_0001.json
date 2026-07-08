@@ -1,0 +1,138 @@
+[
+  {
+    "id": "bib13506739_17800119_144030_14_0001:1:dageliga-tidningar",
+    "label": "Stockholm",
+    "date": "1780-01-19",
+    "address": null,
+    "description": "Dageliga Tidningar, Eller: Dagligt Allehanda.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-19",
+      "page": 1,
+      "archive_ref": "bib13506739_17800119_144030_14_0001.jpg",
+      "original_spelling": "Stockholm N:o 14.\nDen 19 Januarii 1780, Onsdag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nMåndagen den 17 Jan. mulit hela dagen, först med litet snö, men mot aftonen xägn. Thermom. om middagen just på friss-punten, men om aftenen 1 grad och Tisdags morgonen 2 grader öfver densamma, således td. Barom. har ån widare fallit til 24,70. Wädret Månd. S. D. 2 a 3 gr., i går Sunnan 3 grad der, mulit.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  },
+  {
+    "id": "bib13506739_17800119_144030_14_0001:2:polisen-i-stockholm",
+    "label": "Polisen i Stockholm",
+    "date": "1780-01-19",
+    "address": null,
+    "description": "Strödda tankar om Polisen i Stockholm. Man säger att denna tidens Police-ordningar är förträffliga och handhafvas på bästa sätt, men det kan inte uträtta allt på en gång. Många ting beror på speciella inrättningar som måste existera innan ett gott ändamål kan nås. Till exempel: Polisen gör sin yttersta för att rensa staden från viuswar, waldswarkare och andra elaka människor. Men kan Polisen göra mer än att upptäcka och straffa brottsliga? Det sker med en fermete som övergår vad man funnit vånta. Men, om man undantagar sådana brott, efter lagarna följer fäsnings- eller tuckhus-arbete, så slåpas andra brottsliga lösa sedan de undergår corporelt kraff. När straffet är nesligit, som spöslitande, blir den afstraffade icke vidare liden bland ärligt och bekedeligt folk: En ambition som bland folket gerna må undhållas. Men däraf följer att nesliga straff sällan tjänar till förbättring: ty den brottslige, skild ifrån godt folks gemenskap och ifrån utvägar till loflig förstienst, fortfar att föda sig genom bof-stycken. Det kan ingen Police hjälpa med mindre straffet för vissa brott förvandlas till mindre nesligit, och tillika de ansträngningar vidtagas att vanartiga personer sätts under säkert förewar till något nyttigt arbete. Vara tuckhus inrättningar är på den sidan icke tillräckliga. Man måste därför kunna finna flera utvägar. Jag vitt nämner en, vid vilken allena många personer kan hållas till arbete och därvid betala både föda och waktilläning. Stockholms belägenhet har av naturen många förmanar; men man saknar likväl nödiga vatt-fall för Wuinwerk, Dväran, Stainvar, Sågar, med flera inrättningar som behöver vattu-drift: och det är icke någon obekant sak att täratta Hjul som drivs med trampning av människor. Det brukas underfundom vid Mgsugnar och upfordrings-werk när täcka infaller och drive-watten tryter. När hjulet har riktig circumference, kan efter därvid fogade inrättningar särktila beskaffenhet 2 eller 4 personer under ombyte hvarannan timma äfstadkomma den jämna rörelse som behöfs. När ett eller flera Hjul är inöygda i ett Hjulthus, och i ett och samma hus eller innan samma utanväggar ett fänges-rum, kan de inneslutna personerna icke längre komma ån till hjulen och i fängrummen; en vakt-betjent kan alltså förvarga sär-arbetande fångar, och på hjulens gång strax finna om de gör deras skyldigheter eller ej. Har någon begått sådant brott att det efter Lagarne bör umgällas med vatten och bröd eller med spö-slitande, synes han däræfter dess mindre böra släppas på fri fot utan börda till dey han visar huru han sig ärligen föda kan; äfven på enahanda sätt förvaras och hållas till arbete, på det han icke framgrent må blisva et fade-djur i Samhället. Frike och färdige tiggare kunde också på jike ställen sygelåttas, då deras antal snart skulle minkas.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-19",
+      "page": 1,
+      "archive_ref": "bib13506739_17800119_144030_14_0001.jpg",
+      "original_spelling": "Strödda tankar, rörande Polisen i Stockholm.\nHwar och en måse medgifwa at denna tidens Police-ordningar äro förträffliga, och at de på bästa sätt handhafwas! men alt kan ombjeligen på en gång uträttaas. Mycket kan bero på särskilda inrättningar, som måste gå föreut, innan et godt ändamål kan winnas. Til exempel: Polisen gör sin yttersta sif at rensa Staden ifran viuswar, waldswarkare och andra elaka menniskor. Men kan Polisen göra mera, än at få de brottslige upptäcke och straffade? Det sker med en fermete, som öfvergår ast hvad man funnat vånta. Men, då man undantager sådana brott, hwar efter Lagarna följer fäsnings- eller tuckhus-arbete, så slåpas andra brottslige löse sedan de undergått corporelt kraff. När straffet är nesligit, såsom spöslitande, blie den afstraffade icke widare liden bland ärligt och bekedeligt folk: En Ambition, som bland folket gerna må undhöllas. Men däraf följer at nesliga straff sällan tjena til förbättring: ty den brottslige, skild ifran godt folks gemenskap och ifran utvägar til loflig förstienst, fortfar at föda sig genom bof-stycken. Det kan ingen Police hjelpa, med mindre straffet för wisa brotts förwandlas til mindre nesligit, och tillika de anstalter widtagas, at wanartige personer sättaas under säkert förewar til något nyttigt arbete. Wära tuckhus inrättningar äro på den sidan icke tilräckelige. Man måtte altså kunna påfinna flere utvägar. Jag wit nämna en, wid hvilken allena många personer kan hållas til arbete, och därvid betala både föda och waktilläning. Stockholms belägenhet har af naturen många förmanar; men man saknar likväl nödige watt-fall för Wuinwerk, Dväran, Stainvar, Sågar, med flere inrättningar, som behöva wattu-drift: och det är icke någon obekant sak, at täratta Hjul som drifwas med trampning af menniskor. Det brukas underfundom wid Mgsugnar och upfordrings-werk när täcka infaller och drive-watten tryter. När hjulet har riktig circumference, kunna, efter därvid fogade inrättningar särktila beskaffenhet, 2 eller 4 personer under ombyte hvarannan timma, äfstadkomma den jämna rörelse som behöfs. När et eller flere Hjul äro inöygde i et Hjulthus, och i et och samma hus eller innan samma utanväggar et fänges-rum, kunna de inneslutne personerne icke längre komma ån til hjulen och i fängrummen; en wakt-betjent kan altså förvarga säre arbetande fångar, och på hjulens gång strax finna, om de göra deras skyldigheter eller ej. Har någon begått sådant brott at det efter Lagarne bör umgällas med watten och bröd eller med spö-slitande, synes han däræfter dess mindre böra släppas på fri fot, utan börda, til dey han visar huru han sig ärligen föda kan, äfven på enahanda sätt förvaras och hållas til arbete, på det han icke framgrent må blisva et fade-djur i Samhället. Frike och färdige tiggare kunde också på jike ställen sygelåttas, då deras antal snart skulle minkas.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  },
+  {
+    "id": "bib13506739_17800119_144030_14_0001:3:auktion-tramp-hjul",
+    "label": "Auktion: Tramp-hjul",
+    "date": "1780-01-19",
+    "address": null,
+    "description": "Nu omtalas inrättningar av tramp-hjul för målder, för vattu-pumpning vid Krono Brännerier och till vattuleddningar, för stampning, för vädsägning, med mera. Dessa skulle oförlåteligen gå bort med dubbelt fäng-tractamente, när man besinner sig på vad det nusörtiden fökar att göra en del av dessa arbeten med lego dags-verken och hästar, och för andra behov äter fådas längre vägar till de ställen där vattuall staines: och anfört ingen eller söga besparing wove i kostnaderne. Borde det allena anses för mycken winning att Residencets Jawänare hade mera säkerhet för lösa, elaka och lidertlige människor.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-19",
+      "page": 1,
+      "archive_ref": "bib13506739_17800119_144030_14_0001.jpg",
+      "original_spelling": "Nu omtalte inrättningar af tramp-hjul för målder, för wattu-pumpning wid Krono Brännerierne och til wattuleddningar, för stampning, för wedsägning, med mera, skulle ofelbart ganka väl båra sig åfwen med dubbelt fäng-tractamente, när man besinnar hvad det nusörtiden fökar at göra en del af dessa arbeten med lego dags-werken och Hästar, och för andra behof äter fådas längre vägar til de ställen där wattuall staines: och anfört ingen eller söga besparing wove i kostnaderne, borde det allena anses för mycken winning, at Residencets Jawänare hade mera säkerhet för lösa, elaka och lidertlige människor.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Krono Brännerierne"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  },
+  {
+    "id": "bib13506739_17800119_144030_14_0001:4:stockholms-stad",
+    "label": "Stockholms Stad",
+    "date": "1780-01-19",
+    "address": null,
+    "description": "Nu till ett annat ämne. Stockholms Stad har inom en tid av 30 år onsenligt förföcat sig till sitt utseende genom stora och vackra Stenhuse-buggnader. Men icke dess mindre är ännu bibehållna ifyllige usta Träbygghader, en del fästunke så långt att fösten äro under eller jämmt med gatan, så att vatten mëste ofhållos genom sin fördamningar. Slike Hus kunna lätteigen åfstadkomma sfora elsdador och är där jämkte så osunda att de kunna utsvrida snittosamma fuktdonar öfwer Staden. 1751 och 1759 års brandsador lärta kostadt Brand-Absceurance-Contoiret öfwer 200,000 R:dalers specie. Elden hade wid intetdera tils",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-19",
+      "page": 1,
+      "archive_ref": "bib13506739_17800119_144030_14_0001.jpg",
+      "original_spelling": "Nu til et annat ämne. Stockholms Stad har inom en tid af 30 år onsenligen förföcat sig til sit utseende genom stora och wackra Stenhuse-buggnader. Men icke dess mindre åro ännu bibehållne ärifkillige usta Träbygghader, en del fästunke så längt, at fösten äro under eller jämmt med gatan, så at wattinet mëste ofhållos genom sin fördamningar. Slike Hus kunna lätteigen åfstadkomma sfora elsdador och äro där jämkte så osunda, at de kunna utsvrida snittosammina fuktdonar öfwer Staden. 1751 och 1759 års brandsador lärta kostadt Brand-Absceurance-Contoiret öfwer 200,000 R:dalers specie. Elden hade wid intetdera tils",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  }
+]

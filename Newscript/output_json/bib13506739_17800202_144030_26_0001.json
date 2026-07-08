@@ -1,0 +1,221 @@
+[
+  {
+    "id": "bib13506739_17800202_144030_26_0001:1:dageliga-tidningar",
+    "label": "Dageliga Tidningar",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "Stockholm N:o 26.\nDen 2 Februarii 1780, Onsdag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nMåndagen den 31 Januari. Aldeles mulet. Idag bläst. Kölden om middagen 6 grader under fryspunkten, och om aftonen så väl som Eke dags morgonen 7 grader under fryspunkten. Barometer: 25,57. Dimma. Våg.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 1,
+      "archive_ref": "bib13506739_17800202_144030_26_0001.jpg",
+      "original_spelling": "Stockholm N:o 26.\nDen 2 Februarii 1780, Onsdag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nMåndagen den 31 Jan. aldeles mulet. Idga bläst. Kölden om middagen 6, om aftonen så väl som Eke dags morgonen 7 grader under fryspunten. Barom. 25,57. Dimba. Vugt.\nStrödda Tidningar.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0001:2:rycket-vid-spaniska-hofvet",
+    "label": "Rycket vid Spaniska Hofvet",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "Ryssland ska nästa vår sända England 21 linjeskepp och 9 fregatter till hjälp; det föreslås att omkring 15000 ryska trupper skall gå till England, vilket fördrar någon säkerhet. Engelska hovet har nyligen fått flera telegrafier från sina ministrar vid de tyska och norska hoven, vars innehåll föranläggat flera rädslapådragningar. Man säger att de ombuda förmedlar en fredlig intenção mellan några neutrala makter, som ska arbeta för att återställa freden mellan krigande makterna och att det då skulle bli nödvändigt att uppfylla sina allierade förbindelser mot alla hinder till ett önskat fredsåtagande. Från Paris har telegrafier ankommit till London; de ska innebära en försoningsintention som Doctor Franklin gjort i Congresens namn.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 1,
+      "archive_ref": "bib13506739_17800202_144030_26_0001.jpg",
+      "original_spelling": "Rycket går det Spaniska Hofvet västare, at Portugisske Hofvet måtte förklara sig om det vil taka partie för Spanien, eller för Engeland, och ståll denne saken nu vara et ämne för Ministeereens öfverläggningae i Lissabon.\nDet fördjudes, at Ryssland nästa vår skall sånda Eng. med 21 Linie-Skepp och 9 Fregatter till hjälp; åfswen omtalas 15000 man Ryske Trupper, som skola gå til Engeland, hvilket alt dock fördrar nåkvarne säkerhet.\nEngelska Hofvet skall nyliet haftwa århullit atfyllige Depescher från deß Ministrar wid de Tyske och Norske disse Hofwen, hwilkas innehåll föranlättit flere rädplägningar. Man säger at de ombra wisa makt och ske, som skola vara tagne emellan några Neutrale Magter, at werka fredens återställande emellan de krigande Magsterne, och at, i den händelse, devas beinödning skulle blifiva fruktldst, de då ville upfylla wisa förbindelser emot sina Allierade, som torde undanrödia alla hinder til en önskelig fredss århållande. Från Paris haftwa äfswen depescher ankommit till London; de skola innebära wisa försonings-wilker, som Doctor Franklin gjort i Congreßens namn.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Spaniska Hofvet",
+        "Portugisske Hofvet",
+        "Lissabon"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0001:3:rejsaren-af-marocce-belagrar-ceuta",
+    "label": "Rejsaren af Marocce belägrar Ceuta",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "Rejsaren från Marocko har med 80,000 soldater belägrat den spanska fästningen Ceuta; om detta är sant, kommer Gibraltar att få en del friskluft.\nEnligt säkrare tidningar. Franska sjöflottan består av 92 och den spanska av 67 linjeskepp, alltså totalt 159 fartyg, utom fregatter och mindre fartyg.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 1,
+      "archive_ref": "bib13506739_17800202_144030_26_0001.jpg",
+      "original_spelling": "Rejsaren af Marocce skall med 80,000 man hafwa belägrat Spaniske Fåstningen Ceuta; om så är, torde Gibraltar få någon luft.\nEnligt säkere tidningar. Fall Franse Sjömagten bestå af 92 och den Spaniske af 67 Linie-Skepp, altse 159 Skepp tilhopa, utom Fregatter och mindre Fartyg.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Ceuta"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0001:4:testament-till-general-washington",
+    "label": "Testament till General Washington",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "Grefve Pulawski, som tillsatte livet för sina fängslade slavar vid Savannah, har före sin död testamenterat General Washington sin arv; en fransk dam, som bodde hos honom, samt alla övriga slavägare.",
+    "resident": "Grefwe Pulawski",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 1,
+      "archive_ref": "bib13506739_17800202_144030_26_0001.jpg",
+      "original_spelling": "Grefwe Pulawski, som tilsatte lijivet af sine undfängne blesfurer wid Savannah, har fort före sin död testamentarat General Washington sin Wärja; en Franck Dame, som leswar hos honom, jämte all öfriga swarlätenkap.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Grefwe Pulawski",
+          "role": null
+        },
+        {
+          "name": "General Washington",
+          "role": null
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0001:5:fragas-kannare-af-skadespel-eller-theatraliske-actioner",
+    "label": "Frågas kännare af Skädespel eller Theatraliske Actioner",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "Frågar kännare av skädespel eller teatraliska handlingar: Om det på något sätt kan påse sig att komma överens med anständigheten, med aktingen för utföraren och för personen själv, som spelar första rollen eller föreställer en kung, så att hon bör utmärka lednad, missnöje eller oro, men inte gapa eller skratta på scen flera gånger, utan av någon convulstiv eller krampaktig fysisk rörelse, som man ofta inte förmår att hålla tillbaka; ty i sådana fall plågar man vissa sin akting emot de närvarande därmed med, att man med någon hand kläder eller solfsjäder döljer sådan och skyler gavet, utan förmodligen i den tanken och efter överläggning, att med sådan åtbörd uttrycker sin oroliga, ledna eller missnöjda besläktadhet? Måne säga, detta val av gester i ett dyligt teatraliskt scen är i högsta grad misstagit och olämpligt i en kungens eller första rollens uppsättning, i betraktande på personen själv som representerar, och minns att anständigt i betraktande till det val av åtbörd där personer, som vissa sig på vår tiltagande varande teater, börta besluta sig, vilket mycket mögt ligger för spektaklets skul och vilket är ganska granläggda. Utbörderna och spelet på teatern utmärks stiglichkeiterna och förvänta hedren att aktören och atriceen; åfvensom planen, sammansättningen och utförandet förvänta ära att auctorn till ett teatralistiskt stycke.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 1,
+      "archive_ref": "bib13506739_17800202_144030_26_0001.jpg",
+      "original_spelling": "Frågas kännare af Skädespel eller Theatraliske Actioner: Om det väl på något skälle kan påsa sig elles komma öfwerens med anständigheten, med aktingen för Ufsädaren och för Personen sjelf, hvilken spelar första Rolen eller föreställer en Drotten, at då hon bör utmärka ledsnad, misnöje eller oro, gapa elserler gåspa på Theatren flere gånger, icke af någon convulstiv eller krampaktig physisk rörelses drift, den man ofta ikke förmirar at hålla tilbaka; ty i sådant fall plågar man wisa sin akting emot de närvarande därmed med, at man med någondera handen, Klade eller Solfsjäder döljer sådan och skyler gavet, utan förmodeligen i den tankan och efter öfverläggning, at med sådan åtbörd uttrycks sin oroliga, ledna eller misnögda besläghet?\nMåne, säger jag, icke detta val af geste uti et dyligt Theatraliskt Scel är i högsa måtton mistagit och olämpeligt uti en Drottnings eller de första Rolerne, i aßeende på Personen sjelf som representerar, och mins hre anständigt i afseende til det val af åtbörs der hvorom personer, som wisa sig på vår tiltagande warande Theater, börta beslita sig, hwarpå mycket mögt ligger för Spectaclets skul och hvilket är ganika granlägga. Utbörderne och spelet på Theatern, utmärska sticlichkeiten och förwärftwa hedren at Acteuren och Aetriceen; åfswen som Planen, sammansättningen och utförandet förwårwa ära at Auctorn til et Theatralist Stycke.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Theatern"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0001:6:auktion-patron-taskor-for-kgl-lif-gardes-behof",
+    "label": "Auktion: Patron-Taskor för Kgl. Lif-Gardes behof",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "Den 9 oktober sammankallades samtidige ambetsledamöter av rådmannen Fink i samråd med sin bror och besökaren Fink genom ungmejaren Olof Björklund klockan 5 på kvällen. Efter ledamöters enhälliga inställelse i bemålade rådmans hemvist, gav rådmannen tillsåtliga detaljer om hur sammankallningen skedde av denna orsak: att den dag därpå, eller den 10:e oktober klockan 12, skulle det hållas en auktion för militära uniformer och patrontaskor för Kungliga Livgardet vid Kunglig Majestätens och Rikets höghöftade krigskollegium. Då ville han söka förmå samtidiga ambetsledamöterna till enhällig överenskommelse att bemålade rådmannen el:",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 1,
+      "archive_ref": "bib13506739_17800202_144030_26_0001.jpg",
+      "original_spelling": "Den 9 sskledne Novemb. låt Sadelmakare: Alderman Fink, i råd med des Broder, Visittaren Fink, ge- nom Ung-Mästaren Olof Björklund, til sig sammankallg samtelige Ambets-Ledamöter klockan 5 gin af- tonen. Efter Ledamöters enhälliga inställelse i bemålte Aldermans hemwist, gaf Aldermannen tillsåna, huruledes samrankolleslen skedt af den orsak, at som dagen därpå, eller den 10:de, kl. 12, uti Kgl. Majts och Rikssens Höglöft. Krigs-Collegio fülle anställae Auction å Patron-Taskor för Kgl. Lif-Gardes behof, så wille han då söka förmä Ambets-Ledamörne til den enhälliga öfwerenskommelße, at bemålte Alderman el:",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kgl. Majts och Rikssens Höglöft"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

@@ -1,0 +1,509 @@
+[
+  {
+    "id": "bib13506739_17800210_144030_33_0004:1:kokspiga-och-piga-sokes",
+    "label": "Kökspiga och Piga sökes",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "I modern tidningsskrift åsundas en trogen och beskedlig kökspiga, som är någorlunda van vid matsagnin, äfven hos en flicka som är van vid att jorda kreatur; närmare underrättelse lämnas där dessa tidningar utges.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "I kjenst åsundas en trogen och beskedelg Køkspiga, som är någorlunda van vid matsagnin, äfvenles hos en Piga som är van vid at jorda kreatur; närmare underrättelse lämnas där dessa Tidningar utgiswas.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:2:skuldfordrings-mal-kasimereraren-johan-hindrie-upmarks-sterb",
+    "label": "Skuldfordrings-Mål: Kasimereraren Johan Hindrie Upmarks Sterbhus",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "Skuldfordrings-Mål: De som veta sig vara skyliga eller hafta att fördra i asledne Kasimereraren Johan Hindriks Upmarks Sterbhus, behagade ofördröjeligen för Houpstecknings Skuld fälg sig hos undertecknad instana, som bor i hörnhuset N:o 31 af St. Clara Norra Kyrkogata och Bergsgränd, och träffas alla morgnar innan 9 och eftermiddagar ifrån 3 till 4. Stockholm den 8 Februarii 1780.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "Skuldfordrings-Mål: De som weta sig vara skylige eller hafta at fördra i asledne Kasimereraren Johan Hindrie Upmarks Sterbhus, behagade ofördröjeligen för Houpstecknings Skuld fälg sig hos undertecknad instana, som bor i hörnhuset N:o 31 af St. Clara Norra Kyrkogata och Bergsgränd, och träffas alla mornar innan 9 och eftermidagdar ifrån 3 til 4. Stockholm den 8 Februarii 1780.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "hörnhuset N:o 31 af St. Clara Norra Kyrkogata och Bergsgränd"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:3:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-10",
+    "address": "Stortorget",
+    "description": "De som hafta att fördra eller varit skickliga uti asledne Skeppare-Äldermannen Petter Wassbergs Sterbhus, behagade i anseende till förestående Boupsteckning, sådant ju förr des hälde och sii innom denna månads slut hos Sterbhuset animala.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "De som hafta at fördra eller åro skylige uti asledne Skeppare-Äldermannen Petter Wassbergs Sterbhus, behagade i anseende til förestående Boupsteckning, sådant ju förr des hälde och sii innom denna månads slut hos Sterbhuset animala.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:4:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-10",
+    "address": "Stortorget",
+    "description": "De som vänta sig emot Reverser eller pant lät några penningar av nu mera asledne Byggare-Drängen Nils Söderholm, behagade ju förr dess hälde gifva sig tillkännahålla hos Vaktmässaren Hjerpe vid Kungl. Polizei-Kammaren.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "De som weta sig emot Reverser eller pant lant några penningar af nu mera asledne Byggare-Drängen Nils Söderholm, behagade ju förr des hälde gifwa sig tilkänna hos Vaktmässaren Hjerpe wid Kungl. Polizei-Kammaren.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kungl. Polizei-Kammaren"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:5:rungorelser-vid-stadens-byggwarck",
+    "label": "Rungörelser vid Stadens Byggwärck",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "Verschiedene Handlanger: Da die Handlanger wie Eric Söderström, Erle Naquet, Ele Swedman, Carl Froling, Jonas Hiortman und Carl Lindstedt sich aus dem Stadtbau zurückziehen, ohne dass ich über ihre Kenntnisse informiert wurde, obwohl sie nach den Reglementen für die Krono-Urskylders Bezahlung und die Einrichtung des Feuerlöschers usw. verantwortlich sind; Andererseits wurden mir von der Stadts Bau- und Verwaltungs-Kollegie Befehle erteilt, dass diese Stadt-Handelsherren oder solche, die außerhalb der zuständigen Grenzen der Stadt gearbeitet haben, in den nächsten Wochen oder Monaten bei mir gemeldet werden müssen. Ansonsten bleiben sie als geheimhaltende Handlanger unter dem Schutz und mit der Gefahr des Verlustes für die Arbeitsabteilung und die höheren Würden wie Löschgeräte usw.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "Diverse Rungörelser: Som Handslangarne wid Stadens Byggwärck Eric Söderström, Erle Naquet, Eele Swedman, Carl Froling, Jonas Hiortman och Carl Lindstedt sig undanhålla ifran Stadens arbete, utan at någon kundskap om deras wistande blisvrit mig tifäanna gifven, ehuru de likval är skylige, at enligt Reglementet, mig som för deras Krono-Urskylders betalande och Enpouistering wid Eldsputan m. m. måste göra redo, därom undervätta; Alesa och til följe af Stadens Uole Byggnings- och Ambets-Collegiit mig gifne Ordres, warda dese Stads-Handslangare eller de, som dem, utom behördt asfled från Staden i tienk hafta eller bysa, härigenom afsvarsfamiljen och månliga anmante och pämnte, at innom denna månads slut hos mig sig annäla, eller om dem kundskap lämnas, i annor händelse blisva hemlade Handslangare Stadens beskydd och förswar förlustiga, utur Arbets-Rullan utstruckne och å Högwerderbellig ort såsom Løsdrifware angifne. Stockholms Stads Byggnings- och Ambets-Collegiit Bokhållere-Contoir den 5 Februarii 1780.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stadens Byggwärck"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:6:stadens-byggnings-bokhallare",
+    "label": "Stadens Byggnings-Bokhållare",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "Nils Lud. Thäström, stadens byggnadsförvaltare.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "Nils Lud. Thäström, Stadens Byggnings-Bokhållare.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:7:auktion-mobler-vid-kgl-djurgarden",
+    "label": "Auktion: Möbler vid Kgl. Djurgården",
+    "date": "1778-11-21",
+    "address": "Djurgården",
+    "description": "Den 21 november 1778 svor trädgårdsmästaren Carl Fr. Lindström hanat vid Kungliga Livgardet t.o.m. en tid till skänkning att följa denna i därav följande maji vara fri och så växas på Kungliga Djurgården hos sjökaptenen Helz denberg, of hvariken han hade en trädgård under arrendet; men 1779 efter julen har denne Lindström olosligt praktiserat sig bort med huset och barn samt små husgeråd, utan att man kunnat få spänning till vilken landsort han sig giftit; och som han förmodligen antagit trädgårdsmästare-tjänst, så varden b. måls te Lindström härigenom efterloft, med anmodan att eho som äger underrättelse hvar han växas, wille sådant hos Regements-Wöbelen Sundin vid Kungliga Livgardet angiswa, hvilken träffas alla dagar vid Kungliga Hög-wakten, hwaremot den som hans vistande rättiligen angifwer skal undå två R:daier specie i wedergällning; warandes denne Lindström en stor wacker Karl med något långlagt ansigte om 32 års äldre.",
+    "resident": "Carl Fr. Lindström",
+    "lat": 59.3251676,
+    "lng": 18.1216057,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "Den 21 Nov. 1778 swor Trägårdsmäst. Carl Fr. Lindström Hanan wid Kgl. Lif-Gard t. men er:til till skänd at til d. i därva följande Maji vara fri och så wissas på Kgl. Djurgården hos Sjö-Capitainen Helz denberg, of hwariken han hade en Trägård under arrende; men 1779 efter Julen har denne Lindström olosliggen practicerat sig bort med huset och barn samt små Husgeråd, utan at man kunnat få spaning til hvilken Landsort han sig begiftwit; och som han förmodeligen antagit Trägårdsmästare-tjenst, så warden b. måls te Lindström härigenom efterloft, med anmodan at eho som äger underrättelse hwar han wissas, wille sådant hos Regements-Wöbelen Sundin wid Kgl. Lif-Gardet angiswa, hvilken träffas alla dagar wid Kgl. Hög-wakten, hwaremot den som hans wistande rättiligen angifwer skal undå twa R:daier specie i wedergällning; warandes denne Lindström en stor wacker Karl med något långlagt ansigte om 32 års älde.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Carl Fr. Lindström",
+          "role": "Trägårdsmästare"
+        }
+      ],
+      "locations": [
+        "Kgl. Djurgården",
+        "Sjö-Capitainen Helz denberg"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Djurgården",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:8:anknytning-bref-isran-till-stockholm",
+    "label": "Anknytning: Bref isran till Stockholm",
+    "date": "1779-12-13",
+    "address": "Skeppsbron",
+    "description": "I december månad gick en bref från Västerås till Stockholm med en frakt från Åkesfor. Magdalen Elisabeth Söderhielms inbjudan till ett spel den 13 december 1779, nummer 73 för 83 riksdaler och 16 skillingar, var betald av herrarna Deneke & Pomcreiche, men samma inbjudan hade inte någon ägare fått till handen. Därför anmodades den som ägde eller fortfarande fick någon upplysning om detta, med en beklagelse för eventuella skador, att ge svar i huset nummer 19 vid Skeppsbron, eftersom man inte kunde ta hand om det på grund av att inbjudan var förbud.",
+    "resident": null,
+    "lat": 59.3242474,
+    "lng": 18.0754548,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "Uti förleden December månad afgick i Bref isran Wästerås til Stockholm, en Fra Åkesforjan Magd. Elisabeth Söderhielms Inwising af den-13 December 1779 unde N:o 73 for 83 R:daier 16 s. spele, at af Herrar Deneke & Pomcreiche betalas, men som samma Abignation icke jedermerga kommit sin ägare tilhanda; alesa anmodad den, som därom äger eller framdeles får någon underrättelse, emot ndaktig wedergällning, sådant tifäanna gifwa i huset N:o 19 wid Skeppsbron, kunnandes ingen sig daaraf betjåna, emedan bemälte Abignation til inleden är förbudne.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bref isran",
+        "Stockholm",
+        "Skeppsbron"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Skeppsbron",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:9:laneutdelning",
+    "label": "Låneutdelning",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "Om någon ädelmodig och dunsikt människo, som den högsta välsignat med förmidgenhet att kunna göra gott, töcktes till upkomst för en lönlös, dock hedelrig. Man med husvå och några smärre barn, varav det ena ännu ej kan hjälpa det andra, försträcker 100 plåtars pengelån på ett års tid emot förkrising och ndsjaktig räntas avläggande, till dess rörelse uti en liten och anständig näringsgren. Så behagade gunstig as drevs därmed lämnas genom en förseglad billett till K.L. uti Snusboden gentemot Kungl. V:z-Contoirer.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "Om någon ädelmodig och dunsikt Mennisko-wän, som den Högsta wälsignat med förmidgenhet at kunna göra gode, töcktes til upkomst for en lönlös, dock hedelrig. Man med Huswå och några smärre Barn, hwaraft det ena ännu ej kan hjälva det andra, försträcka 100 Plåtars penningelan på et års tid emot förkrising och ndsjaktig räntas avläggande, til des rörelse uti en liten och anständig Närings-gren, så behagade gunstig as dres daarom lämnas genom en förseglad Billet till K. L. uti Snusboden gent emot Kungl. V:z-Contoirer.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Snusboden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:10:carl-fr-lothmans-ankomst-till-stockholm",
+    "label": "Carl Fr. Löthmans ankomst till Stockholm",
+    "date": "1780-02-10",
+    "address": "Nöre wid Stora Badstugugatan",
+    "description": "Efter flera månader förväntade vi Ombudsman Carl Fr. Löthmans ankomst till Stockholm, men vi vet inte var han nu befinner sig. För att få veta hans plats och adress, har jag beslutat att lämna underrättelse hos Victu-akichondlaren Wickman på Nöre vid Stora Badstugugatan, mot betänkande om detta.",
+    "resident": "Carl Fr. Löthman",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "Emedan man flere månader förväntat Here Ombudsman Carl Fr. Löthmans ankomst hit til Stockholm, och man icke vet hwarest han nu för tiden wissas, ty behagade den, som med wisshet h:wer sig bekant bemäste Ombudsman Löthmans ställe och hwarest han bor, benägit lämna daarom underrättelse hos Victu-akichondlaren Wickman på Nöre wid Stora Badstugugatan, emot betdnings deniutande.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Carl Fr. Löthman",
+          "role": "Ombudsman"
+        },
+        {
+          "name": "Victu-akichondlaren Wickman",
+          "role": "Victuarian"
+        }
+      ],
+      "locations": [
+        "Nöre wid Stora Badstugugatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:11:handelsmannen-petter-och-carl-falk-soker-hyra",
+    "label": "Handelsmännen Petter och Carl Falk söker hyra",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "Anmärks handelsmännen Petter och Carl Falk från Trondheim att om de vill besöka dem här i staden för något viktigt, ska de informera Hattmakare-Älderman Eric Hoffmark på huset Norra Smedsagatan nummer 65; därifrån kan de också få adressen till lägenheterna på våning 1, 2 och 3 med kök.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "Anmodas Handelsmännen Petter och Carl Falk frän Tronheim, at om de wissas här i Staden, med aldröforska för någon angelägenhet, gifwa deras wistande tilkänna hos Hattmakare-Älderman Eric Hoffmark på Norra Smedsagatan huset N:o 65; hwaraft äsven lämnas adress på såker Hyresman til 1, 2 a 3 tapet-ferade rum med kök.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Norra Smedsagatan huset N:o 65"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:12:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-10",
+    "address": "Stortorget",
+    "description": "Den kallade sekretess, den enkla kommissionär och Tisou i brun sortout, nog fliten, sjödansare bivor och rossade galoscher från en gardeskarl, trots att den ena för en kort tid blev jordråd emot ett duslin skilar och den andra står till tjänst mot låga priser; men för att undvika detta med flera nedryggers lagförande, är det rådligast att snabbt insinna sig med rodeligare ungift och arbetställande av billet A.F.T. såsom att skicka till J.S., i annan fall, och som vid noggrannare eisterfädande en sådan ej läreer finnas, varefter billettens genast intimeras, jämte der övriga namnets underkryssning, som liknas vid början.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "Den sig ja kallade Secreter, de enfaldigas Commissionair och Tisou uti brun Sortout, nog fliten, Sjödensary Bvör och rossade Galoscher frän en Gardeskarl, ehuru den ena för en liten tid blef jordråd emot et duslin Skilar och den andra står til tjensit mot lisa pris; men at undwika detta med flere nedriägters lagförande, är rådeligast sig genast insinna med rodeligare ungift och werkställande af den Billet A. F. T. sifk at aslänna til J. S., i annot fall, och som wid nogare eisterfädande en sådan ej läreer finnas, warden Billets ten genast intimerad, jämte der övliga namnets underchrift, som liknas wid början.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:13:pantatse-av-klader",
+    "label": "Pantatse av kläder",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "Herrn f. N: som väntat sig haft en ljusgrå klädesväska, ett par silkesstrumpor och skor och kängor i huset nummer 80 vid Smortorget, behagade instana sig inom nio dagar, i annan händelse försäljes väskan. Håll man ej funn träffa honom någon tid på dagen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "Den Hervn f. N: som weta sig hafta pantatse en ljusgrå klädes Wiquesche, et var arårandiga Silkes Strumvor, et par Sko- och Knidvannen udi huset N:o 80 wid Smortmongaton, behagade instana sig insi norn 8 dagar, i annor händelse försäljes panten, hålt man ej fun träffa honom någon tid på dagen.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Smortmongaton"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0004:14:salu-och-hyresannonser",
+    "label": "Salu och Hyresannonser",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "Här kommer ett tillägg, som innehåller hälsningar och hyrningar samt flera notifikationer.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 4,
+      "archive_ref": "bib13506739_17800210_144030_33_0004.jpg",
+      "original_spelling": "Härjämte följe et Bihang, innehållande salu, hyres med flere Notificeran.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Härjämte"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

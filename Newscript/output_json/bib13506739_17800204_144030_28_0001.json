@@ -1,0 +1,216 @@
+[
+  {
+    "id": "bib13506739_17800204_144030_28_0001:1:frost-and-snowfall",
+    "label": "Frost and Snowfall",
+    "date": "1780-02-04",
+    "address": null,
+    "description": "Stockholm N:o 28.\nDen 4 februari 1780, fredag.\nDagliga Tidningar,\nEller:\nDagligt Allehanda.\nOnsdagen, den 2 februari mulet, och började mot natten yra, med DNO 3 grader fördun om mitten. Om eftermiddagen, såväl som den följande torsdagen morgon 8 grader under fryspunkten. Barometern har sedan fallit till 25,10. Snögar och yrar.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 1,
+      "archive_ref": "bib13506739_17800204_144030_28_0001.jpg",
+      "original_spelling": "Stockholm N:o 28.\nDen 4 Februarii 1780, fredag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nOnsdagen, d. 2 Febr. mulet, och började mot natten yra, med DNO 3 gr. földen om midd. 7, om aftonen, så väl som den följande Thorsd. morgon 8 gr. under fryspunten. Barom. har än widare fallit til 25,10. Snögar och yrer.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0001:2:utlandska-nyheter-bourdeaux-den-5-januarii",
+    "label": "Utländska Nyheter: Bourdeaux den 5 Januarii",
+    "date": "1780-01-05",
+    "address": null,
+    "description": "Utländska nyheter: Bourdeaux den 5 januari. Greve d'Estaings återkomst till Frankrike har i detta städeri orsakat en stor glädje. Här hör man sånger och verser om hans ära. På teatern föreställs han som en av statens grundläggare. En sjöman skickade sin bosatta hustru pengar, samt ett brev med följande utsläpp: 'Min kære hustru! Jeg sender deg 100 ecus, som min ven, greve d'Estaing støttet mig.' Denna glädje har dock något blåst av förvirring genom den obehagliga nyhetens att den konvoj, som med rik lading gikk från här till våra indiske sæl, haft den olycka at blive borttagen af engelske amtsfolk Syde Parker; af 11 skibe, har allenaest et undankommet.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 1,
+      "archive_ref": "bib13506739_17800204_144030_28_0001.jpg",
+      "original_spelling": "Utländska Nyheter:\nBourdeaux den 5 Januarii. Grefwe d'Estaings återkomst till Frankriket har i denne Staden förorsakat den listigaste glädje. Hwar alt höres verser och lässänger til hans ära. På Theatern föreställs han som en af Statens Grundpclarer. En Matros sände nöigen sin här boende Hustru pengar, jänté et brief med följande utslätleje: \"Min k. Hustru! Jag sänder Eder dege 100 Ecus, som min wän, Grefwe d'Estaing stänkt mig.\" Denna glädje har dock något bliswiet föröd, medelst den obehagelige tidningen at den Convoj, som med rik laddning geck härifrån til våra Indiske Sar, haft den olyckan bliswa borttagen af Engelske Amtalen Syde Parker; af 11 Skepp, har allenaest et undankommit.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bourdeaux",
+        "Frankriket"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0001:3:auktion-hollandska-skepens-laddningar",
+    "label": "Auktion: Holländska Skepens laddningar",
+    "date": "1780-01-14",
+    "address": null,
+    "description": "London den 14 januari. Det förklaras att vårt hov lätta utdrag ordnar till Portsmouth, att tills vidare inte röras de uppräknade Holländska skeppens lastningar, och att folket vid dem måste försörjas med allt vad de behöver. De flesta av dessa skepp är bestämde för St. Eustach; flera av dessa skeppets officerare kommer hela dagen i land, de förklarar enhälligt att de skepp som undkommit haft allt krigsammunition ombord, med vilket de menat sig till Frankrike. Kommendör Reinolds, som var utskickad att uppsöka den berömda Paul Jones, är efter fruktlös expedition återkommen; man säger att nämnda Paul Jones lyckligt ankommit till Brest. Tiden går över att de anhållna Holländska skeppens fängelse släpps fria, och att detta händelse inte förbättrar den vänskap som finns mellan oss och Republiken Holland. Sedan det försöktagande mislyckas, som greve d'Estaing gemensamt med general Lincoln, drömde utförande emot Savannah, har ridderen Clinton gjort sig marichs-beredd till offensiva operationer, inte minst att från New York tränga djupare in i landet, utan även att ansätta gripa de södra provinserna.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 1,
+      "archive_ref": "bib13506739_17800204_144030_28_0001.jpg",
+      "original_spelling": "London d. 14 Jan. Det försäkres at vårt Hof lätit afga ordres til Portsmouth, at tils widare icke röra de upbragte Holländske Skepens laddningar, och at Folket vid dem måtte förseb med alt hvad de besköwa; De fleste af deze Skep word destinerade til St. Eustach; Utstillige af deze Skepens Officerare komt ma dageligen i land, de försäkra enhällige, at de Skep som undkommit haft allchanda Krigs-Ammunition om bord, hvormed de ämnat sig til Frankriket. Commendeur Reinolds, som var utskickad at uppaşa den bekante Paul Jones, är efter fruktlös expedition återkommen; Man säger at nämde Paul Jones lyckesligen ankommit til Brest. Tallet går öfver alt at de anhullne Holländske Skepens sfo släppas löse tgen, och at denne händelse icke förder den vänkop som är emellan os och Republiken Holland. Sedan det förs tagande mislyckas, som Grefwe d'Estaing gemensamt med General Lincoln, drnade utföra emot Savansnah, har wär Befälhasware öfver de Engelske Trupperne i Amerika, Riddaren Clinton gjordt sig marichs- färdig til offensive operationer, icke allenaest at från New York-tränga djupare in i landet, utan åfwen at ans gripa de Södra Provincerne.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Portsmouth",
+        "St. Eustach"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0001:4:madrid-louisiana",
+    "label": "Madrid: Louisiana",
+    "date": "1779-12-31",
+    "address": null,
+    "description": "Madrid d. 31 Dec. Vårt hov har förmedlat Louisiana som en så viktig och givande tidning att det är nödvändigt att nämna att Gouverneuren där styrde, dels förstörde, dels intog flera engelska estableringar som varit i hans område. Genom denna expedition har Spanien vunnit en längre sträcka land i Amerika, nämligen 450 mil, det fruktbaraste omkring floden Mississippi där de engelska handlade med pälsverk.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 1,
+      "archive_ref": "bib13506739_17800204_144030_28_0001.jpg",
+      "original_spelling": "Madrit d. 31 Dec. Vårt Hof har främ Louisiana århultit så wigtige, som angenäma tidningar, at nämigen Gouverneuren därstådes, dels förstört, dels intagit flere Engelske Establisementer, som warit i hans granstrap. Igenom denne expedition har Spanien wunnit en sträcka land i Amerika, af 450 mil, det fruktbaraste omkring floden Mikissippi, därést de Engelske drifwit stark handel med Pålswerk.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Madrid",
+        "Louisiana"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0001:5:chevalier-fran-chandernagor-till-paris",
+    "label": "Chevalier från Chandernagor till Paris",
+    "date": "1780-01-16",
+    "address": null,
+    "description": "Gazette de France d. 16 Jan. Herr Chevalier, som varit Frankiskt Gouverneur i Chandernagor, är från Ostindien onkommen till Paris. Han har haft en konferens med Herr Sartine och föreställt nödvändigheten att hämma Engelska Ostindiska Compagniets Progress. Han har talat om 'en skatt av 150 miljoner, som samma Compagnie äger i Calcutta, och dess inkomster skottar han till 800 miljoner räntor, kvalet av fredlig besättning av det vidsträckta landet, därigenom skulle Engeland kunna betala sin skuld, och om det också förlorade Amerika, ändå förblivit den rikaste och mäktigaste Nation på Jorden.'",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 1,
+      "archive_ref": "bib13506739_17800204_144030_28_0001.jpg",
+      "original_spelling": "Gazette de France d. 16 Jan. H:r Chevalier, som warit Frank Gouverneur i Chandernagor, är från Ostindien onkommen til Paris. Han har haft en conference med H:r Sartine och förestållt nødwan- digheten at hämma Engelske Ostindiske Compagniets Progresse. Han har talt om \"en Skatt af 150 millio- nner, som samma Compagnie äger i Calcutta, och dess inkomster skottar han til 8oo millioner räntor, k vall af fredlig besättning af det widsträckta landet, härigenom kunde Engeland betala sin skuld, och om det också förlorade Amerika, ändock förbliswia den rikaste och mägtigaste Nation på Jordkloret.\"",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Paris",
+        "Chandernagor"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0001:6:tionde-placat-for-akvar",
+    "label": "Tionde-Placat för Åkvar",
+    "date": "1780-02-04",
+    "address": null,
+    "description": "Slutet av 1638 års Tionde-Placat. (Se Gårdbags-Bladet.)\n\n4) Att nu härmed desto rättigare må tillgå, så stolar borgerskapet i städerna där några åkvar tilliggia, ses dan socknemannen uti de landskap som man kan komma till kyrka med vagn eller kärra. Med det förderligaste därsamastades låta uppsätta en effert vå Tionde-Lador, som tionden av alla Såd med halm och allt kan föras uti, och där till kronans biskop uttrödas och levereras i kyrkoherberget. Valförstående att sådan, när hon är affuren och står på åkren, altid afskrñas utaf den man som vi eller å varje vagnar når lunds höfdingen dætil sforndnor med kronans Sexman efter ordningen hvor tionde styf eller band; drutaf kyrkoherden då strax sin-treding bekommer och föres i prästegården, men twadclarne lämnas till kronan och tidigt insdres i kronans Ladu, hwarést bonden sfrestrefne twådelar uttrödas eller uttrösa lækter, och dem in i kyrkoherberget levereras, men halmens tager bonden tilbakars igen. Och soll kyrkos herden afistera den sforordnade och Sexmanna i alt det midjeligt år, han kan och hans Åmbete tillåter.\n\n5) Uppå alle andra orter där vägnarne icke tillåta med Wedvagn eller kärra till kyrkan att komma eller och förbemålte Tionde-Lador icke så uti hastighet kunna förfärdigas, där skole Ware förordnade det wore lig Fogde, Länsmann eller Fierdingsman med kronans Sexman afskrña upp åkren somsom i den förra Articel förmält år hvor tionde styf eller band och så troget och rätträdigt som de det med swuren Ed wels",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 1,
+      "archive_ref": "bib13506739_17800204_144030_28_0001.jpg",
+      "original_spelling": "Slut af 1638 års Tionde-Placat. (Se Gårdbags-Bladet.)\n4) At nu härmed desto riktigare må tilgå, så stola Borgerskapet i Städerna, där någre Åkvar tilliggia, ses dan Socknemannen uti de Landskap som man kan komma til Kyrka med wagn eller kärra, med det förderligaste dårsamastades låta uppsätta en effert wå Tionde-Lador, som Tionden af allehanda Såd med Halm och allo kan föras uti, och där til Kronones bchof uttrödas och lefwereras i Kyrkoherbärget: Walförstånde at Såden, när hon är affuren och står på Åkren, altid afskrñas utaf den Man som Wi eller å Ware wägnar nar Lunds höfdingen dætil sforndnor, med Kyrkones Sexman efter ordningen hvor tionde styf eller band; drutaf Kyrkoherden då strax sin-treding bekommer och föres i Prästegården, men twadclarne lämnas til Kronan och tidigt insdres i Kyrkones Ladu, hwarést Bonden sfrestrefne twådelar uttrödas eller uttrösa lækter, och dem in i Kyrkoherbärget lefwerar, men Halmens tager Bonden tilbakars igen. Och soll Kyrkos herden afistera den sforordnade och Sexmanna i alt det midjeligt år, han kan och hans Åmbete tillåter.\n5) Uppå alle andre orter, där wägnarne icke tillåta med Wedwagn eller kärra til Kyrkan at komma eller och förbemålte Tionde-Lador icke så uti hastighet kunna förfärdigas, där skole Ware förordnade, det wore lig Fogde, Länsmann eller Fierdingsman, med Kyrkones Sexman afskrña upp Åkren, såsom i den förra Articel förmält år, hvor tionde styf eller band, och så troget och rätträdigt, som de det med swuren Ed wels",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Städerna"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

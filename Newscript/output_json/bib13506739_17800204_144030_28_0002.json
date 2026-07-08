@@ -1,0 +1,433 @@
+[
+  {
+    "id": "bib13506739_17800204_144030_28_0002:1:tioendebeteende",
+    "label": "Tioendebeteende",
+    "date": "1780-02-04",
+    "address": null,
+    "description": "Sthälla, pröswa och öfverlägga huen högt densamme kan förstå, då Bonden eller den som Tionden äger at utgöra, insörer fa Kyrkoherdens som de andre Tionde-stylar och banden uti sin Ladu, dem där tilsamman uttröstar, och Såden som därfut säller, lefwerar twa delar in uti Kyrkoherbärget, men tredingen til Kyrkoherden som want är, allenaft at Kyrkoherden är förobligerad at gifwa och göra Håradss- eller Tionde-Fogden rättelse, så at Kyrko-Tionden och cectialen proportionaliter swara hwarandera.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 2,
+      "archive_ref": "bib13506739_17800204_144030_28_0002.jpg",
+      "original_spelling": "Sthälla, pröswa och öfverlägga huen högt densamme kan förstå, då Bonden eller den som Tionden äger at utgöra, insörer fa Kyrkoherdens som de andre Tionde-stylar och banden uti sin Ladu, dem där tilsamman uttröstar, och Såden som därfut säller, lefwerar twa delar in uti Kyrkoherbärget, men tredingen til Kyrkoherden som want är, allenaft at Kyrkoherden är förobligerad at gifwa och göra Håradss- eller Tionde-Fogden rättelse, så at Kyrko-Tionden och cectialen proportionaliter swara hwarandera.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Sthälla"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0002:2:tiondenlevering",
+    "label": "Tiondenlevering",
+    "date": "1780-02-04",
+    "address": null,
+    "description": "Efter som Hårad-Fogden, Kyrkoherden och Kyrkones Ceyman bör ha-warders til Kyrkoherbärget hafta särdeles lås och nyckel, så shall ook all lefwering af Tionden, så wäl inuti Kyrkoherbärget, som när hon där utteges. Se uti ökes deras, eller där Hårad- eller Tionde-Fogden pålige förfall haftver, då uti Lånsmanhens närvaro, med trufit mål, utan något stoppande eller stakande, dock at uti lefwererandet tu Uplands fat eller twanne Finske kappar, gifwes i staden för Rägen, så ook afgangen på hwarje tunna.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 2,
+      "archive_ref": "bib13506739_17800204_144030_28_0002.jpg",
+      "original_spelling": "6) Efter som Hårad-Fogden, Kyrkoherden och Kyrkones Ceyman bör ha-warders til Kyrkoherbärget hafta särdeles lås och nyckel, så shall ook all lefwering af Tionden, så wäl inuti Kyrkoherbärget, som när hon där utteges. Se uti ökes deras, eller där Hårad- eller Tionde-Fogden pålige förfall haftver, då uti Lånsmanhens närvaro, med trufit mål, utan något stoppande eller stakande, dock at uti lefwererandet tu Uplands fat eller twanne Finske kappar, gifwes i staden för Rägen, så ook afgangen på hwarje tunna.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kyrkoherbärget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0002:3:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-04",
+    "address": "Stortorget",
+    "description": "7) Varje tionde som säljs inkommer, så att upprättas två långder med varsin och ens namn, hur mycket han har insöndrat eller infört i lätten; därav behåller kyrkoherden en långd själv för rättelse framöver, men den andra hårdfogden eller arrendatorn tillhandahåller.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 2,
+      "archive_ref": "bib13506739_17800204_144030_28_0002.jpg",
+      "original_spelling": "7) Hswer all Tionde som säldes inkommer, sfolo upprättas twåne Längder med hwars och ens namn, hwen mycket han haftver insördt, eller inför låtit, därfat Kyrkoherden en Långd sjelf behåller til rättelse framdeles, men den andre Hårad-Fogden eller Arrendatoren tilhanda lefwererar.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0002:4:predik-ambetets-forsta-del",
+    "label": "Predik-Ambetets första del",
+    "date": "1780-02-04",
+    "address": null,
+    "description": "Efter att Predikambetets första del upphört så väl som sina vederlag har gått i tio år, är det rätt och stämt att kyrkoherdarna förmåner sina äldre medlemmar att göra rätt tionde. Som förberedd är, uppå dessa rättsliga fullständiga haftver grann uppsyn, till vilken ända, förutom det att prästekravet årligen i riktad tid hålls måste, skall präster och så snart tiondelängden är färdig och renströvad, densamma uti sockenfugun för allmogen uppläsas. På det alla ska man veta vad tionde en och annan haftver dragit, och om något underslag varit begånt, sådant då efter trohets plikt ge tillskänka.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 2,
+      "archive_ref": "bib13506739_17800204_144030_28_0002.jpg",
+      "original_spelling": "8) Emedan Prediko-Ambetet förste delen sitt upphälle så wäl som sine wederlag haftver af Tionden, ty är stäligt och rätt, at Kyrkoherdarne förmana sine Åhbarare at göra rätt Tionde, och som förbemålt är, uppå des ristige fullgrande haftve grann upsyn, til hvilken ända, förutan det at Probske-Ting årligen i räktan tid hållas måste, Prästerne och så snart Tionde-Längden är färdig och renstrifven, densamme uti Sock-nesfugun för Allmogen upläsa skola, på det alla weta hwad Tionde en och annan haftver drägt, och hwor något undersel wore begånget, sådant då efter trohets plikt gifwa tilskänna. Odjær nu någon med sin grans-ve eller en annan hans understel, och sedan därmed wärder bestagen, da høte sú mycket, som han med detta sitt tillatigande undandolt haftver.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Emedan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0002:5:pabud-om-adelsmon",
+    "label": "Påbud om Adelsmon",
+    "date": "1780-02-04",
+    "address": null,
+    "description": "9) Om någon adelsman motverkar detta vårt påbud, skall fogden eller arrendatoren meddela det till lands hövdingen, som sedan ska granska saken och om en adelsman i detta fall uppträder, skall den förmande rätta sig i saken och göra kronan sin tillbörjliga rättighet tillsyn. Men om någon inte efter sådan förmandning vill försöka: då skall lands hövdingen lämna saken vid hovrätten, under vilken samma adelsman är besatt, och låta saken onklaga och där lagligen affärdas, med vårt arbitrale straff till förmån. Om något försummas därefter. Även om en öfverfrälseman som underläser tionden, den fall för varje spann sådan han i sär måtte försenar, böter första gången tre spann, andra gången sex spann och tredje gången nio spann. Kommer han ofta igen, är han en kronans eller adels tjänare, då måste sin tjänst- och hemmanet, om han inte har tjänst eller bonde, skall förvärvas av härader, och blivit ingenting man dess bättre. Samma böte-spannemål skall också utes hända fogden strafft utföra, därav kronan en halspart befonna skall, men den andra halsparten delas ibland händen för härader eller tionde-fogdar, kyrkoherden och kyrkans serman till treffstes.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 2,
+      "archive_ref": "bib13506739_17800204_144030_28_0002.jpg",
+      "original_spelling": "9) Bryter någon Adelsmon emot detta Wårt Påbud, då shall Fogden eller Arrendatoren gifwa Lands-höfdingen därom tilskänna, hvilken om saken shall granneligen låta ransaka, och där någon af Adelen i det fallet funnes at hofwa sig försedet, den då förmana låta, at rätta sig i saken, og göra Kronen sin tilbörliga rättighet tilsyssel. Men där någon sig intet efter sådan förmaning godwilligt begwänner: da stall Lands-höfdingen hos den Hov-Rått, under hvilken samma Adelsman är besute, låta saken onklaga och dar lagligen affdmas, wid Wårt arbitral straff til görande, så framt därutinnan något försummas. År ook någon Ö-frejlesman som underläser Tionden, den fall för hwarje span Såd han i sá måtte försnillar, bøta första gänzen tre span, andra gången sex span, tredje gången nio span, kommer han ook oftare igen, är han en Kro-nones eller Adelig Tjänare, da müste sin tjäns- och Hemmanet, ar han utan tjäns eller Bonde, da förwissas Håradet, og blisve ingenthera man des bätter. Sá shall ook samme Bøte-Spanneimal, utes Hårad-Fogden strafft utfordras, därfat Kronen en halspart befonna skall, men den andre halsparten delas ibland Hårad-s eller Tionde-Fogdar, Kyrkoherden och Kyrkones Serman til treffstes.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0002:6:forordning-om-stadsbrand",
+    "label": "Förordning om stadsbrand",
+    "date": "1780-02-04",
+    "address": null,
+    "description": "Vi bjuder och befaller fördenful härmad alle våra officerare, tjänare och undersätter, att de ska följa dessa villkor och omständigheter, såsom de kan, och detta gäller i någon mån att de rättar sig efter denna vår förordning. Vi ber oss för all stöd till våra landsföreståndare och andra befälhavare samt kyrkoherdar att dessa vår stodgat och förordningar årligen en gång, och särskilt sådan tioendan bör utgå, uppläses och förkunnas i städerna och på landsbygden, såsom de inte har haft någon ovetenhet om att ensylla sig, och att de sedan håller där hand över, såsom de väl ständigt öfver till swars, och vår händ och kvede umgälla. Till yttermera viss är detta med vårt severt och våra samt Sveriges Rikes respektive förmyndares och regerings understrift beftästadt. Datum Stockholm den 22 Februarii Anno 1638.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 2,
+      "archive_ref": "bib13506739_17800204_144030_28_0002.jpg",
+      "original_spelling": "Wi bjuide och befalle fördenful härmad alle wære Officerare, Tjänare og Undersätare, af hwad conditien och vilkor de ware kunne og detta angår i någon måtto, at de rätta sig efter denne Wår Förordning, taga sig för all stoda tilwaro, icke görande eller tilsädjandes något häremot at se, wid Graff som tilsbrenne är förmält, särdeles befallse Wi Wåre Lands-höfdingar och andre Wåre Befallningsmän jämte Kyrkoherdarne, at denne Wår Stodga och Förordning årligen en gång, og synnerlig dä Sådes-Tionden bör utgå, uplåses och förkunnas i Städerna och på Landsbygden, på det någon sig icke af owetenhet haftver at ensylla, og at de sedan hålla där hand öfwer, såsom de wele stända os därsöre til swars, og wär händ och kvede umgälla. Till yttermera wiso är detta med Wårt Severt och Wåre samt Sveriges Rikes respective Förmyndares och Regerings understrift beftästadt. Datum Stockholm den 22 Februarii Anno 1638.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0002:7:personer-till-morby-och-lind",
+    "label": "Personer till Mörby och Lind",
+    "date": "1780-02-04",
+    "address": null,
+    "description": "Gabriel Orenstierna Gustsson, Jacobus De La Gardie, Carl Gyldenhielm, Axel Orestierna, S. R. Drots, S. R. Mark, R. Amiral, S. R. Cantler. Gabriel Orensterna Frith til Mörby och Lind.",
+    "resident": "Gabriel Orenstierna Gust:son",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 2,
+      "archive_ref": "bib13506739_17800204_144030_28_0002.jpg",
+      "original_spelling": "Gabriel Orenstierna Gust:son. Jacobus De La Gardie. Carl Gyldenhielm. Axel Orestierna.\nS. R. Drots. S. R. Mark. R. Amiral. S. R. Cantler.\nGabriel Orensterna. Frith. til Mörby och Lind.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Gabriel Orenstierna Gust:son",
+          "role": null
+        },
+        {
+          "name": "Jacobus De La Gardie",
+          "role": null
+        },
+        {
+          "name": "Carl Gyldenhielm",
+          "role": null
+        },
+        {
+          "name": "Axel Orestierna",
+          "role": null
+        },
+        {
+          "name": "S. R. Drots",
+          "role": null
+        },
+        {
+          "name": "S. R. Mark",
+          "role": null
+        },
+        {
+          "name": "R. Amiral",
+          "role": null
+        },
+        {
+          "name": "S. R. Cantler",
+          "role": null
+        },
+        {
+          "name": "Gabriel Orensterna Frith",
+          "role": null
+        }
+      ],
+      "locations": [
+        "Mörby och Lind"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0002:8:unkomne-refande-husbarare-och-boende",
+    "label": "Unkomne Refande: Husbärare och Boende",
+    "date": "1780-02-04",
+    "address": "Regeringsgatan",
+    "description": "Ungdomen Refander: Inspektören Husberg från Nyköping bor på Darelli Källare. - Handelsmannen N.W. Grubb från Strengnäs bor i Schaleri gränd hos Anna Speken. - Greve Swarre och ryttmästaren Gyllenshiold från Carlserona bor på Malmens Källare. - Bokhållaren Niclas Er. Ringius med sin hustru bor vid Regeringsgatan i Fru Riks-Rädinnan Barcks hus. - Ryttmästaren vid Liv-Regementet von Erenheim bor i huset N:o 5 vid Drottningegatan. - Direktören von Stockensbröm från Södermanland bor i huset N:o 45 i Carduansmakaregränden. - Majoren och riddaren Samuel Hindrie Horn bor uti huset N:o 5 vid Drottningegatan. - Coopvaerdie-Capitain Joh. Fr. Iben och Constapeln Herman Philip Vorkman från Göteborg bor hos Mademoiselle Holm i huset N:o 83 vid stora Hovaregränd. - Handelsmannen Wadström med sin fru från Norrköping bor hos Jouveieraren Maas vid stora Smedjegatan.",
+    "resident": "Inspectorens Husberg frän Nyköping",
+    "lat": 59.333,
+    "lng": 18.0697,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 2,
+      "archive_ref": "bib13506739_17800204_144030_28_0002.jpg",
+      "original_spelling": "Unkomne Refande: Inspectorens Husberg frän Nyköping, bor på Darelii Källare. - Handelsmannen N. W. Grubb frän Strengnäs, bor i Schaleri gränd hos Anna Speken. - Greve Swarre och Ryttnässaren Gyllenshiold frän Carlserona, bo på Malmens Källare. - Bokhållaren Niclas Er. Ringius med des Husfrau, bor wid Regeringsgatan i Fru Riks-Rädinnan Barcks hus. - Ryttnässaren vid Liv-Regementet von Erenheim, bor i huset N:o 5 wid Drottningegatan. - Directeuren von Stockensbröm frän Södermanland, bor i huset N:o 45 i Carduansmakaregränden. - Majoren och Riddaren Samuel Hindrie Horn, bor uti huset N:o 5 wid Drottningegatan. - Coopvaerdie-Capitain Joh. Fr. Iben och Constapeln Herman Philip Vorkman frän Götheborg, bo hos Mademoiselle Holm i huset N:o 83 wid stora Hovaregränd. - Handelsman Wadström med des Fru från Norrköping, bor hos Jouveieraren Maas wid stora Smedjegatan.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Inspectorens Husberg frän Nyköping",
+          "role": null
+        },
+        {
+          "name": "N. W. Grubb frän Strengnäs",
+          "role": "Handelsmannen"
+        },
+        {
+          "name": "Greve Swarre och Ryttnässaren Gyllenshiold frän Carlserona",
+          "role": null
+        },
+        {
+          "name": "Bokhållaren Niclas Er. Ringius med des Husfrau",
+          "role": null
+        },
+        {
+          "name": "Ryttnässaren vid Liv-Regementet von Erenheim",
+          "role": null
+        },
+        {
+          "name": "Directeuren von Stockensbröm frän Södermanland",
+          "role": null
+        },
+        {
+          "name": "och Riddaren Samuel Hindrie Horn",
+          "role": "Majoren"
+        },
+        {
+          "name": "Coopvaerdie-Capitain Joh. Fr. Iben och Constapeln Herman Philip Vorkman frän Götheborg",
+          "role": null
+        },
+        {
+          "name": "Wadström med des Fru från Norrköping",
+          "role": "Handelsman"
+        }
+      ],
+      "locations": [
+        "Darelii Källare",
+        "Schaleri gränd hos Anna Speken",
+        "Malmens Källare",
+        "Regeringsgatan i Fru Riks-Rädinnan Barcks hus",
+        "Drottningegatan",
+        "Carduansmakaregränden",
+        "stora Hovaregränd",
+        "stora Smedjegatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Regeringsgatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0002:9:assemblee-uti-stora-bors-salen",
+    "label": "Assemblee uti stora Börs-Salen",
+    "date": "1779-02-05",
+    "address": null,
+    "description": "En söndag den 6 februari hålls en assembly i Stora Börs-Salen klockan 13:00. Biljetter säljs enkelt på lördagen den 5, både förmiddags och eftermiddags samt den 6 från kl. 14 till 17 på Börs-Contoiret. De höga respektive herrstapen som vill delta i assemblyn, ska boka sina biljetter i god tid för att undvika trängsel och olägenhet i kontoret.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 2,
+      "archive_ref": "bib13506739_17800204_144030_28_0002.jpg",
+      "original_spelling": "Nåka Söndag den 6 Febr. bliswer Assemblee uti stora Börs-Salen wänlig timma. Billetterne därtik försäljas enkelt i morgon Lördag den 5 dennes, både för och eftermiddagen, samt den 6 ifrån kl. 3 til 5 eftermiddagen på Börs-Contoiret. De höga och respective Herrstaper, som behaga biwista Assembleen, täckas i god tid berörde dagar låta afhänita sine Billetter, på det olägenhet og trängsel i Contoirer wid sjelfwa Ensvreen inätte försokommas.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stora Börssalen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800204_144030_28_0002:10:masquerad-bal-pa-bolhuset",
+    "label": "Masquerad Bal på Bolhuset",
+    "date": "1780-02-04",
+    "address": null,
+    "description": "Idag kl. 20:00 hålls en maskerad på Bolhuset där alla välklädda gäster är välkomna att delta.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-04",
+      "page": 2,
+      "archive_ref": "bib13506739_17800204_144030_28_0002.jpg",
+      "original_spelling": "I afton klockan 10 bliswer Masquerad Bal på Bolhuset, hvareft alla anständigt kläde Masquer frits gunna sig instålla.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bolhuset"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

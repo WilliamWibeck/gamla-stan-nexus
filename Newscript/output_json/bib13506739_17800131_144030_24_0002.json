@@ -1,0 +1,507 @@
+[
+  {
+    "id": "bib13506739_17800131_144030_24_0002:1:anknytning-till-frihet",
+    "label": "Anknytning till frihet",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "Det är viktigt att lämna den sysselsatta hopen, och att i lika tillstånd uppväxa affödning, en olfränkt frihet för att anstänga arbetet, eller inte.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Ug sak, at lämna den syyolösa hopen, och des i lika tilstånd upväxande afföda, en olfränkt frihet, at anstingen arbeta, eller ické.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Ug"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:2:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-01-31",
+    "address": "Stortorget",
+    "description": "Nu är det påsk, och människor föds med en dristighet att söka sin egen nöjdhet och frihet. De skall kunna välja var och hur de vill leva, såsom de finner sig nyttigast, och med sin naturliga kreativitet skapar de saker som är mest användbara för dem själva. Men detta kräver en annan sak – att människor aldrig kan bevisa att denna dristighet till nödvändigt skall leda till att de arbetar eller försörjer sig på något nyttigt. Erfarenheten visar dock, att en stor del människor av naturlig wanart håller sig på lätta eller lödsaktiga sätt och rör sig runt i landet, antingen som tiggare eller bedragare, och att hela nationer håller sig nära plundring istället för att arbeta?",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Wäre nua Auctorer påska, det människan är född med en drist at söka sin näring och at den ej bde in-fränkas, utan hwar och en åga frihet at söda sig såsom han finner sig nyttigast, och med hans naturliga kickelighet enligast wore: men detta förutsätter en annan sats,-den de aldrig kunna bewisa, nämligen: at denna dristen at nåra sig nödvändigt skall determinera, det är med en physik nödwändighet drisiva hwar och en människa til något arbeta eller löstig näring. Wittnar icke årfarenheten, at en stor del människor af naturlig wanart hålve försälla på lätta eller lödsaktighet och at stryka omkring Landet, antingen såsom tiggare eller bedragare, och at hela Nationer på wisa orter håldre nåra sig med plundring än arbeta?",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:3:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-01-31",
+    "address": "Stortorget",
+    "description": "Det har ökade därför alla politiserade nationers och regeringars stora omsorg att landsförvisa lätt-tjanst, och tillhålla varje medborgare att göra reda för sitt lönsamma näringsliv. Athenienserna gingo därfört få längt efter att varje medborgare, churu högre han var stigen i värdighet eller vallmåga, måtte låta sina barn lära ett handarbete, så att de på kommande nödfall försörja sig själva: och de ansågo den som sådant försummade likasom hade han med sitt lärda barnen att stjäla.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Det har öck därföre warit alla policeerade Nationers och Regerings störka omsorg, at landsförvisa lätz-tjan, och tilhålle hwarje Medborgare at göra redo för sitt löstiga näring-sätt. Athenienserne gingo därfött få längt, at hvor Medborgare, churu högr han war stegen i wärdighet eller walmåga, måte låta sina Barn lära et handwerk, at i påkommande nödfall försbrja sig med: och de ansago den, som sådant försummade, likasom hade han med sit lärda barnen at stjäla.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:4:slutet-haraf-foljer-i-morgon",
+    "label": "(Slutet håraf följer i morgon.)",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "Slutet hör till i morgon. Till Sincerus i Dagbladet nr 16.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "(Slutet håraf följer i morgon.)\nTil Sincerus i Dagbladet N:o 16.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:5:mistankt-arbetare",
+    "label": "Mistänkt Arbetare",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "Som ni nu i sommar varit i alla sällskap efter egen berättelse, följaktligen på de sämska och, så kan man lätt tänka vad för person du måste vara, som alt sådant päsar sig före; åtminstone kan man också finna huru du är beskaffad, som för allmänheten sätter fram en redig, snäll och flitig medborgares namn, att göra samma. Man misstänker hos allmänheten, att hans arbeten icke duga, då han likväl lärt sin sak hos en af de ypperligare mästare här i staden. Att han icke kan göra sitt arbete så propert ännu som dess mästares, må ingen undra uppå; han tar dock till fermite hwart är alt bättre och bättre, således är det ingolunda raisonabelt att förflena uppenbarligen en annan, hålst du icke satt ut ditt rätta egna namn.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Som du nu i Sommar warit i alla sällskap efter egen berättelse, följakteligen på de sämska och, så kan man lätt tänka hvad för person du måtte vara, som alt sådant päsar sig före; åswen kan man ook finna huru du är beskaffad, som för Allmänheten sätter from en redig, snäll och flitig Medborgares namn, at göra samma Man mistänkt hos Allmänheten, som skulle hans Arbeten icke duga, då han likwäl lärt sin sak hos en af de ypperligare Mästare hår i Staden. At han icke kan göra sitt Arbeta så propert ännu som dess Mästares, må ingen undra uppå, han tager dock til i fermite hwart är alt bättre och bättre, således är det ingolunda raisonabelt at förflena uppenbarligen en annan, hålst du icke satt ut ditt rätta egna namn.",
+      "category": "crime",
+      "themes": [
+        "Crime & Justice"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Staden"
+      ],
+      "crime": "Mistänkta arbetsförmåga",
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:6:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-01-31",
+    "address": "Stortorget",
+    "description": "Jag råder dig som opartic, att du inte börjar med något som skadar svenska nationen eller människor. Om det berör mig, skulle ditt namn snart dansa upp till Kamrars-Rätten, tvärtom i en sådan svart man, som allmänheten uppskattar och är speciellt kunnig i sin pennvitning, att knappt någon eller några personer i hela riket kan jämföras med honom. Det är för grovt gjortt. Råd dig själv och dina handlingar så att du inte blir en lösning i allmänna papper; men om det händer, skyll dig själv.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Jag råder dig som opartic, hvilken hwarken känner dig eller den du nämnt, at icke börja med sådant som wanhedrar war Svenska Nation, at sådane Människo-hatare hår finnas. Rörde saken mig, så skulle ditt namn snart få dansa up til Kamrars-Rätten, tv at i mjugg så söda swarta en Man, som Allmänheten håller honett, och så stickelig i synnerhet i hans sina Penn-vitning, at knapt en eller twa Personer i hela Riket kan däruti jämföras med honom, det är för groft gjordt. Auka dig sijelf och dine göromål, at du icke hådanester blir et löje uti allmanna papper; men om så händer, skyll dig då sjelf.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:7:andring-av-namn-pa-egendom",
+    "label": "Ändring av namn på egendom",
+    "date": "1780-01-31",
+    "address": "Blekinge",
+    "description": "Den 13 december fyllde Hans Majestät tillåtelse för Hos-Secreteraren Mesterton att ändra namnet på sin i Blekinge helägna egendom, tidigare kallad Blekagården, och att huvudnäsetta falla under Gustafberg.",
+    "resident": null,
+    "lat": 59.309276,
+    "lng": 18.0655525,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Under den 13 Decemb. fyl. är har Hans Maj:t i nåder tillätit Hos-Secreteraren Mesterton at ändra namnet af sin i Blekinge helägna egendom, hittils Blekagården benämnd, och hådanester falla densamma Gustafberg.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Blekinge",
+        "Blekagården"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Blekinge",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:8:kungl-maj-t-tillagar-advocat-fiscalen",
+    "label": "Kungl. Maj:t tillågar Advocat-Fiscalen",
+    "date": "1780-01-19",
+    "address": null,
+    "description": "Under den nuvarande januari månad tilldelades Kungl. Maj:t i nåd och behag Johan von Strokirk, Advocat-Fiscalen vid Kongl. Götha Hof-Rätt, Asefors namn och heder, lika med Asehorerne vid Kongl. Hof-Rätterna.",
+    "resident": "Johan von Strokirk",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Under den 19 innevarande Januarii månad hor Kungl. Maj:t i nåder behagat tillåga Advocat-Fiscalen uti Kongl. Götha Hof-Rätt Johan von Strokirk Asefors namn och heder, lika med Asehorerne uti Kongl. Hof-Rätterne.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Johan von Strokirk",
+          "role": "Advocat-Fiscalen"
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:9:resande-bruks-patron-jean-lefebure",
+    "label": "Resande: Bruks-Patron Jean Lefebure",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "Den 30:e denna dag, är Bruks-Patronen Jean Lefebure i nåd och hedersgåva av Bergs-Räds namn, heder och värdighet.\n\nUkomna Resande.",
+    "resident": "Jean Lefebure",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Den 30 dito, är Bruks-Patron Jean Lefebure i nåder hugnad med Bergs-Räds namn, heder och wärdighet.\nUnkomne Resande.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Jean Lefebure",
+          "role": "Bruks-Patron"
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:10:bostader-vid-olika-adresser",
+    "label": "Bostäder vid olika adresser",
+    "date": "1780-01-31",
+    "address": "Lilla Nygatan",
+    "description": "Generalen Baron Wrede med sin hustru och en dam, Fänrik Baron Jöran Wrede, Cornett Baron Hindrie Wrede och Kapten Baron Carl Gustaf Gyllengranath från Uppsala, bor vid Regeringsgatan i huset N:o 93. — Fabriksägaren Pehr Stenkula från Söderköping bor i huset N:o 9 vid Männarebansporten hos Lagman Gripenkråle. — Bokhålaren Anders Jaggström från Finspangsbruk i Östergötland bor i huset N:o 113 vid Göthgatan hos Spanmålshandlarens dotter. — Kapten Mich. Humble bor hos Frun Tillander vid Kora Glasbruksgatan på Södermalm. — Ingenjören Bäck från Uppland bor i huset N:o 113 vid Jacobi västra kyrkogata. — Rådmannen Christian Nobleen, handelsmannarna Lars Rydman, Vet. Tidström, Anders Löberg Lion och borgaren Johan Mogren från Christinhamn bor på Malmens Källare. — Nyttimästaren Bouchländar från Skåne bor på Malmens Källare. — Översten von Röck från Stralsund bor hos Frun Wigert vid lilla Nygatan.",
+    "resident": "Baron Wrede med Fru och en Fröken, Fänricken Baron Jöran Wrede, Cornetten Baron Hindrie Wrede och Capitainen Baron Carl Gustaf Gyllengranath",
+    "lat": 59.3234698,
+    "lng": 18.0691767,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Generalen Baron Wrede med Fru och en Fröken, Fänricken Baron Jöran Wrede, Cornetten Baron Hindrie Wrede och Capitainen Baron Carl Gustaf Gyllengranath från Uppsala, bo wid Regeringsgatan i huset N:o 93. — Fabriqueuren Pehr Stenkula frän Söderköping, bor i huset N:o 9 wid Männarebans-porten hos Lagman Gripenkråle. — Bokhålaren Anders Jaggström frän Finspangs Bruk i Östergötland, bor i huset N:o 113 wid Göthgatan hos Spanmålshandl. Jung. — Capit. Mich. Humble, bor hos Fru Tillander wid Kora Glasbruksgatan å Södermalm. — Ingenieuren Bäck frän Upland, bor i huset N:o 113 wid Jacobi wästra Kyrkogata. — Rådman Christian Nobleen, Handelsmännen Lars Rydman, Vet. Tidström, Anders Löberg Lion och Borgaren Johan Mogren frän Christinhamn, bo på Malmens Källare. — Nyttimästaren Bouchländar frän Skåne, bor på Malmens Källare. — Öfwersten von Röck frän Stralsund, bor hos Fru Wigert wid lilla Nygatan.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Baron Wrede med Fru och en Fröken, Fänricken Baron Jöran Wrede, Cornetten Baron Hindrie Wrede och Capitainen Baron Carl Gustaf Gyllengranath",
+          "role": "Generalen"
+        },
+        {
+          "name": "Fabriqueuren Pehr Stenkula frän Söderköping",
+          "role": null
+        },
+        {
+          "name": "Bokhålaren Anders Jaggström frän Finspangs Bruk i Östergötland",
+          "role": null
+        },
+        {
+          "name": "Capit. Mich. Humble",
+          "role": null
+        },
+        {
+          "name": "Ingenieuren Bäck frän Upland",
+          "role": null
+        },
+        {
+          "name": "Christian Nobleen, Handelsmännen Lars Rydman, Vet. Tidström, Anders Löberg Lion och Borgaren Johan Mogren",
+          "role": "Rådman"
+        },
+        {
+          "name": "Nyttimästaren Bouchländar frän Skåne",
+          "role": null
+        },
+        {
+          "name": "Öfwersten von Röck frän Stralsund",
+          "role": null
+        }
+      ],
+      "locations": [
+        "Regeringsgatan i huset N:o 93",
+        "Männarebans-porten hos Lagman Gripenkråle",
+        "huset N:o 113 wid Göthgatan hos Spanmålshandl. Jung.",
+        "Kora Glasbruksgatan å Södermalm",
+        "huset N:o 113 wid Jacobi wästra Kyrkogata",
+        "Malmens Källare",
+        "lilla Nygatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Lilla Nygatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:11:kursutskrift",
+    "label": "Kursutskrift",
+    "date": "1780-01-28",
+    "address": null,
+    "description": "Den 28 januari var kursen:\n\nPå Amsterdam = = = = till R:den H:r. C: 45 skill.7\nHamburg = = = = till R:den B:co 47, 47 och 1-4 delö a 47 och 1-3 delö skill. > 2 Uso.\nLondon = = = = till V. St. 4 Ndal. 9 skill.]\nParis = = = = per Livres 8 och en hælf skill.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Den 28 Januarii war Coursen:\nPå Amsterdam = = = = à R:d. H:r. C: 45 Skill.7\nHamburg = = = = à R:d. B:co 47, 47 och 1-4:delö a 47 och 1-3:delö Skill. > 2 Uso.\nLondon = = = = à V. St. 4 Ndal. 9 Skill.]\nParis = = = = per Livres 8 och en hælf Skill.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Amsterdam",
+        "Hamburg",
+        "London",
+        "Paris"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:12:lotteridragning",
+    "label": "Lotteridragning",
+    "date": "1779-02-02",
+    "address": null,
+    "description": "Kongl. Nummer-Lotteriets 108:e dragning sker nästa onsdag den 2 februari, vilket härmed tillkännages. På det de som äventyra sig att delta i detta lotteri mögel inom vanlig tid till lotters undtagande inför.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Kongl. Nummer-Lotteriets 108:de Dragning sker nådkommande Onsdag den 2 Februarii hvilket hårmad Tilkänna gifroes, på det den eller de som äftunda deltaga uti detta Lotterie möge inom wanlig tid til Lotters undfænde infina.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0002:13:lotteri-musicaliske-academiens-dragning",
+    "label": "Lotteri: Musicaliske Academiens Dragning",
+    "date": "1780-01-29",
+    "address": null,
+    "description": "Vid första Clasens Dragning av Kongalotteriet. Musicalisk Akademiens Lotteri, som hölls den föregående lördagen den 29 januari, utlade de högsta vinsterna på följande nummer: N:o 4182 med 6000 daler K:mt. N:o 2016 med 2000 daler. N:o 1464 med 1200 daler. Numren 2216, 4965, 4380, 3317 och 3274 vann varje 600 daler K:mt. Numren 3435, 2043, 5476, 5769 och 965 vann varje 300 daler K:mt.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 2,
+      "archive_ref": "bib13506739_17800131_144030_24_0002.jpg",
+      "original_spelling": "Wid första Clasens Dragning af Kongal. Musicaliske Academiens Lotterie, som hedde försleden Lördag d. 29 Januarii, utslölo högsta Winsterne på føljande Numror, neml: N:o 4182, 6000 daler K:mt. N:o 2016, 2000 daler. N:o 1464, 1200 daler. N:riss 2216, 4965, 4380, 3317 och 3274 hwardera 600 daler. N:riss 3435, 2043, 5476, 5769 och 965, hwardera 300 daler K:mt.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kongal",
+        "Musicaliske Academien"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

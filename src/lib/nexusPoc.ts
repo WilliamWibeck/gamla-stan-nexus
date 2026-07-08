@@ -1,5 +1,9 @@
 import type { CategoryId } from './nexusCategories'
 import type { NexusGraph, NexusNode, NexusNodeType } from './nexusHistoricalGraph'
+import { monthFromIso } from './nexusDates'
+
+export type { ParsedRecordDate } from './nexusDates'
+export { MONTH_PICKER_THRESHOLD, formatEventDate, parseRecordDate } from './nexusDates'
 
 export type PocKind = 'person' | 'place' | 'event'
 
@@ -12,6 +16,8 @@ export type PocNode = {
   lng: number | null
   yearStart: number
   yearEnd: number
+  /** ISO date when known (YYYY-MM-DD); used for month/day filtering. */
+  dateStart?: string | null
   themes: string[]
   markerType?: NexusNodeType
   metadata?: Record<string, unknown>
@@ -34,19 +40,29 @@ export type PocDataset = {
     categoryCounts: Partial<Record<CategoryId, number>>
     /** Event count per year (unfiltered), for the time-bar density strip. */
     yearCounts: Record<number, number>
+    /** Dated event counts per month within each year (month 1–12). */
+    monthCountsByYear: Record<number, Record<number, number>>
   }
   nodes: PocNode[]
   links: PocLink[]
 }
 
 export const EMPTY_DATASET: PocDataset = {
-  meta: { yearMin: 1750, yearMax: 1850, categoryCounts: {}, yearCounts: {} },
+  meta: { yearMin: 1750, yearMax: 1850, categoryCounts: {}, yearCounts: {}, monthCountsByYear: {} },
   nodes: [],
   links: [],
 }
 
 export function nodeActiveInYear(n: PocNode, year: number): boolean {
   return n.yearStart <= year && year <= n.yearEnd
+}
+
+export function nodeActiveInYearMonth(n: PocNode, year: number, month: number | null): boolean {
+  if (!nodeActiveInYear(n, year)) return false
+  if (n.kind !== 'event' || month == null) return true
+  const eventMonth = monthFromIso(n.dateStart)
+  if (eventMonth == null) return false
+  return eventMonth === month
 }
 
 export function nodeMatchesCategories(n: PocNode, active: Set<CategoryId>): boolean {
@@ -57,13 +73,14 @@ export function nodeMatchesCategories(n: PocNode, active: Set<CategoryId>): bool
 export function filterPocDataset(
   dataset: PocDataset,
   year: number,
+  month: number | null,
   activeCategories: Set<CategoryId>,
 ): PocDataset {
-  // People and places are time-independent anchors; only events are year-bound.
+  // People and places are time-independent anchors; only events are year/month-bound.
   const visible = dataset.nodes.filter(
     (n) =>
       nodeMatchesCategories(n, activeCategories) &&
-      (n.kind !== 'event' || nodeActiveInYear(n, year)),
+      (n.kind !== 'event' || nodeActiveInYearMonth(n, year, month)),
   )
   const ids = new Set(visible.map((n) => n.id))
 
@@ -94,6 +111,11 @@ export function filterPocDataset(
 
 function pocNodeToNexus(n: PocNode): NexusNode | null {
   if (n.lat == null || n.lng == null) return null
+  const meta = n.metadata ?? {}
+  const inner = (meta.metadata as Record<string, unknown> | undefined) ?? {}
+  const geocodeStatus = (inner.geocode_status ?? meta.geocode_status) as string | undefined
+  // Only show pins with a resolved place — not records that failed geocoding.
+  if (geocodeStatus === 'district_fallback') return null
   const type: NexusNodeType = n.markerType ?? 'residence'
   return {
     id: n.id,

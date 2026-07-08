@@ -4,6 +4,11 @@ import mapboxgl from 'mapbox-gl'
 import MapboxCspWorker from 'mapbox-gl/dist/mapbox-gl-csp-worker.js?worker'
 import { useLayoutEffect, useRef, useState } from 'react'
 
+import {
+  applyMapboxStreetLabels,
+  MAPBOX_STYLE,
+  mapboxBasemapInitConfig,
+} from '../lib/mapboxBasemap'
 import { NEXUS_CATEGORIES } from '../lib/nexusCategories'
 import {
   installNexusHistoricalGraph,
@@ -38,9 +43,6 @@ function errorLikelyAccessTokenIssue(message: string): boolean {
 
 const GAMLA_STAN_CENTER: mapboxgl.LngLatLike = [18.071, 59.325]
 const DEFAULT_ZOOM = 15.2
-const KSAMSOK_SOURCE_ID = 'ksamsok-points'
-const KSAMSOK_LAYER_ID = 'ksamsok-points-layer'
-const KSAMSOK_REFRESH_MS = 30_000
 
 export type FocusRequest = {
   nodeId: string
@@ -153,9 +155,6 @@ export function NexusMap({
     let windowResizeRaf: number | null = null
     let map: mapboxgl.Map | undefined
     let teardownHistorical: (() => void) | undefined
-    let onKsamsokEnter: (() => void) | undefined
-    let onKsamsokLeave: (() => void) | undefined
-    let ksamsokRevision = 0
 
     const resizeIfLive = () => {
       if (disposed || !map) return
@@ -208,104 +207,6 @@ export function NexusMap({
       })
     }
 
-    let ksamsokRefreshHandle: number | undefined
-
-    const loadKsamsokFeatures = async (): Promise<GeoJSON.Feature<GeoJSON.Point>[]> => {
-      ksamsokRevision += 1
-      const res = await fetch(`/ksamsok_raw.json?rev=${ksamsokRevision}`, { cache: 'no-store' })
-      if (!res.ok) {
-        LOG('K-Samsok dataset missing or inaccessible', { status: res.status })
-        return []
-      }
-
-      const data = (await res.json()) as {
-        records?: Array<{
-          itemName?: string | null
-          itemDescription?: string | null
-          fromTime?: string | null
-          thumbnail?: string | null
-          sourceUri?: string | null
-          geodata?: { lat?: number | null; lng?: number | null }
-        }>
-      }
-
-      const features: GeoJSON.Feature<GeoJSON.Point>[] = []
-      for (const rec of data.records ?? []) {
-        const lat = rec.geodata?.lat
-        const lng = rec.geodata?.lng
-        if (typeof lat !== 'number' || typeof lng !== 'number') continue
-        features.push({
-          type: 'Feature',
-          geometry: { type: 'Point', coordinates: [lng, lat] },
-          properties: {
-            itemName: rec.itemName ?? null,
-            itemDescription: rec.itemDescription ?? null,
-            fromTime: rec.fromTime ?? null,
-            thumbnail: rec.thumbnail ?? null,
-            sourceUri: rec.sourceUri ?? null,
-          },
-        })
-      }
-      return features
-    }
-
-    const updateKsamsokSourceData = async () => {
-      if (!map || disposed) return
-      try {
-        const features = await loadKsamsokFeatures()
-        if (!map || disposed) return
-        const source = map.getSource(KSAMSOK_SOURCE_ID) as mapboxgl.GeoJSONSource | undefined
-        if (!source) return
-        source.setData({ type: 'FeatureCollection', features })
-        LOG('K-Samsok points refreshed', { count: features.length })
-      } catch (err) {
-        console.warn('[NexusMap] failed to refresh K-Samsok points', err)
-      }
-    }
-
-    const installKsamsokPoints = async () => {
-      if (!map || disposed) return
-      try {
-        const features = await loadKsamsokFeatures()
-        if (!map || disposed) return
-
-        if (map.getSource(KSAMSOK_SOURCE_ID) || map.getLayer(KSAMSOK_LAYER_ID)) return
-
-        map.addSource(KSAMSOK_SOURCE_ID, {
-          type: 'geojson',
-          data: { type: 'FeatureCollection', features },
-        })
-
-        map.addLayer({
-          id: KSAMSOK_LAYER_ID,
-          type: 'circle',
-          source: KSAMSOK_SOURCE_ID,
-          paint: {
-            'circle-radius': 4,
-            'circle-color': '#22d3ee',
-            'circle-stroke-width': 1,
-            'circle-stroke-color': '#cffafe',
-            'circle-opacity': 0.9,
-          },
-        })
-
-        onKsamsokEnter = () => {
-          if (!disposed && map) map.getCanvas().style.cursor = 'pointer'
-        }
-        onKsamsokLeave = () => {
-          if (!disposed && map) map.getCanvas().style.cursor = ''
-        }
-        map.on('mouseenter', KSAMSOK_LAYER_ID, onKsamsokEnter)
-        map.on('mouseleave', KSAMSOK_LAYER_ID, onKsamsokLeave)
-        LOG('K-Samsok points installed', { count: features.length })
-        ksamsokRefreshHandle = window.setInterval(() => {
-          void updateKsamsokSourceData()
-        }, KSAMSOK_REFRESH_MS)
-      } catch (err) {
-        console.warn('[NexusMap] failed to load K-Samsok points', err)
-      }
-    }
-
     const attachMap = () => {
       if (disposed || map) return
 
@@ -314,7 +215,8 @@ export function NexusMap({
       try {
         map = new mapboxgl.Map({
           container: el,
-          style: 'mapbox://styles/mapbox/dark-v11',
+          style: MAPBOX_STYLE,
+          config: mapboxBasemapInitConfig(),
           center: GAMLA_STAN_CENTER,
           zoom: DEFAULT_ZOOM,
           pitch: 42,
@@ -344,6 +246,7 @@ export function NexusMap({
       map.on('load', () => {
         if (disposed || !map) return
         LOG('map event: load — style and tiles reached ready state')
+        applyMapboxStreetLabels(map)
         if (import.meta.env.DEV && !loggedTelemetryBlockerHint) {
           loggedTelemetryBlockerHint = true
           LOG(
@@ -378,11 +281,12 @@ export function NexusMap({
         } catch (histErr) {
           console.error('[NexusMap] failed to add historical graph layers', histErr)
         }
-        void installKsamsokPoints()
       })
 
       map.on('style.load', () => {
-        if (!disposed) LOG('map event: style.load')
+        if (disposed || !map) return
+        LOG('map event: style.load')
+        applyMapboxStreetLabels(map)
       })
 
       map.on('error', (e) => {
@@ -398,6 +302,7 @@ export function NexusMap({
 
       map.on('click', (e) => {
         if (disposed || !map) return
+        graphControllerRef.current?.closePopup()
         if (popupRef.current) {
           popupRef.current.remove()
           popupRef.current = null
@@ -425,63 +330,6 @@ export function NexusMap({
             .addTo(map)
 
           popupRef.current = popup
-          return
-        }
-
-        const ksamsokHits = map.queryRenderedFeatures(e.point, { layers: [KSAMSOK_LAYER_ID] })
-        const ksamsokFeature = ksamsokHits[0]
-        if (ksamsokFeature) {
-          const props = ksamsokFeature.properties ?? {}
-          const itemName =
-            typeof props.itemName === 'string' && props.itemName.trim().length > 0
-              ? props.itemName
-              : 'Unnamed object'
-          const itemDescription =
-            typeof props.itemDescription === 'string' && props.itemDescription.trim().length > 0
-              ? props.itemDescription
-              : 'No description available.'
-          const fromTime =
-            typeof props.fromTime === 'string' && props.fromTime.trim().length > 0
-              ? props.fromTime
-              : 'Unknown'
-          const thumbnail =
-            typeof props.thumbnail === 'string' && props.thumbnail.trim().length > 0
-              ? props.thumbnail
-              : null
-          const sourceUri =
-            typeof props.sourceUri === 'string' && props.sourceUri.trim().length > 0
-              ? props.sourceUri
-              : null
-
-          const thumbnailHtml = thumbnail
-            ? `<img src="${escapeHtml(thumbnail)}" alt="${escapeHtml(itemName)}" class="mb-2 h-20 w-full rounded object-cover" />`
-            : ''
-          const sourceHtml = sourceUri
-            ? `<a href="${escapeHtml(sourceUri)}" target="_blank" rel="noreferrer" class="mt-2 inline-block text-[10px] text-cyan-300 underline">View source</a>`
-            : ''
-
-          const popup = new mapboxgl.Popup({
-            closeButton: true,
-            closeOnClick: false,
-            className: 'nexus-popup',
-            maxWidth: '340px',
-            offset: 12,
-          })
-            .setLngLat(e.lngLat)
-            .setHTML(
-              `<div class="nexus-ksamsok-popup rounded border border-cyan-900/40 bg-stone-950/95 px-3 py-2 shadow-lg backdrop-blur-md">
-                 <div class="mb-1 font-[family-name:var(--font-nexus-serif)] text-[9px] uppercase tracking-[0.2em] text-cyan-200/70">K-Samsok</div>
-                 <div class="font-[family-name:var(--font-nexus-serif)] text-[13px] text-stone-100">${escapeHtml(itemName)}</div>
-                 <div class="mt-1 font-[family-name:var(--font-nexus-mono)] text-[10px] text-stone-300">${escapeHtml(itemDescription)}</div>
-                 <div class="mt-2 font-[family-name:var(--font-nexus-mono)] text-[10px] text-cyan-200/90">fromTime: ${escapeHtml(fromTime)}</div>
-                 ${thumbnailHtml}
-                 ${sourceHtml}
-               </div>`,
-            )
-            .addTo(map)
-
-          popupRef.current = popup
-          return
         }
       })
 
@@ -511,7 +359,6 @@ export function NexusMap({
       sidebarRo?.disconnect()
       window.removeEventListener('resize', onWindowResize)
       if (windowResizeRaf != null) cancelAnimationFrame(windowResizeRaf)
-      if (ksamsokRefreshHandle != null) window.clearInterval(ksamsokRefreshHandle)
       LOG('effect cleanup — removing map instance')
       popupRef.current?.remove()
       popupRef.current = null
@@ -519,10 +366,6 @@ export function NexusMap({
       teardownHistorical?.()
       teardownHistorical = undefined
       try {
-        if (map && onKsamsokEnter) map.off('mouseenter', KSAMSOK_LAYER_ID, onKsamsokEnter)
-        if (map && onKsamsokLeave) map.off('mouseleave', KSAMSOK_LAYER_ID, onKsamsokLeave)
-        if (map?.getLayer(KSAMSOK_LAYER_ID)) map.removeLayer(KSAMSOK_LAYER_ID)
-        if (map?.getSource(KSAMSOK_SOURCE_ID)) map.removeSource(KSAMSOK_SOURCE_ID)
         map?.remove()
       } catch {
         /* already removed or mid-teardown */

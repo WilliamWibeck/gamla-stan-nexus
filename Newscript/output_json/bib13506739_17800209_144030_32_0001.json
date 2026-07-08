@@ -1,0 +1,116 @@
+[
+  {
+    "id": "bib13506739_17800209_144030_32_0001:1:dageliga-tidningar",
+    "label": "Dageliga Tidningar",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Stockholm N:o 32.\nDen 9 Februarii 1780, Onsdag.\nDageliga Tidningar,\nEller\nDagligt Allehanda.\nMåndagen d. 7 Febr. mulet hela dagen, men klart en del af följande natten. Thermometer stod om midg- \n\ndagen alleenast 2, men om aftonen och följande Tisdags morgon 5 gr. und. frysp. då det ock åter var mulet,\nblåse litet östan. Barometer har stigit til 25,95.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 1,
+      "archive_ref": "bib13506739_17800209_144030_32_0001.jpg",
+      "original_spelling": "Stockholm N:o 32.\nDen 9 Februarii 1780, Onsdag.\nDageliga Tidningar,\nEller\nDagligt Allehanda.\nMåndagen d. 7 Febr. mulet hela dagen, men klart en del af följande natten. Thermom. stod om mid-\ndagen alleenast 2, men om aftonen och följande Tisdags morgon 5 gr. und. frysp. då det ock åter var mulet,\nblåse litet östan. Barom. har stigit til 25,95.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0001:2:concours-twisten-utagerad",
+    "label": "Concours-twisten utagerad",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Högwalborne Herr Grefive, Justitiä-Canceller samt Riddare af Kgl. Majsts Nordstjärne-Ordery\n\nNädige Herre!\nDet har redan gått mer än sex år sedan den efter Groshandlaren Olof Engström Olofsfon uppstående Concours-twisten utagdes av Adels Rådhus-Rätten i Stockholm, utan att samma blivit med domen avslutad. Oavsett att många därom skickade påminnelser.\n\nEn så lång uppehållning kan inte heller vara tillfredsställande mot Kungl. Majsts nädiga stadga från den 6 augusti 1773, i § 13.\n\nDetta moment sbrerkrivs, och kan väl ej annat vara käntbar för samtliga borgenärer, men är för mig och mina medarbetare aldrig drägligt, så mycket mera som vi samtidigt är de största fordringsdragare i boet, samt saxon-arsvingar efter fru Riddmanna i Fahlun Olof Engström.\n\nStår det icke allenaast sakna de ansenliga penninge-summor som bemålad rådman sifl i livstiden förskurit och anmält i Concursen, utan också efter hans död godtgöra den ganska betydelige borgen som han för Galdenären ingått. Men för detta alt ej har vi någon annan årsättning att vänta.\n\nEnhav os af Concours-medlen kan loglikmätigt falla Högwalborne. Herr Grefiven, Justitiä-Cancelleren och Riddaren besvärlig och i djupaste ödmjukhet anhålla at av dess högtällande Ambertes åtgärder,\n\nnadjgunstigt bliswia så krafttligt och werfande understådd,\nat Adels Rådhus-Rätten bår i Stockholm, icke utan märkelig onswar,\nmå finna sig tillständigt längre utdraga tiden med förberedde Concoursmäls afslimmande,\nog i så måtto ej widare\nuteftanga nog olyckelige lagsökande ifrån de rättigheters åtnjutande,\nsom uppå Stadgar och Förfsattningar-groundade äro.\n\nMed djupaste wörndad oavståteligen framhärdar\nHögwalborne Herr Grefvens, Justitiä-Cancellerens och Riddarens af K. Majsts Nordst.\n\nAllerödmjukaste tienare\nA egne och samtel. Rådman Olof Engströms Arfwingars wagnar\nCarl Per Sidberg. Krono-Besällningsman.",
+    "resident": "Olof Engström Olofsfon",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 1,
+      "archive_ref": "bib13506739_17800209_144030_32_0001.jpg",
+      "original_spelling": "Högwalborne Herr Grefive och Justitiä-Canceller samt Riddare af Kgl. Majsts Nordstjärne-Ordery\nNädige Herre!\nDet är redan lidit längt inpa 6:ke året, som den, efter Groshandlaren Olof Engström Olofsfon uppade Concours-twisten utagerad,\navhos Adle Rådhus-Rätten i Stockholm hvilande, utan at den samma bliswit med Dom afslutad, oaktadt många därom skedde påminnelser.\nEn så längt uppehåll,\nsom ofelbart lårer vara fridande emot hvad Kongl. Majsts nädiga Stadga af den 6 Augusti 1773, uti 13 §.\n2:dra Mos-\nmentet sbrerkrisver, kan väl ej annat vara käntbar för samtellige Borgenärerne,\nmen är för mig och mine medarswingar aldeles odrägelig, så mycket mera,\nsom wi samfält åro de största fordring-sdgare i boet,\nsamt saxon-arswingar efter frauledne Riddmanner i Fahlun Olof Engström,\nstås icke alleenast sakna de ans-\nenliga penninge-summor, hvilka bemålte Rådman sifl i lifstiden förskurit och i Concursen anmält,\nutan ock efter hans död godtgöra den ganska betydelige borgen,\nsom han för Galdenären ingått, men för hvil-\net alt, wi ej haswa at vänta någon annan årsättning,\nenhav os af Concours-medlen kan loglikmätigt\nfalla Högwalborne. Herr Grefiven, Justitiä-Cancelleren och Riddaren besvärlig och i djupaste ödmjukhet anhålla at af dess högtällande Ambertes åtgär,\nnadjgunstigt bliswia så kraft-\nttligt och werfande understådd,\nat Adle Rådhus-Rätten bår i Stockholm, icke utan märkelig onswar,\nmå finna sig tillständigt längre utdraga tiden med förberedde Concoursmäls afslimmande,\nog i så måtto ej widare\nuteftanga nog olyckelige lagsökande ifrån de rättigheters åtnjutande,\nsom uppå Stadgar och Förfsattningar-\ngroundade äro.\nMed djupaste wörndad oavståteligen framhärdar\nHögwalborne Herr Grefvens, Justitiä-Cancellerens och Riddarens af K. Majsts Nordst.\nOrd.\nAllerödmjukaste tienare\nA egne och samtel. Rådman Olof Engströms Arfwingars wagnar\nCarl Per Sidberg. Krono-Besällningsman.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Olof Engström Olofsfon",
+          "role": null
+        },
+        {
+          "name": "Adle Rådhus-Rätten",
+          "role": null
+        }
+      ],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0001:3:sallskapet-pro-veritate",
+    "label": "Sällskapet pro Veritate",
+    "date": "1780-02-09",
+    "address": "Skalden",
+    "description": "De skärt a Skalden, de största Förfsattare som trotsa tiden, undgår den skarp-syntaste granfsares anfall och kan dock med all sin konst aldrig värja sig från en osförrätt som man ofta i all vålmening tillfogar dem. Dess wackraste, ledigaste och mest sammanhängande sanninger bliswia nödvändigt wanständde, då de ikläddas en smutsig, trvungen och farfivig drägt. Huru ofta kommer icke detta på Förfsattarens räkning? Då likmål Öfwersättaren willigt borde vända sin rygg åt Critiquens pika. Man osförrättar intet allenaat det Allmänna som för sina vengar får låsa en imager vers, och Förfsattaren vars reputation lider eller sseminds- kas. Detta är så aldeles osförsvärligt att en östckelig Öfwersättare bliswia både bränd och uplyst af granfsnings-sacklan. Sällskapet pro Veritate, har somhvar man wet utgifwit en Tidning kallad Sanning och Utöje. Detta Sällskapets snillefoster blev allt för snart fullvårt och har i följe därof redan fått kännas våld som besalter all ting wärn wansteligt. Redan ser man dess rygg krokan, och hela dev lekamen luta til sitt första intet.",
+    "resident": null,
+    "lat": 59.3220067,
+    "lng": 17.9402527,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 1,
+      "archive_ref": "bib13506739_17800209_144030_32_0001.jpg",
+      "original_spelling": "De skärt a Skalden, de största Förfsattare,\nSom trotsa tiden,\nSom undgå den skarp-syntaste granfsares anfall,\nkunna dock med all sin konst aldrig wärja sig från en osförrätt som man ofta i all vålmening tilfogar\nDem.\nDess wackraste, ledigaste och mäst sammanhängande sanninger bliswia nödwändigt wanständde,\ndå de iklädas en smutsig, trvungen och farfivig drägt.\nHuru ofta kommer icke detta på Förfsattarens räkning?\ndå likmål Öfwersättaren willigt borde wända sin rygg at Critiquens pika.\nMan osförrättar intet allenaat det Allmänna\nSom för sina vengar får låsa en imager vers,\nOch Förfsattaren,\nhvars reputation lider eller sseminds-\nkas. Detta är så aldeles osförsvärligt,\nat en östckelig Öfwersättare bliswia både bränd och uplyst af granfsnings-sacklan.\nSällskapet pro Veritate, har somhvar man wet,\nutgifwit en Tidning, kallad Sanning och Utöje.\nDetta Sällskapets snillefoster,\nBlef allt för snart fullvårt och har i följe därof redan fått kännas våld,\nsom besalter all ting wärn wansteligt. Redan ser man dess rygg krokan, och hela dev lekamen luta til sitt\nförsta intet.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Skalden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Skalden",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

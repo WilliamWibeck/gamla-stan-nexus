@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { ChevronLeft, Network, Newspaper } from 'lucide-react'
 
 import { NexusMindmap } from './components/NexusMindmap'
 import { NexusSidebar } from './components/NexusSidebar'
@@ -6,6 +7,7 @@ import { NexusMap, type FocusRequest } from './components/NexusMap'
 import { NexusTimeBar } from './components/NexusTimeBar'
 import { NexusEventLedger } from './components/NexusEventLedger'
 import { categorizeNode, type CategoryId } from './lib/nexusCategories'
+import { monthFromIso, parseRecordDate, YEAR_CEIL, YEAR_FLOOR } from './lib/nexusDates'
 import {
   EMPTY_DATASET,
   filterPocDataset,
@@ -40,12 +42,9 @@ type MasterDataset = {
 
 type LoadState = 'loading' | 'ready' | 'error'
 
-/** Timeline window: dated records outside this range are treated as data noise. */
-const YEAR_FLOOR = 1600
-const YEAR_CEIL = 1900
-
 function toPocDatasetFromMaster(master: MasterDataset): PocDataset {
   const datedYears: number[] = []
+  const monthCountsByYear: Record<number, Record<number, number>> = {}
 
   const nodes: PocNode[] = master.nodes.map((n) => {
     const meta = n.metadata || {}
@@ -56,14 +55,16 @@ function toPocDatasetFromMaster(master: MasterDataset): PocDataset {
     else if (Array.isArray(innerMeta.themes)) themes = innerMeta.themes as string[]
     else if (meta.theme) themes = [meta.theme as string]
 
-    let yearStart: number | null = null
-    const dateStr = (meta.date || meta.year || innerMeta.date) as string
-    if (dateStr) {
-      const match = String(dateStr).match(/^(\d{4})/)
-      if (match) yearStart = parseInt(match[1], 10)
-    }
-    if (yearStart != null && yearStart >= YEAR_FLOOR && yearStart <= YEAR_CEIL) {
+    const dateStr = meta.date ?? meta.year ?? innerMeta.date ?? innerMeta.issue_date
+    const parsed = parseRecordDate(dateStr)
+    const yearStart = parsed?.year ?? null
+    if (yearStart != null) {
       datedYears.push(yearStart)
+      if (n.type === 'event' && parsed?.month != null && parsed.iso) {
+        const buckets = monthCountsByYear[yearStart] ?? {}
+        buckets[parsed.month] = (buckets[parsed.month] ?? 0) + 1
+        monthCountsByYear[yearStart] = buckets
+      }
     }
 
     return {
@@ -73,9 +74,9 @@ function toPocDatasetFromMaster(master: MasterDataset): PocDataset {
       category: categorizeNode(n.type, n.label, n.metadata),
       lat: typeof n.lat === 'number' ? n.lat : null,
       lng: typeof n.lng === 'number' ? n.lng : null,
-      // Undated records span the whole window so they're always visible.
       yearStart: yearStart ?? YEAR_FLOOR,
       yearEnd: yearStart ?? YEAR_CEIL,
+      dateStart: parsed?.iso ?? null,
       themes,
       markerType: n.type === 'event' ? 'event' : 'residence',
       metadata: n.metadata,
@@ -102,7 +103,7 @@ function toPocDatasetFromMaster(master: MasterDataset): PocDataset {
   }
 
   return {
-    meta: { yearMin, yearMax, categoryCounts, yearCounts },
+    meta: { yearMin, yearMax, categoryCounts, yearCounts, monthCountsByYear },
     nodes,
     links,
   }
@@ -115,9 +116,12 @@ function App() {
   const [loadState, setLoadState] = useState<LoadState>('loading')
   const [poc, setPoc] = useState<PocDataset>(EMPTY_DATASET)
   const [year, setYear] = useState<number>(1787)
+  const [month, setMonth] = useState<number | null>(null)
   const [activeCategories, setActiveCategories] = useState<Set<CategoryId>>(() => new Set())
   const [highlightId, setHighlightId] = useState<string | null>(null)
   const [focusRequest, setFocusRequest] = useState<FocusRequest | null>(null)
+  const [mindmapOpen, setMindmapOpen] = useState(true)
+  const [noticesOpen, setNoticesOpen] = useState(true)
   const focusTokenRef = useRef(0)
   const lastRawRef = useRef<string | null>(null)
 
@@ -161,8 +165,8 @@ function App() {
 
   const meta = poc.meta
   const filtered = useMemo(
-    () => filterPocDataset(poc, year, activeCategories),
-    [poc, year, activeCategories],
+    () => filterPocDataset(poc, year, month, activeCategories),
+    [poc, year, month, activeCategories],
   )
   const mapGraph = useMemo(() => toMapNexusGraph(filtered), [filtered])
   const mindGraph = useMemo(() => toForceGraphData(filtered), [filtered])
@@ -188,12 +192,18 @@ function App() {
    * year, then the map eases to the marker and opens its popup (the focus
    * request stays pending until the rebuilt map contains the node).
    */
+  const onYearChange = useCallback((y: number) => {
+    setYear(y)
+    setMonth(null)
+  }, [])
+
   const onNodeOpen = useCallback(
     (clicked: { id: string; ghost: boolean; yearStart: number }) => {
       const node = nodesById.get(clicked.id)
       if (!node) return
       if (clicked.ghost && node.yearStart >= poc.meta.yearMin && node.yearStart <= poc.meta.yearMax) {
         setYear(node.yearStart)
+        setMonth(monthFromIso(node.dateStart))
       }
       setHighlightId(clicked.id)
       if (node.lat != null && node.lng != null) {
@@ -203,6 +213,13 @@ function App() {
     },
     [nodesById, poc.meta.yearMin, poc.meta.yearMax],
   )
+
+  const mainGridStyle = useMemo(() => {
+    const cols: string[] = ['minmax(0,1.2fr)']
+    if (mindmapOpen) cols.push('minmax(0,1fr)')
+    if (noticesOpen) cols.push('minmax(0,0.85fr)')
+    return { gridTemplateColumns: cols.join(' ') }
+  }, [mindmapOpen, noticesOpen])
 
   if (loadState === 'loading') {
     return (
@@ -237,7 +254,10 @@ function App() {
           onClearCategories={clearCategories}
         />
 
-        <div className="grid min-h-0 min-w-0 flex-1 grid-cols-1 grid-rows-3 md:grid-cols-[1.2fr_1fr_0.8fr] md:grid-rows-1">
+        <div
+          className="grid min-h-0 min-w-0 flex-1 grid-cols-1 grid-rows-[1.2fr_1fr_0.85fr] md:grid-rows-1"
+          style={mainGridStyle}
+        >
           <div className="relative min-h-0 min-w-0 border-b border-stone-800/55 md:border-b-0 md:border-r">
             <NexusMap
               mapGraph={mapGraph}
@@ -247,31 +267,89 @@ function App() {
             />
           </div>
 
-          <div className="relative min-h-0 min-w-0 border-b border-stone-800/55 md:border-b-0 md:border-r">
-            <NexusMindmap
-              data={mindGraph}
-              highlightId={highlightId}
-              onHighlightChange={setHighlightId}
-              onNodeOpen={onNodeOpen}
-            />
-          </div>
+          {mindmapOpen ? (
+            <div className="relative min-h-0 min-w-0 border-b border-stone-800/55 max-md:block md:border-b-0 md:border-r">
+              <NexusMindmap
+                data={mindGraph}
+                highlightId={highlightId}
+                onHighlightChange={setHighlightId}
+                onNodeOpen={onNodeOpen}
+                onCollapse={() => setMindmapOpen(false)}
+              />
+            </div>
+          ) : (
+            <>
+              <div className="relative min-h-0 min-w-0 border-b border-stone-800/55 max-md:block md:hidden md:border-b-0 md:border-r">
+                <NexusMindmap
+                  data={mindGraph}
+                  highlightId={highlightId}
+                  onHighlightChange={setHighlightId}
+                  onNodeOpen={onNodeOpen}
+                />
+              </div>
+              <div className="hidden min-h-0 w-9 shrink-0 flex-col items-center border-stone-800/55 md:flex md:border-r">
+              <button
+                type="button"
+                onClick={() => setMindmapOpen(true)}
+                title="Show mindmap"
+                className="flex h-full w-full flex-col items-center justify-center gap-2 border-0 bg-stone-950/40 text-stone-500 transition-colors hover:bg-stone-900/60 hover:text-violet-300"
+              >
+                <Network className="size-4" aria-hidden />
+                <span className="font-[family-name:var(--font-nexus-mono)] text-[8px] uppercase tracking-[0.18em] [writing-mode:vertical-rl]">
+                  Mindmap
+                </span>
+                <ChevronLeft className="size-3" aria-hidden />
+              </button>
+            </div>
+            </>
+          )}
 
-          <div className="relative min-h-0 min-w-0 border-stone-800/55">
-            <NexusEventLedger
-              nodes={filtered.nodes}
-              highlightId={highlightId}
-              onHighlightChange={setHighlightId}
-            />
-          </div>
+          {noticesOpen ? (
+            <div className="relative min-h-0 min-w-0 border-stone-800/55 max-md:block">
+              <NexusEventLedger
+                nodes={filtered.nodes}
+                highlightId={highlightId}
+                onHighlightChange={setHighlightId}
+                onCollapse={() => setNoticesOpen(false)}
+              />
+            </div>
+          ) : (
+            <>
+              <div className="relative min-h-0 min-w-0 border-stone-800/55 max-md:block md:hidden">
+                <NexusEventLedger
+                  nodes={filtered.nodes}
+                  highlightId={highlightId}
+                  onHighlightChange={setHighlightId}
+                />
+              </div>
+              <div className="hidden min-h-0 w-9 shrink-0 flex-col items-center md:flex">
+              <button
+                type="button"
+                onClick={() => setNoticesOpen(true)}
+                title="Show notices"
+                className="flex h-full w-full flex-col items-center justify-center gap-2 border-0 bg-stone-950/40 text-stone-500 transition-colors hover:bg-stone-900/60 hover:text-violet-300"
+              >
+                <Newspaper className="size-4" aria-hidden />
+                <span className="font-[family-name:var(--font-nexus-mono)] text-[8px] uppercase tracking-[0.18em] [writing-mode:vertical-rl]">
+                  Notices
+                </span>
+                <ChevronLeft className="size-3" aria-hidden />
+              </button>
+            </div>
+            </>
+          )}
         </div>
       </div>
 
       <NexusTimeBar
         year={year}
+        month={month}
         yearMin={meta.yearMin}
         yearMax={meta.yearMax}
         yearCounts={meta.yearCounts}
-        onYearChange={setYear}
+        monthCountsByYear={meta.monthCountsByYear}
+        onYearChange={onYearChange}
+        onMonthChange={setMonth}
       />
     </div>
   )

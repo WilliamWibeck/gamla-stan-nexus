@@ -1,0 +1,259 @@
+[
+  {
+    "id": "bib13506739_17800208_144030_31_0004:1:tjenstkokande",
+    "label": "Tjenstkökande",
+    "date": "1780-02-08",
+    "address": null,
+    "description": "Tjenstkökande: Ek alswarsamt Fruntimmer, som tidigare tjänat för hushållerska, undrar om en sådan tjänst i ett U-format hus antingen i staden eller på landet; informationen publiceras i Säckerbruksboden vid Riddarhusstorget korsningen av förra Nygatan. En besedlig Kammarpiga som kan sy, stryka och arbeta med hår, och tidigare tjänat för kammarpiga, undrar om en sådan tjänst till nästa flyttning; adressen publiceras där dessa Blad utges. Et Foder- och Moderlöst Fruntimmer, undrar om att komma i ett hedersfullt och alswarsamt hus utan lös att gå tillhandahållande i allting; adressen publiceras i Bållhusgränden hos Bagaren Röhl.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 4,
+      "archive_ref": "bib13506739_17800208_144030_31_0004.jpg",
+      "original_spelling": "Tjenstkökande:\nEk alswarsamt Fruntimmer, som i föra år har tjent för hushållerska, åtundar en dylik tjenst i et U-fet hu-håll antingen i Staden eller på Landet; underrättelse färs i Säckerbruksboden vid Riddarhusstorget k hörnet af föra Nygatan.\nEn besedlig Kammarpiga, som kan sy, stryka, stärka och något med hår, och i föra år tjent för Kammarpiga, åtundar en dylik tjenst til nästa flyttning; adress färs där dessa Blad utgifwras.\nEt Foder- och Moderlöst Fruntimmer, åtundar at komma i et hederligt och alswarsamt hus utan lös at gå tilhanda i allting; adress om henne färs i Bållhusgränden hos Bagaren Röhl.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Riddarhusstorget",
+        "Nygatan",
+        "Bållhusgränden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800208_144030_31_0004:2:tjanst-atundas",
+    "label": "Tjänst åtundas",
+    "date": "1780-02-08",
+    "address": "Drottninggatan",
+    "description": "En frälsad och stående dam, som under åren har förvaltat en hemma, så i staden som på landet, söker nu tjenst hos Dagbladet den 21 januari. Hon kan anmäla sig vid tobaksboden nära Källaren vid Tunnor vid Drottningegatan. Om någon kunnig och uppskattad hushållare, som tidigare har förvaltat en hemma, skulle vara intresserad att ta emot denna tjenst under påsk, såges det gärna om några ord till underrättelse om decakidningarna utgifvras.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0628,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 4,
+      "archive_ref": "bib13506739_17800208_144030_31_0004.jpg",
+      "original_spelling": "I tjenst åtundas:\nDet hederliga och stadgade Fruntimmer, som föra år har stött hushåll före så i Staden som på Landet, og i Bihanget til Dagligt Allehanda N:o 26 begärt tjenst hålft på Landet, har at anmäla sig i sista huset nedre sin änkhuset då tjenst kan arbhållas hos en Anstling på Landet, däf hon kan lämna säkra betog om sin Nickelighet.\nDet hederliga och stadgade Fruntimmer, som föra år har föreståt hushåll, så i Staden som på Lans- det och nu söker dylik tjenst til Dagbladet af den 21 sifflende Januarii, kan insiana sig uti Tobaksboden näst intil Källaren z Tunnor wid Drottningegatan.\nOm någon stadig och i maktningen kunnig Hushållerska, som tilsföre föreståt hushåll, wore hugad at insundande Påsk antaga en dylik tjenst, så inlämnas några ord til underrättelse om dez witsaude där deca Kidningar utgifwras.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Källaren z Tunnor",
+        "Drottningegatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Drottninggatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800208_144030_31_0004:3:anstallning-kokspiga-vid-gotheborg",
+    "label": "Anställning: Kökspiga vid Götheborg",
+    "date": "1780-02-08",
+    "address": null,
+    "description": "Åtundas i tjänst vid nästa flyttningstid uti ett nät hushåll en förfaren, trogen och besedlig kökspiga i stället för en annan som samma tjänst innehåller, i anseende till mellankomna hinder; om tjänsten och hållet får underrättelse där deca Blad utgifvas. Hos ett herrkap, som ärnar sig till Göteborg åtundas vid nästa Påsk i tjänst en trogen och snäll hushållspiga, samt en lika beskad kökspiga försedda med hedersliga bevis, vilka med första haftva anmält sig tre trappor upp in på gården uti för detta kallade Kurmaniska huset mitt emot Tyska Brunn vid Svartnäsgatan.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 4,
+      "archive_ref": "bib13506739_17800208_144030_31_0004.jpg",
+      "original_spelling": "Åtundas i tjenst wid nästa flyttnings-tid uti et nät hushåll en förfaren, trogen och besedlig Kökspiga i stället för en annan som samma tjenst innehäft, i anseende til mellänkomne hinder; om tjensten och hållet färs underrättelse där deca Blad utgifwras.\nHos et Herrkap, som ärnar sig til Götheborg åtundas til nästa Påsk i tjenst en trogen och snäll Hush- piga, samt en lika beskad Kökspiga försedde med hederliga bewis, hvilka med första haftva at anmäla sig tre trappor up inpa gärden uti för detta kallade Kurmaniska huset midt emot Tyska Brunn wid Svartnångatan.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Götheborg",
+        "Kurmaniska huset",
+        "Tyska Brunn",
+        "Svartnångatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800208_144030_31_0004:4:flyttningsannonser",
+    "label": "Flyttningsannonser",
+    "date": "1780-02-08",
+    "address": "Drottninggatan",
+    "description": "En beskedlig kökspiga, som är snygg och kan laga mat, kommer att flytta till en ny bostad hos Madame Torsberg i Garnboden vid Lilla Köpmanstorget. En huspiga med goda färdigheter i strykning, styrka och klädning av hår kommer att flytta till en annan bostad hos Gavelin i Köpmansboden på Köpmangatan. I ett litet och lugnt hem kommer nästa påsk att ha en kökspiga och en huspiga med hedrande bevis för deras förmågor; adressen är Hökareboden vid Gränden nedanför Clara Kyrkoport på Drottningegatan.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0628,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 4,
+      "archive_ref": "bib13506739_17800208_144030_31_0004.jpg",
+      "original_spelling": "Åtundas nästa flyttnings-tid en besedlig Kökspiga, som försäf at laga mat och är snygg; underrättelse om tjensten färs hos Madame Torsberg uti Garnboden wid lilla Köpmanstorget.\nMåtta far dag åtundas en besedelig Huspiga, som kan stryka, styrka samt en, som kan kläda hår; unz derrättelse lämnas uti Köpmansboden wid Köpmangatan hos Gavelin.\nUti et litet och stilla hushåll åtundas nästa Påsk en Kökspiga och en Huspiga med hedrande bewis förs fedde; adress lämnas i Hökareboden wid Gränden ned til Clara Kyrkoport wid Drottningegatan.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Garnboden wid lilla Köpmanstorget",
+        "Köpmansboden wid Köpmangatan",
+        "Hökareboden wid Gränden ned til Clara Kyrkoport wid Drottningegatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Drottninggatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800208_144030_31_0004:5:anstallningar-vid-cafes",
+    "label": "Anställningar vid Cafés",
+    "date": "1780-02-08",
+    "address": null,
+    "description": "Den leende och raka flickan, som i Dagbladet N:o 26 från den 2 februari anklagas för att komma i tjänst på en kafé, kan anmäla sig till Sackehielinska Caffeshuset vid Riddarhusbron. I tjänst anklagas en besedlig och skicklig jungfru eller flicka till uppgift, som kan uppvisa bevis om sitt beteende; adressen finns i Snusboden mitt emot Kongl. Post-Contoiret.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 4,
+      "archive_ref": "bib13506739_17800208_144030_31_0004.jpg",
+      "original_spelling": "Den muntera och raka Flickan, som i Dagbladet N:o 26 af den 2 Febr. åtundar komma i tjenst på Caf- sehus, kan anmäla sig på Sackehielinska Caffeshuset wid Riddarhusbron.\nI tjenst åtundas en besedelig och skickel Jungfru eller Piga til uppañning, som kan uppte bedrande bewis om sit upförande; adress färs i Snusboden midt emot Kongl. Post-Contoiret.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Sackehielinska Caffeshuset",
+        "Riddarhusbron",
+        "Snusboden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800208_144030_31_0004:6:skuldsfordrings-mal",
+    "label": "Skuldsfordrings-mål",
+    "date": "1780-02-08",
+    "address": "Regeringsgatan",
+    "description": "Skuldsfordrings-mål: \n\nDe som vet sig vara skuldiga till Kramhandlaren Jonas Zekterstrands gålbundna Bo, behöver betala sina skulder till Fabriqueuren Obbarius, som är tillskriven Cus- rator i des Manufacturbod vid Benickebrinken mellan Färntorget och Tyska Brunn. Om dessa Debitorer inte vet om deras skuld eller har försökt undkomma lagliga åtgärder, måste man utgöra deras namn i tidningar för att de ska kunna betala sin skuld. \n\nDe som har vårt att fordras eller är skulda uti aledne Graveuren Gustaf Fr. Swark Sterbhus, bör anmäla sig inom 14 dagar hos dess Enka vid Huset N:o 74 vid Regeringsgatan för att hantera Bo-uppteckning; därvid tillkännagas att en överenskommelse mellan Enkan och den aledne Te- flamentum Reciprocum är upprättad.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0697,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 4,
+      "archive_ref": "bib13506739_17800208_144030_31_0004.jpg",
+      "original_spelling": "Skuldsfordrings-mål:\nDe som weta sig vara skylde til Kramhandlaren Jonas Zekterstrands gåldbundna Bo, behagade med första til undvikande of Lagsökning, betala sina skulder til Fabriqueuren Obbarius, såsom tilsförordnad Cus- rator i des Manufacturbod wid Benickebrinken emellan Färntorget och Tyska Brunn, och som man om fære hans Herrar Debitorer, hvilka nog länge begagnadt sig af hans credit, är okunnig om deras wissande, törde man framdeles nødsakas utgifwa deras namn i Tidningarne, om efter denna anmaning til betalning de icke til finna eller låta höra of sig.\nDe som haswå at fordra eller åro skylde uti aledne Graveuren Gustaf Fr. Swark Sterbhus, behaga innom 14 dagar anmäla sig hos des Enka uti Huset N:o 74 wid Regeringsgatan, i anseende til förestånde Bo-uppteckning; hwarjante wederbörande Slägtningar tilkänna gifwes, at emellan Enkan och den aledne, Te- flamentum Reciprocum är upprättad.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Regeringsgatan",
+        "Benickebrinken"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Regeringsgatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800208_144030_31_0004:7:diverse-rungorelser",
+    "label": "Diverse Rungörelser",
+    "date": "1780-02-08",
+    "address": "Lilla Nygatan",
+    "description": "Diverse nyheter: \nJohan Dragho, som nyligen ankommit till staden, visar på Björngårds-Källaren alla dagar från klockan 1 till 6 e.m. En ganska undantagsvärd diur fallit, en dromedar, som är 4 alnar högt och 6 alnar långt, har ett ganska litet husvad, lyfter ett får och drar en klunga, samt två knälar på ryggen; dessutom har han en ava och sina hundar, vilka med dansande rörelser kan roa respektive äfädare. För varje person betalar man 5 kronor och för barn två kronor och sex öre, herrskapet betalar efter behag.\nOm någon i staden skulle vara intresserad att ju förr dess hundar och siskor till nästkommande påsk mot någorlunda drägeliga villkor tar sig in på pension med två välartade gäss, den ena om 8 år och den andra på 6 års ålder; de får niutallt all tillbördig undervisning och stötsel. Sådan swar och underrättelse därom ges första i dessa tidningar.\nEmot första inskription, som redan är tagen ut på en egendom med häradsrätten's bevis därbiwer, åtundas med aldra förså et lån af 500 R:dalcr specie; den härtil finner sig intresserad att lämna en för eglad billett till A. B. däf dessa blad utgörs, hvarest man får sig anmäla.\nDen som den 22 i födelsen måndag eller i lördags fjorton dagar sedan, inropat på Assistance-Contoiret et Fruntimmers Pinsbochz Ur med då widhängande blåte Cavaillers Urband, behagade gunstbenagit sig hos Kammardrängen Hellström i Banquet tilkänna gifwes.\nI morgon kl. 8 utgörs nästa Blad häraf.\nTryckt i Kgl. Ordens=Tryckeriet Huset N:o 134 vid Lilla Nygatan.",
+    "resident": null,
+    "lat": 59.3234698,
+    "lng": 18.0691767,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 4,
+      "archive_ref": "bib13506739_17800208_144030_31_0004.jpg",
+      "original_spelling": "Diverse Rungörelser:\nJohan Dragho, som nyliigen til Staden ankommit visar på Björngårds-Källaren alla dagar från kl. 1 til 6 e. m. et ganska undligt Diur fallat, Dromedair, det är 4 alnar högt och 6 alnar längt, har et gansta litet husvad, lift et Får och dra läppen kluwen, samt 2:ne knälar å ryggen; desutom har han en Ava och sinå Hundar hvilka med dansande kunna roa respective äfädare, för hvor Person betalas 5 kr. och för Barn twå kr. 6 runt., Herrskaver betola efter behag.\nOm någon här i Staden skulle vara hugad, at ju förr dess håldre och sisk til nästkommande Påsk mot nägorsunda drägeliga wilkor taga i Pension 2:ne välartade Gäser, den ena om 8 år och den andra på 6:te året; at de niuta all tillbördig undervisning och stötsel, så utbedes swar och underrättelse därom med första i des- sa Tidningar.\nEmot första Inteckning, som redan är tagen uti en Egendom på Landet med Hårad-Rätten's bewis därbiwer\", åtundas med aldra förså et lån af 500 R:dalcr specie; den härtil finner sig hugad, behagade lämn- na en för eglad Billet til A. B. däf dessa Blad utgifwras, hvarest man får sig anmäla.\nDen som den 22 i födelen måndad eller i Lördags fjorton dagar sedan, inropat på Assistance-Contoiret et Fruntimmers Pinsbochz Ur med då widhängande blåte Cavaillers Urband, behagade gunstbenagit sig hos Kammardrängen Hellström i Banquet tilkänna gifwes.\nI morgon kl. 8 utgifwes nästa Blad häraf.\nTryckt i Kgl. Ordens=Tryckeriet Huset N:o 134 wid Lilla Nygatan.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Björngårds-Källaren",
+        "Lilla Nygatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Lilla Nygatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

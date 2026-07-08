@@ -1,0 +1,98 @@
+[
+  {
+    "label": "Bord for Baron Breteuil",
+    "date": null,
+    "address": null,
+    "description": "A grand, ornate table is completed and publicly announced to be sold at auction.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800126_144030_20_0001.jpg",
+      "original_spelling": "Dresden den 6 Januarii, Den Present, hvilken kommer at tillställas Baron Breteuil, som var Hans Franske Maj:ts Ambassadeur vid Freds-Congresen i Teschen, är nu färdig och utstäld til offentligt afkändande. Den består uti et prægtigt emot 3 alnar långt ovalt Bord. Fodterne äro helt och hållne af Silfwer, starkt förgylte och på antikt sätt ganska konstigt arberade, öfver alt besatte med Saxiske Granater, Rubiner, Topaser och sterc dyrbare Stenar. Bordstifwan är äfvenledes sammanstående af bara inländske Stenar til en wiss storlek, hafswandes hvareje vete sin nuaner; hwardwer Specification finnes i bordsladan, som utmärker af hvad slag Stenen är; midt på Bordstifwan är et ovalt stycke af Meisnisk Porcellaine, med en prægtig målning i Tousch, rundt omkring besatt med Saxiske Pårlor, rundingan af Stifwan har ännu syra dylka med Pårlor in- fassade Porcellains-Stycken, på hvilka Historier utur Ovidius åro målade. På et af deke Stycken läses namnet Breteuil, jämte dag och åratal då Freden slöts i Teschen.",
+      "themes": [
+        "Auction",
+        "Furniture"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Baron Breteuil",
+          "role": "Ambassador"
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Auction Notice for Björnsäls Minneswård",
+    "date": null,
+    "address": null,
+    "description": "An advertisement is placed in the newspaper to sell a commemorative item related to Professor Björnsäls, which was previously mentioned and deemed correct.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800126_144030_20_0001.jpg",
+      "original_spelling": "Den anmärkning, som i förledne års Dagblad N:o 296 inslutit öfwer stället, som tilämnadt är för sal: Prof. Björnsähls Minneswård, är så riktig, at den knapt tål någon motsägelse.",
+      "themes": [
+        "Auction",
+        "Memorial"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Professor Björnsäls",
+          "role": null
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Land Management in Skåne",
+    "date": "14 Januarii 1780",
+    "address": null,
+    "description": "A notice is published about land management practices in Skåne, emphasizing the importance of maintaining fields and proper farming techniques.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800126_144030_20_0001.jpg",
+      "original_spelling": "Den 14 Januarii 1780 är af Herr Hagelin Bager i Dagbladet införd om Landthushållningen i Skåne. Föräders bruks ifrån forntiden enwisas des affomlingar at hålla, det må vara gagneligt eller til ka- da; Jordens, hroilken uppehaller i alt det mästa, bdr väl häfsas, så är hon tackam tillbakas. Min Herre, som en gammal föräfaren Hushållare, så i Handelsen som Landt-Culturen, och en mångärig nitalskare om Rikets sanna wäl, täcktes nu tala denna min århindran.",
+      "themes": [
+        "Land Management",
+        "Agriculture"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Herr Hagelin Bager",
+          "role": null
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  }
+]

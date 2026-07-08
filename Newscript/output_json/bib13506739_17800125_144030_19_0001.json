@@ -1,0 +1,325 @@
+[
+  {
+    "id": "bib13506739_17800125_144030_19_0001:1:dageliga-tidningar",
+    "label": "Dagliga Tidningar",
+    "date": "1780-01-25",
+    "address": null,
+    "description": "Stockholm nr 19. Den 25 januari 1780, tisdag. Dagliga Tidningar, Eller: Dagligt Allehanda. Lördagen och söndagen den 22 och 23 jan: Bägge dagarna mulet, med snö, oväder och nordost. Termometern höll sig stilla vid 5 grader under fryspunkten och Barometern vid 25,30, men natten mot måndagen klarnade och lugnade, varefter på morgonen Termometern föll till 1 grad under fryspunkten; men Barometern steg till 25,70.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 1,
+      "archive_ref": "bib13506739_17800125_144030_19_0001.jpg",
+      "original_spelling": "Stockholm N:o 19.\nDen 25 Januarii 1780, Tisdag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nLördagen och Söndagen d. 22 och 23 Jan: Bägge dagarne mulit, med snö, Urväder och NO. Thermometer håll sig stilla wid 5 grader under fryspo. och Barom. wid 25,30, men natten emot Måndagen klarsnade och lugnade, hwaræfter om morgonen Therm. föll til 1x ge. under fryspo.; men Barom. skeg til 25,70.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0001:2:eteostichon-ordine-naturali",
+    "label": "Eteostichon ordine naturali",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Den 24 januari. Eteostichon ordine naturali. NoMen Te DeCorat, CLVe ReX, tVa rVra tVere: Optatas Segetes terra parata feret. aliud: Mars CVDat CLypeos, GVstaVVs aratra tVetVr: Præstant tropæo aratra. A. Nicander.",
+    "resident": null,
+    "lat": 59.325,
+    "lng": 18.07082,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 1,
+      "archive_ref": "bib13506739_17800125_144030_19_0001.jpg",
+      "original_spelling": "Den 24 Januarii.\nEteostichon ordine naturali.\nNoMen Te DeCorat, CLVe ReX, tVa rVra tVere:\nOptatas Segetes terra parata feret.\naliud:\nMars CVDat CLypeos, GVstaVVs aratra tVetVr:\nPræstant tropæo aratra.\nA. Nicander.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0001:3:utlandska-nyheter-constantinopel",
+    "label": "Utländska Nyheter: Konstantinopel",
+    "date": "1779-12-05",
+    "address": null,
+    "description": "Konstantinopel den 5 december. Den från Morea återkomne storamiralen, Hakan Vasa, har med sig hela flottan, vid vars inlopp i hamnen storsultanen själv var åskådare.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 1,
+      "archive_ref": "bib13506739_17800125_144030_19_0001.jpg",
+      "original_spelling": "Utländska Nyheter:\nConstantinopel d. 5 Dec. Den frän Morea återkomne Stor-Amiralen, Hakan Vasa, har med sig hezla flottan, wid hwaræs inlåpande i Hamnen Sto-Sultanen siffl war åfådare.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Morea",
+        "Hamnen Sto-Sultanen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0001:4:notis-fran-lissabon",
+    "label": "Notis från Lissabon",
+    "date": "1779-12-07",
+    "address": null,
+    "description": "Lissabon den 7 december. Det rapporteras att vid spanjorernas ankomst till ön Fernando Po och dess tagande i besittning, eftersom den av Portugal blivit avträdd till Spanien, hade invånarna dragit sig undan långt in i landet. Och vad den andra, likaledes avträdda ön Annobón beträffar, har dess invånare rent ut förklarat för spanjorerna: \"Att eftersom deras förfäder inte känt någon annan nation än den portugisiska, så ämnar de följa deras exempel och förbli under Hans Aldratrognaste Majestäts herravälde.\" Efter en sådan förklaring har spanjorerna inte, utan ytterligare order från sitt hov, velat vidta några åtgärder, utan har de skickat en fregatt till Spanien för att inhämta Hans Katolska Majestäts yttrande angående vad de skulle företaga.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 1,
+      "archive_ref": "bib13506739_17800125_144030_19_0001.jpg",
+      "original_spelling": "Lisabon den 7 December. Här är underrättelser, at wid Spaniorernes ankomst til Ön Fernando Pao och dess tagande i besittning, emedan den af Portugal bliswit til Spanien aftrådd, hade invånaren dragit sig undan längt in i Landet, och hvad den andra tikaledes aftrådd Hn Aunobon beträffar, hafva dess invånare rent ut förklarat Spaniorerne: \"At som deras förfädär icke kändt någon annan Nation, än den Portugisifse, så wisse de följa deras exempel och förbliswa under Hans Aldratrognaste Majestäts Herzramälde.\" Efter en sådan förklaring hafva Spaniorerne icke, utan ytterligare ordres från Hre Hof, welat något företaga, utan hafwa de aftråkat en Fregatt til Spanien at inhämta Hans Catholskse Maj:ets yttrens de hwad de hade at företaga.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Lisabon",
+        "ön Fernando Pao",
+        "ön Aunobon"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0001:5:pater-magnan-och-herodes-antippa",
+    "label": "Pater Magnan och Herodes Antippa",
+    "date": "1779-12-22",
+    "address": null,
+    "description": "Rom den 22 dec. Pater Magnan, en här i staden ganska bekant och lärd myntkännare, har nyligen, i anledning av en funnen medalj av Herodes Antippa, trott sig ha upptäckt att vår Frälsare är född 8 år före vår nuvarande tideräkning, så att detta året rätteligen borde skrivas 1788.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 1,
+      "archive_ref": "bib13506739_17800125_144030_19_0001.jpg",
+      "original_spelling": "Rom den 22 Dec. Pater Magnan, en härstådes ganska bekant och lärda Myntkännare, har nyligen, i anledning af en funnen Medaille af Herodes Antippa, trodt sig hafwa uttäckt at vår Frålsare är född 8 år före wär nu warande tide-räckning, så at detta året rätteligen borde skrifwas 1788.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Rom"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0001:6:paris-news",
+    "label": "Paris News",
+    "date": "1780-01-03",
+    "address": "Paris",
+    "description": "Paris den 3 jan. Alla överstar vid armén i Bretagne och Picardie har fått order att göra sig redo för att i nästa mars månad vara vid sina regementen. Greve Duchaufault är kallad till hovet, vilket man tror beror på oro över krigsoperationerna inför nästa sommar. Man tror att greve d'Estaing inte kommer att föra något kommando i år, utan det sägs att han, på grund av sina blessyrer, ska använda bad. Av 3 444 barn, som tidigare har blivit ympade för kopporna, har endast 10 dött; däremot har 1 634 dött av 6 459 som har haft naturliga koppor. Enligt brev från Lissabon är nu den bekante markis Pombal så ganska illa sjuk att alla hans vänner och släktingar har begett sig till honom för att ta avsked. De herrar som har sänts till honom för att undersöka hans ministeriella förrättningar har av honom inte kunnat få något annat svar än att han haft Konungens order till allt vad han gjorde.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 1,
+      "archive_ref": "bib13506739_17800125_144030_19_0001.jpg",
+      "original_spelling": "Paris den 3 Jan. Alla Hjæwærstar wid Armeen i Bretagne och Picardie hafva fått ordres göra sig färdige, at i nästa Martii Mångd wara wid sina Regementer. Grefwe Duchaufault är kallad til Höfwet, som man tror för at rädsla om Krigs-Operationerne för nästa Sommar. Man tror at Grifwe d'Estaing icke lärer föra något Commando detta år, utan säges at han för sina blezurer skuld skal nyttja Bader. Af 3444 barn, som försedit är bliswit ympade för Kopporne, hafwa alleenast 10 dödt; däræmot åro 1634 döde af 6459, hvilka hafst naturlige koppor. Enligt bref från Lisabon är nu den bekante Marquis Pombal så ganifa illa sjuk, at alla hans wänner och slägtingar begifwit sig til honom at taga afsked. De Herrar, som bliswit sände til honom at undersöka hans Ministerelle förrättnings, hafwa af honom icke kunnat erhålla annat swär, an at han haft Konungens ordres til alt hwad han gjorde.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Paris",
+        "Bretagne",
+        "Picardie"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0001:7:wolga-flodens-stigning",
+    "label": "Volgas flöde stiger",
+    "date": "1779-12-24",
+    "address": null,
+    "description": "Petersburg den 24 dec. Enligt brev från Astrakhan till härvarande Kejserliga Vetenskapsakademin har Volgafloden i år stigit så högt som den inte gjort på 20 år. I mitten av april började vattnet stiga, den 31 maj stod det som högst, och i början av juli var det åter i sin vanliga höjd. Man har nu för första gången försökt nyttja Volgavattnets stigande på samma sätt som egyptierna brukar Nilens, vilket har lyckats så väl att de ställen som blivit översvämmade och täckta av Volga, visat mer än vanlig fruktbarhet.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 1,
+      "archive_ref": "bib13506739_17800125_144030_19_0001.jpg",
+      "original_spelling": "Pettersburg den 24 Dec. Enligt Bref från Astracan til härvarande Keiserlige Vettenkaps-Acadæmien har Wolga-Floden i detta år stigit så högt, som den icke gjord på 20 år. Midt i April börjas de watnnet in den samma stiga, den 31 Maj stod det höast, och i början af Julii war det åter i sin wanligga högd. Mon har nu för första gången försökt nyttja Wolga-wättnets stigande på samma sätt, som Egyptierne bruca Utilens, hvilket så ganifa väl lyckats, at de ställen, som bliswit öfverswämmade och tilldäina de af Wolga, wisat mer än wanlig fruktamhet.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Pettersburg",
+        "Astracan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0001:8:regeringens-kopparforbud",
+    "label": "Regeringens förbud mot koppympning",
+    "date": "1779-12-20",
+    "address": "Genua",
+    "description": "Genua den 20 december. Vår regering har vid hårt straff förbjudit all koppympning. De som på landet har naturliga koppor får inte komma till staden förrän efter 40 dygn sedan sjukdomen är över. På samma sätt ska det även förhållas med barn som går i skolan.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 1,
+      "archive_ref": "bib13506739_17800125_144030_19_0001.jpg",
+      "original_spelling": "Genua den 20 Dec. War Regering har wid hårdt straff förbudit all koppympning; De som på landet hafwa naturlige Koppor, så ej komma til Staden, förr än efter 40 dygn, sedan sjukdommen är förbi, på lika sätt skal och förhållas med barn, som gå i Scholan.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Genua"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0001:9:spaniererna-borttar-sig-fran-florida",
+    "label": "Spanierna borttar sig från Florida",
+    "date": "1780-01-25",
+    "address": "Spanien",
+    "description": "Provence den 29 oktober. Spanjorerna gör ingen hemlighet därav att de har tagit båda Florida. De har redan, med ett linjeskepp och 3 fregatter, tagit besittning av kanalen vid Bahama. Sålunda är vägen från Nordamerika till Västindien, till skada för den engelska sjöfarten, alldeles tillsluten.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 1,
+      "archive_ref": "bib13506739_17800125_144030_19_0001.jpg",
+      "original_spelling": "Provence den 29 Octob. Spaniorerne göra ingen hemlighet däraf at de borttagit både Floridas. De hafwa redan, medelst 1:ne Skepp af Linien och 3 Fregatter, tagit besittning af Canalen wid Bahama. Gås lunda år vägen från Norra Amerika til Westindien, til för skada för Engelske Sjöfärten, aldeles tilslutne.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Spanien",
+        "Florida",
+        "Bahama"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

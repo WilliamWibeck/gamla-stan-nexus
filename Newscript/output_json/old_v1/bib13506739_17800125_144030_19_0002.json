@@ -1,0 +1,167 @@
+[
+  {
+    "label": "Stämning på Sir vice Borgmästaren Isaac Wacklin",
+    "date": null,
+    "address": "Frötuna Socken, Bergshamra Gästgifwaregård",
+    "description": "A memorial is presented to the court regarding Vice Mayor Isaac Wacklin's alleged illegal marriage and subsequent actions.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Stämning på Sir vice Borgmästaren Isaac Wacklin.\nI anledning härav warde Herr vice Borgmästaren Isaac Wacklin härigenom fallad och ståmd til Frötuna och Länna Skeeslags näskommande Winter-Ting, som den tjugufierde Feb., innewarande ör infaller uti Bergshamra Gästgifwaregård, at göra Herr Secretaren och Hof-Räkts-Advocaten Reinh. Wilh. Backman gemmale uti hwad detta Stämnings-Memorial innehåller.\nDenne Stämning har Herr vice Borgmästaren at åtlyda wid Laga answar.",
+      "themes": [
+        "Crime",
+        "Parish Event"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Isaac Wacklin",
+          "role": "Vice Mayor"
+        },
+        {
+          "name": "Reinh. Wilh. Backman",
+          "role": "Secretary and Court Advocate"
+        }
+      ],
+      "locations": [
+        "Frötuna Socken, Bergshamra Gästgifwaregård"
+      ],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": "Yes",
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Stämning på Sir Probsen Olof Forseen",
+    "date": null,
+    "address": "Frötuna Socken, Bergshamra Gästgifwaregård",
+    "description": "A memorial is presented to the court regarding Probst and Priest Olof Forseen's alleged illegal marriage and subsequent actions.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Stämning på Sir Probsen Olof Forseen.\nI anledning härav warde Herr Probsen och Kyrkoherden Högærewördighe och Höglärde Herr Magister Olof Forseen, härigenom fallad och ståmd, til Frötuna och Länna Skeeslags näskommande Winter-Ting, som den tjugufierde Februari innewarande är infaller, uti Bergshamra Gästgifwaregård, at göra Herr Secretaren o Hof-Räkts-Advocaten Reinh. Wilh. Backman gemmale uti hwad detta Stämnings-Memorial innehåller.\nDenna Stämning åligger Herr Probsen wid Laga answar at åtlyda.",
+      "themes": [
+        "Crime",
+        "Parish Event"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Olof Forseen",
+          "role": "Probst and Priest"
+        },
+        {
+          "name": "Reinh. Wilh. Backman",
+          "role": "Secretary and Court Advocate"
+        }
+      ],
+      "locations": [
+        "Frötuna Socken, Bergshamra Gästgifwaregård"
+      ],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": "Yes",
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Ankomne Refande",
+    "date": null,
+    "address": "Various locations in Stockholm and surrounding areas",
+    "description": "A list of individuals arriving or residing at specific addresses.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Handelsman Johan Hortulan från Egifstuna, bor hos Tracteuren Anders Teberg wid Beswärsgatan i Gården N:o 209. — Krigs-Commissarien Korfeman med Betjent från Roslagen, bor i Stads-Cabéurens Charmvouths hus wid Norra Smedegats Brunn. — Fältväbelen Silfverswård och Sergeanten Meyer från Finland, bo hos Hustru Mogelia i Gryrosutaregränden. — Åkeören Carl Gustaf Starre från Mariastad, bor i Sterkifsa huset på Riddarholmen. — Consulen P. E. Wulff och Stads-Secretaren Sven Darin från Marstrand, bo hos Peruquemakaren Frestare wid Hornsgatan. — Groshandlaren Petter Wiberg från Norrköping, bor på Källaren z Tunnor. — Capitainen von Herzenhielm från Jahlun, bor vid Källaren Holändska Dyhn. Lieutenant Broman med Betjent från Småland, logerar i Styckgiutarebacken och huset N:o 42. — Handelsmännen Koloff och Hanquiss från Westervik, bo hos Direkteuren Björckman wid Sythuset. — Volontairens wid Armeens Flotta Adolph Fredr. Nicander, bor på Källaren Freden. — Styckgiutareni Mils Hellberg, bor hos Parm-mätraren vid Packartorget. — Capit. Baron Axel Roxendorff med Betjent från Södermanland, bor hos Guldsmeden Nils Lund wid Wåsterlänggatan.",
+      "themes": [
+        "Announcement"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Johan Hortulan",
+          "role": "Merchant"
+        },
+        {
+          "name": "Korfeman",
+          "role": "Military Commission Officer"
+        },
+        {
+          "name": "Silfverswård",
+          "role": "Field Warden"
+        },
+        {
+          "name": "Meyer",
+          "role": "Sergeant"
+        },
+        {
+          "name": "Carl Gustaf Starre",
+          "role": "Akeör"
+        },
+        {
+          "name": "P. E. Wulff",
+          "role": "Consul"
+        },
+        {
+          "name": "Sven Darin",
+          "role": "City Secretary"
+        },
+        {
+          "name": "Petter Wiberg",
+          "role": "Groshandlare"
+        },
+        {
+          "name": "von Herzenhielm",
+          "role": "Captain"
+        },
+        {
+          "name": "Broman",
+          "role": "Lieutenant"
+        },
+        {
+          "name": "Koloff",
+          "role": "Merchant"
+        },
+        {
+          "name": "Hanquiss",
+          "role": "Merchant"
+        },
+        {
+          "name": "Adolph Fredr. Nicander",
+          "role": "Volontaire"
+        },
+        {
+          "name": "Mils Hellberg",
+          "role": "Styckgiutareni"
+        },
+        {
+          "name": "Axel Roxendorff",
+          "role": "Captain"
+        }
+      ],
+      "locations": [
+        "Egifstuna, Beswärsgatan 209; Stads-Cabéurens Charmvouths hus; Gryrosutaregränden; Sterkifsa huset på Riddarholmen; Hornsgatan; Källaren z Tunnor; Holändska Dyhn; Styckgiutarebacken och huset N:o 42; Sythuset; Källaren Freden; Packartorget; Wåsterlänggatan"
+      ],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  }
+]

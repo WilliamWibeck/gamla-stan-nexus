@@ -37,8 +37,35 @@ body {
   padding: 0;
   background: transparent;
   box-shadow: none;
-  max-height: min(70vh, 520px);
-  overflow: auto;
+  max-height: none;
+  overflow: visible;
+  scrollbar-width: none;
+}
+
+.mapboxgl-popup.nexus-popup .mapboxgl-popup-content::-webkit-scrollbar {
+  display: none;
+}
+
+.mapboxgl-popup.nexus-popup .mapboxgl-popup-close-button {
+  width: 2rem;
+  height: 2rem;
+  top: 6px;
+  right: 6px;
+  font-size: 1.35rem;
+  line-height: 1;
+  color: rgba(250, 250, 249, 0.92);
+  background: rgba(12, 10, 9, 0.88);
+  border: 1px solid rgba(120, 113, 108, 0.55);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.mapboxgl-popup.nexus-popup .mapboxgl-popup-close-button:hover {
+  background: rgba(41, 37, 36, 0.95);
+  color: #fff;
 }
 
 .mapboxgl-popup.nexus-node-popup-shell .mapboxgl-popup-content {
@@ -262,6 +289,120 @@ body {
 
 .nexus-marker-cluster--expanded .nexus-marker-cluster-badge {
   opacity: 0;
+}
+
+.nexus-marker-cluster--hub .nexus-marker-cluster-badge {
+  pointer-events: auto;
+  cursor: pointer;
+  min-width: 18px;
+  height: 18px;
+  line-height: 16px;
+  font-size: 10px;
+}
+
+.nexus-marker-cluster-hub {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 22px;
+  height: 22px;
+  margin: -11px 0 0 -11px;
+  border-radius: 50%;
+  border: 2px solid rgba(254, 249, 239, 0.55);
+  box-shadow: 0 0 14px rgba(167, 139, 250, 0.45);
+  cursor: pointer;
+}
+
+.nexus-cluster-popup {
+  min-width: 280px;
+  max-width: 420px;
+  border: 1px solid rgba(139, 92, 246, 0.35);
+  background: linear-gradient(to bottom, rgba(12, 10, 9, 0.98), rgba(28, 25, 23, 0.98));
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+}
+
+.nexus-cluster-popup-header {
+  padding: 12px 14px 10px;
+  border-bottom: 1px solid rgba(68, 64, 60, 0.45);
+}
+
+.nexus-cluster-popup-heading {
+  margin: 0;
+  font-family: var(--font-nexus-serif), serif;
+  font-size: 14px;
+  color: rgba(250, 250, 249, 0.98);
+}
+
+.nexus-cluster-popup-place {
+  margin: 4px 0 0;
+  font-family: var(--font-nexus-mono), ui-monospace, monospace;
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(168, 162, 158, 0.9);
+}
+
+.nexus-cluster-popup-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 6px;
+  max-height: min(60vh, 420px);
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.nexus-cluster-popup-list::-webkit-scrollbar {
+  display: none;
+}
+
+.nexus-cluster-popup-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+
+.nexus-cluster-popup-item:hover {
+  background: rgba(46, 16, 101, 0.35);
+  border-color: rgba(139, 92, 246, 0.25);
+}
+
+.nexus-cluster-popup-dot {
+  margin-top: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.nexus-cluster-popup-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.nexus-cluster-popup-title {
+  font-family: var(--font-nexus-serif), serif;
+  font-size: 12px;
+  line-height: 1.35;
+  color: rgba(231, 229, 228, 0.96);
+}
+
+.nexus-cluster-popup-meta {
+  font-family: var(--font-nexus-mono), ui-monospace, monospace;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(168, 162, 158, 0.85);
 }
 
 @keyframes nexus-marker-bob {

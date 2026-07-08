@@ -145,9 +145,6 @@ function collectDetailRows(node: MapMarkerNode): DetailRow[] {
     add('year_range', 'Year', range)
   }
 
-  add('coordinates', 'Coordinates', `${node.lat.toFixed(5)}, ${node.lng.toFixed(5)}`)
-  add('node_id', 'Record id', node.id)
-
   return rows
 }
 
@@ -205,7 +202,7 @@ export function markerPopupHtml(node: MapMarkerNode): string {
 
   const descriptionBlock = description
     ? `<section class="nexus-node-popup-section">
-         <h4 class="nexus-node-popup-section-title">${originalSpelling && originalSpelling !== description ? 'Modern summary' : 'Summary'}</h4>
+         <h4 class="nexus-node-popup-section-title">${originalSpelling && originalSpelling !== description ? 'Modern text' : 'Summary'}</h4>
          <p class="nexus-node-popup-description">${escapeHtml(description)}</p>
        </section>`
     : ''
@@ -233,6 +230,37 @@ export function markerPopupOptions(): PopupOptions {
     closeButton: true,
     closeOnClick: false,
     className: 'nexus-popup nexus-node-popup-shell',
-    maxWidth: '380px',
+    maxWidth: '420px',
   }
+}
+
+export function clusterListPopupHtml(
+  nodes: MapMarkerNode[],
+  anchorPlace?: string | null,
+): string {
+  const placeLine = anchorPlace
+    ? `<p class="nexus-cluster-popup-place">${escapeHtml(anchorPlace)} · ${nodes.length} notices</p>`
+    : `<p class="nexus-cluster-popup-place">${nodes.length} notices at this location</p>`
+
+  const items = nodes
+    .map((node) => {
+      const cat = categoryById(node.category)
+      const date = readMetaString(node, 'date', 'year')
+      return `<button type="button" class="nexus-cluster-popup-item" data-node-id="${escapeHtml(node.id)}">
+        <span class="nexus-cluster-popup-dot" style="background:${cat.color};box-shadow:0 0 6px ${cat.color}"></span>
+        <span class="nexus-cluster-popup-body">
+          <span class="nexus-cluster-popup-title">${escapeHtml(node.name)}</span>
+          <span class="nexus-cluster-popup-meta">${escapeHtml([cat.label, date].filter(Boolean).join(' · '))}</span>
+        </span>
+      </button>`
+    })
+    .join('')
+
+  return `<div class="nexus-cluster-popup">
+    <header class="nexus-cluster-popup-header">
+      <h3 class="nexus-cluster-popup-heading">Choose a notice</h3>
+      ${placeLine}
+    </header>
+    <div class="nexus-cluster-popup-list">${items}</div>
+  </div>`
 }

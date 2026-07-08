@@ -1,0 +1,751 @@
+[
+  {
+    "id": "bib13506739_17800201_144030_25_0003:1:auktion-bocker-vid-bok-auctionska-mmaren",
+    "label": "Auktion: Böcker vid Bok-Auctionska mmaren",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "Försäljning till salu på onsdagen den 2 maj: En fin samling böcker från Velles Lettres och om katolsk lärdom kommer att säljas i en bokauktion på Bok-Auktionska marknaden. Förteckningen är tryckt och läses ut för att informera om salongen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Til salu finnes:\nI morgon Onsdag den 2 hius försäljes på Bok-Auctionska mmaren efter tryckt förteckning, som därför lädes undsas, en vacker samling af böcker i Velles Lettres, samt åtskilligt rörande Catholiska Låran & synnerhet.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bok-Auctionska mmaren"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:2:auktion-mobler-vid-kopmangatan",
+    "label": "Auktion: Möbler vid Köpmangatan",
+    "date": "1780-02-01",
+    "address": "Köpmangatan",
+    "description": "Holländskt Engaker, engelsk Cardus-Tobak, spanisk Barcelona, prima sort Nappe-Snus, Cedro, Bergamotte och Sans Parcella Luckwatten, Mandelmjöls-Sirop, fjärde Honung, Citronsaft, torra Castanier, Eng. och Holl. Såtmjöls-Ost, god Holländsk Stil i Sextondelar, huvita och coleurte Warljs, super fint Present-Thee på Boutellier, Holländsk Skrif-Eng. Rit- och Rödkrits-pennor, coleurte Silfwer-Cantillier, Agats Flintor, Urglas, Sova, brunt Hæk, Wismud, Spiauter och diverse äkta Porcellains Chekoppar, försäljes i Kryddboden vid Köpmangatan mitt emot Skårgårdsgratan.",
+    "resident": null,
+    "lat": 59.3251019,
+    "lng": 18.0723433,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Holländskt Engaker, Engels Cardus-Tobak, Spanisk Barcelona, prima sort Nappe-Snus, Cedro, Bergamotte och Sans Parcella Luckwatten, Mandelmjöls-Sirop, fird Honung, Citronsaft, torra Castanier, Eng. och Holl. Såtmjöls-Ost, god Holl. Stil i Sextondelar, huvita och coleurte Warljs, super fint Present-Thee på Boutellier, Holl. Skrif-Eng. Rit- och Rödkrits-pennor, coleurte Silfwer-Cantillier, Agats Flintor, Urglas, Sova, brunt Hæk, Wismud, Spiauter och diverse äckta Porcellains Chekoppar, försäljes i Kryddboden vid Köpmangatan midt emot Skårgårdsgratan.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Köpmangatan",
+        "Skårgårdsgratan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Köpmangatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:3:auktion-mobler-vid-riddarhuset",
+    "label": "Auktion: Möbler vid Riddarhuset",
+    "date": "1780-02-01",
+    "address": "Riddarhuset",
+    "description": "En nyss köpt kappslag med grön skinnlapp till salu. Tillverkad av seltyg och björnhud i bra skick. Slaget är väl beställd, istället för klinknaglar finns det nu krusvar ösver. Priset är 660 Daler K:mt; mer information erhålls från Riddarhus-Waktmästaren Hedman, som bor vid Riddarhuset.",
+    "resident": null,
+    "lat": 59.3259502,
+    "lng": 18.0657662,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Til salu är en så godt som ny Kappslade, klädd med grönt Schagg. Seltyg och Björnhud i godt stand medföljer. Sladen är väl bestagen, i stället för klinknaglar är det krusvar ösver alt, priset är 660 Daler K:mt; närmare underrättelse fås af Riddarhus-Waktmästaren Hedman, boende vid Riddarhuset.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Riddarhuset"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Riddarhuset",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:4:auktion-bocker",
+    "label": "Auktion: Böcker",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "Simsons koniska sektioner och böcker på latin, samt Maclaurins algebra, finns nu också i franska band, väl bundna och till salu vid Snusbodens mitt för Kungliga Posthuset.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Simsons Coniske Sectioner & Böcker på Latin, åro så väl som Maclaurins Algebra, uti Franska Band väl bundne, til salu insatte i Snusboden midtför Kgl. Posthuset.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Snusboden",
+        "Kgl. Posthuset"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:5:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-01",
+    "address": "Munkbron",
+    "description": "För försäljning finns 15-16 Darmar av god kvalitet från Hårdwalls-Höd, samt 80-90 tjocka logbunden Kalm; mer information erhålls hos Parmmätaren Betterberg vid Munkbron.",
+    "resident": null,
+    "lat": 59.326,
+    "lng": 18.0658,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Til salu finnes 15 a 16 Darmar godt Hårdwalls-Höd, 80 a 90 tjog logbunden Kalm; hwarom widare underrättelse fås hos Parmmätaren Betterberg vid Munkbron.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Munkbron"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Munkbron",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:6:svart-hast-till-salu",
+    "label": "Svart Häst till salu",
+    "date": "1780-02-01",
+    "address": "Drottninggatan",
+    "description": "En stor och stark svart häst, tjenlig till vagnshäst eller arbetshäst, är till salu för civil pris; under rättelse kan man köpa den på Handelsman Kjämpendals butik vid Drottninggatan.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0628,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "En stor och stark svart Häst, tjenlig til Wagnshäsk eller Arbetshäsk, är för civilt pris til salu; under rättelse fås uti Handelsman Kjämpendals Bod vid Drottningegatan.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Drottninggatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Drottninggatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:7:hyra-hus-vid-jarntorgsgatan",
+    "label": "Hyra: Hus vid Järntorgsgatan",
+    "date": "1780-02-01",
+    "address": "Järntorgsgatan",
+    "description": "Utbjuder att hyra: I huset nummer 43 vid Järntorgsgatan blir det nästa dagen tillgängligt att hyra en våning på en trappa upp, bestående av sal, sex rum, kök, skafferi, källar och andra bekvämligheter; information erhålls två trappor upp i samma hus.",
+    "resident": null,
+    "lat": 59.322322,
+    "lng": 18.0730156,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Utbjudes at hyra:\nIut i huset N:o 43 wid Järntorgsgatan blirver nästa fardag at hyra Wäningen en trappa up, bestende af Sal, 6 Kamrar, Kök, Skafferi, Källar och andre begwämlicheter; underrättelse fås två trappor up i samma hus.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Järntorgsgatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Järntorgsgatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:8:hyra-hus-vid-hollandaregatan",
+    "label": "Hyra: Hus vid Holländaregatan",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "En villa med tre rum och en trädgårdsplan ligger vid Holländargatan nummer 38 på hörnet av Trebackarlängen. Den är till salu.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Et Hus bestande of tre Rum samt en Trädgårds-plan, belägit wid Holländaregatan under N:o 38 wid hörnet af Trebackarläng, är at hyra.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Holländaregatan",
+        "Trebackarläng"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:9:hyra-tapeterade-rum",
+    "label": "Hyra: Tapeterade rum",
+    "date": "1780-02-01",
+    "address": "Södermalm",
+    "description": "På Södermalm vid Krukmakargatan i huset nummer 146 och 147 finns två till tre vackra tapeterade rum samt en bröllopslokal att hyra, dock utan kök och därför inte lämplig för hushåll. Informationen om detta lämnas här.",
+    "resident": null,
+    "lat": 59.3123782,
+    "lng": 18.0697558,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "På Södermalm och Krukmakargatan uti huset N:o 146 och 147, åro 2 a 3 vackra tapeterade Rum samt Wedbod, at hyra, dock utan Kök och således för hushåll otjenlige; underrättelse därom lämnas därstådes.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Södermalm",
+        "Krukmakargatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Södermalm",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:10:hyra-kamware-till-pask",
+    "label": "Hyra: Kamware till Påsk",
+    "date": "1780-02-01",
+    "address": "Järntorget",
+    "description": "Jag söker hyra för en hedersfullt rum till påsk i något hedersfullt hus i själva staden. En kammarjunk med utblick över en gata, med nödvändiga möbler, matning och rengöring m.fl., att betala allt i ett företräde; därav bjuds inbjudan till alla första i detta blad eller genom biljetter till C.D. på huset nummer 25 vid Järntorget två trappor upp.",
+    "resident": null,
+    "lat": 59.3227388,
+    "lng": 18.0730698,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Astundas at hyra:\nFör en hederslig Ingbark til nåsa Påsk uti något hedersligt hus i sjelfwa Staden en Kamware med ut- sigt at någon reel gata, med nödige Meubler, spisning, städning m. m., at betala i et för alt; hwarom swar begärtes med aldrasförsta i dets Blad eller genom Billet til C. D. i huset N:o 25 wid Järntorget två trappor up.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Järntorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Järntorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:11:hyra-rum-och-kok",
+    "label": "Hyra rum och kök",
+    "date": "1780-02-01",
+    "address": "Norrbro",
+    "description": "För ett litet hushåll om tre personer är det till några påsk att få hyra en lägenhet och kök på nedersta våningen, vid Norrmalms torg, Drottninggatan eller Regeringsgatan; stora eller lilla Nygatan. Swar tas med först i Glasboden vid Norrbro.",
+    "resident": null,
+    "lat": 59.3282,
+    "lng": 18.0703,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "För et litet hushåll om tre personer ästundas til nåsa Påsk at få hyra zine Rum och Kök på nedersta botten, ifring Norrmalms-torg, Drottninge- eller Regerings-gatorne, stora eller lilla Nygatorne; swar wans tas med första i Glasboden wid Norrbro.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Norrmalms-torg",
+        "Drottninge- eller Regerings-gatorne",
+        "stora eller lilla Nygatorne"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Norrbro",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:12:bortskulne-och-forlorade-saker",
+    "label": "Bortskulne och förlorade saker",
+    "date": "1780-01-25",
+    "address": "Fredsgatan",
+    "description": "Bortskulna och förlorade saker: Ett Wiesfelds silverfickull är den 25 januari utur en kammar 3 trappor upp vid Fredsgatan, med vit emaljerad tass och svarta visare. Korta stäckled med berlocker av en kanon, en lunna, kärksruf och ett platt hjärta, nyckeln av mässing med stål-rör; den kristna människa som hittar och nämner ur till rätta skaffar mig det tänkna i Bergs-Rådets Sandels hus vid åswannämnda gatan, emot hederslig wedergällning. Om det skulle vara pålatsakt vill ägaren återhämta.",
+    "resident": null,
+    "lat": 59.3288,
+    "lng": 18.065,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Bortskulne och förlorade saker:\nEt Wiesfelds Silfwer Fick-Ull är den 25 Jan. utur en Kammare 3 trappor up wid Fredsgatan hortslut, med hvit emaillerad Tassa och svarta Wisare, kort Stäkled med Berloquer af en Canon, en Lunna, Kärksruf och et platt Hjärta, Nyckeln af Måking med Stål-rdr; den Christeliga människa som tjuvven kan uptäcka och nämde Ur til rätta Skaffar, gifme det tiskänna i Bergs-Rådet Sandels hus wid åswannämnde gata, emot hederslig wedergällning; skulle det vara pantsakt wil ägaren det igenlida.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Fredsgatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Fredsgatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:13:lordagsforlust",
+    "label": "Lördagsförlust",
+    "date": "1780-02-01",
+    "address": "Stora Nygatan",
+    "description": "En fattig arbetsman söker lördag mellan klockan 8 och 10 på gatan Nygatan från Posthuset till Prästgatan, därifrån till Stora Nygatan vid Hornhamn. Han har förlorat en läspenna med syra och en holländsk plåt i silver- och kopparpengar. vem som hittar dessa ska vara så hjälpsam att återlämna dem till ägaren, som bor vid Hornhamn hos fabrikören Schönmeier.",
+    "resident": null,
+    "lat": 59.32421,
+    "lng": 18.06922,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "För en fattig Arbetdräng är sökelden Lördag kl. emellan 8 och 10 antingen på lilla Nygatarr ifrån där Posten uttages upsföre gränd til Prästgatan och därifrån at stora Nygatan til Hornhamn, en Läspong med syra och en holf Plåt i Silfwer- och Koppar-pennningar uti, förlorad; den som samma upphittat, ware så harmhertig och återställe den til ägaren, som tjesar wid Hornhamn hos Fabriqueuren Schönmeier.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "lilla Nygatarr",
+        "Prästgatan",
+        "stora Nygatarr",
+        "Hornhamn"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stora Nygatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:14:ringupphittning-vid-smedjegatan",
+    "label": "Ringupphittning vid Smedjegatan",
+    "date": "1780-01-29",
+    "address": "Regeringsgatan",
+    "description": "Den 29 januari om eftermiddagen försvann en Dacats-ring märkt med bokstäverna A, H, B och N V i hörnet av Smedjegatan och Regeringsgatan. Den som hittar denna ring ska betala den till Berg vid Hötorget i Engels hus, där det finns en o-makskola med 10 kronor för varje uppgift.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0697,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Den 29 Jan. om aftenen borttappades en Dacats-Ring märkt med Bokstäverne A. H. B. och N. V., i hörnet af Smedjegats bocken och Regeringsgatan; den som samma Ring upphittar eller uphittar, ware så rättvis och aifve det tiskänna hos Ständrabanten Berg wid Hötorget i Höfaren Engels hus, dess o- mak skol med en R:dalor blisiva försyldt.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Smedjegatan",
+        "Regeringsgatan",
+        "Hötorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Regeringsgatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:15:borttappad-silfwer-snus-dosa",
+    "label": "Borttappad Silfwer Snus-dosa",
+    "date": "1780-01-22",
+    "address": "Regeringsgatan",
+    "description": "Den 22 januari om eftermiddagen försvann mellan Regeringsgatan och Stadshuset en graverad silver snusdosa med blå email på locket, därutöver syns texten 'Chisser C. F. S.'. Den som hittar den kan få tillbaka 2 riksdaler om han eller hon anmäler sig vid Kryddkammaren vid Wasserlänggatan i direktören Björks hus.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0697,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Den 22 Jan. om aftenen borttappades emellan Regeringsgatan och Staden en graverad Silfwer Snus- dosa med blå emaille på lacket, hwaruti syntes namn Chisser C. F. S.. Den som den samling kan tilträk- to skaffa har at undså 2 R:dalers, då han sig anmätter uti Kryddboden wid Wasserlänggatan i Directeuren Björks hus.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Regeringsgatan",
+        "Staden",
+        "Wasserlänggatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Regeringsgatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:16:fattig-flicka-borttappad-pa-norrmalm",
+    "label": "Fattig flicka borttappad på Norrmalm",
+    "date": "1780-02-01",
+    "address": "Norrmalm",
+    "description": "Fredagen borttappades en fattig flicka på Norrmalm; en vit Dunkraga. Den som hennes åkerlänna är i Boden där dessa tidningar utges, får av ägaren en hederslig hittarpris.",
+    "resident": null,
+    "lat": 59.3340818,
+    "lng": 18.0629048,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Förleden Fredag borttappade en fattig flicka på Norrmalm en hvit Dunkraga; den som honom åkerläne- nare i Bodett där dessa Tidningar utgifwas, får af ägaren hederslig hitte-lön.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Norrmalm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Norrmalm",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:17:forlorad-abistance-cont-lovesedel",
+    "label": "Förlorad Abistance Cont. Lövesedel",
+    "date": "1780-01-22",
+    "address": null,
+    "description": "Den 22 januari förlorades en Abistance Cont. Lövesedel under nummer G 158, belänt den 28 oktober; dem som upptäcker samma ges tillkännagivande i huset nummer 44 vid torget.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Den 22 Jan. förlorades en Abistance Cont. Lövesedel under N:o G 158, belänt den 28 October; dem som samma upphittat gifwe det tiskänna uti huset N:o 44 wid Ortorget.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Ortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:18:borttappad-guldmedalj",
+    "label": "Borttappad guldmedalj",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "En gulduniversitet har försvunnit; vem som kan hitta och betala för dess tryckning får en hedersbelöning.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "En Guld Uenveckl är borttappad; den som samma tillräcka skaffar och afslänner där dessa Tidningar ut- gifwas, undför hederslig wedergällning.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:19:snusdosa-forlorad",
+    "label": "Snusdosa förlorad",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "En snusdosa från Dr de Manheim, täckt med äkta guld innan och utan, har försvunnit; den som hittar den ska ge den till Grefve Pärs hus i utbyte mot en hederslig belöning.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "En Snusdosa af Dr de Manheim, förgold med äckta Guldf innan och utan, är förlorad; den som sam- ma upphittat gifwe det tiskänna i Grefwe Pärs hus, emot hederslig wedergällning.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Grefwe Pärs hus"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:20:flyttning-huskallerska-och-unga-snygga-pigor",
+    "label": "Flyttning: Huskallerska och unga snygga Pigor",
+    "date": "1780-02-01",
+    "address": null,
+    "description": "I tjänstfård under flyttningstiden: En Huskallerska, som är färmlig i matlagningsarbeten, samt en unga snygga Piga till uppehåll på ett av de äldre Vårshusen på grön plats; adress för detta hittas hos Waktmästaren D. Åberg i Kungliga Commerce-Collegio.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "I tjensf åstundas:\nTil nåsa flyttnings tid, en Huskallerska, som är färml i matlænng, samt zine unga snygga Pigor til uppeothing uppå et af de äldre Wårshuener på grön Plats; adress härom fås hos Waktmästaren D. Åberg i Kgl. Commerce-Collegio.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kgl. Commerce-Collegio"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800201_144030_25_0003:21:flyttning-piga-och-huspiga",
+    "label": "Flyttning: Piga och Huspiga",
+    "date": "1780-02-01",
+    "address": "Norrbro",
+    "description": "En moderniserad version av den svenska tidningstexten från 1700-talet: En flicka, som kan laga mat, och en husflicka har funnit antrålar hos glashandlaren Tillander. Han har sin butik på Norrbro och Skinpälsen. Här är adressen för mer information.",
+    "resident": null,
+    "lat": 59.3282,
+    "lng": 18.0703,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-01",
+      "page": 3,
+      "archive_ref": "bib13506739_17800201_144030_25_0003.jpg",
+      "original_spelling": "Astundas til nåsa flyttning en Piga, som väl kan laga mat, åfven en Huspiga, dese funna antrålafis hos Glashandlaren Tillander, som har sin Bod på Norrbro å Skinpälsen, hwarest widare adress gifwe.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Norrbro",
+        "Skinpälsen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Norrbro",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

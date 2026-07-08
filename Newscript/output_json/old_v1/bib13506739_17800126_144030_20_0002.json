@@ -1,0 +1,326 @@
+[
+  {
+    "label": "Kungl. Majsts d. 17 Dec. 1779 och 14 Jan. 1780 i Deß Justitid-Revision utgifne Nåd. Utsläger",
+    "date": null,
+    "address": null,
+    "description": "A list of legal notices and petitions for various individuals, including disputes over property rights.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800126_144030_20_0002.jpg",
+      "original_spelling": "Kongl. Majsts d. 17 Dec. 1779 och 14 Jan. 1780 i Deß Justitid-Revision utgifne Nåd. Utsläger:\n1) Emellan Jacob Larson från Kumois Hemman, sökande, och Lahdingo Byamän, swarande.\n2) Emellan Fru Riks-Rädin. Reuterholm, sökande, och Swartbecks Byamän, swarande.\n3) Emellan Joh. Andersson m. fl. i Hsverthun och Hans Larson i Klewa m. fl. sökande, samt Rikens Ständers Banque, swarande.\n4) Emellan Johan Aefwidzon från Tarkita Hemman, sökande, och Eric Carlson därfannastades, swarande.\n5) Uppå Öswerste-Lieut. och Nidd. Fredric Ridderborgs underdän. ansökning.\n6) Uppå Conſtforii Notarken Magifker Dan, Jonas Nordings underdän. beswär.\n7) Emellan Probiten Doctor Michael Lebell, sökande, samt Lands-Tamner. Arndt Johan Winter och Räntmäst. Lorents Mör tengren, swarande.\n8) Emellan asl. Cancellie-Rådet Hassels Enka Christ. Marg. Palen med hennes son Fred. Stenman, sökande, och Jacob Pappila swarande.\n9) Emellan Järfröks Byamän m. fl. sökande, samt Matts Nilson och Per Person i Spiute, swarande.\n10) Emellan And. Strömbeck, sökande, samt Swen Torlacon och Jon Svenkon in Westerldf, swarande.\n11) Emellan Enkan Anna Thomasdotter från Kuhmo Socken sökande, och Hindr. Hindriksen från Låti Hemman swarande.\n12) Emellan Fräße-Bonden Sune Jonson m. fl. i Bubbetorp sökande, och Enkan Sara Carlsdotter i Hoakräf, swarande.\n13) Emellan Norderås Byamän i Häggenäs Socken, sökande, samt Boda, Högens, Backe, m. fl. Fäbo-delägare och Nybyggare på Storbrännan-och Munkpohdgen, swarande.\n14) Emellan afledade Handtlangaren Anders Johanson från Uckela By sökande, samt Advocat-Fisalen Esaias Wechter, jämte Lands-Fis. Rosenbladh swarande.\n15) Emellan Commissions-Landsmätaren Fr. Wadman sökande, och Insp. Eric Sedergren swarande.\n16) Emellan And. Olson i Brdnnehad, sökande, och Vohl Person därfannastades, swarande.\n17) Uppå Bruks-Patron And. Lisell Carlsons Underdän. Giftermäls-ansökning för deß dotter Christ. Maria Lisell.\n18) Uppå Handels-Bokhäll. Jacob Swanbergs underdän. Lejde-ansökning.",
+      "themes": [
+        "Legal Notices",
+        "Petitions"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Jacob Larson",
+          "role": "petitioner"
+        },
+        {
+          "name": "Fru Riks-Rädin Reuterholm",
+          "role": "petitioner"
+        },
+        {
+          "name": "Joh. Andersson m.fl.",
+          "role": "petitioners"
+        },
+        {
+          "name": "Johan Aefwidzon",
+          "role": "petitioner"
+        },
+        {
+          "name": "Öswerste-Lieut. och Nidd. Fredric Ridderborgs underdän",
+          "role": "petitioner"
+        },
+        {
+          "name": "Conſtforii Notarken Magifker Dan, Jonas Nordings underdän",
+          "role": "petitioner"
+        },
+        {
+          "name": "Probiten Doctor Michael Lebell",
+          "role": "petitioner"
+        },
+        {
+          "name": "Cancellie-Rådet Hassels Enka Christ. Marg. Palen med hennes son Fred. Stenman",
+          "role": "petitioners"
+        },
+        {
+          "name": "Järfröks Byamän m.fl.",
+          "role": "petitioners"
+        },
+        {
+          "name": "And. Strömbeck",
+          "role": "petitioner"
+        },
+        {
+          "name": "Enkan Anna Thomasdotter från Kuhmo Socken",
+          "role": "petitioner"
+        },
+        {
+          "name": "Fräße-Bonden Sune Jonson m.fl.",
+          "role": "petitioners"
+        },
+        {
+          "name": "Norderås Byamän i Häggenäs Socken",
+          "role": "petitioners"
+        },
+        {
+          "name": "afledade Handtlangaren Anders Johanson från Uckela By",
+          "role": "petitioner"
+        },
+        {
+          "name": "Commissions-Landsmätaren Fr. Wadman",
+          "role": "petitioner"
+        },
+        {
+          "name": "And. Olson i Brdnnehad",
+          "role": "petitioner"
+        }
+      ],
+      "locations": [
+        "Kumois Hemman",
+        "Lahdingo",
+        "Hsverthun",
+        "Klewa",
+        "Tarkita Hemman",
+        "Öswerste-Lieut.",
+        "Conſtforii Notar",
+        "Norderås Byamän i Häggenäs Socken"
+      ],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Ankomne Resande",
+    "date": null,
+    "address": null,
+    "description": "A list of travelers arriving in Stockholm.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800126_144030_20_0002.jpg",
+      "original_spelling": "Kammar-Herren Konterberg från Norrköping, bor i huset N:o 103 wid ſtora Smedjegatan hos Jouvekeraren Maas. — Handelsman Harald Syk från Borås, bor hos Sadelmakaren Crom i Svartensgränd hufset N:0 152.\nCapitain Ehrenborg från Bohus, bor hos Hof-Kocken Cederholm wid ſtora Nygatan i huset N:0 120. — Lieutenanten Baron Koskull med hetent från Småland, bor wid ſtora Smedjegatan hufset N:0 73.\nRector Schold Magifker Anders Drangel från Wimmerby, bor hos Commiſfibern Witting wid St. Clara. — Madame Twilling med Son från Geſte, bor vid Östra Wangränden i huset N:0 53 hos Vaktmäſtaren Hillgren.\nBruks-Bokhällaren Johan Eric Nordeman från Småland, bor wid Hornsbroken på Golen. — Capitainen och Riddaren Baron Joh. Gust. Boije med 2:ne betjenten från Vadstena, bor hos Säckerbogaren Uferßen wid ſtora Smedjegatan.\nWäskrifwären Anders Gäse, bor hos Hydrographiska Arzhetaren Carl Löfström i gården N:o 4 wid lilla Bastugugatan å Norrmalm.",
+      "themes": [
+        "Travelers"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Kammar-Herren Konterberg",
+          "role": "residing"
+        },
+        {
+          "name": "Handelsman Harald Syk",
+          "role": "residing"
+        },
+        {
+          "name": "Capitain Ehrenborg",
+          "role": "residing"
+        },
+        {
+          "name": "Lieutenanten Baron Koskull",
+          "role": "residing"
+        },
+        {
+          "name": "Rector Schold Magifker Anders Drangel",
+          "role": "residing"
+        },
+        {
+          "name": "Madame Twilling med Son från Geſte",
+          "role": "residing"
+        },
+        {
+          "name": "Bruks-Bokhällaren Johan Eric Nordeman",
+          "role": "residing"
+        },
+        {
+          "name": "Capitainen och Riddaren Baron Joh. Gust. Boije",
+          "role": "residing"
+        },
+        {
+          "name": "Wäskrifwären Anders Gäse",
+          "role": "residing"
+        }
+      ],
+      "locations": [
+        "Norrköping",
+        "Borås",
+        "Bohus",
+        "Småland"
+      ],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Nyligen döde i Stockholm",
+    "date": null,
+    "address": null,
+    "description": "A list of individuals who have recently died in Stockholm.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800126_144030_20_0002.jpg",
+      "original_spelling": "Kongl. Maj:ts Tro-Tjänare och Kgl. Lif-Medicus Herr Joh. Ulric-Werkmüller, 67 år och io månader gammal.\nBichtualichandlaren Abraham Angermans Huftru, Brita Ulsa Witting, 32 år gl.\nBruggaren Adam Brandt, 75 år gl.\nKongl. Kammar-Musici Johan Casper Michels Maka, Brita Lovisa Kramer, 21 år gl.\nSnörmakare-Enkan Anna Margaretha Wahlberg, 80 år gl.\nInformatorns Petrus Jonä Dahlins Huftru, 83 år gl.\nInstrumentmakaren Michael Kettchers Huftru, 69 år gammal.",
+      "themes": [
+        "Deaths"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Herr Joh. Ulric-Werkmüller",
+          "role": null
+        },
+        {
+          "name": "Bichtualichandlaren Abraham Angermans Huftru Brita Ulsa Witting",
+          "role": null
+        },
+        {
+          "name": "Bruggaren Adam Brandt",
+          "role": null
+        },
+        {
+          "name": "Kongl. Kammar-Musici Johan Casper Michels Maka Brita Lovisa Kramer",
+          "role": null
+        },
+        {
+          "name": "Snörmakare-Enkan Anna Margaretha Wahlberg",
+          "role": null
+        },
+        {
+          "name": "Informatorns Petrus Jonä Dahlins Huftru",
+          "role": null
+        },
+        {
+          "name": "Instrumentmakaren Michael Kettchers Huftru",
+          "role": null
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Mottifceras Krydd-Kramhandlaren Herr Johan Gabriel Sandbergs dödelga frönfalle deß Slågt och Wänner, som tinnade den 14 dennes i en alder af 36 år; all Condoleance undanbedes.",
+    "date": null,
+    "address": null,
+    "description": "A notice of the death and funeral arrangements for Johan Gabriel Sandberg's wife.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800126_144030_20_0002.jpg",
+      "original_spelling": "Mottifceras Krydd-Kramhandlaren Herr Johan Gabriel Sandbergs dödelga frönfalle deß Slågt och Wänner, som tinnade den 14 dennes i en alder af 36 år; all Condoleance undanbedes.",
+      "themes": [
+        "Deaths",
+        "Funeral Arrangements"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Johan Gabriel Sandberg",
+          "role": null
+        },
+        {
+          "name": "Herr Johan Gabriel Sandbergs dödelga frönfalle deß Slågt och Wänner",
+          "role": null
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Kongl. Hof-Predikanten Magifker Widom predikar Kongl. Hof-Rätts-Predikan uti Kongl. Riddarholms Kyrkan i dag Onsdag, den 26 Januarit.",
+    "date": null,
+    "address": null,
+    "description": "An announcement of a sermon by the Royal Court Preacher at the Royal Riddarholm Church on Wednesday, January 26th.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800126_144030_20_0002.jpg",
+      "original_spelling": "Kongl. Hof-Predikanten Magifker Widom predikar Kongl. Hof-Rätts-Predikan uti Kongl. Riddarholms Kyrkan i dag Onsdag, den 26 Januarit.",
+      "themes": [
+        "Religious Events"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Magifker Widom",
+          "role": "preacher"
+        }
+      ],
+      "locations": [
+        "Kongl. Riddarholms Kyrkan"
+      ],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Herrae Fedamöter af Samhållet pro Patria behagade t døg. Onsdag dem 26 Januarii kl. 4 eftermiddagens å morgnligt hålla enhålligt samman träda.",
+    "date": null,
+    "address": null,
+    "description": "An announcement of a meeting for the Federation pro Patria on Wednesday, January 26th at 4 PM in the morning.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800126_144030_20_0002.jpg",
+      "original_spelling": "Herrae Fedamöter af Samhållet pro Patria behagade t døg. Onsdag dem 26 Januarii kl. 4 eftermiddagens å morgnligt hålla enhålligt samman träda.",
+      "themes": [
+        "Social Events"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Fedamöter af Samhållet pro Patria",
+          "role": null
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  }
+]

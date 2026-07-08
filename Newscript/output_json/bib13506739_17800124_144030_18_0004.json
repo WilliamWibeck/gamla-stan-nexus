@@ -1,0 +1,557 @@
+[
+  {
+    "id": "bib13506739_17800124_144030_18_0004:1:tjenfsforande-beskedeligt-frunkimmer",
+    "label": "Tjänstförande: Beskedligt Fruntimmer",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Ett beskedligt fruntimmer önskar kondition nästkommande vår i någon klädbod; svar begärs i en förseglad biljett där dessa tidningar utges, till A. F.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "Tjenfsförande:\nEt beskedeligt Frunkimmer åstundar Condicton nåtkommande Var uti någon Ripperbod; swar begäres uti en förseglad Billet där dessa Tidningar utgifswas til A. F.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Ripperbod"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:2:tjenst-astundas",
+    "label": "Tjänst sökes",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Tjänster sökes: I en liten stad 7 mil från Stockholm sökes en kokerska, som försvarligt kan laga mat och i övrigt förstår sig på alla förekommande hushållssysslor, samt en huspiga som är säker på att stryka kläder väl och är van att passa upp vid bordet. Båda bör vara försedda med pålitliga bevis om trohet och älska ordentlighet och vänlighet. Underrättelse om platsen fås alla förmiddagar från klockan 8 till 11 uti Laurens Kräddebod i hörnet av Horns- och Götgatorna.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "I tjenst åstundas:\nUti en litken Stad 7 mil ifrån Stockholm en Kockerska, som försmerligt kan säga mat och i öfrikt förskar alla förefallande hushålls-syster, samt en Huspiga som är säker at stöta Klädwatten väl och är wan at paga up-på Bord, båda bbra vara försedde med pärltliga bewis om trohet och älska ordentlighet och venlighet; underättelse om stället får sas alla förmiddagar ifvan kl. 8 till 11 uti Laurens Kräddbod i hörnet af Horns-och Göthgatorne.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Laurens Kräddbod",
+        "Horns-och Göthgatorne"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:3:diverse-rungorelser",
+    "label": "Diverse Kungörelser",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "När jag den 5 förliden oktober var i en bod för att handla något, kom ett papper inslungande genom dörren och fastnade i min hatt. Jag tog det samma och läste däruti en stor hop med givna föreställningar. Ibland allt annat var att jag ej skulle så ofta besöka den krogen där Windruswan sitter, men mig tycks det gör den herren som skrivit detta lika mycket. Ty jag vet mig inte vara skyldig den samme ett runstycke, mycket mindre står jag under hans lydnad. Han skriver sig människovän, det är väl? Men jag har aldrig sett att man brukar kasta åt en människa som åt en hund. Tro helt säkert, min herre, vem ni än är, att jag, Gud ske lov, så skött mig varhelst jag varit, att jag ej är rädd för någonting, långt mindre för det jag går på Windruswan, vilket Eder till svar länder. Fri från onödigt bekymmer så länge jag lever.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "Diverse Rungörelser:\nDå jag den 5 förleden October var i en Bod at handla något, kom et Papper inslyngandes genom dörzen och fasnade i min Hatt, jag tog det samma och låste däruti, en stor hop med gifna föreställningar, izhand alt annat war at jag ej skulle sas ofta besjöka den Krogen där Windruswan sitter, men mig tyckes det gör den Herrn som skrifwit detta lika mycket, ty jag wet mig intet vara skyldig Den samma et runstycke mycket mindre står under hans lydnad. Han skrifwer sig mennisowan, det är väl? Men jag har aldrig sett at man brukar kasta åt en menniska som åt en hund; tro helt säkert M. Herre, hwem I och är, at jag Guddi lof, så ståkt mig hwararest jag warit, at jag ej är rädd för någon ting, längt mindre för det jag går på Windruswan, hwisket Eder til swar länden. Zatare af ondsöligt bekymmer sas länge jag lefwer.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "en Bod"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:4:svens-wallin-saknas",
+    "label": "Sven Wallin saknas",
+    "date": "1779-11-20",
+    "address": "Haga",
+    "description": "Eftersom tobaksfabriksarbetaren Sven Wallin den 20 november sistlidne efter kvällen fram till idag helt och hållet saknats, utan att varken hans patron, fabrikören Demander, eller hans närmaste släktingar kunnat, trots all upptänklig och möjlig efterfrågan, få minsta kännedom om hans vistelse, så ombeds man härmed tjänstvilligt och vördsammast att vidare efterfråga nämnde Wallin, med särskild anhållan att den som har någon underrättelse om honom eller kan ge sådan, behagade i boklådan där dessa blad utges ge till känna vad som om denne Wallins vistande eller öde kan vara bekant, varigenom en hederlig vedergällning troget ska utbetalas; varefter ovan nämnde Wallin vid sin bortgång var klädd i en gammal svart kappa, en gammal fästningspäls, randigt livstycke, vitt guldans förkläde, svarta byxor, blå strumpor och skor med mässingsspännen, samt till staturen lång och smal, vitlätt i ansiktet med mörkbrunt, rundskuret hår.",
+    "resident": "Swen Wallin",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "Sedan Tobaks-Fabriques arbetaren Swen Wallin den 20 November sittledne efter aftonen til dato helt och hållit saknats, utan at hwarken des Patron Fabriqueuren Demander, eller af des närmaste Slågtingar kunnat oacktat all upptänkelig och möjelig esterfrågan få om honom minsta kundskap til des warelje, så föranlates man härtgenom tjenst- och wördssamnast, at beinäle Wallin widare efterfråga, med sika anhällan, at den som honom någon underättelse äger eller sas kan, behagade uti Boklådan där dessa Blad utgifswas gifwa tilskanna hwad som om denne Wallins wistande eller öde kan vara bekant, hwaremot en hederlig wedergällning otrugnit aflatas skol; warandes merabenämnde Wallin wid sin bortgång klädd i en gammal svart Earpas, en gammal Fæstins Pals, randigt Liffstücke, hwitt Guldans Förklade, swarta Byvor, blå Strumpor och Skor med Mästingsspänne, samt til staturen lång och smal, hwitlät i ansiget med mörkbrunt rundkurit hår.",
+      "category": "crime",
+      "themes": [
+        "Crime & Justice"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Swen Wallin",
+          "role": "arbetare"
+        }
+      ],
+      "locations": [
+        "Tobaks-Fabriques"
+      ],
+      "crime": "Saknad",
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:5:studieutbud-hedersliga-mans-barn",
+    "label": "Studieutbud: Hederliga Människors Barn",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "För att undervisa i de allmänna, erforderliga vetenskaperna ett eller två välartade, hederliga människors barn, välbeställda boende i staden, erbjuder sig för sin försörjning skull en genom publicitet engagerad studerad man, försäkrande vederbörande, som har sådant behov och är intresserad, samt äger en av religionen grundad kärlek för sina barns uppfostran, om ett bidragande, pålitligt medel för ett sådant ändamål; varefter den sökande kan anmäla sig med ett vänligt svar där dessa tidningar utges under en förseglad biljett till S. U.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "Til at underwisa uti de allmanna erforderliga Wetenskaper en eller twenne välartade hedersliga Måns Barns, bålsb boende i Staden, erbjuder sig för sin utkomst stull en wid Publicit Wäck engagerad studierad Man, försäkrandes wederbörande, som sådant hafwa för nöden och härtil hugade sinaan, samt åga en af Religionen grundas om kärlek för sine Barns upfostran, om et til et slikt ändamåls erhållande bidragande pärltligt medel; hwareft den Islande kan sig anmäla wänagit swar där Deza Tidningar utgifwas under en förseglad Billet til S. U.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Staden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:6:testament-till-hustru-lind",
+    "label": "Testament till Hustru Lind",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Då den ansedda borgarenkan hustru Elisabeth Boos, född Schröder, har avlidit i Gregrundis stad, och hon under sin livstid testamenterat all sin kvarlämnade egendom till borgarenkan hustru Lind i nämnda stad, vilket testamente vid domstolen behörigen har uppvisats och ställts till delgivning med den avlidnas närmaste arvingar, men ingen har kunnat hittas, varhelst de än uppehåller sig, alltså kungörs detta härmed för tredje gången, för att de, som vet sig vara den dödas närmaste arvingar, må infinna sig och lagligen bevaka sin rätt, om de anser sådant nödvändigt.",
+    "resident": "Elisabeth Boos",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "Som aseadne Borgare-Enkan Hustru Elisabeth Boos född Schröder, är i Gregrundis Stad med döden skiden, och hon i lifstiden til Borgare-Enkan Hustru Lind i berörde Stad testamentarit all sin gvarlåmnade Egendom, hwikket Testamente mid Domstolen behörigen är uppvist och til Communication med den aflednas närmaste Arfwingar ställt blifwit, men ingen funkap, ehwareft de sas upphålla, altså warder detta härmedelst för tredje gången kungjord, på det at de, som weta sas vara merbenämde dem dödas närmaste Arfwingar möge sig fastna och sin vårt lagligen bewaka, om de sådant for nödigt anse.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Elisabeth Boos",
+          "role": "Enkan"
+        },
+        {
+          "name": "Lind",
+          "role": "Enkan"
+        }
+      ],
+      "locations": [
+        "Gregrundis Stad"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:7:studerande-astundar",
+    "label": "Studerande önskar belöning",
+    "date": "1780-01-24",
+    "address": "Stadsgården",
+    "description": "En studerad och vid undervisning van student önskar 1 à 2 timmar om dagen bistå ärade mäns barn som bor omkring Stadsgården eller Katarina-trakten, vare sig i franska, tyska, latin, historia, räkning, skrivning eller kristendom; adress kan lämnas i en biljett till N. N. S. i Fredsboden mitt emot Kungliga Postkontoret.",
+    "resident": null,
+    "lat": 59.32,
+    "lng": 18.078,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "En studierad och wid informationsväcket wan Studerande åstundar i 1 a 2 timmar om dagen bfträda hedersliga Måns Barn som bo omkring Stadsgården eller Catharinä-tracten, ware sig uti Fransykan, Tysfan, Vatin, Historien, saksna, Skrifwa eller Christendom; adress kan lämnas i Billet til N. N. S. uti Fredboden gent emst Kungl. Post-Contoiret.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stadsgården",
+        "Catharinä-tracten"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stadsgården",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:8:doden-av-eric-bjork",
+    "label": "Döden av Eric Björk",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Då hovmästaren Eric Björk förra året har avlidit i Köpenhamn, uppmanas följaktligen alla de som vet sig vara skyldiga honom något eller har något att fordra, att anmäla detta inom februari månads slut i Stockholm hos kapten och riddaren Wangel, som bor i hörnhuset vid Malmskillnadsgatan och Styckgjutarebacken nummer 17.",
+    "resident": "Eric Björk",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "Som Hosmästaren Eric Björk försledit är i Köpenhamn är med döden afgången, föredensul anmodas ala de som weta sas honom något skyldig eller häftva at fordra, at innom Febr. månads slut i Stockholm hos Capitaine och Riddaren Wangel anmäla, som bor uti Hörnhuset af Mamfikinadsgatan och Stycksguitarbecken N:o 17.",
+      "category": "crime",
+      "themes": [
+        "Crime & Justice"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Eric Björk",
+          "role": "hosmästare"
+        },
+        {
+          "name": "Wangel",
+          "role": "kapten och riddare"
+        }
+      ],
+      "locations": [
+        "Köpenhamn",
+        "Stockholm",
+        "Hörnhuset af Mamfikinadsgatan och Stycksguitarbecken N:o 17"
+      ],
+      "crime": "Döden av Eric Björk, som var hosmästare i Köpenhamn. Den anmodar alla som känner till något skyldigt eller häftva att förråda honom.",
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:9:annonsering-naringsprevislegier",
+    "label": "Annonsering: Näringsprivilegier",
+    "date": "1780-01-24",
+    "address": "Stora Gråmunkegränd",
+    "description": "Den man som har privilegium att hålla näring är god och anmäler sig i Silsverksöds hus, utmed Stora Gråmunkegränd, nästa hus intill Holmbergs Boklåda, två trappor upp, där fås underrättelse om folk som har tjänliga rum.",
+    "resident": null,
+    "lat": 59.3252,
+    "lng": 18.0671,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "Den Mannen som har Previslegier at hålla Närings, är god och anmäler sig i Silsverksöds hus utk stora Gråmunkegränd nåtta huset intil Holmbergs Boklåda z trappor up, hwarast sas underättelse om Folk som har tjenliga Rum.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Silsverksöds hus",
+        "Stora Gråmunkegränd",
+        "Holmbergs Boklåda"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stora Gråmunkegränd",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:10:tysf-och-siala-ungkarl-soker-lagenhet",
+    "label": "Tysk och sialansk ung man söker lägenhet",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "En tysk och sialansk ungkarl önskar att träffa överenskommelse om kost, kammare, ljus och värme inbegripande säng i något hederligt hus mellan Danvikstullen och Katarina kyrka, eller om lägenhet därtill finns någonstans omkring samma kyrka, eller också vid Götgatan. Svar utbedes omgående i dessa blad.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "En tysf och siala Ungkarl åstundar at träffa accord om fost, kammare, lhus-och wärma insfundande sardog i något hederligt huž in mellan Danviks-Tulln och Catharinä Kyrka, efter om lägenhet därtill finnes någorstädes omkring samma Kyrka, eller öck wid Göthgatan; swar utbedcs med första i desa Blad.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Danviks-Tulln",
+        "Catharinä Kyrka"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:11:traktor-vid-kgl-djurgards-brunn",
+    "label": "Traktör vid Kgl. Djurgårds-Brunn",
+    "date": "1780-01-24",
+    "address": "Haga",
+    "description": "Inför kommande påsk önskas en traktör vid Kungliga Djurgårdsbrunn, att därstädes väl servera brunnsgästerna över sommaren; angående vilken man ombeds att snarast överenskomma med apotekaren Hinr. Schuls Hindrichsen på Ladugårdslands apotek.",
+    "resident": null,
+    "lat": 59.332,
+    "lng": 18.122,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "Til insfundande Pås, åstundas en Tracteur wid Kgl. Djurgårds-Brunn, at därsidtes honette servera Brunngästerne öfwer Sommaren; om wilkenor behagades med första accorderas med Apotekaren Hinr. Schuls Hindrichsen upp på Ladugårdslands Apotheket.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kungliga Djurgårdsbrunnen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Djurgårdsbrunn",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:12:auktion-olzillateur",
+    "label": "Erbjudande: Bokföringstjänster",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Ett hederligt hushåll, som själva har lokaler och ett gammalt näringsställe, önskar erbjuda sina tjänster som bokförare åt någon. Svar utbedes i dessa blad.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "Et hedersligt Folk som sielf har Rum och gammolt Näringsställe, åstundar göra räkning för någon Olzillateur; swar utbedes i desa Blad.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:13:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "De herrar som för 3 års tid på ett listigt sätt kom sig till ett ur hos Urmakaren O. Liungdahl, behagade med allra första återställa uret eller dess värde. I annat fall blir deras namn utskrivet, som är F. C.",
+    "resident": null,
+    "lat": 59.325,
+    "lng": 18.07082,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "De zene Herrar som for 3 års tid på et lissigt sätt kom sig til et tte hos Urmakaren O. Liungdahl, behagade med aldraförsa återställn Uret eller des wärde, i annat fall blir deras namn utskatt som är F. C.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:14:rakning-for-nagon-halst-pa-norrmalm",
+    "label": "Uppgörelse med vem som helst på Norrmalm",
+    "date": "1780-01-24",
+    "address": "Norrmalm",
+    "description": "Angående egen krognota önskas att göra upp räkningen med vem som helst på Norrmalm; svar efterfrågas i denna tidning. Härtill följer ett bihang, som innehåller försäljnings-, hyres- och fler notifikationer.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "På egen Krogsedel åstundas at göra Räkning för någon hälst på Norrmalm; swar begäres i dessa Blad. Härjämte följer et Bihang, som innehåller Salu, Hyres och flere Notificicationer.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Norrmalm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0004:15:notis-om-tryckning",
+    "label": "Notis om tryckning",
+    "date": "1780-01-24",
+    "address": "Lilla Nygatan",
+    "description": "I morgon klockan 8 utges dessa blad härav. Tryckt i Kungliga Ordens-Tryckeriet, Huset N:o 134 vid Lilla Nygatan.",
+    "resident": null,
+    "lat": 59.32347,
+    "lng": 18.06918,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 4,
+      "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+      "original_spelling": "I morgon kl. 8 utgifwes nässa Blad härav.\nTryckt i Kgl. Ordens-Tryckeriet, Huset N:o 134 wid Lilla Nygatan.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Lilla Nygatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Lilla Nygatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

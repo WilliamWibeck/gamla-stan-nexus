@@ -1,0 +1,642 @@
+[
+  {
+    "id": "bib13506739_17800209_144030_32_0006:1:tjenstfoskande",
+    "label": "Tjenstföskande!",
+    "date": "1780-02-09",
+    "address": "Regeringsgatan",
+    "description": "Tjänstemannen! En hedersman, doktor som kan svära och vara till hjälp för alla slags hushållning. Övernattar tjänst till nästa dag hos herrkapten eller hedertliga borgare; kontakta oss vid Regeringsgatan nummer 72, en krapp upp i gården. En välfrågad flicka med hedrande bevis och god läsning, övernattar tjänst nästa dag hos någon ogift herr eller änka; svaret begärs först i dessa tidningar.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0697,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Tjenstföskande!\nEn hedersky Mans Dokter som kan sv. och vara behjelpelig f: all slags hushållning, öfverdar tjenst till nästa fardag hos Herrkap eller hedertigt Borgare-folk; underrättelse fäss wid Regeringsgatan uti huset N:o 72, en krappa upp inpa gärden.\nEn välfrågad Flicka med hedrande bewis och godt läsford, öfverdar tjenst nästa fardag hos någon ogift Herre eller Enkling; swar begäres med första i dessa Blad.\nEn stickelig Piga öfverdar Huspige- eller Kammarpige-tjenst hos hedertigt Herrkap; gunstigt swar begärs i dessa Blad.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Regeringsgatan",
+        "huset N:o 72"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Regeringsgatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:2:tjanst-ofverdas-hushallerska",
+    "label": "Tjänst öfverdas: Hushållerska",
+    "date": "1780-02-09",
+    "address": "Österlånggatan",
+    "description": "I tjänst öfverdås:\nHos en hedersky til den kommen Herre, som har et litet hushåll, till insfundande Påse, en trogen Hushållerska, som förstår att hushålla och väl laga mat samt försedd med goda bevis; om denne tjänst lämnas adress i Drakes Linbed, som är den första till vänster vid Österlänggatan från Slottshacken i hörnet av Salt-Compagniegränden.",
+    "resident": null,
+    "lat": 59.3242379,
+    "lng": 18.0738591,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "I tjenst öfverdas:\nHos en hedersky til den kommen Herre, som har eti litet hushåll, til insfundande Påse, en trogen Hushållerska, som förstar att hushålla och väl laga mat samt försedd med goda bewis; om denne tjenst lämnas adress i Drakes Linbed, som är den första till vänster wid Österlänggatan från Slottss Hacken i hörnet af Salt-Compagniegränden.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Drakes Linbed",
+        "Österlänggatan",
+        "Slottss Hacken",
+        "Salt-Compagniegränden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Österlånggatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:3:hushallerska-soks",
+    "label": "Hushållerska söks",
+    "date": "1780-02-09",
+    "address": "Österlånggatan",
+    "description": "Ett hedersfullt och oförlovat fröknemotiv som uti Dagbladet N:o 28 kommer att komma ut i ett stilla men hedersfullt hus, hälsar hos en ungesrunt som hushållare eller eljest går till handa. Täckes gifva sig vissande tillkanna ut i Drakes Linbod vid Österlänggatan, den första till vänster från Slottsbäcken i hörnet av Salt-Compagniegränden.",
+    "resident": null,
+    "lat": 59.3242379,
+    "lng": 18.0738591,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Det hedertliga alswarsomma ogifta Fruntimret som uti Dagbladet N:o 28 öfverdar komma uti et stilla men hedertigt hus, hälsar hos en Unkesru som Hushållerska eller eljest gå tilhanda, täckes gifwa sig wissande tillkanna uti Drakes Linbod wid Österlänggatan, den första till vänster från Slottsbäcken i hörnet af Salt-Compagniegränden.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Drakes Linbod",
+        "Österlänggatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Österlånggatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:4:uppsokning-for-barnlos-anka",
+    "label": "Uppsökning för barnlös änka",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Om någon hedersfull, äldre och munkar barnlös änka, som åtar sig uppsköning med mer för en aamal hedersman, så anmäler den samma i huset nummer 29 och 30 på Bruggaregränd hos Madame Apelquist, till vidare överenskommelse och tjenliga husrums efterförsikt.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Om någon hedertlig, ärbar och munker barnlös Änka, vil åtaga sig uppsköning med mera för en aamal Hedersky Man, så behagade den samma anmäla sig i huset N:o 29 och 30 i Bruggaregränden hos Madame Apelquist, til widare öfverenskommelse och tjenlige husrums efterföskande.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bruggaregränden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:5:bokhallerie-och-naknekonsten",
+    "label": "Bokhållerie och Naknekonsten",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Den pålitelige Mannen som i Bihanget til Posten N:o 29 öfverdar undervisa i Bokhållerie och Naknekonsten, behagade i Klädståndet midt emot Kgl. Posthuset gifwa sig namn och wissande tillkanna antins gen munkeligen eller genom en Bilket.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Den pålitelige Mannen som i Bihanget til Posten N:o 29 öfverdar undervisa i Bokhållerie och Naknekonsten, behagade i Klädståndet midt emot Kgl. Posthuset gifwa sig namn och wissande tillkanna antins gen munkeligen eller genom en Bilket.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kgl. Posthuset"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:6:flyttningstid-kokerska-och-ungling",
+    "label": "Flyttningstid: Kökerska och Ungling",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "I tjänst överdras vid nästa flyttningstid en kökssyster, som är väl hemma i matlagning, samt en 16-17 års gammal ungling som är något van vid uppsköning; dessa kan anmäla sig i huset N:o 2 vid Södermalms torg en krapp uppgift.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "I tjenst öfverdas wid nästa flyttningstid en Kökerska, som är väl hemma i matlagning, samt en 16 a 17 års gammal Ungling som är någorlunda van vid uppsköning; dessa kunna anmäla sig i huset N:o 2 wid Södermalms-torg en krappa up.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Södermalms-torg"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:7:anstallning-enkling-soker-snygg-piga",
+    "label": "Anställning: Enkling söker snygg Piga",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "En modern svensk tidningstext från 1700-talet om en snygg, alswarsam och trogen flicka som kan sy, laga mat och andra nödvändiga färdigheter för ett litet hushåll. Hon kan anmäla sig i huset nummer 54 vid St. Clara Södra Kyrkogata, på den andra trappan upp.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Hos en Enkling öfverdas en snygg, alswarsam och trogen Piga, som är man om barn, kan sy, laga mat och hvad mera som til görandes är i et litet hushåll; hon kan anmäla sig i huset N:o 54 wid St. Clara Södra Kyrkogata, 2:ne trappor up.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "St. Clara Södra Kyrkogata"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:8:anmalning-om-gase",
+    "label": "Anmälning om Gåse",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "En gosse på omkring sex år, som är vänlig och lojal, kring går i tjänst. Han har ett hyggligt utseende och goda föräldrar här i staden. Han kan anmäla sig till huset nummer 75, tre trappor upp mellan Kyrkobrinken och Ten, under tiden från åtta till nio på morgonen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "I tjenst öfverdas en beskedelig och trogen Gåse kring x6 års älder, af hyggeligt utseende och som har fine Föräldrar här i Staden; hon kan anmäla sig uti huset N:o 75 trene trappor up i stora Kyrkobrins Ten emellan 8 och 9 förmiddagen.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "huset N:o 75",
+        "Staden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:9:pension-till-unga-fruntimmer",
+    "label": "Pension till unga Fruntimmer",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Verserade Rungskrav: \n\nI ett hedersfullt och allvarligt hus finns möjlighet att motta en ung fru på pension; varför lärdom kan fås i kristendom, franska och skrift samt hushållning, tillsammans med alla andra fruns handarbete, kläder och textilier om så önskas. Adress för detta finns hos handelsmannen Grevesmühls hus. I samma bod mottas blommor och blonder att tvätta, asven och Manchester att brodera.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Diverse Rungskrelser:\nUti et hedertligt och alswarsamt hus är tilfälle at emottaga z:ne unga Fruntimmer f pension; hwares Lårdom kan fås i Christendomen, Fransyska och Skrifa samt hushållningen, jämte allehanda Fruntimmers Handa-sjägder, blowister och granlätter om så öfverdas; adress härom fäss i Handelsman Grevesmühls hus. I samma Bod emottages Flor och Blonder at twatta, åsven och Manchester att brodera.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Handelsman Grevesmühls hus"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:10:pension-till-ungdomar",
+    "label": "Pension till ungdomar",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "För de 8- och 6-åriga barnen som i Dagligt Allehanda N:o 28 anges får en hel pension, vilket ger tågenhet hos en ogift prästman, som emot drägeligt, dock nöjskligt, förser om så väl flitig handledning i studier som i övrigt om och trogen vård och sjötsel. Denna början kan nu strax förekomma; vidare adress lämnas där dessa tidningar utgivs.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "För de z:ne Gåkar wid 8 och 6 års älder, som i Dagligt Allehanda N:o 28 öfverdas få i hel pension, gifwa tågenhet hos en ogift Prästman, som emot drägeligt, dock nöjskligt accord, försäkrar om så väl flitig handledning i Studier, som i Öfrigt om och trogen vård och sjötsel, då början kunde fse nu straxt; widare adress lämnas där dessa Tidningar uggifwaas.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:11:lan-till-arlig-man",
+    "label": "Lån till ärlig Man",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Om det finns någon man i samhället här i staden som behöver hjälp, så har både hjärta och styrka att på ett ärligt sätt understödja en man med ett pengar-lån på 75 riksdaler specie. Som redan skulder han med hjärtans tacksamhet återbära, skulle det vara så christligt och givna sin adress tillkännagivande i dessa tidningar med aldrigfrist, att man därigenom blir betydligt mer utöver sitt hjälpen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Om det gifwas i Samhållet här i Staden någon Mannisko-män, sam har både hjärta och styrka at på et är understödja en ärlig Man med et penninge-lån af 75 R:daler specie, som redeligen skul med hjärtans Tacksamhet återbåras, ware så Christelig och gifwa sin adress tillkanna i dessa Blad med aldrasfrista, hålks Mannen därigenom bliswer betydeligen utur sara hulpen.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Samhållet",
+        "Staden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:12:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-09",
+    "address": "Drottninggatan",
+    "description": "I huset nummer 5 vid Drottningegatan, nära Tre Tunnor och Staden, finns en handelsadress för pålitliga handeledare och sjötsel till de välartade Gåkar i Dagligt Allehanda nummer 28. Om man kommer överens om vilkorna kan man fås adressen.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0628,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Uti huset N:o 5 wid Drottningegatan snedt emot Tre Tunnor, närmare Staden, 2:ne trappor up. Kan fås adress om en pålitelig handeledare och sjötsel för de z:ne välartade Gåkar i Dagligt Allehanda N:o 28, så framt man kommer öfverens om vilkoren.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Drottningegatan",
+        "Tre Tunnor"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Drottninggatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:13:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-09",
+    "address": "Stortorget",
+    "description": "En allvarsam fru öfverdar kommer hedertigt till Herrkapten att lära deras dottrar många slags söm, såsom broderi med guld, silke och nätelduks-söm, knyting med lapsömsbroderi, marsell och liknande, för sina fina kamrater och mat. Saker har hon själv; dessa utbedras i dessa blad.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "En alswarsam Fru öfverdar komma til hedertigt Herrkap at lära deras Dötrar många slags söm, bros Herra med Guld, Silke, Nättelduks-söm, knyting med lapsöm, marsell med mera, för z:ne fina Kamrar och Mat. Saker har hon sjelf; swar utbedes i dessa Blad.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:14:enskedehusets-agare-soker-en-hushallshjalpskvinna",
+    "label": "Enskedehusets ägare söker en hushållshjälpskvinna",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "I en ensam by överdagar en allvarsam änka eller flicka med goda vittnesbörd, som emot detta vill bo i husfrid och vara hjälpsam med uppvaktning; underrättelse ges till fru Brandels liten bostad vid Blasieholms Hållen hos fru Wärner.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Hos en ensam Unkesru öfverdas en alswarsam Änka eller Piga med goda wittnesbörd, som emot det hon får bo husfrift wil vara behjelpelig med uppsköning; underrättelse fäss i Fru Brandels lilla hus wid Blasieholms Hånnen hos Fru Wärner.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Blasieholms Hånen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:15:anmarkning-om-resvers",
+    "label": "Anmärkning om resvers",
+    "date": "1780-08-14",
+    "address": "Stadshuset",
+    "description": "Den betjenten som vet sig uppråd står i anmärkning att han inte vill inlösa sin den 14 augusti 1780 utgivna resvers på två riksdaler. Nödsaken till detta måste man därför minnas med en erinran, att det samma nu inte längre kan lösas och dess namn kommer att stå i dessa blad mer uttalat.",
+    "resident": null,
+    "lat": 59.3279457,
+    "lng": 18.054537,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Den Betjenten som vet sig upprå stiere anmaningar icke welat inlösa sin den 14 Aug. 1780 utgifne Resvers på twa R:daler, nödsakas man härigenom paminna, med erindran, at därest samma nu icke genost ins Löses, warder dess namn med mera uti dessa Blad utsatt.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stadshuset"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stadshuset",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:16:annonsering-affarsutrymmen",
+    "label": "Annonsering: Affärsutrymmen",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "En mycket beskedlig och med godt bevis försedd änka, som för är van vid näringszinken, öfverdar göra våning för något närings- eller liqueur-ställe; swar utbedes i dessa tidningar hvarst hon får anmäla sig.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "En mycket beskedelig och med godt bewis försedd Änka, som för är wan wid Näringszidkonde, öfverdar göra våning för något Närings- eller Liqueur-ställe; swar utbedes i dessa Tidningar hwarest hon får anmäla sig.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:17:insinuation-vid-huset-n-o-116-vid-skeppsbron",
+    "label": "Insinuation vid Huset N:o 116 vid Skeppsbron",
+    "date": "1780-02-09",
+    "address": "Skeppsbron",
+    "description": "Jungfru Anna Elis Blomberg ville insinna sig för sin egen angelägenhet en morgon ut i huset nummer 116 vid Skeppsbron, tre trappor upp, före klockan halv åtta.",
+    "resident": null,
+    "lat": 59.3237918,
+    "lng": 18.0754075,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Jungfru Anna Elis. Blomberg ville insinna sig för dess egen angelägenhet full någon morgon uti huset N:o 116 wid Skeppsbron 3:ne trappor up, före kl. half til 8.",
+      "category": "crime",
+      "themes": [
+        "Crime & Justice"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Huset N:o 116",
+        "Skeppsbron"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Skeppsbron",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0006:18:underrattelse-om-pensionarer",
+    "label": "Underrättelse om pensionärer",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "I Snusboden vidt mot Kungliga Posthuset lämnas upplysningar om att pensionärer som har tilldelats Helliga Välsignelse av kungen kan motta pengar.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 6,
+      "archive_ref": "bib13506739_17800209_144030_32_0006.jpg",
+      "original_spelling": "Uti Snusboden widt emot Kgl. Posthuset lämnas underrättelse hwarest de z:ne Pensionairer emot Hilliga wilfor kunng emottagas.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Snusboden",
+        "Kgl. Posthuset"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

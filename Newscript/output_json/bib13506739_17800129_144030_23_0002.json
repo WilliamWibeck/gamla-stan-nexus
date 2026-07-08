@@ -1,0 +1,327 @@
+[
+  {
+    "id": "bib13506739_17800129_144030_23_0002:1:marat-ut-dera-arnateurer-framdeles-arna-anhalla",
+    "label": "Marat: Ut dera Arnateurer framdeles ärna anhålla",
+    "date": "1780-01-29",
+    "address": null,
+    "description": "Marat: \"Låt dina arbetare fortsätta att hålla allt som är bekant om neutrala fartyg, särskilt de 'holländska fartygen', som fortfarande väntas.\"",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-29",
+      "page": 2,
+      "archive_ref": "bib13506739_17800129_144030_23_0002.jpg",
+      "original_spelling": "Marat: \"Ut dera Arnateurer framdeles ärna anhålla alla dit bekände neutrale Skepp, och i sönnerhet de 'Holländske Skepp', som ännu förväntas.\"",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Skepp"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800129_144030_23_0002:2:berattelser-fran-lagret-st-roch-vid-gibraltar",
+    "label": "Berättelser från Lägret St. Roch vid Gibraltar",
+    "date": "1780-01-29",
+    "address": null,
+    "description": "Madrid, den 21 december. Enligt rapporter från lägret St. Roch vid Gibraltar finns det ännu inget speciellt händelse i området; man har dock skjutit något från fästningen, men med så liten effekt att endast några få soldater dödades på vår sida. Med önskan att känner till att invånarantalet i nämnda fästning stiger till 3110. Besättningen utgör 4646 man. Artilleriet består av 492 kanoner, dels metall och dels järnkanoner och morterare. Från den 12 september till och med den 14 november år därmed gjorde 2830 kanonskott på våra linjer och 1198 bomber kastade.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-29",
+      "page": 2,
+      "archive_ref": "bib13506739_17800129_144030_23_0002.jpg",
+      "original_spelling": "Madrit den 21 Decemb. Enligt berättelser från Lägret St. Roch wid Gibraltar, är därfrådes än nu ingen ting besynnerligt händt; man har väl styrit något från Fästningen, men med så liten werkan at allenaft några få Soldater blifvit dödade på vår sida. Med wishet wet man att invånarenas antal i nämde Fästning stiger til 3110. Besättningen utgör 4646 man. Artilleriet består af 492, dels Metall, dels Järn-Canoner och Mdrsrare. Från den 12 Sept. til och med den 14 Novemb. år därmed gjorde 2830 Canonssött på våra linjer och 1198 bomber kastade.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Lägret St. Roch",
+        "Gibraltar"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800129_144030_23_0002:3:canartefogel-i-quarantaine",
+    "label": "Canartefogel i Quarantaine",
+    "date": "1780-01-12",
+    "address": null,
+    "description": "Semlin den 23 december. En kanariefågel, som ankommit från Turkiet, håller nu quarantän hos oss. Händelsen är sådan: Den 12 hujus år för andra gången en död upstoppad kanariefågel ankommen med expedition från Konstantinopel, vilken måste ligga en viss tid i quarantäns-huset, likasom alla andra varor som kommer från Turkiet, innan de får avsättas till Wien. Vad hemlighet som ligger därunder att man pickar en dylig fågel så långt kan säkert utrönas.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-29",
+      "page": 2,
+      "archive_ref": "bib13506739_17800129_144030_23_0002.jpg",
+      "original_spelling": "Semlin den 23 Decemb. En Canartefogel, som ankommit från Turkiet, håller nu quarantaine hos os. Händelsen är denne: Den 12 hujus år för andra gången en död upstoppad Canariefogel ankommen med expedition från Constantinopel, hvilken måste ligga en wih tid i quarantains-huset, likasom alla andra varor, som komma från Turkiet, innan de få afsickas til Wien. Hvad hemlighet som ligger därunder, at man pickar en dylig Fogel så långt, kan swärligen utrönas.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Semlin"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800129_144030_23_0002:4:handelsstatistik",
+    "label": "Handelsstatistik",
+    "date": "1780-01-29",
+    "address": null,
+    "description": "Elbing, den 29 december. Våra handelsföretag utvecklar sig alltmer; i detta år avgick 663 fartyg och anlände 747.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-29",
+      "page": 2,
+      "archive_ref": "bib13506739_17800129_144030_23_0002.jpg",
+      "original_spelling": "Elbing den 29 Decemb. Wår handel tillsätter alt mer och mer; i detta år åro 663 Skepp afgange och 747 anlände.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Elbing"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800129_144030_23_0002:5:arrival-of-ships",
+    "label": "Arrival of Ships",
+    "date": "1780-01-09",
+    "address": null,
+    "description": "Antwerpen den 9 januari. De nyligen från Texel avgående skeppen, Grefwinnan af Scarbesvogue och La Vengeance, har ankommit till Dunkerque; dessa havde Skepven Seraphis och Palzlas som beledsagare. Förenämnda Skepp har räddats samma dag. Men Skepet Alliance, som fördes av Paul Jones, har tagit vägen norr om Skottland till Amerika.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-29",
+      "page": 2,
+      "archive_ref": "bib13506739_17800129_144030_23_0002.jpg",
+      "original_spelling": "Antwerpen den 9 Januarii. De nyligen från Texeln afgänge Skepven, Grefwinnan af Scarbesvough och la Vengeance, äro den 2 hujus ankomne til Dunkerken; åswen havwa Skepven Seraphis och Palzlas, som beledsagade förenämde Skepp hunnit samma redd; men Skepet Alliance, som fördes af Paul Jones, har gått norra vägen om Skottland til Amerika.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Antwerpen",
+        "Texel",
+        "Dunkerken"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800129_144030_23_0002:6:olycka-vid-resan",
+    "label": "Olycka vid Resan",
+    "date": "1780-01-19",
+    "address": null,
+    "description": "Lund den 19 januari.\n\nI dag 8 dagar sedan inträffade olyckan, när Ruskhållaren Pehr Nilsson från stora Bjellerups by på hemturen till staden i ett fält snöväder, där han reser sig omkom. Det sägs att nyligen man skall vara tjänstförrädd vid Tirups by, som ligger långt ifrån hans hemvist. En bevis huru farligt det är att resa i yrväder.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-29",
+      "page": 2,
+      "archive_ref": "bib13506739_17800129_144030_23_0002.jpg",
+      "original_spelling": "Lund den 19 Januarii.\nI dag 8 dager sedan hände den olyckan, at Ruskhållaren Pehr Nilsson från stora Bjellerups By, på hemtresan härifrån Staden i det fælliga snöväderet, i hvilket han farit wilie, omkom. Det säges at nyligen Man skall vara tjenfunnen wid Tirups By, som är långt ifrån hans hemvist. Et bewis huru farligt det år at begiswa sig på resor i yrväder.",
+      "category": "crime",
+      "themes": [
+        "Crime & Justice"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Ruskhållaren",
+        "Bjellerups By",
+        "Staden"
+      ],
+      "crime": "Person död under resa i snöväder.",
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800129_144030_23_0002:7:utdrag-af-et-ungt-fruntimmers-bref-fran-landet",
+    "label": "Utdrag af et ungt Fruntimmers bref från Landet",
+    "date": "1780-01-29",
+    "address": null,
+    "description": "Utdrag från ett ungfru till sin släktingar i Stockholm. Jag är glad att du skriver och berättar om det som min kusin friserier om, hur det ser ut i Stockholm. Hon säger ibland att hon varit i en kyrka där prästen började med psalm nummer 5 när sångaren tog sig till psalm nummer 4, och församlingen sjöng olika psalmer under denna tid. Efter det höll prästen inte upp läsning av texten från predikstolen, men han refererade ändå till det uppläste heliga evangeliet i sin predikan. Allt detta skedde på en stor högtidsdag eller trettondagsafton. Om så är fallet, så vet jag att det inte alltid har varit så med bondespräster som tidigare varit i hacket; men jag vet att gudstjänsten här på landet sker mer ordentligt, trots att den ofta utförs av präster från mindre orter, som inte är lika välutbildade som de stora lärarna i världen. Sista gången du skrev till mig var så långt sedan, jag hoppas att du inte har glömt att säga att jag är glad att du skriver.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-29",
+      "page": 2,
+      "archive_ref": "bib13506739_17800129_144030_23_0002.jpg",
+      "original_spelling": "Afsändare.\nUtdrag af et ungt Fruntimmers bref från Landet, til sin Slægtinge i Stockholm.\nWar god min sōta, och låt mig weta om det väl kan vara sant, som min Cousine friswier om, hvuru det tilsår in Stockholm. Ibland annat säger hon sig warit uti en Kyrka och där hört Prästen för Altaret begynna Tron N:o 5, då Sjungaren tog til N:o 4, och Församlingen söng twanne dis-ferente Psaimer en lång sünd: sedan, at icke Prästen upläste Texten på Predikstolen, men likwäl i predikan åberopade det af honom upläste heliga Evangelium, och at alt sådant skedde på en stor Høgtidsdag eller Tret-sondag-Jul. Nå om så år, då har ju ingen stål at förewita Bonde-Präster som altid äro i hacket; men det vet jag wist, at Gudstjänken här på Landet sker med mera ordning, fast an den merendels förättas af spudrade Lande-Präster, som icke af alla torde så jämsbræs med Edra Lärare i den stora werlden.\nSöta du, glöm ei at swara mig hänpå, när du friswer hännaft.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800129_144030_23_0002:8:resande-goteborgsresenarer",
+    "label": "Resande: Göteborgsresenärer",
+    "date": "1780-01-29",
+    "address": "Österlånggatan",
+    "description": "Ankomna Resande.\nKocken Abraham Wickman från Göteborg bor vid Regeringsgatan på Krögore-Åldermannen Skogs gård hos Waktmästaren Sundholm. — Bruks-Inspectorene Eric och Elses N: Nyblaus bor på Källaren Stjärnanan vid Österlånggatan. — Majoren och Riddaren Baron Fredr. Jeiss från Södermanland bor vid norra Smedgatan i huset N:o 69. — Cavttain Stjernefeldt från Västergötland bor i Feu von Schanzes hus på Kgl. Riddarholmen. — Lieutenant Ehrenborg från Skåne bor hos Sockerbagare-Enkan Carsberg vid Hornsgatan i huset N:o 22.",
+    "resident": null,
+    "lat": 59.3242379,
+    "lng": 18.0738591,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-29",
+      "page": 2,
+      "archive_ref": "bib13506739_17800129_144030_23_0002.jpg",
+      "original_spelling": "Ankomne Resande.\nKocken Abraham Wickman från Götheborg, bor wid Regeringsgatan i Krögore-Åldermannen Skogs gård hos Waktmästaren Sundholm. — Bruks-Inspectorene Eric och Elses N: Nyblaus, bo på Källaren Stjärnanan wid Österlånggatan. — Majoren och Riddaren Baron Fredr. Jeiss från Södermanland, bor wid norra Smedgatan i huset N:o 69. — Cavttain Stjernefeldt från Wermeland, bor i Feu von Schanzes hus på Kgl. Riddarholmen. — Lieutenant Ehrenborg från Skåne, bor hos Sockerbagare-Enkan Carsberg wid Hornsgatan i huset N:o 22.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Regeringsgatan",
+        "Krogore-Åldermannen Skogs gård",
+        "Österlånggatan",
+        "Smedgatan",
+        "Kgl. Riddarholmen",
+        "Hornsgatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Österlånggatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800129_144030_23_0002:9:begravning-enke-prinsessan-lovisa-amalia-af-preusen",
+    "label": "Begravning: Enke-Prinsessan Lovisa Amalia af Preusen",
+    "date": "1780-01-29",
+    "address": null,
+    "description": "I dag lördag den 29 januari anläggs vid Kungliga Hovets seremoni en vikt som beror på drottningens död, drottningen är änkedrottningen Lovisa Amalia av Preussen. Hon kommer att ligga i kista fram till och med den 11 mars nästa år. Sorgen uttrycks genom flätade hår och svarta kläder för fruntimmer. Kavalleriet bär flätade manchetter med svarta värser. Den 12 februari ändras sorgen till fransk dräkt; den 26 påföljande minskas sorgen och brukar därefter, tills det är avlägsnat svarta och vita band samt spetsar och juveler, tillsammans med bröderna för kavalleriet.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-29",
+      "page": 2,
+      "archive_ref": "bib13506739_17800129_144030_23_0002.jpg",
+      "original_spelling": "I dag Lørdag d. 29 Jan. anlägges wid Kgl. Hoswet ser weckors Sorg, efter Zennes Kongl. Söghet Enke-Prinsessan Lovisa Amalia af Preusen, som båres til och med den 11 Martii näskommande. Sorgen antages med flätt, samt swarta Wantar för Fruntimren. Cavallererne betuka flät-sällade Manchetster med svarta Wärjer: den 12 Februari förändras Sorgen och antages fransiar; den 26 påföljande minstas Sorgsen och brukas därefter och til dess den aflagges swarta och hvita Band, samt Spetfar och Jouveler, jämte brokiga Escharpes för Cavallererne.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kgl. Hoswet"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": "begravning",
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

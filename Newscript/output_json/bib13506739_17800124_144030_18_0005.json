@@ -1,0 +1,719 @@
+[
+  {
+    "id": "bib13506739_17800124_144030_18_0005:1:auktion-bocker-vid-arborens-boklada",
+    "label": "Auktion: Böcker vid Arborens Boklåda",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Bihang till Dagligt Allehanda N:o 18. Den 24 januari 1780. Till salu finns: På Arborens Boklåda, följande böcker: Gellerts Moraliska Föreläsningar, x Riksdaler. Den Levande; sz k. och dess porträtt 8 band. Fresenii berättelse om en Fritänkares omvändelse på den Sotsäng, 3 band. Den Dygdige på sin Sotsäng, 6 band. En Kristen på Sotsängen, eller en döende Faders sista förmaning till sin enda Son, 1 band, 6 runstycken. Knuds Observationes Apologeticae de Synergismo recentiori, 5 band. Thomas Kempis om Kristi efterföljelse, 12 band. Speners Natur und Gnade. Fischlins Pietismus Detectus, eller de förnäma separatisternas villfarelser upptäckta och vederlagda, 12 band. Enroths om den oskattbara Nådens tid, 9 band, 4 runstycken. Stockholms Stads Ordinantier, 2 delar, x Riksdaler, 16 band. La Sainte Bible av P. Martin i 2 band, x Riksdaler, 24 band. Beskrivning över Malmöhus län med karta, 24 band. Skragges Nosologia Drottningholmens, 16 band. Medicinaltaxan. Bälters bevis att egoistiska personers olovliga behandling är en stor synd, 4 band. Åkermans Atlas Juvenilis, bestående av 30 kartor jämte dess beskrivning, 1 Riksdaler. Den Svenske Spectatorn, 16 band.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Bihang til Dagligt Allehanda N:o 18.\nDen 24 Januarii 1780.\nTil salu finnes:\nAt Arborens Boklåda, följande böcker: Gellerts Moraliska Föreläsningar, x R:dal. Den Lefwerne; ſz k. och dess Portrait 8 b. Fresenii berättelse om en Fritänkares omvändelse på den Sokesäng, 3 b. Den Dygdige på sin Sotesång, 6 b. En Christen på Sotesången, eller en ödende Faders sista förmaning til sin enda Son, 1 b. 6 runstyck. Knuds Observationes Apologeticae de Synergismo recentiori, 5 b. Thomas Kempis om Christi efterföljelse, 12 b. Speners Natur und Gnade. Fischlins Pietismus Detectus, eller de förnämme Separatisternes wilfarelser upptäcke och wederlagde, 12 b. Enroths om den oskattbara Nådens tid, 9 b. 4 runst. Stockholms Stads Ordinantier, 2:ne delar, x R:dal. 16 b. La Sainte Bible p. Martin i 2:ne band, x R:dal. 24 b. Beskrifning öfwer Malmöhus-Län med Charta, 24 b. Skragges Nosologia Drottningholmens, 16 b. Medicinal-Taxan. Bälters bevis at egista personers oloftiga behandlinge är en stor synd, 4 b. Åkermans Atlas Juvenilis, bestående af 30 Chartor jämt des Beskrifning, 1 R:daler. Den Swenske Spectatorn, 16 b.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Arborens Boklåda"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:2:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler och teartiklar",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Extra goda katrinplommon, bruneller, krukrussin, kastanjer, insyltad ingefära, soya, citroner, citronsaft, diverse sorters tekoppar och teserviser, samt fint te, säljs hos kryddkrämaren Kjämpendal vid Drottninggatan.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Extra goda Catrin-Plommon, Bruneller, Kruk-ruskin, Castanier, insyldad Ingefära, Soya, Citroner, Citron-saft, diverse sorters Theekoppar och The-Servicer, samt fint Thee, försäljes hos Kryddkrämaren Kjämpendal vid Drottningsgatan.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Drottningsgatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:3:auktion-rese-slador",
+    "label": "Auktion: Resvagnar",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "En övertäckt resvagn, lämplig för två personer, är till salu; information fås av herr Hult i Kungliga Stallarna; även är en brun vagn till salu, varom information fås av herr Linquist i hus nummer 15 i Peter Myndes Backe på Södermalm.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "En öfvertäckt Rese-Slåda begymlig för 2:ne personer, är til salu; underrättelse fäss af Herr Hult i Kgl. Stallar; äfwen är en brun Slåda til salu, hwarom fäss underrättelse af Herr Linquist uti huset N:o 15 i Peter Myndes Backe å Södermalm.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kgl. Stallar",
+        "huset N:o 15 i Peter Myndes Backe å Södermalm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:4:auktion-masterstucks-las",
+    "label": "Auktion: Mästerstyckeslås",
+    "date": "1780-01-24",
+    "address": "Norra",
+    "description": "Till salu finns två mästerstyckeslås, mycket konstfullt och vackert gjorda, tjänliga till kyrkkista eller packkista, eller också till magasin; de är att bese på Norr och Lästmakaregränden i gården nummer 15, där Skomakareskylten sitter.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Til salu finnes 2:ne Mästerstucks-Lås, mycket konstigt och wackert gjorda, tjenlige til Kyrkokista eller Pack-kista, eller och öck til Magazin; de äro at beje på Norr och Lästmakaregränden i Gården N:o 15, där Skomakare-skylen sitter.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Norra",
+        "Lästmakaregränden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:5:salj-gul-damast-sofa",
+    "label": "Till salu: Gul damastsoffa",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Hos Madame Frits klädstånd vid Posthusgränden, är till salu en fin gul damastsoffa stoppad med Danzigertagel; där finns också adressen till en hederlig änka, som vill åta sig att sköta räkenskaperna för ett likörställe.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "I Madame Frits Klädståndt k Posthusgränden, är til salu insatt en proper gul Damast-Sofa stoppad med Danziger-Tægel; där finnes och adress om en hederlig Änka, som vill åtaga sig at göra räkning för et Liqueurställe.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Posthusgränden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:6:kladstandet-vid-kgl-post-contoiret",
+    "label": "Klädstånd vid Kungliga Postkontoret",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "I klädståndet mitt emot Kungliga Postkontoret finns två siden dominosklänningar samt maskeradskor och strumpor, antingen att köpa eller hyra; där fås även underrättelse om tre svarta nationella manskläder, samt ett parti insaltade pomeranser.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "I Klädståndet midt-emot Kgl. Post-Contoiret är 2:ne Siden Domino-Klädningar samt Masquerads Skor och Strumpor antingen at köpa eller hyra; där fäss äfwen underrättelse om 3:ne svarta Nationelle Mans-Klädningar, samt et partie insaltade Pomeranzer.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kgl. Post-Contoiret"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:7:landt-charta-over-sodra-afrika",
+    "label": "Landkarta över Södra Afrika",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Hos J. Schürer på Stora Kyrkobrinken finns en helt ny och noggrann landkarta över södra delen av Afrika, förfärdigad av Andreas Sparreman.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Hos J. Schürer i stora Kyrkobrinken finnes en hel ny och accurat Landt-Charta öfwer Södra delen af Afrika, förjärdigad af Andreas Sparreman.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "stora Kyrkobrinken"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:8:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "En skiftad påls med svart skinn under är till salu vid Munklägargatan, eller som förr kallades gamla Kungsholms Brogatan, i hus nummer 11. Adress fås i Hökareboden i samma hus.",
+    "resident": null,
+    "lat": 59.325,
+    "lng": 18.07082,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "En skiftad Påls med svarta skin under, är til salu wid Munklägargatan eller fäss kallade gamla Kongs-Holms Brogatan uti huset N:o 11: adress fäss uti Hökareboden i samma hus.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Munklägargatan",
+        "Hökareboden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:9:auktion-maskeradklader-vid-l-archeveques-hus",
+    "label": "Auktion: Maskeradklänningar vid L'Archevêque's Hus",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Fyra stycken domino-maskeradklänningar är till salu eller att hyra i L'Archevêques hus vid Drottninggatan i Klädståndet. Även är där en Släd-Sela till salu.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0628,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Fyra st. Domino-Masquerad-Klädningar, ärö til salu eller at hyra uti L'archeveques hus wid Drottningsgatan i Klädståndet, äfwen är där en Slåd-Sela til salu.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "L'archeveques hus",
+        "Drottninggatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Drottninggatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:10:blommor-till-salu",
+    "label": "Blommor till salu",
+    "date": "1780-01-24",
+    "address": "Stortorget",
+    "description": "I Handskmagasinsboden vid Stortorget, i Grevesmühls hus, finns av alla sorters blommor till salu för civilt pris.",
+    "resident": null,
+    "lat": 59.325,
+    "lng": 18.07082,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Uti Handsk-Magazinsboden wid Stortorget i Grevesmühls hus, finnes af alla sorters Blommor til salu för civilt pris.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget",
+        "Grevesmühls hus"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:11:auktion-mobler-vid-riddarhus-torget",
+    "label": "Auktion: Möbler vid Riddarhus-Torget",
+    "date": "1780-01-24",
+    "address": "Riddarhus-Torget",
+    "description": "I Sockerboden vid Riddarhustorget finns mycket gott härdbollshö till salu för 2 daler läspundet; markegången är 3 daler 12 öre läspundet.",
+    "resident": null,
+    "lat": 59.3262,
+    "lng": 18.0654,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "I Sockerboden wid Riddarhus-Torget finnes mycket godt Härdballs-Hå til salu för 2 dal. Läspunder; Markegängen är 3 dal. 12 dre Läspunderet.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Riddarhus-Torget",
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Riddarhus-Torget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:12:tobak-och-stenkal-till-salu",
+    "label": "Tobak och stenkål till salu",
+    "date": "1780-01-24",
+    "address": "Skeppsbron",
+    "description": "Ett litet parti svenska tobaksblad finns till salu i huset nummer 112 i Gaffelgränden vid Skeppsbron. Till salu finns ett parti stenkål; varom underrättelse fås av stadsmäklaren Joh. Sahlberg.",
+    "resident": null,
+    "lat": 59.32379,
+    "lng": 18.07541,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Et litet partie Svenska Tobaksblader finkes til salu i huset N:o 112 i Gaffelgränden wid Skeppsbron. Til salu finnes et partie Stenkål; hwarom underrättelse fäss af Stads-Måklaren Joh. Sahlberg.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Gaffelgränden",
+        "Skeppsbron"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Skeppsbron",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:13:auktion-nionde-tomen-af-nouveaux-amusemens-du-coeur-et-de-l-",
+    "label": "Auktion: Den nionde volymen av Nouveaux Amusemens du Coeur et de l'Esprit",
+    "date": "1780-01-24",
+    "address": "Stora Nygatan",
+    "description": "Önskas köpa: Den nionde volymen av Nouveaux Amusemens du Coeur et de l'Esprit, tryckt i Haag 1739; i fall någon av en händelse skulle ha samma volym att avstå och vill lämna in den i Swederis Boklåda vid Stora Nygatan, så betalas därför 2 riksdaler specie.",
+    "resident": null,
+    "lat": 59.32421,
+    "lng": 18.06922,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Astundas at köpa:\nNionde Tomen af Nouveaux Amusemens du Coeur et de l'Esprit, tryckt i Hag 1739; i fall någon af en händelse skulle hafta samma Tom at afståt och wil den afslämina uti Swederi Boklåda wid stora Nygatan, så betalas däröfär 2 R:dal. specie.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Hag",
+        "Stora Nygatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stora Nygatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:14:hyra-skara-grabergsagatan",
+    "label": "Hyra: Skara Gräbergsagatan",
+    "date": "1780-01-24",
+    "address": "Norrbro",
+    "description": "Uthyres: Vid Skara Gräbergsagatan i gården nummer 58 och Adolf Fredriks församling, finns tre kamrar med tapeter samt kök och vedbod att hyra för ett litet och stilla hushåll, mot civil hyra; varom upplysning kan inhämtas såväl i gården som i Glasboden vid Norrbro mitt emot Greve Pers hus.",
+    "resident": null,
+    "lat": 59.3282,
+    "lng": 18.0703,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Utbjudes at hyra:\nWid skara Gräbergsagatan uti Gården N:o 58 och Adolph Fredrichs Församling, ärö 3:ne Kaimrar med Tapeter samt Kök och Wedbod at hyra för et litet och stilla hushåll, emot civil hyra; hwarom underrättelse kan århällas så väl i Gården som i Glasboden wid Norrbro midt emot Grefive Pehrs hus.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Skara Gräbergsagatan",
+        "Gården N:o 58",
+        "Adolph Fredrichs Församling"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Norrbro",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:15:hyra-tapetstavla",
+    "label": "Hyra: Tapetstavla",
+    "date": "1780-01-24",
+    "address": "Ladugårdslandet",
+    "description": "I huset nummer 34 på Ladugårdslandet, i Smala gränden, en trappa upp, fås underrättelse om ett tapetserat rum med nödvändiga uthus och deltagande i kök, för ett stillsamt fruntimmer eller änka, att hyra till nästa flyttdag.",
+    "resident": null,
+    "lat": 59.335,
+    "lng": 18.085,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Uti huset N:o 34 på Ladugårdslandet i Smala gränden en trappa up, fäss underrättelse om et tapetsfertat Num med nödiga uthus och deltagande-i Kök, för et stilla Fruntimmer eller Änka nästa fardag at hyra.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Ladugårdslandet",
+        "Smala gränden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Ladugårdslandet",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:16:hyra-sal-och-kok-vid-stortorget",
+    "label": "Hyra: Sal och Kök vid Stortorget",
+    "date": "1780-01-24",
+    "address": "Stortorget",
+    "description": "I huset nr 41 och 42 i Solgränden vid Stortorget finns en sal och ett kök att hyra; närmare underrättelse fås alla förmiddagar i samma hus en trappa upp.",
+    "resident": null,
+    "lat": 59.325,
+    "lng": 18.07082,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Uti huset N:o 41 och 42 i Solgränden wid Stortorget, är en Sal och Kök at hyra; närmare underrättelse fäss alla förmiddagar uti samma hus en trappa up.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "huset N:o 41 och 42",
+        "Solgränden",
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:17:hyra-tapetad-sal-och-kammare-vid-wasterlanggatan",
+    "label": "Hyra: Tapetserad sal och kammare vid Västerlånggatan",
+    "date": "1780-01-24",
+    "address": "Västerlånggatan",
+    "description": "I huset nummer 17 vid Västerlånggatan finns en tapetserad sal och kammare att hyra; om så önskas kan det bli en kammare till med egen in- och utgång.",
+    "resident": null,
+    "lat": 59.32466,
+    "lng": 18.06971,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Uti huset N:o 17 wid Wästerlånggatan är en tapeterad Sal och Kammare at hyra; skulle så åstundas kunde det blifva en Kammare til med egen in- och utgang.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Wästerlånggatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Västerlånggatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:18:hyra-sal-fabrik-och-sang-kammare",
+    "label": "Uthyres: Sal, fabrik och sängkammare",
+    "date": "1780-01-24",
+    "address": "Österlånggatan",
+    "description": "I Grå Stenhuset bredvid låga Bancehuset vid Österlånggatan finns en sal, ett förmak och en sängkammare med och utan möbler att hyra, tre trappor upp.",
+    "resident": null,
+    "lat": 59.32424,
+    "lng": 18.07386,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "Uti grå Stenhuset utmed låga Bancehuset wid Österlånggatan, är en Sal, et Fbrmak och en Säng-Kammare med och utan Meubler at hyra tre trappor up.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Grå Stenhuset",
+        "Österlånggatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Österlånggatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:19:hyra-sal-med-kammare",
+    "label": "Hyra: Sal med Kammare",
+    "date": "1780-01-24",
+    "address": "Södermalm",
+    "description": "En sal med kammare och kök samt källare, vind och vedbod är till nästa fardag att hyra i gården nummer 75 på Södermalm och Återvändsgränden på Mariasidan.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "En Sal med Kammare och Kök samt Källare, Wind och Wedbod äro til nästa fardag at hyra i Gården N:o 75 på Södermalm och Återvändsgränden på Maria-sidan.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Gården N:o 75",
+        "Södermalm",
+        "Återvändsgränden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0005:20:hyra-ledig-lagenhet-vid-drottninggatan",
+    "label": "Hyra: Ledig lägenhet vid Drottninggatan",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "En salubod är till våren ledig att hyra vid Drottninggatan, även vid Bryggaregränden; information fås i Klädståndet nummer 39 i Madame Wires hus vid samma gata.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0628,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 5,
+      "archive_ref": "bib13506739_17800124_144030_18_0005.jpg",
+      "original_spelling": "En Salubod är til Wären ledig at hyra wid Drottningsgatan afsvansdr Bryggaregränden; underrättelse fäss uti Klädståndet N:o 39 i Madame Wires hus wid samma gata.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Drottninggatan",
+        "Bryggaregränden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Drottninggatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

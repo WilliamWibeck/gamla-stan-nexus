@@ -1,0 +1,397 @@
+[
+  {
+    "label": "Dödsskedje",
+    "date": null,
+    "address": null,
+    "description": "Notificering om döden av skepparen Äldermannen Peter Wassberg den 18 januari vid en ålder av 64 år och 9 månader.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Skeppare Äldermannen Peter Wassberg död den 18 Januari k en ålder af 64 år och 9 månader.",
+      "themes": [
+        "Dödsfall"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Peter Wassberg",
+          "role": "Skeppare Äldermannen"
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Lotteri",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "Annonsering om den 108:e dragningen av Kongl. Nummer-Lotteriet som sker nästkommande onsdag den 2 februari.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Kongl. Nummer-Lotteriets 108:de Dragning sker nästkommande Onsdag den 2 Februari hvilket härmes elskanna gifves, på det den eller de som äftunda deltaga uti detta Lotterie måge inom wanlig tid sig ti!Lotteri Vadfæende insinna.",
+      "themes": [
+        "Lotteri"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Samhällets ledamöter",
+    "date": "1780-01-26",
+    "address": null,
+    "description": "Annonsering om att samhällets ledamöter av Samhället pro Patria, andra delningen, ska mötas på morgonen den 26 januari klockan 4 eftermiddagen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Herrar Ledamöter af Samhället pro Patria, andra Afsdelningen, behagade t morgon Onsdag d. 26 Jan. Clockan 4 eftermiddagen å wanligt ståle enhärligt sammanträda.",
+      "themes": [
+        "Samhällsaktivitet"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Boklåda till salu",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att boklådor till salu innehåller gratis prof-arket och artiklar från franska och svenska ordböcker, samt andra verk från Svenka Encyclopedien.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "I Upfostrings-Sällskapets Boklåda utdelas gratis Prof-Arket af den Fransyska och Swenska Ordbo-ken, samt Prof-Artiklarne Luft, Djur och Gidraltar, af Svenka Encyclopedien, hvilka bågge Werk af et Sällskap Lärde utarbetas och hådanester isran Trycket beständigt utga. Prenumeration på hvaradera Werket år 1 R:daier.",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Journaler till salu",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att journaler till salu inkluderar militära journaler, en tableaux raisonné från 1780-talet och andra verk.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "I samma Boklåda finnas 2:ne nya utlänka Journaler i commision, neml. Journal Militaire par une Société d'anciens Militaires, börjad i Paris i April 1778 och innehattar alla nu varande Krigs-händelser til Lands och Sjöds, med tildrige reflextioner i Krigs-Wetensfapen, så at det tillika år at anse, som et Werk i Tactiquen. Subscription på 24 partier år 6 R:daier, och Part. 1-32 kunna redan ere hållas.",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Boklåda till salu",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att boklådor till salu innehåller en ny svensk ekonomiskt lexikon, samt andra verk.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Hos Bokbindarne Kumblin, Ahlmark och Nisling i Upsala Disting, utom wanlige Akortiments, den nya Swenska Economiske Dictionairen. Den utkomne Suiten af Capit. och Ridd. Stålhammars Fransyska och Swenska samt Swenska och Fransyska Lexicon, hvarå prenumereras med 1 R:daier.",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Boklåda till salu",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att boklådor till salu innehåller verk av Joseph Andrews och hans vän Abraham Adams, samt andra verk.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Joseph Andrews och hans Wäns Abraham Adams Händelser af Fielding, 2:ne Delar.",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Boklåda till salu",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att boklådor till salu innehåller inventarier från Modell-Kammaren och predikan från Mag. Jungblad.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Inventarium öfwer alla Modeller uti Modell-Kammaren. Mag. Jungblads Predikan på 17:de Söndagen Trinit.",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Boklåda till salu",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att boklådor till salu innehåller verk av J. Lannér och andra verk.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "I dag den 25 hujus försäljes sluteliga återstoden af Baron Härlemans Bibliothque på Bok-Auctions-Kammaren, och i morgon ser början med Bispen Kitzensings, då en mångd af Bok-lårar åfwen komma at såljas.",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Caffe-Qvarn till salu",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att en utländsk Caffe-Qvarn med brännare och panna till salu.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "En utländsk Caffe-Qvarn med Brännare och Panna, uti ganzka godt stand, tjenligt til Caffehus, åro til salu; underättelse lämnas uti Kryddboden i lilla Råntmästarehuset.",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Stenhus till salu",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att ett väl conditionerat stenhus till salu.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Et väl conditionerat Stenhus wid reeI gata på Norr, år til salu, hwarpa är publiskt län och köpes eontant med 22.000 daler Kmt; widare underättelse lämnar Öström uit Kongl. Bergs-Collegio.",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Stall och Wagner-hus till salu",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att två staller med sina kusk-kamrar, ett Wagner-hus för stree dswertäckte Wagner, med brunn i gården, samt ett litet stenhus till salu.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Astundas at köpa: Tvanne Stall med sine Kusk-Kamrar, det ena för 7 och det andra för 2:ne Hästar, tillika med Wagner-hus för stree dswertäckte Wagner, med Brunn i-gården, samt et litet Stenhus åswanför Brun med flere Bonings-rum och Bagaresugga uti;",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Bostäder till hyra",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att några bostäder till hyra i Malmarme eller Ladugårdslandet.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Vå någon af Malmarme eller Ladugårdslandet, en Wåning en eller 2:ne krappor up, bestående af 6 a 7 Runt utom Kök och Drängkaninare, samt öfrige för et hushåll nödige begwänligheter;",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Bostäder till hyra",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att ett litet och stilla hushåll till hyra i Norrmalm.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "För et litet och stilla hushåll åsundas nästa sardag at hyra 2 a 3 Rum och Kök, på Norr icke långt från Norrmalms-torg;",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Bostäder till hyra",
+    "date": null,
+    "address": null,
+    "description": "Annonsering om att två bostäder och kök till hyra i Norrmalm.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Åsundas at hyra två Bonings-rum och Kök, som kan paa til Kopparlagare-werkslad, pa Norrmalm, Drotninge-s Regerings- eller Smedjegatorne, eller och utt någon veel grund;",
+      "themes": [
+        "Bokhandel"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  }
+]

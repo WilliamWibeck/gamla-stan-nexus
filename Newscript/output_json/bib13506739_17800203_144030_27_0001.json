@@ -1,0 +1,217 @@
+[
+  {
+    "id": "bib13506739_17800203_144030_27_0001:1:dageliga-tidningar",
+    "label": "Dageliga Tidningar",
+    "date": "1780-02-03",
+    "address": null,
+    "description": "Stockholm N:o 27.\nDen 3 Februarii 1780, Torsdag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nTisdagen d. 1 Febr. mulet och lugnt, kölden 5-6 grader. Onsdags morgonen, kölden 5 gr. men blåske OMO 2. Var. har fallit till medelhöghden, 25,30.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-03",
+      "page": 1,
+      "archive_ref": "bib13506739_17800203_144030_27_0001.jpg",
+      "original_spelling": "Stockholm N:o 27.\nDen 3 Februarii 1780, Torsdag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nTisdagen d. 1 Febr. mulet och lugnt, kölden 5 a 6 grader. Onsdags morgonen, kölden 5 gr. men blåske OMO 2. Var. har fallit til medelhöghden, 25,30.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800203_144030_27_0001:2:tionde-placat-fran-1638",
+    "label": "Tionde-Placat från 1638",
+    "date": "1780-02-03",
+    "address": null,
+    "description": "Med våra särskilda samtal om Kyrko-tiondens utgörande till Krona och Präst, har vi båda erhållit fullständig kunskap om våra skyldigheter och Kronans rätt därtill. Jag har därför, efter mitt löfte, vid min härkomst till Stockholm sökt ifrån mig nödvändiga upplysningar och skickar dig nu en afskrift av 1638 års Tionde-Placat, som är den lag, som med Rikssens Ständers allmänna gillande och bifall vid samma riksdag, från början varit och är grunden till Kronans rätt och våra skyldigheter i denna delen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-03",
+      "page": 1,
+      "archive_ref": "bib13506739_17800203_144030_27_0001.jpg",
+      "original_spelling": "Med våra särskilda samtal om Kyrko-tiondens utgörande till Krona och Präst, hafwa både du och jag sänkat fullkomlig kunskap om våra skylldigheter och Kronans rätt därtillan. Jag har därföre, efter mitt löfte, wid min hitkomst til Stockholm sökt ifrån mig härom nödige upplysningar, och skickar dig nu härhörs en afschrift af 1638 års Tionde-Placat, som är den Lag, hvilken med Rikssens Ständers allmanna gillande och bifall vid samma Riksdag, alt ifrån den tiden varit och är grunden til Kronans rätt och våra skylldigheter i denna delen.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800203_144030_27_0001:3:kyrko-tionderne-i-sverige",
+    "label": "Kyrko-Tionderne i Sverige",
+    "date": "1780-02-03",
+    "address": null,
+    "description": "Christina med Guds nåde icke göra vitterligt att Kyko-Tionderne uti detta vårt Rike Sverige, haft ifrån den tiden som Påfvedömet här först afslässades och dess rena Evangelist Lärar ingen blev inford. Varit ett förmälnigt medel, hvareutef Prästerskapet, enkännligen Biskoparne, Superintendenterne, Kyrkoherdarne i Städerna och en god del stede å Landet, sedan Academien, Scholarne, Hospitaler och Sjuke-Hugorner, så ock Domkyrkorne och andre äro upphällne, fått deras wederlag, win och Oblats-Korn, blifvit bygde och underhållne. Och hvad som öfver hafwer sluppit är använt til Rikssens Krigsfolk at underhålla, så väl som andre dess höge nödforster at understödd; men så är su sedermera besunnit af långlig tid, huruledes de samma år och år efter hvart-af allehanda Ständspersoner, och under åtskillige fagerne sen år så förringade och minskade worone, at i den Staden samme Tionde tilsörre och så länge den Påswiska superstitionen behölt några strimmor qvar i Folkeris hjärta, hafwer dragit et anseñligt. Så kommer den nu näppligen i något betänkande, utan den ene föregifver Privilegium sädant intet bruksandes, men mera misbruksandes; den andre tager sig därefter utan Privilegio, den tredje förewänder ingen rätt, men tar ger bort och odlar undan af egen wilja oaktade hvad Guds eller Werldsig Lag därom bijder. Därigenout oc händar at hvad Prästerskapet och andre i så måtto skulle underhållas utaf intet tilarcker; och mindre at de särmed utkomma kunne, utan at hvad som felar, dem utfar Andre Kronones räntor årfättas måste: Såsons vår sat. K.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-03",
+      "page": 1,
+      "archive_ref": "bib13506739_17800203_144030_27_0001.jpg",
+      "original_spelling": "Wi Christina med Guds nåde ic. Göre witterligt, at ändock Kyko-Tionderne uti detta Wårt Rike Sverige, hafwa ifrån den tiden som Påfvedömet här först afslässades och dess rena Evangelist Lärar ingen blev inford, varit et förmälnigt medel, hvareutef Prästerskapet, enkannerligen Biskoparne, Superintendenterne, Kyrkoherdarne i Städerna och en god del stede å Landet, sedan Academien, Scholarne, Hospitaler och Sjuke-Hugorner, så ock Domkyrkorne och andre äro upphällne, fått deras wederlag, Win och Oblats-Korn, blifvit bygde och underhållne, och hvad som öfver hafwer sluppit är använt til Rikssens Krigsfolk at underhålla, så väl som andre dess höge nödforster at understödd; men så är su sedermera besunnit af långlig tid, huruledes de samme år och år efter hvart-af allehanda Ständspersoner, och under åtskillige fagerne sen år så förringade och minskade worone, at i den Staden samme Tionde tilsörre och så länge den Påswiska superstitionen behölt någre strimmor qwar i Folkeris hjärta, hafwer dragit et anseñligt, så kommer den nu näppligen i något betänkande, utan den ene föregifver Privilegium sädant intet bruksandes, men mera misbruksandes; den andre tager sig därefter utan Privilegio, den tredje förewänder ingen rätt, men tar ger bort och odlar undan af egen wilja oaktade hvad Guds eller Werldsig Lag därom bijder, därigenout oc händar at hvad Prästerskapet och andre i så måtto skulle underhållas utaf intet tilarcker; och mindre at de särmed utkomma kunne, utan at hvad som felar, dem utfar Andre Kronones räntor årfättas måste: Såsons Wår sat. K.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Sverige"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800203_144030_27_0001:4:riksdagsbeslut-om-avslassning",
+    "label": "Riksdagsbeslut om avslässning",
+    "date": "1780-02-03",
+    "address": null,
+    "description": "Herr Fader-Fader och Herr Fader, jag ber dig högst berdimmeligt om minne av sådana undersläkter. Vi har också ordningar för deras avslutning gjort; detta skedde på flera riksdagar, men särskilt i Linköping år 1600 och Norrköping år 1604, där frågan behandlades och beslutet fattades att felet skulle avslutas och att det skulle göras ordentligt för att göra rätt. Men så har detta varit en ringa tid och fallit åter i långden på förra osedelat. Därför har vi tagit ut noga betänkande om hur detta allt med något beständigt måste bortas och hotas, påminna Ständerna upp på denna nu mer välhållna riksdag, tagit in deras goda beräknade, och så på frågan däröver städd och beslutat, efter som vi härmed städd och beslutat, som följer:",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-03",
+      "page": 1,
+      "archive_ref": "bib13506739_17800203_144030_27_0001.jpg",
+      "original_spelling": "Herr Fader-Fader och Herr Fader, bage högst berdimmelige uti äminnelse, märkandes sådana underslæf, hafwa atTillige ordningar til deras afslässande göra lätit; är ock på åtskillige Riksdagar, men enkannerligen uti Linköping anno 1600 och uti Norrköping anno 1604, afhandlat och beslutit, at feilen skulle afslässas, och hwar och en tilhållas ordentligt at göra rätt; men så hafwer sädant, ehuru det än i beynnelsen hafwer skaffat någon frukt, dock varat en ringa tid, och åter uti långden fallit på förra osed. Hwarföre Wi detta tagit hafwer uti noga betänkande, på hvad sätt detta alt med något beständ måtte båttras oc hotas, pàminnt Ständerne upp på denne nu mer välhållne Riksdag, tagit in deras goda beränskan- de, och så på fijone däröver städgat och beslute, efter som wi härmed stadge och beslute, som följer:",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Linköping",
+        "Norrköping"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800203_144030_27_0001:5:privilegier-for-frihet-pa-slott-och-hemman",
+    "label": "Privilegier för frihet på slott och hemman",
+    "date": "1780-02-03",
+    "address": null,
+    "description": "Skole alle grevar, friherrar, riddare och swåner njuka och behålla deras slott och asvelsgår- har, samt de hemman och torp som byggde är eller byggs kan, på sådana deras sätesgårdarers enefilte ägor fria för de tvådelare som till kyrkoherberget pläga utbroras, efter klara bokstäver i privilegen, sedan där någon adelsman finnes, som med sin urminnes härd eller med special privilegium kan betyga sådana friheter på stede gods; eller någon ostråft man har fått och ter ett specialt privilegium av framförna kungar, den har sådan frihet billigt att njuta. Kyrkoherdarne på deras prästegårdar som de själva bruka och ha deras eget asvel uppå, såsom också de präst-stomner som kyrkoherden själv brukar eller kapellans besitter.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-03",
+      "page": 1,
+      "archive_ref": "bib13506739_17800203_144030_27_0001.jpg",
+      "original_spelling": "1) Skole alle Greswar, Friherrar, Riddare och Swåner njuka och behålla deras Slott och Asvelsgår- har, samt de Hemman och Torp, som byggde är eller byggas kunna, på sådane deras Sätesgårdarers enefilte ägor frie för de tvödelarne som til Kyrkoherbärget pläga utbroras, efter klare bokstafven i Privilegerne, se- dan dår någon Adelsman finnes, som med sin urminnes härd eller med special Privilegium kan betyga sådase frihet på stede Gods; eller någon Ostråft Man hafwer nått och ter et specialt Privilegium af framfärne Koc- nungar, den hafwer sådan frihet billigt at njuta. 2) Kyrkoherdarne på deras Prästegårdar som de sjelfwe brütka, oc hafwa deras eget afswel uppå, såsom ock de Präst-stomner som Kyrkoherden sjelf brukar eller Capellas besitter.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Slott",
+        "Asvelsgården",
+        "Hemman",
+        "Torp"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800203_144030_27_0001:6:adelens-privilegier",
+    "label": "Adelens Privilegier",
+    "date": "1780-02-03",
+    "address": null,
+    "description": "Men när man ser och förenklar det över samma Adelens privilegier rättsliga tolkning, upptäcker man att något misstänkt uppstått där. Därför är det godt funnit att undvika War och Kronans skatter, och därmed att undanröja allt försång i Adelens privilegier: Särskilt när man på båda sidor vet vad Hemman och Torp under Rå och Nörs frihet är förstådda för. Namnlig 1. sätesgårdar, som används av riddarkapitlet och adelns medlemmar, nu används eller framdrivs om orsaker upptas och kan användas så långt deras ägander och användning sträcker sig, eller de dem andra har upplättat och arrenderat. 2. Den by som sätesgården ligger i, och de hemman samma adelsmän tillkommer i samma by med deras gamla eller nybyggda torp, så många som inom samma bys rättsliga ägor, med råd och rör eller annan laglig byggnadsreglering är omfattade av, och förberedda av riddarkapitlet nu tillstådda och tillhörande, och med lagligt fängelse kan köpas.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-03",
+      "page": 1,
+      "archive_ref": "bib13506739_17800203_144030_27_0001.jpg",
+      "original_spelling": "2) Men efter man ser och föreninner, det öfwer samma Adelens Privilegit rätta uttydning ag något misstörständ uppar, därföre är godt funnit sädant at uktoda, oc därmed at undfly War och Kronones skaza- da, fösom och alt försång i Adelens Privilegier: Särdeles at man på-bågge sidor weta måtte, hvad Hem- man och Torp under Rå och Nörs frihet äro et förstå; nämli. 1. sälfeive Sätesgårdaene, som äro brukade för detta af Ridderkapet och Adelen, nu bruksas eller framdles of orsaker upptagas oc brucas kunna, så widt deras afwel och bruks sig sträcker, eller de dem at andre at bruca hafwe uplatit och arrendeat. 2. Den Byn som Sätesgården ligger uti, oc de Hemman samme Adelsmän tilkomme i samma By med deras Torp gamla eller nybygde, så månge som innan samma Bys rätta ägor, med rå och rör eller annan laga bysfilnad begreppne är, oc förbermale af Ridderkapet nu tilstå och tilhöre, ocer med laga fäng acquieras kunna.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Sätesgården",
+        "Byn som Sätesgården ligger uti"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

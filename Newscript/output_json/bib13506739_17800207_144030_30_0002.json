@@ -1,0 +1,295 @@
+[
+  {
+    "id": "bib13506739_17800207_144030_30_0002:1:lasning-av-predikanten",
+    "label": "Låsning av Predikanten",
+    "date": "1780-02-07",
+    "address": null,
+    "description": "För urväder mellan M---d och A----e och låt aldrig din fot nalkas denna Prästens gnidare-koja. Hans namn ursättes ej tills widares, emedertid torde han låsa detta och stämmas.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-07",
+      "page": 2,
+      "archive_ref": "bib13506739_17800207_144030_30_0002.jpg",
+      "original_spelling": "för urväder emellan M------d och A-----e och låt aldrig din fot nalkas denna Prästens gnidare-koja. Hans namn ursättes ej tills widares, emedertid torde han låsa detta och stämmas.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "M------d",
+        "A-----e"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800207_144030_30_0002:2:enligt-forordning-fran-1770",
+    "label": "Enligt förordning från 1770",
+    "date": "1780-02-07",
+    "address": null,
+    "description": "Det var ledsamt att min Herre nødgede mig upptäcka sin svaghet. En missgärning är lätt gjord; men det bör åkännas och aldrig förjwaras. Förordningen, som min Herre åberopar, lär vara från den 8 mars till 1770; Ty, utan att tro mig känner alla Kgl. Författningar, vägar jag ännu en gång tryggt påstå, att ingen Förordning från den 8 mars 1773, angående Landbrukets upphävande, finns i Sverige. Om min Herre inbillar sig att 1770 års Förordning löser eller binder i den ventilera frågan om tjänstlösa Pigor, duger min Herre litet till Låsare och allsintill till Förare. Det torde vara nödvändigt att min Herre genom våra vänner anhåller om tillgift för sitt fel och deltagande i en smädekrist, som kan dra väderbörande ledsamma följer; Annars funde efter min Herres förtjänst emot min dukan, 61 Cap. Nissgårn. Balken bliswå åswen så lämpeligt emot min Herre, som den omnämnde Förordningen är i huvudmålet osympetig.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-07",
+      "page": 2,
+      "archive_ref": "bib13506739_17800207_144030_30_0002.jpg",
+      "original_spelling": "Det var ledsamt, at min Herre nødgede mig upptäcka sin swaghet. Et mistag är lätt gjordt; men det bör årkännaas och aldrig förjwaras. Förordningen, som min Herre åberopar, lärer vara af den 8 Mars till 1770; Ty, utan at tro mig kanna alla Kgl. Förfaktningar, wägar jag ännu en gång tryggt påstå, at ingen Förordning af den 8 Martii 1773, angående Landbrukets upphjälpaande, finns i Sverige. Om min Herre inbillar sig, at 1770 års Förordning löser eller binder i den ventilerade frågan, angänd tjänstlöse Pigor, duger min Herre litet til Låsare och alsintet til Förare. Det torde vara nödvändigt, at min Herre genom wans wänner anhåller om tillgift för sitt fel och deltagande i en smädekrist, som kan dragra wederbörande ledsamma fölger; Annars funde, efter-min Herres förtjänst, emot min dukan, 61 Cap. Nissgårn. Balken bliswå åswen så lämpeligt, emot min Herre, som den omnämnde Förordningen är i hufvudmålet osympetig.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Sverige"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800207_144030_30_0002:3:forjavling-av-saker",
+    "label": "Förjävling av saker",
+    "date": "1780-02-07",
+    "address": null,
+    "description": "Till den som försvarar sitt ärende i Dagligt Allehanda nummer 12.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-07",
+      "page": 2,
+      "archive_ref": "bib13506739_17800207_144030_30_0002.jpg",
+      "original_spelling": "Til honom, som förjwarar sin sak med owett i Dagligt Allehanda N:o 12.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Dagligt Allehanda"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800207_144030_30_0002:4:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-07",
+    "address": "Stortorget",
+    "description": "Efter så långt tänkande kunde jag inte längre ta emot annat än grova ord och slåssord, och därför lämnade jag bort alla dessa. Hade han varit en rättvis man och haft en god sak, skulle han inte ha behövt använda sig av så obehagliga medel för att uppmärksamma saken. En god sak behöver ej nedsänka sig till sådana metoder, och en rättvis man betjänar sig aldrig på sådant vis.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-07",
+      "page": 2,
+      "archive_ref": "bib13506739_17800207_144030_30_0002.jpg",
+      "original_spelling": "Ut, efter så lång betänke-tid, ej kunna lämna annat swar än grofscherer och smädelser, å daga lägger hwar-ken wet, eller conduit. Hade han varit en rättsint Man och haft en god sak, hade han ej behöft at taka en så usel tilskygt. En god sak behöwer ej nedriga medel till sitt förjwar, och en rättsint Man betjänar sig aldrig of sådane.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800207_144030_30_0002:5:anmarkning-man-med-sadan-ovanlighet",
+    "label": "Anmärkning: Man med sådan ovanlighet",
+    "date": "1780-02-07",
+    "address": null,
+    "description": "Att nu vidare inlätta sig med en sådan man var omvärdigt. Hans ovet och smäde får stå för hans räkning och till hans heder. Anjeddes det med allt det sörjakt, som det förtjänar.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-07",
+      "page": 2,
+      "archive_ref": "bib13506739_17800207_144030_30_0002.jpg",
+      "original_spelling": "At nu widare inlåta sig med en sådan Man, wore omvärdigt. Hans owett och smädande får stå för Hans räkning och til hans heder. Anjeendes det med alt det sörakt, som det förtjänar.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800207_144030_30_0002:6:omstandigheter-vid-beslut",
+    "label": "Omständigheter vid beslut",
+    "date": "1780-02-07",
+    "address": null,
+    "description": "Det är omfattande och beklagansvärt att i vårt samhälle finns så omvärdiga människor som först inte har förmåga att kritisera beslut, och sedan angripa medborgarens lagliga rättigheter. Men det är tröjligt att en viss, rättvis och nådig kung ej drar åt sådana personers utrop.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-07",
+      "page": 2,
+      "archive_ref": "bib13506739_17800207_144030_30_0002.jpg",
+      "original_spelling": "Emedertid är det omfkeligt och bedröfsligt, at i vårt Samhälle skola finnas så omvärdiga Människor, som först ej hävska blygel at tadla fattade Beslut, och anfalla Medborgares lagliga rättigheter, och sedan, då deras osog utssas, utfara i hotelser och vanständigaste grofscherer; men däremot tröfseligt, at en wis, rättswis och nådig Konung ej länar drat å sådanes rop.",
+      "category": "conspiracy",
+      "themes": [
+        "Conspiracy"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Samhälle"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800207_144030_30_0002:7:bostader-i-stockholm",
+    "label": "Bostäder i Stockholm",
+    "date": "1780-02-07",
+    "address": "Ladugårdslandet",
+    "description": "Juris Candidaten P. Scholander från Landskrona bor på Ladugårdslandet vid Sperlingens bokföring. Handländere P. G. Borgsten och Eitas Helberg från Borås bor hos Husfru Mogelia i Grytgutaregävanden. Ryttmästaren Ingelos med dess Fru bor i huset N:o 7 vid Hornsgatan. Coopvaerde Capitain And. Lind från Göteborg bor på Fatebursholmen. Handelsman Gust. Jonas Muhr från Norrtelje bor i huset N:o 67 vid stora Humlegårdsgatan. Kammarbeitwaren Hazelun från Norrland bor i huset N:o 52 vid Norrlandsgatan. Präst Enkan Anna Christina Holst frän Upland bor vid stora Badstugugatan hos Hökoren Schenbeck. Borgmästaren Spaak frän Westerwik bor på Källren Stjärnan. General Majoren Baron Seckfries bor i huset N:o 122 vid Munkbro torget. Handelsmännen Carl Peter Lagerborn från Göteborg och Bengt G. Hansson frän Borås bor i huset N:o 99 vid Österlänggatan. Fru Hähl och Mademoiselle Margaretha Schenborn frän Norrköping bor i huset N:o 73 vid Svartmangatan. Kro-nio-Inspectoren Adam Salthenius frän Västergötthland bor i västra Dvärgnånd uti huset N:o 56. Gas-delmakaren Carl Dan. Eckborn frän Roslagen och Schbo Bruk bor på Lundtmakaregatan i Hökaren Wikmans gård.",
+    "resident": null,
+    "lat": 59.335,
+    "lng": 18.085,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-07",
+      "page": 2,
+      "archive_ref": "bib13506739_17800207_144030_30_0002.jpg",
+      "original_spelling": "Juris Candidaten P. Scholander från Landscrona, bor på Ladugårdslandet uti Sperlingens bocfe. - Handländere P. G. Borgsten och Eitas Helberg från Borås, bo hos Husfru Mogelia i Grytgutaregävanden. - Ryttmästaren Ingelos med dess Fru, bor i huset N:o 7 wid Hornsgatan. - Coopvaerde Capitain And. Lind från Götheborg, bor på Fatebursholmen. - Handelsman Gust. Jonas Muhr från Norrtelje, bor i huset N:o 67 wid stora Humlegårdsgatan. - Kammarbeitwaren Hazelun från Norrland, bor i huset N:o 52 wid Norrlandsgatan. - Präst Enkan Anna Christina Holst frän Upland, bor vid stora Badstugugatan hos Hökoren Schenbeck. - Borgmästaren Spaak frän Westerwik, bor på Källren Stjärnan. - General Majoren Baron Seckfries, bor i huset N:o 122 wid Munkbro torget. - Handelsmännen Carl Peter Lagerborn från Götheborg och Bengt G. Hansson frän Borås, bo i huset N:o 99 wid Österlänggatan. - Fru Hähl och Mademoiselle Margaretha Schenborn frän Norrköping, bo i huset N:o 73 wid Svartmangatan. - Kro-nio-Inspectoren Adam Salthenius frän Västergötthland, bor i västra Dvärgnånd uti huset N:o 56. - Gas-delmakaren Carl Dan. Eckborn frän Roslagen och Schbo Bruk, bor på Lundtmakaregatan i Hökaren Wikmans gård.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Ladugårdslandet uti Sperlingens bocfe",
+        "Grytgutaregävanden",
+        "Hornsgatan",
+        "Fatebursholmen",
+        "stora Humlegårdsgatan",
+        "Norrlandsgatan",
+        "stora Badstugugatan",
+        "Källren Stjärnan",
+        "Munkbro torget",
+        "Österlänggatan",
+        "Svartmangatan",
+        "västra Dvärgnånd uti huset N:o 56",
+        "Lundtmakaregatan i Hökaren Wikmans gård"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Ladugårdslandet",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800207_144030_30_0002:8:auktion-livsmedel",
+    "label": "Auktion: Livsmedel",
+    "date": "1780-02-07",
+    "address": null,
+    "description": "En tunna sötet, 56, 58 och 60 dal. En tunna råg, 41, 42 och 43 dal. En tunna korn, 33 och 34 dalen. En tunna blandad såd, 26 och 27 dal. En tunna hafra, 24 och 25 dal. En tunna arter, 42 och 45 dal. Et lisps, sötet mjöl, 7 och 8 dal. Et lisps, fränt rågmjöl, 5 och 6 dal. Et lisps, ofränt rågmjöl, 4 dal. Et lisps, hektryn, 7 och 8 dal. Et lisps. Korngryn, 5 och 6 dal. Et lisps. Arter, 3 och 4 dal. Et lisps. Fläsk, 15 och 17 dal.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-07",
+      "page": 2,
+      "archive_ref": "bib13506739_17800207_144030_30_0002.jpg",
+      "original_spelling": "En tunna Swete 56, 58 a 60 dal. En tunna Råg, 41, 42 a 43 dal. En tunna Korn 33 a 34 dalen. En tunna Blandsåd 26 a 27 dal. En tunna Hafra 24 a 25 dal. En tunna Arter 42 a 45 dal. Et lisps, Svetemjöl 7 a 8 dal. Et lisps, frädt Rågmjöl 5 a 6 dal. Et lisps, ofredt Rågmjöl 4 dal. Et lisps, Hek-tryn 7 a 8 dal. Et lisps. Korngryn 5 a 6 dal. Et lisps. Arter 3 a 4 dal. Et lisps. Fläsk 15 a 17 dal.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

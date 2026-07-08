@@ -23,6 +23,7 @@ import hashlib
 import json
 import os
 import re
+import shutil
 import sys
 import time
 from pathlib import Path
@@ -40,6 +41,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
 # Bump when the extraction prompt changes so cached raw records are refreshed.
 PROMPT_VERSION = 2
+DONE_DIR_NAME = "done"
 
 # Coordinates used when no gazetteer entry matches (Stortorget, the district center).
 DISTRICT_FALLBACK = (59.3254, 18.0703)
@@ -60,15 +62,29 @@ GAMLA_STAN_GAZETTEER = {
     "köpmangatan": (59.3253, 18.0717),
     "själagårdsgatan": (59.3246, 18.0718),
     "baggensgatan": (59.3249, 18.0729),
-    "prästgatan": (59.3253, 18.0689),
-    "skeppsbron": (59.3245, 18.0740),
+    "prästgatan": (59.32450, 18.07029),
+    "svenska prästgatan": (59.32450, 18.07029),
+    "göran hälsinges gränd": (59.32520, 18.06849),
+    "skeppsbron": (59.32525, 18.0756),
+    "kråkgränd": (59.32533, 18.07475),
+    "kråkgränden": (59.32533, 18.07475),
+    "gaffelgränd": (59.3240, 18.0750),
+    "nygränd": (59.32495, 18.0752),
+    "slottsbacken": (59.3268, 18.0712),
+    "trångsund": (59.3252, 18.0708),
     "munkbron": (59.3260, 18.0658),
+    "munkbrogatan": (59.3239, 18.0676),
+    "myntgatan": (59.3265, 18.0680),
+    "mälartorget": (59.3232, 18.0686),
+    "storkyrkobrinken": (59.3258, 18.0670),
     "kungliga slottet": (59.3269, 18.0717),
     "kongl. slottet": (59.3269, 18.0717),
+    "stockholms slott": (59.3269, 18.0717),
     "slottet": (59.3269, 18.0717),
     "riddarhuset": (59.3262, 18.0654),
     "riddarhus-torget": (59.3262, 18.0654),
-    "mynttorget": (59.3272, 18.0691),
+    "mynttorget": (59.32675, 18.06893),
+    "lilla mynttorget": (59.32675, 18.06893),
     "operahuset": (59.3297, 18.0706),
     "operan": (59.3297, 18.0706),
     "skeppar olofs gränd": (59.3255, 18.0715),
@@ -78,6 +94,14 @@ GAMLA_STAN_GAZETTEER = {
     "kornhamnstorg": (59.3228, 18.0684),
     "brända tomten": (59.3247, 18.0716),
     "gåsgränd": (59.3251, 18.0669),
+    "drakens gränd": (59.3247, 18.0733),
+    "mårten trotzigs gränd": (59.3229, 18.0727),
+    "stora gråmunkegränd": (59.3252, 18.0671),
+    "lilla gråmunkegränd": (59.3250, 18.0675),
+    "bredgränd": (59.3256, 18.0748),
+    "ferkens gränd": (59.3242, 18.0748),
+    "ignatiigränd": (59.3251, 18.0686),
+    "stallplan": (59.3233, 18.0729),
     "tyska brinken": (59.3247, 18.0687),
     "kåkbrinken": (59.3258, 18.0678),
     "riddarholmen": (59.3249, 18.0630),
@@ -197,6 +221,38 @@ def save_cache(cache_path: Path, cache: Dict[str, Any]) -> None:
     tmp_path.replace(cache_path)
 
 
+def archive_processed_image(img_path: Path, done_dir: Path) -> Optional[Path]:
+    """Move a processed scan out of the inbox into done_dir."""
+    if not img_path.exists():
+        return None
+    if img_path.resolve().parent == done_dir.resolve():
+        return img_path
+    done_dir.mkdir(parents=True, exist_ok=True)
+    dest = done_dir / img_path.name
+    if dest.exists():
+        stem, suffix = img_path.stem, img_path.suffix
+        n = 2
+        while dest.exists():
+            dest = done_dir / f"{stem}_{n}{suffix}"
+            n += 1
+    shutil.move(str(img_path), str(dest))
+    return dest
+
+
+def tracked_image_names(images_path: Path) -> set[str]:
+    """Filenames still accounted for in the inbox or the done archive."""
+    names: set[str] = set()
+    for ext in ("*.jpg", "*.jpeg", "*.png"):
+        for path in images_path.glob(ext):
+            names.add(path.name)
+    done_dir = images_path / DONE_DIR_NAME
+    if done_dir.is_dir():
+        for ext in ("*.jpg", "*.jpeg", "*.png"):
+            for path in done_dir.glob(ext):
+                names.add(path.name)
+    return names
+
+
 # ---------------------------------------------------------------------------
 # Gemini extraction
 # ---------------------------------------------------------------------------
@@ -209,7 +265,8 @@ Extract each event, notice, entry, or report as a structured object with the fol
 - label: A brief, evocative title in Swedish or English for the event (e.g., "Polisrapport: Stöld vid Svartmangatan", "Eldsvåda: Kvarteret Cepheus", "Tidningsnotis: Olof Berg", "Vigsel i Storkyrkan").
 - date: The date of the event in YYYY-MM-DD format (or just YYYY if the exact date isn't clear from the text).
 - address: The specific street name, alley (gränd), square (torg), or quarter (kvarter) mentioned, exactly as it can be located in Stockholm's Gamla Stan (e.g., "Stortorget", "Svartmangatan", "Skeppsbron"). If none is mentioned, return null. Do NOT guess.
-- description: A short, readable summary in modern Swedish of what happened.
+- description: A full modern Swedish rendering of the notice (same facts as original_text, updated
+  spelling and grammar — NOT a short summary of what happened).
 - resident: The full name of the primary historical person mentioned in the notice (e.g., "Olof Berg") or null if none.
 - theme: The theme of the notice. Choose exactly one of: "Daily Life", "Security Threats", "Court & State", "Conspiracy". If it is a police record, choose "Security Threats". If it is a fire record, choose "Security Threats" or "Daily Life".
 - record_type: The type of document this was extracted from. Choose one of: "Newspaper", "Police Record", "Fire Record", "Parish Record", "Other".
@@ -535,6 +592,11 @@ def main() -> int:
         action="store_true",
         help="Ignore the extraction cache and reprocess all images",
     )
+    parser.add_argument(
+        "--no-archive",
+        action="store_true",
+        help="Leave processed scans in the images folder (default: move to images/done/)",
+    )
     args = parser.parse_args()
 
     output_path = Path(args.output)
@@ -544,16 +606,15 @@ def main() -> int:
 
     images_path = Path(args.images_dir)
     images_path.mkdir(parents=True, exist_ok=True)
+    done_dir = images_path / DONE_DIR_NAME
     image_files = sorted(
         p for ext in ("*.jpg", "*.jpeg", "*.png") for p in images_path.glob(ext)
     )
 
-    counts = {"cached": 0, "extracted": 0, "failed": 0, "skipped_no_key": 0}
+    counts = {"cached": 0, "extracted": 0, "failed": 0, "skipped_no_key": 0, "archived": 0}
 
     # 1) Images: reuse cache when the file hash and prompt version match, else call Gemini.
-    present_names = set()
     for img_file in image_files:
-        present_names.add(img_file.name)
         digest = file_sha256(img_file)
         entry = cache["images"].get(img_file.name)
         cache_valid = (
@@ -564,6 +625,11 @@ def main() -> int:
         )
         if cache_valid:
             counts["cached"] += 1
+            if not args.no_archive:
+                dest = archive_processed_image(img_file, done_dir)
+                if dest:
+                    counts["archived"] += 1
+                    print(f"Archived cached scan -> {dest.relative_to(images_path)}")
             continue
         if not args.api_key:
             counts["skipped_no_key"] += 1
@@ -584,8 +650,14 @@ def main() -> int:
         print(f"Extracted {len(raw_records)} record(s) from {img_file.name}.")
         # Persist after every image so an interrupted batch never loses paid API results.
         save_cache(cache_path, cache)
+        if not args.no_archive:
+            dest = archive_processed_image(img_file, done_dir)
+            if dest:
+                counts["archived"] += 1
+                print(f"Archived -> {dest.relative_to(images_path)}")
 
-    # Drop cache entries for images that no longer exist.
+    # Drop cache entries for images removed from both inbox and done/.
+    present_names = tracked_image_names(images_path)
     removed = [name for name in cache["images"] if name not in present_names]
     for name in removed:
         del cache["images"][name]
@@ -639,7 +711,7 @@ def main() -> int:
     print(
         f"\nWrote {len(extracted_records)} records to {output_path} "
         f"(images: {counts['extracted']} newly extracted, {counts['cached']} from cache, "
-        f"{counts['failed']} failed; clippings: {len(text_files)})."
+        f"{counts['failed']} failed, {counts['archived']} archived; clippings: {len(text_files)})."
     )
     if unmatched:
         print(

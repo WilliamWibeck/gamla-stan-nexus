@@ -1,0 +1,581 @@
+[
+  {
+    "id": "bib13506739_17800212_144030_35_0001:1:dageliga-tidningar",
+    "label": "Dageliga Tidningar",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Stockholm N:o 35.\nDen 12 Februarii 1780, Lördag.\nDageliga Tidningar,\neller:\nDagligt Allehanda.\nTorsdagen, d. 10 Febr., mulet och blidt, dock ej ts. Thermom. stod middagstiden en half grad över; men om aftonen åter en grad, och Fredags morgonen 2 grader under frys-kalt. Det har blåst SW 2, och i natt fallit litet snö. Barom. har på detta dygn fallit till 25,63.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "Stockholm N:o 35.\nDen 12 Februarii 1780, Lördag.\nDageliga Tidningar,\nEler:\nDagligt Allehanda.\nTorsdagen, d. 10 Febr. mulet och blidt, dock ej ts. Thermom. stod middagstiden en half grad öfver; men om aftonen åter en grad, och Fredags morgonen 2 grader under frys-kalt. Det har blåst SW 2, och i natt fallit litet snö. Barom. har på detta dygn fallit til 25,63.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:2:predikningar-vid-kungliga-slottet",
+    "label": "Predikningar vid Kungliga slottet",
+    "date": "1780-02-12",
+    "address": "Kungliga Slottet",
+    "description": "I morgon, Första söndagen i Fasian, predikar:\n\nHos Zans Maj:t Konungen: Kongl. Hofpredikanter Doctor Flodin.\nHos Zennes Kongl. Maj:t Enke-Drottningen: Kongl. Hofpredikanter Norberg.\nHos Zans Kongl. Söghet Zertigen af Södermanland: Kongl. Hofpredikanter Doctor Murray.\n\nUti Kongl. Slotts-Ryrkan: Kongl. Hofpredikanter Collin Högmåsan; Kongl. Hofpredikanter Wibom Aftonsängen.",
+    "resident": null,
+    "lat": 59.3269,
+    "lng": 18.0717,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "I morgen, Första Söndagen i Fasian, predikar:\nHos Zans Maj:t Konungen: Kongl. Hof-Predikanter-Doctor Flodin.\nHos Zennes Kongl. Maj:t Enke-Drottningen: Kongl. Hof-Predikanter Norberg.\nHos Zans Kongl. Söghet Zertigen af Södermanland: Kongl. Hof-Predikanter Doctor Murray.\nUti Kongl. Slotts-Ryrkan: Kongl. Hof-Predikanter Collin Högmåsan; Kongl. Hof-Predikanter Wibom Aftonsängen.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kongl. Slotts-Ryrkan",
+        "Hos Zans Maj:t Konungen",
+        "Hos Zennes Kongl. Maj:t Enke-Drottningen",
+        "Hos Zans Kongl. Söghet Zertigen af Södermanland"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Kungliga Slottet",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:3:kyrkliga-predikantbesked",
+    "label": "Kyrkliga Predikantbesked",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Sankt Nicolai kyrka: Magister Mebius, Ottesängen; Kungl. H:r Hof-Predikant Nezell, Högmåsan; Kommunister Lindström, Aftonsängen.\n\nSankt Claris kyrka: Kommunister Ruth, Ottesängen; Doctor Menseen, Högmåsan; Magister Malmquist, Aftonsängen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "St. Nicolai Kyrka: Magister Mebius Ottesängen; Kongl. H:r Hof-Predikant Nezell Högmåsan; Comministern Lindström Aftonsängen.\nSt. Claris Kyrka: Comministern Ruth Ottesängen; Doctor Menseen Högmåsan; Magister Malmquist Aftonsängen.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "St. Nicolai Kyrka",
+        "St. Claris Kyrka"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:4:predikantannonser",
+    "label": "Predikantannonser",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Likaså för Regementets Livgardet: Bataljonspredikanten Risberg.\nSt. Jacobi kyrka: Kommunikationsministern Lindlöf i Ottesängen; Kungliga Hovpredikanten Doctor Winge i Högmåsan; Kommunikationsministern Gravallius i Aftonsängen.\nLikaså för Regementets Livgardet: Bataljonspredikanten Lundman.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "Dito, för Rgl. Lif-Gardet: Bataillons-Predikanter Risberg.\nSt. Jacobi Kyrka: Comministern Lindlöf Ottesängen; Kongl. H:rver-Hof-Predikanten Doctor Winge Högmåsan; Comministern Gravallius Aftonsängen.\nDito, för Rongl. Lif-Gardet: Bataillons-Predikanter Lundman.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "St. Jacobi Kyrka",
+        "Kongl. H:rver-Hof-Predikanter Doctor Winge Högmåsan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:5:kyrkliga-hogmassor",
+    "label": "Kyrkliga högmässor",
+    "date": "1780-02-12",
+    "address": "Tyska Kyrkan",
+    "description": "Riddarholms kyrka: Magister Wallnersson högmässa; komminist. Norberg aftonmässa.\nTyska kyrkan: Pastor Noodt högmässa; Doctor Lüdeke aftonmässa.",
+    "resident": null,
+    "lat": 59.3241386,
+    "lng": 18.0717642,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "Rongl. Riddarholms Kyrkan: Magister Wallnersson Högmåsan; Comminist. Norborg Aftonsängen.\nTyska Kyrkan: Pastor Noodt Högmåsan; Doctor Lüdeke Aftonsängen.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Riddarholms Kyrkan",
+        "Tyska Kyrkan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Tyska Kyrkan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:6:kyrkliga-tjansteman",
+    "label": "Kyrkliga tjänstemän",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "St. Maria Magdalenakyrkan: Kommendör Ehrling Ottesängen; Magister Nordwall Högmåsan; Kommendör Krause Aftonsängen.\n\nLikaså för Rongl. Lif-Gardet: Regementspastorn Cederblom.",
+    "resident": "Ehrling Ottesängen",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "St. Maria Magd. Kyrka: Comminist. Ehrling Ottesängen; Magister Nordwall Högmåsan; Comministern Krause Aftonsängen.\nDito, för Rongl. Lif-Gardet: Regements-Pastorn Cederblom.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Ehrling Ottesängen",
+          "role": "Comminist."
+        },
+        {
+          "name": "Magister Nordwall Högmåsan",
+          "role": "Comministern"
+        },
+        {
+          "name": "Krause Aftonsängen",
+          "role": "Comminist."
+        },
+        {
+          "name": "Regements-Pastorn Cederblom",
+          "role": "Pastor"
+        }
+      ],
+      "locations": [
+        "St. Maria Magd. Kyrka"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:7:kyrkliga-ministrar",
+    "label": "Kyrkliga Ministrar",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "St. Catharina Church: Magister Neuström Ottesängen; Magister Voefwander Högmåsan; Commis Nordmark Aftonsängen.\nUlricä Eleonora Church: Commis Zethelius Högmåsan; Studiosus Dahleen Aftonsängen.",
+    "resident": "Magister Neuström Ottesängen",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "St. Catharina Kyrka: Magister Neuström Ottesängen; Magister Voefwander Högmåsan; Comministern Nordmark Aftonsängen.\nUlricä Eleonora Kyrka: Comministern Zethelius Högmåsan; Studiosus Dahleen Aftonsängen.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Magister Neuström Ottesängen",
+          "role": null
+        },
+        {
+          "name": "Magister Voefwander Högmåsan",
+          "role": null
+        },
+        {
+          "name": "Comministern Nordmark Aftonsängen",
+          "role": null
+        },
+        {
+          "name": "Comministern Zethelius Högmåsan",
+          "role": null
+        },
+        {
+          "name": "Studiosus Dahleen Aftonsängen",
+          "role": null
+        }
+      ],
+      "locations": [
+        "St. Catharina Kyrka",
+        "Ulricä Eleonora Kyrka"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:8:finska-nationelle-kyrkan-magister-stahlberg-finika-hogmasan",
+    "label": "Finska Nationelle Kyrkan: Magister Stählberg Finika Högmåsan",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Finska Nationella kyrkan: Magister Stålberg, Finika högmässa; Doctor Petrejus, Svenska högmässa; Commis Ohman, Aftensängen.\nFransyska Lutheriska kyrkan: Commis Gerdin.",
+    "resident": "Magister Stählberg",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "Finska Nationelle Kyrkan: Magister Stählberg Finika Högmåsan; Doctor Petrejus Swenska Högmåsan; Comministern Ohman Aftonsängen.\nFransyska Lutheriska Kyrkan: Comministern Gerdin.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Magister Stählberg",
+          "role": "Finika Högmåsan"
+        },
+        {
+          "name": "Doctor Petrejus",
+          "role": "Swenska Högmåsan"
+        },
+        {
+          "name": "Comministern Ohman",
+          "role": "Aftonsängen"
+        },
+        {
+          "name": "Comministern Gerdin",
+          "role": null
+        }
+      ],
+      "locations": [
+        "Finska Nationelle Kyrkan",
+        "Fransyska Lutheriska Kyrkan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:9:predikant-och-komminister-i-olika-kyrkor",
+    "label": "Predikant och komminister i olika kyrkor",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Sedvig Eleonork Ryrka: Komminister Wassenius Ottesängen; Kungl. H:r Hof-Predikant Enattingius Högmåsan; Komminister Groth Aftonsängen.\nAdolph Fredrichs Kyrka: Esquadrons-Predikanter Kjellin Högmåsan; Komminist. Rothstein Aftons.",
+    "resident": "Wassenius Ottesängen",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "Sedvig Eleonork Ryrka: Comministern Wassenius Ottesängen; Kgl. H:r Hof-Predikant Enattingius Högmåsan; Comministern Groth Aftonsängen.\nAdolph Fredrichs Kyrka: Esquadrons-Predikanter Kjellin Högmåsan; Comminist. Rothstein Aftons.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Wassenius Ottesängen",
+          "role": "Comministern"
+        },
+        {
+          "name": "Enattingius Högmåsan",
+          "role": "Kgl. H:r Hof-Predikant"
+        },
+        {
+          "name": "Groth Aftonsängen",
+          "role": "Comministern"
+        },
+        {
+          "name": "Kjellin Högmåsan",
+          "role": "Esquadrons-Predikanter"
+        },
+        {
+          "name": "Rothstein Aftons",
+          "role": "Comminist."
+        }
+      ],
+      "locations": [
+        "Adolph Fredrichs Kyrka"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:10:predikningar-i-kyrkor",
+    "label": "Predikningar i kyrkor",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "St. Johannis kyrka: Bataillonspredikant Arell högmässa; komministern Lindlöf aftensängen.\nKungliga Artilleriekyrkan: magister Lyttkeman högmässa; pastor Eckerholm aftensängen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "St. Johannis Kyrka: Bataillons-Predikanter Arell Högmåsan; Comministern Lindlöf Aftonsängen.\nKgl. Artillerie-Kyrkan: Magister Lyttkeman Högmåsan; Pastor Eckerholm Aftonsängen.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "St. Johannis Kyrka",
+        "Kgl. Artillerie-Kyrkan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:11:predikant-och-kyrkoherde",
+    "label": "Predikant och kyrkoherde",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Dit, för Z.R. Maj:t Enke-Drottningens Liv-Regemente: Bataillons-Predikant Jungblad.\nStora Barnhus-Kyrkan: Kyrkoherde Hjortberg Högmåsan; Comminister Collander Aftonsängen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "Dito, för Z. R. Maj:t Enke-Drottningens Lif-Regemente: Bataillons-Predikanter Jungblad.\nStora Barnhus-Kyrkan: Kyrkoherden Hjortberg Högmåsan; Comministern Collander Aftonsängen.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stora Barnhus-Kyrkan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:12:kyrkliga-hogmasar-och-aftonsangar",
+    "label": "Kyrkliga högmåsar och aftonsängar",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Skeppsholmskyrkan: Magister Lithander högmässan; comministern Fogelquist aftensängen.\nDrottninghuskyrkan: Kongl. H:r hofpredikant Nibelius.\nDanvikskyrkan: Magister Lenholm högmässan; skolämästaren Löhman aftensängen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "Skeppsholms-Kyrkan: Magister Lithander Högmåsan; Comministern Fogelquist Aftonsängen.\nDrottninghus-Kyrkan: Kongl. H:r Hof-Predikant Nibelius.\nDanviks-Kyrkan: Magister Lenholm Högmåsan; Scholämästaren Löhman Aftonsängen.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Skeppsholms-Kyrkan",
+        "Drottninghus-Kyrkan",
+        "Danviks-Kyrkan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:13:predikstolar-i-kyrkor",
+    "label": "Predikstolar i kyrkor",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Kronospinbusskyrkan: Magister Legman, både Högmåsan och Aftonsängen.\nEnkhuskyrkan: Magister Fredell.\nSabbathsbergs-Kyrka: Magister Warlund.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "Krono Spinbus-Kyrkan: Magister Legman både Högmåsan och Aftonsängen,\nEnkhus-Kyrkan: Magister Fredell.\nSabbathsbergs-Kyrkan: Magister Warlund.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Krono Spinbus-Kyrkan",
+        "Enkhus-Kyrkan",
+        "Sabbathsbergs-Kyrkan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0001:14:utlandska-nyheter-constantinopel",
+    "label": "Utländska Nyheter: Constantinopel",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Utländska Nyheter: Constantinopel den 19 december. Akt förhindrar väldsomheters utförande mellan de krigande makternas fartyg i Levantiska vatten, vilket orsakar skador på Turkiskas handel med Kristendomen. Storherren har lätit antyda att han förrättat beslutet från 1744 om att ingen slags fiendskap ska utföras inom en linje.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 1,
+      "archive_ref": "bib13506739_17800212_144030_35_0001.jpg",
+      "original_spelling": "Utländska Nyheter:\nConstantinopel d. 19 Decemb. Akt förhindra väldsomheters utöfswande emellan de krigande Maakternes Skepp i de Levantiske watnen, hworigenom Turkiska Staternes handel med Christenheten är lidande,\nhar Storherren låtit antyda Fransa och Engelske Ambassadeurerne: \"Huru han förrnyat det beslut, som wid enahanda omständigheter gjordes år 1744, nämli, at inga slags fienteligheter singo utöfwas inom en linie,\"",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Constantinopel"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

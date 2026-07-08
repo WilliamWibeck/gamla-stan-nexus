@@ -1,0 +1,108 @@
+[
+  {
+    "id": "bib13506739_17800211_144030_34_0001:1:dageliga-tidningar",
+    "label": "Dageliga Tidningar",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Stockholm, nr 34.\n\nDen 11 februari 1780, fredag.\nDagliga Tidningar,\neller:\nDagligt Allehanda.\nOnsdagen den 9 februari, mulet och blidt med soligt väder. Dock var det inte alltför kallt. Thermometeren har varit under fryst-kall sedan torsdagsmorgonen. Barometern ligger på 26,10.\n\nUtdrag ur ett brev daterat Pera vid Konstantinopel den 17 december 1779 från en vår vissande landsman.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 1,
+      "archive_ref": "bib13506739_17800211_144030_34_0001.jpg",
+      "original_spelling": "Stockholm N:o 34.\nDen 11 Februarii 1780, Fredag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nOnsdagen, d. 9 Febr. mulet och blidt, med Sunnan väder, dock ej to. Thermom. har til och med Torsdags morgonen varit allenaft i grad under fryst-kalt. Barom. 26,10.\nUtdrag af et Bref, daterat Pera wid Constantinopel den 17 December 1779, fran en vår vissande Landsman.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Pera"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0001:2:turkiskt-sin-turban-beyram",
+    "label": "Turkiskt sin Turban Beyram",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "I morgon firar vi Turkisk Turban Beyrams högtid eller Offerdagen; då rider Skjsaren med alla österländska städer, föd Sdlens uppgång till Mosquee och ber där sin bön. Han återvänder sedan till Serailen, där han med egen hand slår offerfåret. Detta dagbilek tillsammans ger allmänheten möjlighet att köpa musik från konserters salonger och muzelmanns marknader för att slåa nätet. Just när de räknar det som en lycklig tid, betalar man väl för högtidens kul. Mängden utser helst detta färre, eftersom de vill ta del av denna gudstjänst med röd färg på ryggen. Under dessa dagar föregående Fastan dricker våra dronlämmare ofta den strålande turkiska musiken som hörs vid alla ministernas portar i Pera och förbereder drinkpengar. Du måste inte tro att den låter lika bra som Janitschar-musiken på Kungliga slottet i Stockholm, eftersom det är svårt att hitta livligare musik. Sångstycken har dock en viss effekt på melancholiska själar, särskilt när man sitter upp vid Tharapia eller någon annan plats vid Bosporus och lyssnar på roddarmusiken. Men nu till Beyrams fest igen. Den morgonen på denna högtidsdag kan man och lova att delta i solenniteten, även om man är otrogen. Pengarna måste öppnas och drinkpengar delas ut till Janitscharerna i slottet, så de insinna sig med en tallrik. På kvisten ligger några apelsiner, citroner eller granatäpplen m.fl. Denna utgift kallas Bakschis. Flera dagar sedan försåldes härställda saltgods från professor Björnstahls verkstad. En marmorkost är nu tillverkad och kommer att ligga på Sveniska filosofens grav i Salonique.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 1,
+      "archive_ref": "bib13506739_17800211_144030_34_0001.jpg",
+      "original_spelling": "I öfvermorgon sira Turkiska sin Turban Beyram, eller Offer-Högtid; Då rider Skjsaren med all Österländske stät, föd Sdlens uppgång til Mosquee, förättar där sin bön, begifter wer sig sedan åter til Serailen, där han med egen hand slagtar Offer:Farst; Detta dagnebleck tilsänna gifte wes Allmänheten medelst Canoners losande och hwa Muzelman pazar på at slagra nät Far just samma tid, som de räkna för ganska lyckligt. Denna tiden betalas Färn väl, för Högtidens kul. Mängen utser helo tiden fördret det Får, soin skall tiäa til denna Gudstjänst, det afslies från den öfrige Hjorden, medelst röd farga som sättes på des rygg. I dessa dagar, som föregå Fastan, pinas våra dronlämmertigen of den strälande Turkiska Musquen, som låter höra sig wid alla Ministrars portor här i Pera och fostar drinkspengar. Du må ej tro, at den låter så väl, som Janitschar Musquen på Kgl. Borggården i Stockholm, znägot dit at fall det lifväl låta. Sångstycken hafta de dock, som göra dina intryck på melancholitiska sjalar, särdeles när man om Sommaren sitter uppe wid Tharapia eller någon annan ort wid Bosphoren och hör på roddar-misjorne. Men nu til Beyrams Festen igen. Den morgonen på denna Högtidsdagen för man och lof at deltaga i Solenniteten, fast man är otrogen. Pungen måtte öppnas och drinkspengar gifwas at Janitscharerne i Pallatset, soia då insinna sig med en tallrick, på kwiten ligger några Appelsiner, Citroner eller Granat-Äpplen ic. Denna utgift kallas Bakschis. För några dagar sedan förauctionerades härstäd des saltg Professor Björnstahls qwärdtenkap. En Marmorkosten fall nu hår tilwerkas, som kommer at ligga på Sveniska Philosophens Graf i Salonique. ic. ic.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Pera",
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0001:3:fodelsedagsgladje",
+    "label": "Födelsedagsglädje",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Svar på Brefveck till en Vän, uti Bladet Sanning och Tjost N:o 26.\n\nVärdaste Vän! För det givna förslaget att fira vår Allernära Konungens födelsedag. Du vill med barmhärtighetssyfte dela din glädje på denna dag: Det är både rätt och passande, eftersom ämnet är av högsta vikt.\n\nHan dör på ett sätt som närmast överensstämmer med Konungens adliga bärsla; han utmärker sig genom välsamhet mot den välgränta Försynen, som undanlämnat oss en regent som regerar med mildhet och omsorg. Han lägger våra fördelar för eftervärlden och uppmuntrar folket att vara exempel, om de skulle bli lika lyckliga som vi nu är.\n\nSådana glädje-betyg slutar inte med aftonen av gladiedagen, utan är varaktiga; de välsigner regenten för långa tider. Varför skulle vi vara nöjda med att en så adligmodig herre bara prisas av samtiden? Nej: Vi bör fackla mer under Hans vise regering och låta oss danas till sådana dygder, i vilka Hans stora namn måste leva i välsignelse till nästa eftervärld.\n\nMåtte hans enda födelsedag frambringa en samfundsdygdom av denna art!\n\nJag har med färgnad sett huru redelige undersättare på Konungens födelsedagar med barinbertighetsverk ihogkommit åtskillige andra inrättningar; min glädje är därför hyperlig, då genom dig ett föremål bliswrit upptäckt, som syntes warit bortglidint, med de uslingar, vid vilka du ömar. Din bestrifning över de os lyckelige Därhushjönen är bededfwelig: Att hon år fanfårdig kan jag icke twisla; ty jag sinner du friswer med mycken underjdkning af ditt ämne. Varte människo-hjärta bör då röras härvid.\n\nDu och jag har inte födare naturliga rättigheter an dessa; men huru högt har icke Skaparens gothet satt oss öfver dem? Det ware då längt ifrån os, att vi skulle sjelfswaldas under bruget af det Skaparen förunt os framsdr for dem, att vi skulle glömina bort det de äro männisor, värde smyter af männisor. Och då är förbättra des ras wilkor icse lörer vara nog tilgäng i sjelfwa inrättningen, så låten os bidraga däreil det vi kunne. Tänk! om genom drägeligare omständigheter någras vaderfändende iblad dem skulle winnas! Hvad skulle de icke vässigna var GUSTAF, som, Sself walgrändne, inplantat människo-kärlek ibland Sitt Folk?\n\nFör min del inskränker jag gårena minha behöfwer för att lägga en Färn i denna Offer-fislan. Jag vill icke höra talas om någon årkansla, något beröm därdför. Det är mig befinning nos at smaka den välsusten ar göra väl af upriktigt hjärta. Jag wet utkom des att våra Christeliga harmhertigheits werk äro välsignade utsåden, hwaraf wi så häwta den rikaste skrd i Himmelen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 1,
+      "archive_ref": "bib13506739_17800211_144030_34_0001.jpg",
+      "original_spelling": "Swar på Brefwek til en Wän, uti Bladet Sanning och Tjöse N:o 26.\nZack, wärdaste Wän! för det gifna förslaget, til firande af vår Allernädigste Konungs dyra Födelsedag. Du wil med barmhertigkets-werk ketyga din glädje på denna Dagen: Det är och billigt och med sitt höga ämne aldeles afoavat. — Han dör stras på et sätt, som närmast kommer öfverens med Konungens adla bbielse; som utmärker wätsamhet emot den välgrände Försynen, som unnat os en Regent, hwilken regerar med mildhet och omsorg; som å daga lägger våra fördelar för efterverlden, och som upmuntrar den folia våra exempel, i fall de blifwa så lyckelige, som wi nu kunne vara. — Sådane glädje-betyg slutas icke med aftonen af gladje-dagen, utan äro waraktige; De wälsigna Regenten för längliga tider, och skulle vi vara nögte med at en så adelmodig Herre blott prisas af samtida? Nej: Wi böre fak mer under Hans wis sa Regering låta os danas til sådane dygder, i hwilka Hans Stora Nåma måtte lefva i wälsignelse till se naste efterverld. — Mätte hwar enda Hans Födelsedag frambringa en Samfundis dygd af denna art!\nJag har med fägnad sett huru redelige undersättare på Konungens Födelsedagar med barinbertighets-werk ihogkommit åtskillige andra inrättningar; min glädje är därføre hyperlig, då genom dig et föremål bliswrit upptäckt, som syntes warit bortglidint, med de uslingar, wid hwilka du ömar. — Din bestrifning ösver de os lyckelige Därhushjönen är bededfwelig: At hon år fanfårdig kan jag icke twisla; ty jag sinner du friswer med mycken underjdkning af ditt ämne. Hwarte människo-hjärta bör då röras härvid. Du och jag haswa icke födare naturliga rättigheter an dessa; men huru högt har icke Skaparens gothet satt os öfwer dem? Det ware då längt ifrån os, at wi skulle sjelfswaldas under bruget af det Skaparen förunt os framsdr for dem, at wi skulle glömina bort det de äro männisor, wärde smyter af männisor. Och då är förbättra des ras wilkor icse lörer vara nog tilgäng i sjelfwa inrättningen, så låten os bidraga däreil det wi kunne. Tänk! om genom drägeligare omständigheter någras wäderfändende iblad dem skulle winnas! hwad skulle de icke wässigna war GUSTAF, som, Sself walgrändne, inplantat människo-kärlek ibland Sitt Folk? — För min del inskränker jag gårena minha behöfwer, för at lägga en Färn i denna Offer-fislan. — Jag wil icke höra talas om någon årkansla, något beröm därdføre. Det är mig befinning nos at smaka den wälsusten ar göra väl af upriktigt hjärta. Jag wet utkom des at våra Christeliga harmhertigheits werk äro wälsignade utsåden, hwaraf wi så häwta den rikaste skrd i Himmelen.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bladet Sanning och Tjöse N:o 26"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

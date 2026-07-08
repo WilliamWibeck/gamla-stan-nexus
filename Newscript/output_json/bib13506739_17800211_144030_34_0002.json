@@ -1,0 +1,719 @@
+[
+  {
+    "id": "bib13506739_17800211_144030_34_0002:1:nyval-till-ledamot",
+    "label": "Nyval till Ledamot",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Jag har nyligen fått veta om orsaken till Magister Brynolph Hallborgs val som ledamot av Kungliga Svenska Patriotiska Sällskapet i Stengårdshult, och jag anser att hans förtänkser är passande för detta kungliga samhälles förtroende.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Tag har nyliken gjord mig underrättad om orsaken til Commissterns i Stengårdshult Magister Brynolph Hallborgs val til Ledamot af Kgl. Svenska Patriotiska Sällskapet, och finner, för min del, dess förtänkser vara svarande emot detta Kgl. Samhälles förtrogende.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stengårdshult"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:2:kungliga-sallskapets-handlingar",
+    "label": "Kungliga Sällskapets Handlingar",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Jag blev rik och förmögen när jag i Kungliga Sällskapets Handlingar läste de fulleligen besyrkta och gransade målen, som genom Commisster Hallborgs berdmliga nit blivit verkställda.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Det vörde och förmögde mig, däg jag i Kgl. Sällskapets Handlingar läste de fulleligen besyrkte och gransade mål, som genom Commisster Hallborgs berdmliga nit blifwit werkstälde.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kgl. Sällskapets Handlingar"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:3:tradgardsaffar",
+    "label": "Trädgårdsaffär",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Jag vill dock inte beskriva allt det annat som för västerländskhet skall avlägsnas. Men att han på sitt boställe, som en gång måste avlägsnas, har anlagt en trädgård till ett och ett halvt tunnland, och där uppfört årligen tusentals frukt- och lövträd genom frön, så att han år efter år, under 15 år, bortförrättar från 5 till 12000 träd och buskar inom ett område på 12 mil från sitt hem. Han gör detta utan någon större utmaning eller besvär.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Hwarand mycket annat, som för wildöstighet skul maste afträdas, wil jag bloktsamna: At han på sitt Boställe, hwilket en gång maste afträdas, har anlagt Trägård til et och et halft Tunneland, och där årsligen genom frön uppfört många tusende Frukt- och Lof-trön, hwaraf han årsligen, på 15 års tid, bortfånkt ifrån 5 til 12000 Trän och Buxar, intil 12 mil från sitt hemmiskt, däg han och altijd sjelf bestyr om befraktningen, utan den ringaste wedergållning af afnämner.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Boställe"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:4:trafronsforsaljning-i-skogen",
+    "label": "Träfrönsförsäljning i Skogen",
+    "date": "1780-02-11",
+    "address": "Skogen",
+    "description": "Senemera har han på Sverigeland i Skogen utsät tunnetals träfrön, vilka därstådes så tätt som lin eller hampa uppwuxit, och har honom snarare felats afnämner än trän, fast ån han dem gratis alltid välat utdela.",
+    "resident": null,
+    "lat": 59.2981772,
+    "lng": 18.0961224,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Sedemera har han på Swedjeland i Skogen utsät tunnetals Träfrön, hwilka därstådes så tätt som Lin eller Hampa uppwuxit, och har honom snarare felats afnämner än Trän, fast ån han dem gratis altijd welat utdela.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Skogen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Skogen",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:5:tryckta-beskrivningar-om-trans-plantering",
+    "label": "Tryckta beskrivningar om träns plantering",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Hans tryckta beskrivning om alla trädens plantering, som nu är den andra upplagan, har han spridit till ett stort antal intresserade personer i olika orter.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Hans tryckta Beskrifning om allehanda Träns plantering, som 2:ne gångor blifwit upplagd, har han och til stort antal utton betalning i orterne utdelat.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "orterne"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:6:forsaljning-frukt-och-lof-tron",
+    "label": "Försäljning: Frukt- och Lof-trön",
+    "date": "1780-02-11",
+    "address": "Västergötland",
+    "description": "I Västgöta Folkbok utdelades under året 1778 en mängd av 62 000 frukt- och lofträd.",
+    "resident": null,
+    "lat": 59.3174775,
+    "lng": 18.0710989,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "I Västgothiska Folkbogden utdelte han inom er år, 1778, et antal af 62000 Frukt- och Lof-trön.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Västergötland"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Västergötland",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:7:jordbruk-planteringar",
+    "label": "Jordbruk: Planteringar",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Han har genom rödning och uppodling fördubblat sin boställe ägor till dubbel godhet och fortsätter med mera utan uppehall. Jordpärons-planteringen, genom rötter, frön och stjälkar, har av honom med all möjlig eftertank blivit fortsatt.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Han har genom rödning och uppodlingar fördrott sitt Boställes ägor til dubbel godhet, och fortsfar med mera, utan uppehall. Jordpärons-planteringen, genom rötter, frö och stjelkar, har af honom med all möjelig eftertanko blifwit fortsatt.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Boställes"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:8:medicinal-plant-auction",
+    "label": "Medicinal Plant Auction",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Årligen har hans ägare därför gratis bekommit anseende till utsäde. Medicinska örter, såsom Calmus, Enula och Imperatoria m.fl., har han för många planterat och bortförd.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Årligen haswa hans äghdare däraf gratis bekommit anseendigt quantum til utsåde. Medicinelle Orter, såsom Calmus, Enula och Imperatoria m. m. har han til för mårgd planterat och bortfånkt.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:9:farsoter-behandlar-sjuka",
+    "label": "Farsöter behandlar sjuka",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "I våra dagens färskheter har han arbetat med smärtor och sjukdomar för att bota dem. Han har varit lycklig att, i stället för Siveistika Beskrifning beskriver många från Winniceznanak.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "I vårjande farsöter har han warit dswermäton nitte i de sjukas föttfel och botande. Han har varit lyckelig, at, i stod af Siveistika Beskrifning besria många ifrån Winniceznanak.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Siveistika"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:10:larare-med-jordbar",
+    "label": "Lärare med Jordbär",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Han har med jordbär uppfört leror och jordmärgel. Han har årligen hållit skola några timmar om året, och i sitt hus läser han och ger fristående information till sina äldre barn, utan att utgå från barnets ålder.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Han har med Jordbär uppfört Leror och Jordmärgel. Han har någon tid om året årsligen hållit Schola, och i sitt hus i läsning och fristvande informat icke olenast sina Ähbråres, utan sek Utagåss Barn.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "i läsning"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:11:kungliga-upfostrings-commissionens-beslut",
+    "label": "Kungliga upfostrings-Commissionens beslut",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Den upprätta förslaget till en studiehandledning anses vara antagen av Kungliga Utbildningskommittén. Jag har med godo läst den vittermannens anagrammatiska, etiostika, heroiska och elgeetiska verser samt de svenska verserna, vilka genom Magister Knuds åtgärder kommit in i Kungliga Biblioteket.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Deß upwista Förslog til Studierneas faciliterande torde af Kgl. Upfostrings-Commissionen anses för antogeligt. Jag har med godo läst denna witter Mannens Anagrammatiska, Eteostika, Heroiska, Elgeetiska, ja och Deß Svenska Verser, hwilka igenom Magister Knuds åtgärd, äro inkomne i Kgl. Bibliotheket.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:12:disputation-knuds-vs-hallborg",
+    "label": "Disputation: Knuds vs. Hallborg",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Magister Knuds har dock inte underlättat att med berdm i sin Disputation nåvna, det Magister Hallborg givit mycken upplysning i den förra utgifna Historia Literaria Poetarum Westrogothiae Latinorum.",
+    "resident": "Knuds",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Magister Knuds har ock intet underlättit, at med berdm i sin Disputation nåvna, det Magister Hallborg gifwit mycken uplysning i den förras utgifna Historia Literaria Poetarum Westrogothiae Latinorum.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Knuds",
+          "role": "magister"
+        },
+        {
+          "name": "Hallborg",
+          "role": "magister"
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:13:magisters-hallborgs-oration",
+    "label": "Magisters Hallborgs Oration",
+    "date": "1772-06-29",
+    "address": null,
+    "description": "Den vackra och fullständiga orationen på latinvers, som Magister Hallborg höll den 29 juni 1772 över allernädigaste kungens höga kröning, finns i Kungliga Biblioteket.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Den wackra och fullständiga Oration, på Latinck Vers, hwilken Magister Hallborg den 29 Junii 1772 hölt öfwer war Allernädige Konungs høga Kröning, fins i Kgl. Bibliotheket.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kgl. Bibliotheket"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:14:om-denna-mannens-nit-och-eftertanko",
+    "label": "Om denna Mannens nit och eftertanko",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Jag har läst den här manens nit och hans eftertankar i allmänna tidningar från år 1772, nummer 256; i Inr. Tiden 1774, nummer 1, nummer 4 och nummer 58, m.fl.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Om denna Mannens nit och eftertanko har jag för detta stückewis läst i allmanna Tidningarne af år 1772, N:o 256, i Inr. Tiden. 1774, N:o 1, N:o 4 och N:o 58, m. m.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Inr. Tiden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:15:kungliga-beloning-till-hallborg",
+    "label": "Kungliga belöning till Hallborg",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Jag undrar därför inte på om Allernädlige Konungen tildlade Hallborg den siffran Belöning i Silver, eller om Kgl. Patriotiska Sällskapet bedrat honom med Guld-Medaille, 33 R:daal specie, samt Fullmacht till Ledamot av samma Höglofta Sällskap.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Jag undrar därför icke på, at war Allernädige Konung tildmt den na Hallborg den sifre Belöning in Siliver, eller at Kgl. Patriotiska Sällskapet bedrat honom med Guld-Medaille, 33 R:dal. specie, samt Fullmacht til Ledamot af samma Högloft. Sällskap.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Hallborg"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:16:magister-hallborgs-skada",
+    "label": "Magister Hallborgs Skada",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Det är skada att Magister Hallborg kallas vistad så långt ifrån Slätbygden, samt att han skall haiva liksom bundna händer vid en ringa kapellans-systla; och icke efter önskens skall sättjas i ständ att kunna verka det goda.",
+    "resident": "Magister Hallborg",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Det är skada at Magister Hallborg kall wistas så längt ifrån Slätbygden, samt at han skall haiva liksom bundna händer wid en ringa Capellans-Systla; och icke efter önfax skall sättjas i ständ at kunna werka det goda.",
+      "category": "crime",
+      "themes": [
+        "Crime & Justice"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Magister Hallborg",
+          "role": null
+        }
+      ],
+      "locations": [
+        "Slätbygden"
+      ],
+      "crime": "Magister Hallborg är skadad och har båda händerna bundna med en ring.",
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:17:en-liten-underrattelse-for-herr-n-n",
+    "label": "En liten underrättelse för Herr N. N.",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "En liten underrättelse för Herr N. N.\nDu som takt på spären följer med din Phryne var hon går,\nFöslangt du den afvund därför, sem uti ditt hjärta rår.\nOm min sats du vill antaga: Lät din sköna vara fri - Hon lär ändock sig bedraga mitt i sitt plafveri.\nNär den lilla hjärtans ungen dig våg gatan med sig bar,\nSkall hon vara liksom tvungen att ej känna någon kar.\nSwartsjuk, tror du sådant syftar på en hemlighets affär,\nOch om någon hatten lyftar - Nej! Hon vet ej vem han är.\nRäkna mig ej bland den sköra som Er lycka dela för;\nTy min själ! jag vill ej vara uti dessa tokaras spår.\nMen Er jaloussé att öka skall jag efter denna stund,\nAlltid nicka att Er sköka med en fri och glättig mund.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "En liten underrättelse för Herr N. N.\nDu, som takt på spären följer Med din Phryne hwar hon går, Föslangt du den afwund ddlijer, Sem uti ditt hjärta rår.\nOm min sats du wil antoga: Lät din Sköna vara fri - Hon lär ändock sig bedraga Milt uti sitt plafveri.\nNår den lilla hjärtans ungen Dig vå gatan med sig bar Skall hon vara liksom twungen, At ej känna någon Kar.\nSwartsjuk, tror du sådant syftar På en hemlighets affär, Och om någon hatten lyftar — Nej! Hon vet ej hvem han är.\nRäkna mig ej blond den Sköra, Som Er Lycka dela för; Ty min själ! jag wil ej vara Uti dessa tokaras spår.\nMen Er jaloussé at öka Skall jag efter denna stund, Alltid nicka at Er Sköka Med en fri och glättig mund.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:18:adresser-for-larare-och-officerar",
+    "label": "Adresser för lärare och officerar",
+    "date": "1780-02-11",
+    "address": "Hornsgatan",
+    "description": "Arithmetikens Magister Hans Jacob Seseman från Uppsala bor i huset N:o 4 vid hörnet av Norrlandsstorgatan. — Auseultanten Bengt Reinhold Geyer från Värmland bor i Kammar-Rådshuset von Kempenskhus vid norra Smedjegatan. — Capitain Rosen från Roslagen bor på Källaren Enighetien. — Lieutenant Sahlfelt från Nericet bor hos Fru Wigert vid lilla Nogatan. — Asebor Swedenstierna från Södertälje bor i huset N:o 19 vid Hornsgatan. — Academie-Adjunkten Joh. A. Tingstadius fräg Uppsala bor på Apotheket Enhörningen.",
+    "resident": null,
+    "lat": 59.3175,
+    "lng": 18.059,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Arithmetikens Magistern Hans Jacob Seseman från Upsala, bor i huset N:o 4 wid hörnet af Norrlandsstogatan. — Auseultanten Bengt Reinhold Geyer från Wärmland, bor i Kammar-Rådianan von Kempenskhus wid norra Smedjegatan. — Capitain Rosen från Roslagen, bor på Källaren Enighetien. — Lieutenant Sahlfelt från Neriket, bor hos Fru Wigert wid lilla Nogatan. — Asebor Swedenstierna från Södertelje, bor i huset N:o 19 wid Hornsgatan. — Academie-Adjunten Joh. A. Tingstadius fräg Upsala, bor på Apotheket Enhörningen.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Norrmalmstorg",
+        "Kammar-Rådianan von Kempenskhus",
+        "Roslagen",
+        "Neriket",
+        "Södertelje",
+        "Apotheket Enhörningen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Hornsgatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:19:assemblee-uti-stora-bors-salen",
+    "label": "Assemblee uti Stora Börs-Salen",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Måste söndagen den 13 februari bjuds en allmänstämma i Stora Börssalen klockan 10. Biljetter säljs enkelt lördagen den 12 december, både förmiddags och eftermiddags samt den 13 från kl. 3 till 5 på eftermiddagen på Börskontoret.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "Måsta Söndog den 13 Februariit biffsmer Assemblee uti Stora Börs-Salen wanlig tima. Billetterne därtil försäljas enkelt i morgon Lördag d. 12 dennis både för och eftermiddagen, samt den 13 ifrån kl. 3 til 5 eftermiddagen på Börs-Contoiret.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stora Börs-Salen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800211_144030_34_0002:20:assembleens-billetter",
+    "label": "Assembleens billetter",
+    "date": "1780-02-11",
+    "address": null,
+    "description": "Ehrensvärd och respektfull Herr-favorit, som vill deltaga i Assemblyn, täckas med god tid innan dagarna börjar, och före det börjar entrén. Låt er undvika biljetterna på grund av trängsel vid kontoret och entrén måste undvikas.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-11",
+      "page": 2,
+      "archive_ref": "bib13506739_17800211_144030_34_0002.jpg",
+      "original_spelling": "De höga och respective Herr-faver, som behaga divisa Assembleen, täckas i god tid berörde dagar, och före än Entreen börjar, låta afyanta sine Billetter, på det olägenhet af trängsel i Contoiret wid sjełswa Entreen må undvikas.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Själswa Entreen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

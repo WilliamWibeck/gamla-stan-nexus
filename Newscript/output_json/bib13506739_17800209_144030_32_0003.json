@@ -1,0 +1,615 @@
+[
+  {
+    "id": "bib13506739_17800209_144030_32_0003:1:till-salu-finnes-boklada",
+    "label": "Till salu finnes: Boklåda",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Försäljning av: I Ufostring-s: Boklåda, den nyligen utkomna Avdelningen af Cancellie-Nädet Lagerbringas Sammandrag af Svenska Historien, som beskriver Kon. Fredric I:s Regering under följande Nuzhriker: Konungens Egenkaper och Anträdte till Regimentet, Freden med Danmark och Ryssland, nys Regeirings-täckets verkan på Nationen, Gr. Wellingks fall, nya Lagen, Rikshushållningens upphörande, Ostindisk Handel, Holländska angelägenheterna, Alliance-Werken med Ryssland och Frankrike, Hornska och Gyltenborgska partierne, Riksdagen 1738, Kriget med Ryssland, Konunga-walen i Sverige, Freden i Abo, Dalupproret, nyt Finance-systeem, Trollhättan, Riddare-Orden, Wetenskarernas tilstand och Konungens död. Den kostar häftad 6 k. - Subsiribenterna på Bernska Encyclopedien, som förleden Höst ej erhållu wer an de första 6 Tomer af detta Werk, b.hagade ju före des hädere uttaga de följande och sedemera inkoinne Tomer 7 til med 12, emot hware Tomers lösen med i Riksdaler.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "Till salu finnes:\nI Ufostring-s: Boklåda, den nyligen utkomna Avdelningen af Cancellie-Nädet Lagerbringas Sammandrag af Svenska Historien, som beskrifwer Kon. Fredric I:s Regering, under följ. Nuzhriker: Konungens Egenkaper och Anträdte til Regimentet, Freden med Dannemark och Ryssland, nys Regeirings-täckets werkan på Nationen, Gr. Wellingks fall, nya Lagen, Rikshushållningens uphielpande, Ostindisk Handel, Holländska angelägenheterna, Alliance-Werken med Ryssland och Frankrike, Hornska och Gyltenborgska partierne, Riksdagen 1738, Kriget med Ryssland, Konunga-walen i Sverige, Freden i Abo, Dalupproret, nyt Finance-systeem, Trollhättan, Riddare-Orden, Wetenskarernas tilstand och Konungens död. Den kostar häftad 6 k. - Subsiribenterna på Bernska Encyclopedien, som förleden Höst ej erhållu wer an de första 6 Tomer af detta Werk, b.hagade ju före des hädere uttaga de följande och sedemera inkoinne Tomer 7 til med 12, emot hware Tomers lösen med i Riksdaler.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Ufostring-s"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:2:boktryck-freylinhausens-cateches-predikningar",
+    "label": "Boktryck: Freylinhausens Cateches-Predikningar",
+    "date": "1780-02-09",
+    "address": "Klippan",
+    "description": "Johan Andreas Freylinhausens Cateches-Predikningar är nu utgivna av Hezelbergs Tryckeri och säljs för 30 kronor eller 11 daler 8 öre per exemplar i bokhandeln Schildes Contoir, där tidningen Sanning och Nöje ges ut. Subskribenter till detta upplysningsarbete får sina exemplar hämta hemifrån hos den bemålade boktryckaren mot 7 kronor 16 öre per exemplar. De som köper flera exemplar på en gång, såsom ett ex-emplaret utan betalning, kan göra det på samma ställe. Bemålade ställen säljer även Wår Frälsares 30-års stillhet häftad för 3 kronor och de af trycket nol utgifna Religions-Stadgar för 4 kronor ex. Wilfocks Honungs-droppar ur Klippan Christo, häftade för 4 kronor exemplaret.",
+    "resident": null,
+    "lat": 59.3323572,
+    "lng": 18.0805772,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "Af Hezelbergs Tryckeri är nu J. A. Freylinhausens Cateches-Predikningar utkomna, och säljes för 30 k eller 11 daler 8 dre K:nt exemplaret i Bokhandl. Schildes Contoir där Sanning och Nöje utgifves; de som på detta upbyggeliga arbetet subscriberat, få uttaga sina exemplar hemma hos bemålte Boktryckare emot 7 dal. 16 dre K:mtsrlägande, och de som härav åstunda köpa flere exemplar på en gång, så på hvarft et ex- dsver utan betalning. På bemålte ställe säs äsven til köps: Wår Frälsares 30-åra stillhet häftad för 3 k och de af trycket nol utgifne Religions-Stadgar för 4 k ex. Wilfocks Honungs-droppar ur Klippan Christo, häftade för 4 k exemplaret.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bokhandl. Schildes Contoir",
+        "bemålte Boktryckare",
+        "Klippan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Klippan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:3:auktion-rokningstillbehor",
+    "label": "Auktion: Rökningstillbehör",
+    "date": "1780-02-09",
+    "address": "Köpmangatan",
+    "description": "Holländskt enaeter, engelsk cardus-tobak, svanck Barcelona, prims fort rappé-snus, cedro, bergamotte och sans pareille luckwatten, mandelmjölsks-sirap, skrid honung, citronsfast, torra castanier, eng. och holl. södmjölsks-ost, god holländsk sill i sextondelar, vita och coleurte warljas, sver fint present: thee på bouteillier, holländsk skrif-Eng. ritz och riddrets-pennor, coleurte silsver-cantilicer, agatsflintor, urglas, sova, brunt hark, wismud, spiauter och diverse äkta porcellains thekoppar, försäljes i kryddbo-ena vid köpmangatan mitt emot skärgårdsgatan.",
+    "resident": null,
+    "lat": 59.3251019,
+    "lng": 18.0723433,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "Holländskt Enaeter, Engelsk Cardus-Tobak, Svanck Barcelona, prims fort Rappé-Snus, Cedro, Bergamotte och Sans Pareille Luckwatten, Mandelmjölsks-Sirop, Skrid Honung, Citronsfast, torra Castanier, Eng. och Holl. Södmjölsks-Ost, god Holl. Sill i Sextondelar, hvita och coleurte Warljas, sver fint Present: Thee på Bouteillier, Holl. Skrif-Eng. Ritz och Riddrets-pennor, coleurte Silsver-Cantilicer, Agatsflintor, Urglas, Sova, brunt Hark, Wismud, Spiauter och diverse äckta Porcellains Thekoppar, försäljes i Kryddbo-ena wid Köpmangatan midt emot Skärgårdsgatan.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kryddbo-ena",
+        "Köpmangatan",
+        "Skärgårdsgatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Köpmangatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:4:auktion-brannvin",
+    "label": "Auktion: Brännvin",
+    "date": "1780-02-09",
+    "address": "Ehrenhjelmiska huset vid Göthgatan det andra ifrån Swartens gränd, första eller lilla portgängen en. half trappa up",
+    "description": "I Ehrenhjelm's house at Göthgatan, the second building from Swartens gränd, in front of the first or small gate, one half step up, wine is sold for 7 days per bottle and a half-gallon can be bought for 6 dalers. 26 daler for the same amount in coins.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "Uti Ehrenhjelmiska huset vid Göthgatan det andra ifrån Swartens gränd, första eller lilla portgängen en. half trappa up, säljes Bränwin til 7 daker Kopp:mt kannan och halfanfaretals til 6 dal. 26 dre dito mynt kannan.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Ehrenhjelmiska huset",
+        "Göthgatan",
+        "Swartens gränd"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:5:auktion-bok-auctions-kammaren",
+    "label": "Auktion: Bok-Auctions-Kammaren",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Idag den 9 hujus börjar med försäljning på Octav-erne N:o 700 af Biskop Kidnings Bibliothque på Bok-Auctions-Kammaren, samt en annan wöcker Theologis Boksamling.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "I dag den 9 hujus börjas med försäljning på Octav-erne N:o 700 af Biskop Kidnings Bibliothque på Bok-Auctions-Kammaren, samt en annan wöcker Theologis Boksamling.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Octav-erne N:o 700",
+        "Bok-Auctions-Kammaren"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:6:auktion-klader-vid-general-aksifance-contoiets-kammar",
+    "label": "Auktion: Kläder vid General Aksifance-Contoiets Kammar",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Idag den 9 februari kommer på Kungliga General Aksifance-Contoiets Auctions-Kammare att försäljas en svart klädedräkt, jacka, tröja och skärp samt kappa med sidenstags, mycket litet använd.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "I dag den 9 Febr. kommer på Kgl. General Aksifance-Contoiets Auctions-Kammare at försäljas en svart Klädning, Jacka, Tröja och Skärp samt Kappa med Sidensars Stag, mycket litet brukad.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kgl. General Aksifance-Contoiets Auctions-Kammare"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:7:auktion-amsterdamse-arrach",
+    "label": "Auktion: Amsterdamse Arrach",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Idag eftermiddagen säljs vid Kungliga Generalskiftets Auktioner olika delar av Amsterdamarrack på Bouteiller och vita franska viner i stora och mindre mängder.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "I dag eftermiddagen försäljes å Kgl. General Aksifance-Contoiets Auctions-Kammare diverse partier Amsterdamer-Arrach på Bouteiller och hvita Franska Warljas i större och mindre partier.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bouteiller och hvita Franska Warljas"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:8:hyra-sal-och-kok",
+    "label": "Hyra: Sal och Kök",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Utbjuder att hyra: I gården nummer 20 på Södermalm och Kattholmen finns en sal, mest lämpad för strumpfabrikation, tillsammans med en källare och kök samt flera tillhörande lägenheter till låg hyra. Information om detta finns vid Mjölnaren Joh. Åkerblom på västra Nvarngränden i gården nummer 56, där även information ges om två bostadsrum samt ett riktigt fåhus med tillhörande förrådsplatsar.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "Utbjudes at hyra:\nUti gården N:o 20 belgden å Södermalm och Katcbursholmen, finns en Sal, tjenligast til Strumpa-Fabrique, tillika med en Kannare och Kök, med flere tilhörande lägenheter för billig hyra; underrättelse härom säs uti västra Nvarngränden hos Mjölnaren Joh. Åkerblomt i gården N:o 56, hvorast äsven lämnas underättelse om 2:ne Boningsrum samt et rynligt Fåhus med åsföljande Foder-skullar.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "N:o 20 belgden å Södermalm och Katcbursholmen",
+        "västra Nvarngränden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:9:hyra-tapeterade-husrum",
+    "label": "Hyra tapeterade Husrum",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "Utställningar med tapeterade husrum finns att hyra till nästa förmiddag; information om detta ges i första klädmakarboden till vänster från kornhamnen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "Utstillige tapeterade Husrum inne i Staden finns at hyra til nåsta fardag; hwarom underrättelse lämnas i första Klädmakareboden til vänster ifrån Kornhamn.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Staden",
+        "Kornhamn"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:10:hyra-liqueurkammaren-vid-bolhusgranden",
+    "label": "Hyra: Liqueurkammaren vid Bolhusgränden",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "I Appelrotka huset på Bolhusgränden där Liqueurkammaren finns, finns nästa flyttning 2:an kamrar lediga att hyra, en med och en utan möbler; om vilkorna kan därsädes betingas.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "Uti Appelrotka huset å Bolhusgränden där Liqueurkammaren är, blifwer nästa flyttning 2:ne Kamrar ledige at hyra, en med och en uton Meubler; om vilkoren kan därsädes betingas.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bolhusgränden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:11:forloppen-vordags-aften-kl-10-hafstwa-tjuwvar-upbrutit-en-ba",
+    "label": "Förloppen Vördags aften kl. 10 hafstwa tjuwvar upbrutit en Bagarbod-lucka wid Gö",
+    "date": "1780-02-09",
+    "address": "Götgatan",
+    "description": "Bortskälade och förlorade saker: Förleden kl. 10 på kvällen bröt en tyv en butikslucka vid Götgatan och stulde två askar, varav en med sex och en halv daler i socialt mynt och den andra med 24 daler i silvermynt; vem som kan upptäcka tyven och förmedla informationen till huset nummer 98 vid Götgatans backe, skall belönas hederligt.",
+    "resident": null,
+    "lat": 59.3155,
+    "lng": 18.0725,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "Bortskulne och förlorade saker:\nFörleden Vördags aften kl. 10 hafstwa tjuwvar upbrutit en Bagarbod-lucka wid Göthgatan och bortstulit 2:ne afslanga Askar, uti den ena war su och en half daler Kmt i socie mynt och uti den andra 24 dalor i Slantor; den som kan upptacka tjuwen, och för den faktaa Godhusrun skul gifwer det tilkänna uti huset N:o 98 wid Göthgats-backen, skal hederligen bliswa förtyld.",
+      "category": "crime",
+      "themes": [
+        "Crime & Justice"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Götgatan"
+      ],
+      "crime": "Stjälden av askar från en bagarbod.",
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Götgatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:12:stolen-silsver-matsked",
+    "label": "Stolen Silsver Matsked",
+    "date": "1780-02-03",
+    "address": "Nygränden",
+    "description": "Den 3 februari är en Silsver Matsked bortstulen med namn P.A. i huset N:o 44 i Nygränden, gjord uti Göteborg av Guldsmeden Gral 1776; ägaren utlofwar ndigiktig wedergällning till den hennpe återlassar, och om hon är såld eller pantsatt, vil ägaren henne igenlösa.",
+    "resident": null,
+    "lat": 59.325217,
+    "lng": 18.0747708,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "Den 3 Februari är en Silsver Matsked bortstulen med namn P. A. uti huset N:o 44 i Nygränden, gjord uti Götheborg af Guldsmeden Gral 1776; ägaren utlofwar ndigiktig wedergällning til den hennpe återlassar, och om hon är såld eller pantsatt, wil äaaren henne igenlösa.",
+      "category": "crime",
+      "themes": [
+        "Crime & Justice"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "huset N:o 44",
+        "Nygränden"
+      ],
+      "crime": "Stolen Silsver Matsked",
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Nygränden",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:13:borttappad-tofsbok",
+    "label": "Borttappad Tofsbok",
+    "date": "1780-02-09",
+    "address": null,
+    "description": "En röd Tofsbok försvann på Stora Trägårdsgatan mellan Enkhuset och Jacobs kyrka den 20 december. I boken fanns en två-Riksdalers fedel och en Revers på 6 Riksdaler specie utgifven av Mäster Lorentz Nyman i Södertälje; vem som hittar boken och ger tillbaka den får undtagen hedersbelöning hos Excell. Greve Brahes Betjänt.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "En rød Tofsbok borttappades på stora Trägardsgatan emellan Enkhuset och Jacobs Kyrka den 20 sifledne Dec. hvoruti låg en två-Riksdalers fedel och en Revers på 6 Riksdaler specie utgifwen af Mäster Lorentz Nyman i Södertelje; den som samma Bok upphittat och tilkänna gifwer hos Hans Excell. Greawe Brahes Betjent, undfär hederlig wedergällning.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stora Trägardsgatan",
+        "Enkhuset",
+        "Jacobs Kyrka"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:14:forlorad-grack",
+    "label": "Förlorad gräck",
+    "date": "1780-02-09",
+    "address": "Järntorget",
+    "description": "En fattig tjänsteflicka har förlorat en vackert klädd gräsklädde med foder på den 5:e i denna månad mellan Södermalmstorg och Hammarby Tuff. Den rättsinna personen som hittade den, inlämnade den hos Kryddkrämaren Lingren vid Järntorget.",
+    "resident": null,
+    "lat": 59.3227388,
+    "lng": 18.0730698,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "För en fattig tjenstepiga är förleden Vördags eller den 5 i denne månad emellan Södermalmstorg och Hammarby Tuff borttappat 4 och en half alnar gräck Klade med foder och Canas; den rättsinniga menniska som det upphittat göre så väl och inlämne det hos Kryddkrämaren Lingren wid Järntorget.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Södermalmstorg",
+        "Hammarby Tuff",
+        "Järntorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Järntorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:15:borttappad-skospanne",
+    "label": "Borttappad Skospänne",
+    "date": "1780-02-05",
+    "address": "Barnhuset",
+    "description": "Förra veckan den 5 oktober förlorades en silverspänne på Smedjegårdsgatan nedanför Barnhuset, ett fruntimmers spänn av silver, rundat och genombrutet i stenform. Den som hittar det samma skall betala för den med en likvärdig ersättning till klockaren vid Stora Barnhusförsamlingen.",
+    "resident": null,
+    "lat": 59.3366164,
+    "lng": 18.05694,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "Sifslédne Vördags aften den 5 hujus borttappades på Smedjegårdsgatan nedanom Barnhuset, et Fruntimmers Skospänne af Silsver, rundt, genombrutit och i Stenfacon; den som samma upphittar, behagade emot wedergällning sådant tilkänna gifwa hos Klockaren wid stora Barnhus-församlingen.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Smedjegårdsgatan",
+        "Barnhuset"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Barnhuset",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:16:forlorad-fruntimmers-toffel",
+    "label": "Förlorad Fruntimmers-Toffel",
+    "date": "1780-02-09",
+    "address": "Norrlandsgatan",
+    "description": "En gul Sassian-toffel och en vit Klack-toffel har försvunnit i Trumpetarebacken eller Mandsgränden; vem som hittar dem ska vara nöjd och lämna dem till Skoflickareboden på Norrlandsgatan strax intill Källaren Victoria mot ersättning.",
+    "resident": null,
+    "lat": 59.3363881,
+    "lng": 18.0709255,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "En Fruntimmers-Toffel af gult Sassian och hvit Klack är förlorad i Trumpetare-backen eller Mandsgränden; den som samma upphittat ware god och inlämne den uti Skoflickare-boden på Norrlandsgatan strakt wid Källaren Victoria emot wedergällning.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Trumpetare-backen",
+        "Mandsgränden",
+        "Skoflickare-boden",
+        "Norrlandsgatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Norrlandsgatan",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800209_144030_32_0003:17:laderlifsvycke",
+    "label": "Läderlifsvycke",
+    "date": "1780-02-05",
+    "address": null,
+    "description": "Om någon årlig människa den 5 hujus om aftonen upptäckt ett Fruntimmers Livsverk av Läder, tillika med en Lärfts Näsduk, täcktes den vara god och lämnade det i Tobaksboden t.h. närmast Adolph Fredrikstorg mot återgång.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-09",
+      "page": 3,
+      "archive_ref": "bib13506739_17800209_144030_32_0003.jpg",
+      "original_spelling": "Om någon årlig menniska den 5 hujus om aftonen upphittat et Fruntimmers Lifsvycke af Läder, tilka med en Lärfts Näsduk, täcktes den ware god och lämna det i Tobaksboden t hærnet of Adolph Fredrichstorg emot wedergällning.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Adolph Fredrichstorg"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

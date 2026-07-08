@@ -1,0 +1,799 @@
+[
+  {
+    "id": "bib13506739_17800202_144030_26_0006:1:forlorade-saker",
+    "label": "Förlorade saker",
+    "date": "1780-02-02",
+    "address": "Riddarhus-Torget",
+    "description": "Förlorade och förvarade föremål: Lördag mellan klockan 11 och 12 på morgonen upptäcktes en gata intill Malmens Källare vid Riddarhus-Torget. Här fanns två små transportsedlar, som kan återlämnas mot betalning till Fältvåbaben Johan Philip Franson vid Kongl. Liv-Garderiet.",
+    "resident": null,
+    "lat": 59.3262,
+    "lng": 18.0654,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "Uphittade och i förvar tagne saker:\nFörleden Lördag klockan einellan 11 och 12 förmiddagen, uphittades på gatan utmed Malmens Källare vid Riddarhus-Torget, twanne små Transport-Sedlar, hwilka emot Intimations betalande återlämnas af Fältwåbelen Johan Philip Franson wid Kongl. Liv-Garder.\nFörleden wecka är i Staden uphittat 2 stycken Syringar och en Fingerbor, som ägaren kan igenbekomma uti huset N:o 61 på Norrmalm och stora Badstugugatan.\nUf en mistänkt Karl är tilvara tagen en Koppar-skål, som ägaren på beskrifning kan igenstå uti huset N:o 130 wid Capitainsgatan.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Malmens Källare vid Riddarhus-Torget",
+        "huset N:o 61 på Norrmalm och stora Badstugugatan",
+        "huset N:o 130 wid Capitainsgatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Riddarhus-Torget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:2:tjanstsokande-en-ung-och-gwick-laquay",
+    "label": "Tjänstsökande: En ung och gwick Laquay",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "Tjänstsökande: En ung och gwick Laquay, som har tjent och nu tjenor hos hederligt Herrskap, och har hederliga bewis om sitt upförande, åstundar tjensf nåsta Påss hos någon ogift Herre eller annat hederligt Herrskap, som ger köfsyrenningar. Han kan kamma här och Peruquer, raka, servera bord och slå äder, samt åsven är väl kunning i skjutande; gunstbenägit swar utbedes i en förseglad Billet til J. F., som inlämnas uti Klädståndet midt emot Kongl. Post-Contoirer, hwareft man får sig anmäla.",
+    "resident": "Laquay",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "Tjänstsökande:\nEn ung och gwick Laquay, som har tjent och nu tjenor hos hederligt Herrskap, och har hederliga bewis om sitt upförande, åstundar tjensf nåsta Påss hos någon ogift Herre eller annat hederligt Herrskap, som ger köfsyrenningar, han kan kamma här och Peruquer, raka, servera bord och slå äder, samt åsven är väl kunning i skjutande; gunstbenägit swar utbedes i en förseglad Billet til J. F., som inlämnas uti Klädståndet midt emot Kongl. Post-Contoirer, hwareft man får sig anmäla.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Laquay",
+          "role": "ung"
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:3:tradgardsmastarforfragan",
+    "label": "Trädgårdsmästarförfrågan",
+    "date": "1780-02-02",
+    "address": "Hötorget",
+    "description": "De respektive Herren, som nästa vår söker någon trädgårds- eller skogsmästare, gift eller okändt, önskar adressera sig till Vaktmästaren Engström på Rännarbanan vid röda träbyggnaden vid Hötorget.",
+    "resident": null,
+    "lat": 59.3348,
+    "lng": 18.0636,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "De respective Herrskaper, som til nästa Wår åstundar någon Trägårds-måstare, gift eller ogift, behagade adressera sig til Vaktmästaren Engström på Rännarebanan uti röda Träbyggningen wid Hötorget.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Rännarebanan",
+        "Hötorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Hötorget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:4:anstallning-jungfru-vid-pass",
+    "label": "Anställning: Jungfru vid Påss",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "En allvarsam jungfru, som flera är tjänsteför, återkommer nästa påsk i en dylig situation inuti ett litet och stilla hem eller hos någon anhörig; adress om henne finns i tobaksboden mitt emot Kongl. Postkontoret.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "En alswarsam Jungfru, som flere är tjent, åstundar nästa Påss en dylisk Condition uti et litet och stilla hushåll, eller hos någon Ankling; adress om henne fass uti Tobaksboden midt emot Kongl. Post-Contoirer.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Tobaksboden",
+        "Kongl. Post-Contoirer"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:5:en-piga-om-25-ar-har-lust-at-komma-til-en-ogift-herre-nasta-",
+    "label": "En Piga om 25 år, har lust at komma til en ogift Herre nästa flyttning",
+    "date": "1780-02-02",
+    "address": "Klädmåkareboden midt emot Apotheket Morian wid Drottningegatan",
+    "description": "En flicka på 25 år har önskat att träffa en olönsam man vid nästa flyttning för att skada och tvätta; adressen ges ut i Klädmåkareboden, mitt emot Apoteket Morian vid Drottninggatan.",
+    "resident": "en Piga om 25 år",
+    "lat": 59.333,
+    "lng": 18.0628,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "En Piga om 25 år, har lust at komma til en ogift Herre nästa flyttning, at skada och twätta; adress lämnas uti Klädmåkareboden midt emot Apotheket Morian wid Drottningegatan.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "en Piga om 25 år",
+          "role": null
+        },
+        {
+          "name": "en ogift Herre",
+          "role": null
+        }
+      ],
+      "locations": [
+        "Klädmåkareboden",
+        "Apotheket Morian",
+        "Drottningegatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Drottninggatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:6:ankling-eller-ungkarl-att-hushalla-fore",
+    "label": "Ankling eller Ungkarl att hushålla före",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "En allvarsam och ständig Linka, åstundar någon beskedlig Ankling eller Ungkarl att hushålla före; adress lämnas uti Sockerbagareboden på Swedsegatan vid Stora Kyrkobrinken...",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "En alswarsam och ständig Linka, åstundar någon beskedelig Ankling eller Ungkarl at hushålla före; adress lämnas uti Sockerbagareboden på Swedsegatan wid stora Kyrköbrinken...",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Swedsegatan",
+        "stora Kyrköbrinken"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:7:tjanstgoring-vid-vardshus",
+    "label": "Tjänstgöring vid värdshus",
+    "date": "1780-02-02",
+    "address": "Källare",
+    "description": "En rolig och snabb flicka återfinns tjänstgörande på ett hedersfullt värdshus, källare eller hos någon okänd herr; gunstigt svar begärs med första i dessa sidor.",
+    "resident": null,
+    "lat": 59.3312613,
+    "lng": 17.9986882,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "En rof och hurtig Flicka åstundar tjensf på et hederligt Wärdshus, Källare, Coffehus, eller och hos någon ogift Herre; gunstigt swar begäres med första i dessa Blader.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "et hederligt Wärdshus",
+        "Källare"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Källare",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:8:anknytning-till-barns-skjutning",
+    "label": "Anknytning till barns skjutning",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "En beskedlig hustru, som tidigare haft hederligt folkets små barn att skjuta, återtar nu en dylig tjänst; här vänkas i dessa blad hur hon kan få sig anmäla.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "En beskedelig Hustru, som förr haft hederligt Folks små Barn at skjöta, åstundar nu en dylisk tienst; hwär wänkas i dessa Blader hwareft hon kan få sig anmäla.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:9:tjanstgoring-vid-kladstandet",
+    "label": "Tjänstgöring vid Klädståndet",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "En jungfru som är född med goda bevis på sitt uppförande, arbetar tjänstgöring hos någon ogift herr; underrättelse om henne fäster ut i Klädståndet vid Pelikan.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "En Jungfru, som är födesed med goda bewis om sitt upförande, åstundar tjensf hos någon ogift Herre; underrättelse om henne fass uti Klädståndet wid Pelikan.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Klädståndet"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:10:auktion-kokspiga-vid-master-samuels-grand",
+    "label": "Auktion: Kökspiga vid Mäster Samuels gränd",
+    "date": "1780-02-02",
+    "address": "Riddarhus-Torget",
+    "description": "I tjänst sökes: Till nästa flyttning en snygg och renlig kokspiga som förstår att göra mat i ett mindre hus; mer information omkring detta finns på adressen N:o 3 vid Mäster Samuels gränd, där man kan ta trappan upp. Hos ett hedersfullt herrskap sökes en rättare som är väl kunnig i alla typer av hushållning; den här sysseln kan man ta sig an och få mer information om adressen i Sockerbruksboden vid Riddarhus-Torget och hörnet av Stora Nygatan. På samma plats sökes en daja som förstår att göra de vanliga uppgifterna för en daja, samt sköta både husarbeten och mindre bostadsdjur.",
+    "resident": null,
+    "lat": 59.3262,
+    "lng": 18.0654,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "I tjenst åstundas:\nTil nästa flyttning en snygg och renlig Koks-piga, som förstar sig upp sådan matsägning som i et mindre hus kan föresälla; nærmare underrättelse fass i huset N:o 3 wid Mäster Samuels gränd en trappa up. Hos et hederligt Herrskap åstundas en Rättave, som är väl kunnig i all slags hushållning; den en sådan syssla kan åtaga sig, fass adress om stället i Sockerbruksboden wid Riddarhus-Torget och hörnet af stora Nygatan. Åstundas på samma ställe en Daja, som och förstar de göromål en Daja bör kunna, samt både sköra och små Bostaps-Kreaturs skjötsel.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Mäster Samuels gränd",
+        "Riddarhus-Torget",
+        "stora Nygatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Riddarhus-Torget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:11:tjanstgoring-tragards-mastare",
+    "label": "Tjänstgöring: Trägårds-måstare",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "En trädgårdsmästare, som också förstår tobaksodling och kan uppföra sig hederligt, anställs i tjänst nu straxt eller nästa flyttningstid; om detta underrättelse ges av vaktmästarna Ledin eller Bollner till kungliga krigskollegium.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "En Trägårds-måstare, som tillika förstar Tobaks-skjötsel och kan upte hederligt bewis om sitt upförande, åstundas i tjensf nu straxt eller och nästa flyttnings-tid; hwarom underrättelse lämnas i Kongl. Krigs-Colles giv af Vaktmästarne Ledin eller Bollner.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kongl. Krigs-Colle"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:12:barn-piga-tillganglig-for-flyttning",
+    "label": "Barn-piga tillgänglig för flyttning",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "En intressant flyttning-tidning berättar om en barnbarn, som med allvaret och dygnet kan komma här för att sy, tvätta och stärka m.m.; den här tjänsten erbjuds på Gården N:o 77 vid Tjärhoffs-gatan.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "Bid instundande flyttning-s tid åstundas en Barn-piga, som jämte alswarsamhet och dygd kan kamma här, sy, twätta och stärka m. m.; den slik tienst åstundar, anmäle sig i Gården N:o 77 wid Tjärhoffs-gatan.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Tjärhoffs-gatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:13:beskedlig-betjent",
+    "label": "Beskedlig Betjent",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "En betjänt med goda vittnesbörd, som kan komma här och rapportera till vaktmästaren Wingefelt i Stora Kansliet om god tjänst underrättelse.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "En beskedelig Betjent med goda witnesbörd, som kan kamma här, fass om god tjensf underrättelse af Vaktmästaren Wingsfedt uti Stora Cancelliet.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stora Cancelliet"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:14:en-drang-som-ar-fodd-fransos",
+    "label": "En Dräng som är född Fransos",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "En man, som föddes i Frankrike och något år gammal, samt visar goda och hedrande bevis på sitt beteende; tjänstgör i en militär styrka; därför berättas om dessa uppgifter i detta nummer.",
+    "resident": "En Dräng",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "En Dräng, som är född Fransos och något til åren, samt killika kan upte såkra och hedrande bewis om sitt upförande; åstundas i tjensf; hwarom underrättelse fass där dessa Blader utgifswas.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "En Dräng",
+          "role": null
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:15:fruntimmer-handel-vid-sandbergsgatan",
+    "label": "Fruntimmer-Handel vid Sandbergsgatan",
+    "date": "1780-02-02",
+    "address": "Södermalm",
+    "description": "Flera Rungsfrelser: \n\nPå Södermalm vid Sandbergsgatan i huset nummer 73 finns en upplysning om ett Fruntimmer som tillverkar alla typer av smör och fruntimmersgranlat, samt alla nyanserade uppsatta fruntimmersmössor och kappor. Dessutom erbjuder den billiga tvätt för blonder och svetsar.",
+    "resident": null,
+    "lat": 59.3123782,
+    "lng": 18.0697558,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "Diverse Rungsfrelser:\nPå Södermalm och Sandbergsgatan i huset N:o 73, fass underrättelse om et Fruntimmer som förfärdigar alla sorter: smör och Fruntimmers-granlat samt alla sorten nymodiga upsatte Fruntimmers-Mössor och Kappor, äfven twätts Blonder och Svetsar för billigt pris.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Södermalm",
+        "Sandbergsgatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Södermalm",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:16:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-02",
+    "address": "Stortorget",
+    "description": "Om en man med ärliga egenskaper och fördelaktiga egenskaper skulle stödja en sysslomannen med 100 riksdaler i lön vid ett offentligt projekt, kan någon som vill göra sig nyttig för detta arbete, kontakta W. P. genom att lämna in en biljett till W. P., där dessa tidningar utges.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "Om någon honett Man med åfordeftige egenskaper, skulle åstunda en sybla med 100 R:dalers lön wid et Publict. Nåkensaps-Wärk, hwärvid är fördelaktig tour, emot billiga wilkor, kan därom fass underrättelse endre förseglad Billet til W. P. inlämnas där dessa Tidningar utgifswas.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:17:emot-forsta-inteckning-uti-ograverad-fass-egendom-pa-landet-",
+    "label": "Emot första Inteckning uti ograverad fass Egendom på Landet ej längst från Stade",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "Enligt första intäktsförteckning uti en ogravad fastighet på landet nära staden, erbjuds ett pengarlån om cirka tusen riksdaler i specie, på längre eller kortare tid; upplysningar begärdes med första i dessa blad.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "Emot första Inteckning uti ograverad fass Egendom på Landet ej längst från Staden, åstundas et Penning-Lån af circa Et Tusende R:dalers Specie, på längre eller kortare tid; underrättelse begäres med första i dessa Blader:",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Landet ej längst från Staden"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:18:pension-tillganglig",
+    "label": "Pension tillgänglig",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "Om ett gott och stillt hus har lägenhet att nu genast motta en hedersvärd fru i pension på goda villkor, så berörs skriftligt om detta där dessa tidningar utgivs.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "Om uti et godt och stilla hus wore lägenhet at nu genast emottaga et hederligt Fruntimmer i Pension på goda wilkor, så utbedes skrifteligt adress därom där dessa Blader utgifswas.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "ett godt och stilla hus"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:19:nottrack-tillbaka",
+    "label": "Nottråck tillbaka",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "Den Herrn, som i dessa dagar fann sig nödsakad att avslämma sin Nottråck på ett ställe, är god och med första afhämtar honom; i annat fall värdar hans namn utsatt i dessa Blad samt Nottråcken förfald.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "Den Herrn, som i dessa dagar fant sig nödsakad at afslämma sin Nottråck på et ställe, är god och med första afhämtar honom; i annat fall wärder hans namn utsatt i dessa Blad samt Nottråcken förfald.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "et ställe"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:20:krog-eller-liqueurkammare",
+    "label": "Krog eller Liqueurkammare",
+    "date": "1780-02-02",
+    "address": null,
+    "description": "En Linka, som har egna rum, återstår att emottaga en krog eller liqueurkammare att göra räkning före; swar begärs med första i Stakens-gränd och Gården N:o 60 och 61.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "En Linka, som har egna Rum, åstundar at emottaga en Krog eller Liqueurkammare at göra räckning före; swar begäres med första i Stakens-gränd och Gården N:o 60 och 61.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stakens-gränd",
+        "Gården N:o 60 och 61"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:21:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-02",
+    "address": "Stortorget",
+    "description": "En hedersfull fru anser sig ha rätt att vänta på betalning för sina tjänster och kommer att vara tillgänglig under nästa flyttningstid vid Kammar uti ett hederligt hus i Norrmalm. Hennes förtjänst har beaktats i dessa sidor.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "Et hederligt Fruntimmer åstundar emot betalning så kost och Kammar uti något hederligt hus til nästa flyttnings-tid, häls på Norrmalm; swar beäres i dessa Blader.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800202_144030_26_0006:22:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-02",
+    "address": "Stortorget",
+    "description": "Notera till renskriftning, med säkerhet om fullständig och civilt pris; adress ges till Matarii Publici. Kontor: i Börsen.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-02",
+      "page": 6,
+      "archive_ref": "bib13506739_17800202_144030_26_0006.jpg",
+      "original_spelling": "Åstundas Noter til renskriftning, med fördesäkran om all accurate: och civilaste pris; adress lämnas pâi Matarii Publici. Contoir: i Börsen.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Börsen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

@@ -1,0 +1,399 @@
+[
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost dragoon or servant is sought who has keys and is honest, reliable, and willing to learn fishing. He can be found at Hofråcks-Posten And. Lindbeck.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Vid eft Gård utt Upland 7 mkl från Stockholm åstundas kfl nästa Påf en ogift Ledgårdsinmäkare eller Dräng, som är nycker och stadig, samt trogen, wore han något til ären sommen och därsjämte wan wid Fiske kunde wilören blifwa så mycket bättre; en sådan kan anmäla sig hos Hofråcks-Posten And. Lindbeck alla förmiddagar.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Ledgårdsinmäkare eller Dräng", "role": null}
+            ],
+            "locations": ["Upland 7 mkl från Stockholm", "Hofråcks-Posten And. Lindbeck"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost housewife is sought who is strong and skilled in ironing, and can be found at number 130 on Stora Nygatan.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Til nästa Påf åstundas en Huspiga, som jänte sine öfriga syster är färma i stärka och stryka, och före skrift wan wid Bord-uppaftning, försedd med hedrande bewis, kan anmäla sig i huset N:o 130 wid Stora Nygatan en trappa up.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Huspiga", "role": null}
+            ],
+            "locations": ["Stora Nygatan 130"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost young woman is sought who offered to cut hair, nails, and prepare food. She can be found at Bokmäkaren Frdberg in Kgl. Kammar-Revision.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Den Jungfrun, som i Dagligt Allehanda N:o 18 åstundade Lördag anmälte sig om tjensf och de färma at sagra hår, sv, spina och sagra mat, får adress hos Bokmäkaren Frdberg i Kgl. Kammar-Revision om Condition uti et litet och hedersligt hus håll här i Staden.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Jungfrun", "role": null}
+            ],
+            "locations": ["Kgl. Kammar-Revision"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost young man is sought who is honest and reliable. He can be found at the house of Munkbron where Parimmätaren lives.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Åstundas nu genast i tjensf en stadig och alswarsam Junfeu, som om sit upförande kan uppte goda bes- wis; om wilören kan fås underrättelse i huset wid Munkbron därest Parimmätaren bor en trappa up hos Enke-Fruf Lithander.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Junfeu", "role": null}
+            ],
+            "locations": ["Munkbron"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost man is sought who has left his house in a light gray Sorz-tout, gray striped stockings and socks, and dark hair and eyebrows. He was dressed as a schoolboy and used to steal from others by walking around the city.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Den 15 Januarii har Sidenväfware-Lärlingen Carl Fredrie Gaf oloftigen isfran des Husbonde afvikit, utan at om honom sedermera någon funckap kunnat erhållas, var wid afvikandet klädd uti ljusgrå Sorz-tout, grårandiga Udstrumpor och Ljängor, undersättig til wärten, mörka hår och ögonbryn, 22 år gammal; det förljudes at han utgifvitt sig för Skolgoke och brufat andras namn, med kringlopande i Staden at tiga- ga Skolpenningar;",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Sidenväfware-Lärlingen Carl Fredrie Gaf", "role": null}
+            ],
+            "locations": ["Staden"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost man is sought who ate at Tracteurstållet in Stora Horegränden. He should be reported to the first place where he pays his debt.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Den Herrn som gifwit sig ut för Waktmästare och welk sig hafva spisat på Tracteurstållet uti Stora Ho- paregränden huset N:o 90, behagare vara god och inställa sig på afwanndamde ställe med det första til sin skuld betalande, i annat fall nöddgas man at utsätta hans namn, på det at andra måtte for sika Spisgäster taga sig tillkvar.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Herr", "role": null}
+            ],
+            "locations": ["Stora Horegränden 90"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost man is sought who participated in a secret informant scheme with another man. The address can be given to L.L. in Boden.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Skulle någon hederlig Man som är boende i Jacobs-tracken åstunda at för des Son, om 12, högst 13 års älder, participera i en sticketig Informator, med en annan hederlig Man, som har en Son om 12 a 13 år, så kan den som det behagar gifwa sin adress tilkanna i en förseglad billet til L. L. i Boden där dessa Tids- ningar utgifwitas.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Hederlig Man", "role": null}
+            ],
+            "locations": ["Jacobs-tracken"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Auction",
+        "date": null,
+        "address": "Stockholm",
+        "description": "An auction is held for a manuscript called Antiquitates Sorundenses. The owner can either sell it or let someone else read it.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "För flere är tilbakars såldes på Auction et Manuscript, kallat, Antiquitates Sorundenses, hvilket om ägaren antingen skulle wilja emot betalning föruttra eller emot full borgen til genomseende utlämna, stedde en fornålskare därigenom en angenäm tjänst. Hos Akefor Pfeiffer kan swar lämnas.",
+            "themes": ["Auction"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Fornålskare", "role": null}
+            ],
+            "locations": ["Stockholm"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost man is sought who sent a letter to Jouvelepare Gesellen Hans Sam. Teiche at Tracteuren And. Herngren in Spe- etens gränd wid Bourse.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Et angeldægt bref til Jouvelepare Gesellen Hans Sam. Teiche är hos Tracteuren And. Herngren i Spe- etens gränd wid Bourse at afhämna, emot intimations betalande.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Jouvelepare Gesellen Hans Sam. Teiche", "role": null}
+            ],
+            "locations": ["Spe- etens gränd wid Bourse"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost man is sought who participated in a secret informant scheme with another man. The address can be given to L.L. in Boden.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Skulle någon hederlig Man som är boende i Jacobs-tracken åstunda at för des Son, om 12, högst 13 års älder, participera i en sticketig Informator, med en annan hederlig Man, som har en Son om 12 a 13 år, så kan den som det behagar gifwa sin adress tilkanna i en förseglad billet til L. L. i Boden där dessa Tids- ningar utgifwitas.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Hederlig Man", "role": null}
+            ],
+            "locations": ["Jacobs-tracken"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost man is sought who ate at Tracteurstållet in Stora Horegränden. He should be reported to the first place where he pays his debt.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Den Herrn som gifwit sig ut för Waktmästare och welk sig hafva spisat på Tracteurstållet uti Stora Ho- paregränden huset N:o 90, behagare vara god och inställa sig på afwanndamde ställe med det första til sin skuld betalande, i annat fall nöddgas man at utsätta hans namn, på det at andra måtte for sika Spisgäster taga sig tillkvar.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Herr", "role": null}
+            ],
+            "locations": ["Stora Horegränden 90"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost man is sought who ate at Tracteurstållet in Stora Horegränden. He should be reported to the first place where he pays his debt.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Den Herrn som gifwit sig ut för Waktmästare och welk sig hafva spisat på Tracteurstållet uti Stora Ho- paregränden huset N:o 90, behagare vara god och inställa sig på afwanndamde ställe med det första til sin skuld betalande, i annat fall nöddgas man at utsätta hans namn, på det at andra måtte for sika Spisgäster taga sig tillkvar.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Herr", "role": null}
+            ],
+            "locations": ["Stora Horegränden 90"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost man is sought who ate at Tracteurstållet in Stora Horegränden. He should be reported to the first place where he pays his debt.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Den Herrn som gifwit sig ut för Waktmästare och welk sig hafva spisat på Tracteurstållet uti Stora Ho- paregränden huset N:o 90, behagare vara god och inställa sig på afwanndamde ställe med det första til sin skuld betalande, i annat fall nöddgas man at utsätta hans namn, på det at andra måtte for sika Spisgäster taga sig tillkvar.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Herr", "role": null}
+            ],
+            "locations": ["Stora Horegränden 90"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost man is sought who ate at Tracteurstållet in Stora Horegränden. He should be reported to the first place where he pays his debt.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Den Herrn som gifwit sig ut för Waktmästare och welk sig hafva spisat på Tracteurstållet uti Stora Ho- paregränden huset N:o 90, behagare vara god och inställa sig på afwanndamde ställe med det första til sin skuld betalande, i annat fall nöddgas man at utsätta hans namn, på det at andra måtte for sika Spisgäster taga sig tillkvar.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Herr", "role": null}
+            ],
+            "locations": ["Stora Horegränden 90"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost man is sought who ate at Tracteurstållet in Stora Horegränden. He should be reported to the first place where he pays his debt.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800126_144030_20_0004.jpg",
+            "original_spelling": "Den Herrn som gifwit sig ut för Waktmästare och welk sig hafva spisat på Tracteurstållet uti Stora Ho- paregränden huset N:o 90, behagare vara god och inställa sig på afwanndamde ställe med det första til sin skuld betalande, i annat fall nöddgas man at utsätta hans namn, på det at andra måtte for sika Spisgäster taga sig tillkvar.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {"name": "Herr", "role": null}
+            ],
+            "locations": ["Stora Horegränden 90"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Lost & Found",
+        "date": null,
+        "address": "Stockholm",
+        "description": "A lost man is sought who ate at Tracteurstållet in Stora Horegränden. He should be reported to the first place where he pays his debt.",
+        "resident": null,
+        "lat": null,
+       

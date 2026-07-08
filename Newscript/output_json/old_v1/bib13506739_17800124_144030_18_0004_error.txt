@@ -1,0 +1,473 @@
+[
+    {
+        "label": "Tjenförande",
+        "date": null,
+        "address": null,
+        "description": "A notice seeking a billet for a sealed ticket containing copies of the newspaper.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "Tjenförande: Et beskedeligt Trunkimmer åstundar Condicton nästkommande Var uti någon Ripperbod; swar begäres uati en förseglad Billet där dessa Tidningar utgifswas til A. F.",
+            "themes": ["Employment", "Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": [],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "I tjenst åstundas",
+        "date": null,
+        "address": null,
+        "description": "A notice seeking employment for a cook and a housekeeper.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "I tjenst åstundas: Uti en liken Stad 7 mil ifrån Stockholm en Kockerska, som försmerligt kan saga mat och i öfrigt för- står alla förefallande hushålls-sysslor, samt en Huspiga som är säker at fösta Klädwatten väl och är wan ar paga up-på Bord, båda börra vara försedde med pärlcetliga bewis om erohet och älska ordentelighet och ventlighet; undervättelse om stället säs alla förniddagar ifvan kl. 8 till 11 uti Laurens Kräddbod i hörnet af Horns- och Göthgatorne.",
+            "themes": ["Employment"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                },
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": ["Liken Stad", "Laurens Kräddbod"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Diverse Rungörelser",
+        "date": null,
+        "address": null,
+        "description": "A notice about a lost paper that was found in the narrator's hat and contains many false stories.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "Då jag den 5 förleden October var i en Bod at handla något, kom et Papper inslyngandes genom dörzen och fasnade i min Hatt, jag tog det samma och låste däruti, en stor hop med gifna förreställningar, izhand alt annat war at jag ej skulle sja ofta besjöka den Krogen där Windruswan sitter, men mig tyckes det gör den Herrn som skrifwit detta lika mycket, ty jag wet mig inket vara skyldig den samma et runstycke mycket mindre står under hans lydnad. Han skrifwer sig menniscowän, det är väl? Men jag har aldrig sett at man bryka kasta åt en mennisca som åt en hund; tro helt säkert M. Herre, hvem I och är, at jag Gu- di lof, så ståkt mig hvarareft jag warit, at jag ej är rädd för någon ting, längst mindre för det jag går på Windruswan, hvilket Eder til swar länden.",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": [],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Sedan Tobaks-Fabriques arbetaren Swen Wallin den 20 November sittledne efter aftonen til dato helt och hållit saknats, utan at hvarken des Patron Fabriqueuren Demander, eller af des närmaste Slåttingar kunnat oackta all uptänkelig och möjelig eskerfragan få om honom minsta kundskap til des warelje",
+        "date": null,
+        "address": null,
+        "description": "A notice seeking information about the disappearance of a tobacco factory worker named Swen Wallin.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "Sedan Tobaks-Fabriques arbetaren Swen Wallin den 20 November sittledne efter aftonen til dato helt och hållit saknats, utan at hvarken des Patron Fabriqueuren Demander, eller af des närmaste Slåttingar kunnat oackta all uptänkelig och möjelig eskerfragan få om honom minsta kundskap til des warelje",
+            "themes": ["Lost & Found"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": "Swen Wallin",
+                    "role": null
+                }
+            ],
+            "locations": [],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Til at underwisa uti de allmanna erforderliga Wetenskaper en eller twenne välartade hedersliga Måns Barö, halft boende i Staden, erbjuder sig för sin utkomst stull",
+        "date": null,
+        "address": null,
+        "description": "An advertisement for a tutor offering lessons in various subjects.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "Til at underwisa uti de allmanna erforderliga Wetenskaper en eller twenne välartade hedersliga Måns Barö, halft boende i Staden, erbjuder sig för sin utkomst stull",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": "Måns Barö",
+                    "role": null
+                }
+            ],
+            "locations": [],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Borgare-Enkan Hustru Elisabeth Booz född Schröder, är i Bregrundis Stad med döden skiden, och hon i lifstiden til Borgare-Enkan Hustru Lind i berörde Stad testamenterat all sin qwarlämnade Egendom",
+        "date": null,
+        "address": null,
+        "description": "An announcement of the death and testament of a widow.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "Borgare-Enkan Hustru Elisabeth Booz född Schröder, är i Bregrundis Stad med döden skiden, och hon i lifstiden til Borgare-Enkan Hustru Lind i berörde Stad testamenterat all sin qwarlämnade Egendom",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": "Elisabeth Booz",
+                    "role": null
+                },
+                {
+                    "name": "Hustru Lind",
+                    "role": null
+                }
+            ],
+            "locations": [],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "En stadig och wid informationswärket wan Studierande åstundar 1 a 2 timmar om dagen btråda heders- liga Måns Barn som bo omkring Stadsgården eller Catharinä-tracten, ware sig uti Fransyskan, Tyisan, Vatin, Historien, räkna, Skrifwa eller Christendom",
+        "date": null,
+        "address": null,
+        "description": "An advertisement for a tutor offering lessons in various subjects.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "En stadig och wid informationswärket wan Studierande åstundar 1 a 2 timmar om dagen btråda heders- liga Måns Barn som bo omkring Stadsgården eller Catharinä-tracten, ware sig uti Fransyskan, Tyisan, Vatin, Historien, räkna, Skrifwa eller Christendom",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": [],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Som Hosmåstaren Eric Björck försledit är i Köpenhamn är med döden afgängen, föredensul anmodas ala de som weta sig vara honom något skyldig eller häfwa at fordra",
+        "date": null,
+        "address": null,
+        "description": "An announcement of the death and request to report any debts or claims against a deceased person.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "Som Hosmåstaren Eric Björck försledit är i Köpenhamn är med döden afgängen, föredensul anmodas ala de som weta sig vara honom något skyldig eller häfwa at fordra",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": "Eric Björck",
+                    "role": null
+                }
+            ],
+            "locations": [],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Den Mannen som har Previslegier at hålla Nåring, är god och anmäler sig i Silfwerstölds hus utk stora Grämunkegränd nästa huset intil Holmbergs Boklåda z trappor up",
+        "date": null,
+        "address": null,
+        "description": "An advertisement seeking a tenant for a house.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "Den Mannen som har Previslegier at hålla Nåring, är god och anmäler sig i Silfwerstölds hus utk stora Grämunkegränd nästa huset intil Holmbergs Boklåda z trappor up",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": ["Silfwerstölds hus", "Holmbergs Boklåda"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "En tyſt och stila Ungkarl åstundar at träffa accord om kost, kammare, lhus och wärma insfundande sardog i något hederligt huž inmellan Danviks-Tulln och Catharinä Kyrka",
+        "date": null,
+        "address": null,
+        "description": "An advertisement seeking a lodger.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "En tyſt och stila Ungkarl åstundar at träffa accord om kost, kammare, lhus och wärma insfundande sardog i något hederligt huž inmellan Danviks-Tulln och Catharinä Kyrka",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": ["Danviks-Tulln", "Catharinä Kyrka"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Til instundande Pås, åstundas en Tracteur wid Kungl. Djurgårds-Brunn, at därsidtes honette servera Brunngästerne öfwer Sommaren; om wilkenor behagades med första accorderas med Apotekaren Hinr. Schulz Hindrichsen upp på Ladugårdslands Apotheck",
+        "date": null,
+        "address": null,
+        "description": "An advertisement for a seasonal service at the Royal Djurgården Spring Well.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "Til instundande Pås, åstundas en Tracteur wid Kungl. Djurgårds-Brunn, at därsidtes honette servera Brunngästerne öfwer Sommaren; om wilkenor behagades med första accorderas med Apotekaren Hinr. Schulz Hindrichsen upp på Ladugårdslands Apotheck",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": ["Kungl. Djurgårds-Brunn", "Ladugårdslands Apotheck"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Et hedersligt Folk som sielf har Rum och gammolt Nåringssälle, åstundar göra räkning för någon Ol- stillateur; swar utbedcs med i desa Blad",
+        "date": null,
+        "address": null,
+        "description": "An advertisement seeking a tenant for an old house.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "Et hedersligt Folk som sielf har Rum och gammolt Nåringssälle, åstundar göra räkning för någon Ol- stillateur; swar utbedcs med i desa Blad",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": [],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "De zne Herrar som för 3 års tid på et listigt sätt kom sig til et lte hos Urmakaren O. Liungdahl, behagade med aldraförsta återitälln Uret eller des wärde, i annat fall blir deras namn utfack som är F. C.",
+        "date": null,
+        "address": null,
+        "description": "An advertisement seeking to reclaim a lost item from an upholsterer.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "De zne Herrar som för 3 års tid på et listigt sätt kom sig til et lte hos Urmakaren O. Liungdahl, behagade med aldraförsta återitälln Uret eller des wärde, i annat fall blir deras namn utfack som är F. C.",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": [],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "På egen Krogsedel åstundas at göra Räkning för någon hålst på Morrmalm; swar begäres i dessa Blad",
+        "date": null,
+        "address": null,
+        "description": "An advertisement seeking a tenant for a house.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "På egen Krogsedel åstundas at göra Räkning för någon hålst på Morrmalm; swar begäres i dessa Blad",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": ["Morrmalm"],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "Härjämte följer et Bihang, som innehåller Salu, Hyres och flere Notificcationer.",
+        "date": null,
+        "address": null,
+        "description": "An advertisement for a tenant seeking a house.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "Härjämte följer et Bihang, som innehåller Salu, Hyres och flere Notificcationer.",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": [],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+    },
+    {
+        "label": "I morgon kl. 8 utgifwes nästa Blad härav.",
+        "date": null,
+        "address": null,
+        "description": "An announcement of the next newspaper issue's release time.",
+        "resident": null,
+        "lat": null,
+        "lng": null,
+        "metadata": {
+            "source_paper": "Dagligt Allehanda",
+            "archive_ref": "bib13506739_17800124_144030_18_0004.jpg",
+            "original_spelling": "I morgon kl. 8 utgifwes nästa Blad härav.",
+            "themes": ["Announcement"],
+            "record_type": "Newspaper Notice",
+            "people": [
+                {
+                    "name": null,
+                    "role": null
+                }
+            ],
+            "locations": [],
+            "crime": null,
+            "suspect": null,
+            "victim": null,
+            "parish_event": null,
+            "geocode_status": "pending",
+            "location_approximate": true
+        }
+   

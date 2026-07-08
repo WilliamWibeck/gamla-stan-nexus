@@ -8,7 +8,8 @@ Usage:
 
 Drop newspaper page scans (JPG/PNG) into data_sources/images/ and/or text clippings
 (TXT) into data_sources/clippings/. Extraction is cached per file, so only new or
-changed scans are sent to the Gemini API.
+changed scans are sent to the Gemini API. Successfully processed scans are moved to
+data_sources/images/done/ automatically.
 """
 
 from __future__ import annotations

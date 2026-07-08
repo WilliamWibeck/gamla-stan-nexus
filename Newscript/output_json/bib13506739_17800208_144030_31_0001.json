@@ -1,0 +1,181 @@
+[
+  {
+    "id": "bib13506739_17800208_144030_31_0001:1:dageliga-tidningar",
+    "label": "Dageliga Tidningar",
+    "date": "1780-02-08",
+    "address": null,
+    "description": "Stockholm N:o 31.\nDen 8 Februarii 1780, Tisdag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nLördagen den 5 Februari klart om dagen men molnigt i mörkningen och blev molntäckt till och med Måndags morgon, oaktat barometern. Barometern stigit till 25,60. Kölden var den 5 om mitten av eftermiddagen 11 grader Celsius, om kvällen 10 grader Celsius, söndagsmorgonen 8 grader Celsius, mitten av dagen 7 grader Celsius och Måndagsmorgonen åsven 6 grader under fryspunkten. Det har blåst likt väster. Ingen snö fällt.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 1,
+      "archive_ref": "bib13506739_17800208_144030_31_0001.jpg",
+      "original_spelling": "Stockholm N:o 31.\nDen 8 Februarii 1780, Tisdag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nLördagen, d. 5 Febr. klart om dagen, men mulnade i mörkningen, och blev mulset till och med Måndags morgonen, oaktadt Barom. Stigit til 25,60. Kölden var d. 5 om midd. 11, om aftenen 10, Söndags morg. 8, midd. 7, aftenon 6, och Måndags morg. åsven 6 grader under fryspunten. Det har blåst liket Västan. Ingen snö fällt.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800208_144030_31_0001:2:utlandska-nyheter-london-den-14-januarii",
+    "label": "Utländska Nyheter: London den 14 Januarii",
+    "date": "1780-01-14",
+    "address": null,
+    "description": "Utländska Nyheter: London den 14 Januarii. Hovswet har i deße dagar fått depescher från General Clinton i York, hvilke fa, som det försäkras, svol innehålla, at emellan honom och Amerikanse Generalen Lee skall et Stillekand på wiss tid vara träftat, til utarbetande af en Försonings-Plan med Colonierne. Saken faa of vår Ministeer vara tagen i öfvervägande, men beror ännu på wisa omständigheter, som förut måste afgöraas. Det berättas åfven at Amerikanerne vändt sig til vår Ambakadeur i Haag, Riddaren Nork, med fredsförslag, som hemlade Ambakadeur har anmält, hvarpå han århullit Fullmagt af Konungen at börja underhandlingen och at i Konungens namn lämna en allmän tilläft at alla Amerikaner, som återträdde til förbindelsen med Engeland; Här talas eljest mycket om freds-propositioner emellan Frankriket, Spanien och England, i hvilka Amerikanerne äfven skola vara innebegreven. I brefvet från Capitaine Clerke, daterat Kamtschatka d. 8 Junii, som omförmåler Capitaine Cooks död, berättar nämnde Capitaine Clerke at hans besättnings är frist, at han intagit livsmelde för et helt år och at han å nyo årnar gå och förska en nordlig genomfart til Europa.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 1,
+      "archive_ref": "bib13506739_17800208_144030_31_0001.jpg",
+      "original_spelling": "Utländska Nyheter:\nLondon den 14 Januarii. Hovswet har i deße dagar fått depescher från General Clinton i York, hvilke fa, som det försäkras, svol innehålla, at emellan honom och Amerikanse Generalen Lee skall et Stillekand på wiss tid vara träftat, til utarbetande af en Försonings-Plan med Colonierne. Saken faa of vår Ministeer vara tagen i öfvervägande, men beror ännu på wisa omständigheter, som förut måste afgöraas. Det berättas åfven at Amerikanerne vändt sig til vår Ambakadeur i Haag, Riddaren Nork, med fredsförslag, som hemlade Ambakadeur har anmält, hvarpå han århullit Fullmagt af Konungen at börja underhandlingen och at i Konungens namn lämna en allmän tilläft at alla Amerikaner, som återträdde til förbindelsen med Engeland; Här talas eljest mycket om freds-propositioner emellan Frankriket, Spanien och England, i hvilka Amerikanerne äfven skola vara innebegreven. I brefvet från Capitaine Clerke, daterat Kamtschatka d. 8 Junii, som omförmåler Capitaine Cooks död, berättar nämnde Capitaine Clerke at hans besättnings är frist, at han intagit livsmelde för et helt år och at han å nyo årnar gå och förska en nordlig genomfart til Europa.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "London",
+        "York",
+        "Haag"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800208_144030_31_0001:3:slattinge-mot-tripolitanske-beyen",
+    "label": "Slåttinge mot Tripolitanske Beyen",
+    "date": "1779-12-01",
+    "address": null,
+    "description": "Barbariska Kusten den 1 december. Med sista brevet från Tripolis uppmärksammas att en strid utbrutit mellan en släkting till den tripolitanska beiren och hans armé rör sig mot staden, som de invånare har lämnat i extremt beskydd. De kristna har gift sig med de fartyg från olika nationer som ligger i hamnen, samt turkar som haft sina delar på säkra platser för att skydda sig mot plundring.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 1,
+      "archive_ref": "bib13506739_17800208_144030_31_0001.jpg",
+      "original_spelling": "Barbariske Kusten den 1 December. Med sista brefwen från Tripolis förnimmes at en Slågtinge of Triopolitanse Beyen, uoreft sig emot honom och med en talrik Armée ryckt emot Staden, som försakt des Inwänare i yktersta besörning; De Christne hafwa begiftwit sig på de i hamnen liggande främmande Skeven och Morener jämte Turkarne hafwa satt sina ågodelar t säkerhet på andra ställen, af frukten för plundring.",
+      "category": "conspiracy",
+      "themes": [
+        "Conspiracy"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Barbariske Kusten",
+        "Tripolis"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800208_144030_31_0001:4:kjellberg-s-complaint",
+    "label": "Kjellberg's Complaint",
+    "date": "1780-02-08",
+    "address": null,
+    "description": "Till Kungl. Maj:t, underdanig Swar, uppför Bruks-Patron Kjellbergs underd. Skrift.\n\nEder Kungl. Maj:t har till Collegatt underdaniga utlåtande, under den 8 i denna månad, behagat remittkes Er en af Eric Kjellberg, till Eder Kungl. Maj:t ingifwen underdanig ansökning, att emedan Forströms Färnwerk, under den tid Kjellberg därav var ägare, förmedelst Utvidabergs Kopparverks upkomss, fall förslorat större delen af den Koltagt och de Hemmans lagenheter, som efter Privilegierna, Forströms Bruk skola anslagne blifwit, och Kjellberg för sådan orsak icke varit i tillstånd utsmida hela Hammarfatten, hwarsfore han likewil alla utskylder betalt, Kungl. Maj:t altå täcktes tilldta Kjellberg, att til någon annan Bruks-ägare fa förslåla alt det undersmide, som på förenande sätt, wid berörde Bruk åsamfädre bliswit, intil den tiden, dæ det på Banco-Auction försäljes, eller och att Kungl. Maj:t och Kronan, för Kjellbergs hårigenom ledne förlust på egendomens wärde, måtte lämna honom en årsätning af en halv Tunna Guld.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 1,
+      "archive_ref": "bib13506739_17800208_144030_31_0001.jpg",
+      "original_spelling": "Til Kgl. Maj:t, underdaniget Swar, uppf Bruks-Patron Kjellbergs underd. Skrift.\nEder Kgl. Maj:t har til Collegatt underdaniga utlåtande, under den 8 i denne månad, behagat remittkes Era en af Eric Kjellberg, till Eder Kgl. Maj:t ingifwen underdanig ansökning, at emedan Forströms Färnwerk, under den tid Kjellberg därav var ägare, förmedelst Utvidabergs Kopparverks upkomss, fall förslorat större delen af den Koltagt och de Hemmans lagenheter, som efter Privilegierna, Forströms Bruk skola anslagne blifwit, och Kjellberg för sådan orsak icke fall varit i tillstånd utsmida hela Hammarfatten, hwarsfore han likewil alla utskylder betalt, Kgl. Maj:t altå täcktes tilldta Kjellberg, at til någon annan Bruks-ägare fa förslåla alt det undersmide, som på förenande sätt, wid berörde Bruk åsamfädre bliswit, intil den tiden, dæ det på Banco-Auction försälades, eller och at Kgl. Maj:t och Kronan, för Kjellbergs hårigenom ledne förlust på egendomens wärde, måtte lämna honom en årsätning af en halv Tunna Guld.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Forströms Färnwerk",
+        "Utvidabergs Kopparverk"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800208_144030_31_0001:5:auktion-hemman-vid-forstroms-bruk",
+    "label": "Auktion: Hemman vid Forströms Bruk",
+    "date": "1780-02-08",
+    "address": null,
+    "description": "När Kollegium härhöver fall afgifwa deß underdaniga utlåtande, bör Kollegium underdanigst gifwa wid handen, att det icke är Kollegio obekant, att Kjellberg, vid 1765 års Riksdag, förlorade 4 och et halvt Hemman, som varo under Forströms Bruk till Skatte inköpte, och att fadermera hans således försvagade Bruks-egendom, blev för gåld, genom Auction bortsäld, för ett nog ringa pris; Men chwu ommande altså hans omständigheter kunna vara, kan dock Kollegium icke styrka till bifall i hans underdaniga onskning: ty Forströms Bruk har på Banco Auction blifwit försäldat, med alla åtföljande rättigheter, äfven till undersmids återtagande, som desutom, enligt Förstatningarne, icke får skiljas frän Smidet, efter Hammarfatten, hwarsforen det upkommit. Och i fall Kjellberg eljest funnit sig af någon wara försördelad, kan han ställigen ic fordra årfutning därföre af Kronan. Collegiatum framhårdar ic.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-08",
+      "page": 1,
+      "archive_ref": "bib13506739_17800208_144030_31_0001.jpg",
+      "original_spelling": "Då Collegium härhöver fall afgifwa deß underdaniga utlåtande, bör Collegium underdanigst gifwa wid handen, at det icke är Collegio obekant, det Kjellberg, wid 1765 års Riksdag, förlorade 4 och et halst Hemman, som woro under Forströms Bruk til Skatte inköpte, och at fadermera hans således försvagade Bruks-egendom, blef för gåld, genom Auction bortsäld, för et nog ringa pris; Men chwu ommande altså hans omständigheter kunna vara, kan dock Collegium icke styrka til bifall i hans underdaniga onskning: ty Forströms Bruk har på Banco Auction blifwit försäldat, med alla åtföljande rättigheter, äfven til undersmids återtagande, som desutom, enligt Förstatningarne, icke får skiljas frän Smidet, efter Hammarfatten, hwarsforen det upkommit. Och i fall Kjellberg eljest funnit sig af någon wara försördelad, kan han ställigen ic fordra årfutning därföre af Kronan. Collegiatum framhårdar ic.\nJean Georg Lillienberg.\nJ. O. Rudbeck. P. Adlerheim. S. G. Zermelin. Serman, Ödelsberg.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Forströms Bruk"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

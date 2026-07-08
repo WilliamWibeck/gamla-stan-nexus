@@ -95,7 +95,7 @@ export function NexusSidebar({
 
         <div className="mt-auto shrink-0 rounded border border-stone-800/60 bg-stone-950/40 px-2 py-2">
           <p className="font-[family-name:var(--font-nexus-mono)] text-[8px] uppercase leading-relaxed tracking-wider text-stone-600">
-            Colors match map pins, graph nodes and ledger entries. Hover to cross-highlight.
+            Colors match map pins, graph nodes and notice list entries. Hover to cross-highlight.
           </p>
         </div>
       </div>

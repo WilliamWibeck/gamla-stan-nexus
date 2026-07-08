@@ -1,0 +1,71 @@
+[
+  {
+    "id": "bib13506739_17800103_144030_1_0001:1:observationer-fran-kungliga-vetenskaps-academi",
+    "label": "Observationer från Kungliga Vetenskaps-Academi",
+    "date": "1780-01-03",
+    "address": "Observatorium",
+    "description": "Stockholm N:o 1.\nDen 3 Januarii 1780, Måndag.\nDagliga Tidningar,\nEller:\nDagligt Allehanda.\nUtdrag af Kgl. Wetenskaps-Acad. Meteorol. Observationer, hålne på Observatorium Astronom. i Stockholm.\nDen 1 Jan. Fred. morg. var Barometern 25.75. Therem. 4 under Frys-punten, winden O. 2 mulit. Middagen Var. 25.70. Therem. 4 under Frys-punten, O. 1 mulit. Aftonen Var. 25.63. Therem. 4 under frys-punten, winden O.S.W. mulit, snidgat litet.\nDen 2 Jan. Sönd. morg. var Barom. 25.24. Thermom. 1 u. frys-punten SSW. 1 mulit, snidgat litet.",
+    "resident": null,
+    "lat": 59.3415109,
+    "lng": 18.0546699,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-03",
+      "page": 1,
+      "archive_ref": "bib13506739_17800103_144030_1_0001.jpg",
+      "original_spelling": "Stockholm N:o 1.\nDen 3 Januarii 1780, Måndag.\nDagliga Tidningar,\nEller:\nDagligt Allehanda.\nUtdrag af Kgl. Wetenskaps-Acad. Meteorol. Observationer, hålne på Observatorium Astronom. i Stockholm.\nDen 1 Jan. Fred. morg. var Barometern 25.75. Therem. 4 under Frys-punten, winden O. 2 mulit. Middagen Var. 25.70. Therem. 4 under Frys-punten, O. 1 mulit. Aftonen Var. 25.63. Therem. 4 under frys-punten, winden O.S.W. mulit, snidgat litet.\nDen 2 Jan. Sönd. morg. var Barom. 25.24. Thermom. 1 u. frys-punten SSW. 1 mulit, snidgat litet.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm",
+        "Observatorium Astronom. i Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Observatorium",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  },
+  {
+    "id": "bib13506739_17800103_144030_1_0001:2:tillstand-till-kungens-maj-t",
+    "label": "Tillstånd till Kungens Maj:t",
+    "date": "1780-01-01",
+    "address": null,
+    "description": "En tidningsnotis från 1780, skriven i gammal stil och med OCR-fel. Notisen är en personlig bokstav till kungen och innehåller flera verser som uttrycker lojalitet och heder för kungens maktsättning.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-03",
+      "page": 1,
+      "archive_ref": "bib13506739_17800103_144030_1_0001.jpg",
+      "original_spelling": "ODE til HANS MAJ:T KONUNGEN,\nDen 1 Januarii, 1780.\nDi Tibi dent ANNOs! à Te nam Cætera sumes. OVID.\nWid foten af DIN Thron, jag vordfamt lägger neder\nDet mer än ömma Nit, som nu min Penna leder:\nMin KONUNG! tag emot, med Nädigt välbehag,\nDet Qvade jag DIG ger, på årets första Dag!\nFRÅN Tysklands norra kant, i skygden af DIN Spira,\nLät mig med liflig fröjd DIN visa Styrfel fira!\nI DINA Storverk tjust, jag och DIG sjunga bör.\nKom, ljufva Skade-drift, och mina finnen rör!\nHvem tålar ej med mig, at fritt sin undran röja?\nOch, ryckt utom sig sjelf, DITT Lät til Stjärnor höja?\nFinn's någon Otacksam, som därvid håglös år;\nTil Fosterlandets väl han fäckert afvund bär ——\nDu, Prinsars Eftersyn! Du, Mennsklighetens Heder!\nDu, som åt Svea Folk en Gyld'ne Tid bereder!\nDu! som i Födslens ändt hvad enda Hjärta fick,\nOch lyckligt Dem förent uti et Ögnablick,\nDIN Magt befästad är. Njut, Milde KUNG, DIN Åra!\nLef, at Förnögd och Trygg DIN ärfda Krona bära!\nDu vinna skall i Alt DIN Önskans Föremål:\nVår Lydnad, glad och fri, ej några gränfor täl.\nSÅ smaka SJELF det Lugn, som DU kring Thronen sprider!\nDIN Dyra Halsa äg, til aldräfsta tider!\nVar DIG beständigt Lik! blif altid lika Stor!\nDet är på DIN PERSON, som alt vårt Väl beror.\nAck, Himmel! du som vet, hur högt EN KUNG jag vördar\nSom Fruktens af SIN dygd, til Nordens glädje, skjördar;\nSpar mig den grymma forg, at fe DES Dagars slut!\nJa!..... måtte innan defs..... mitt Lifsljus fläckna ut!\nI djupaste underdånighet af\nWILHELM VON ROSENHEIM.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "DIN Spira"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true
+    }
+  }
+]

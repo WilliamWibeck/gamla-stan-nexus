@@ -1,0 +1,352 @@
+[
+  {
+    "id": "bib13506739_17800131_144030_24_0001:1:dageliga-tidningar",
+    "label": "Dageliga Tidningar",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "Stockholm, nr 24.\n\nDen 31 januari 1780, måndag.\nDagliga Tidningar,\neller:\nDagligt Allehanda.\nFredagen den 28 januari, jämnt molnig, med nordöstlig vind, men utan snö. Kolden om mitten på dagen var 3 grader under fryspunkten, om kvällen 7 och lördagsmorgonen 8 grader under fryspunkten. Barometern har fallit till 25,85.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 1,
+      "archive_ref": "bib13506739_17800131_144030_24_0001.jpg",
+      "original_spelling": "Stockholm N:o 24.\nDen 31 Januarii 1780, Måndag.\nDageliga Tidningar,\nEller:\nDagligt Allehanda.\nFredagen den 28 Jan. jämmt mulek, med Nord-Ost, dock utan snö. Kolden om middagen 3, om aftonen 7 och Lördags morgonen 8 grader under fryspunkten. Barom. har fallit til 25,85.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0001:2:rattigheter-for-hushallsmedlemmar",
+    "label": "Rättigheter för hushållsmedlemmar",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "När frågor om hushålls- och tjänstemännens rättigheter ofta och intensivt diskuterats i dagliga tidningar, så att nästan inget syns osäkert, skulle det kanske vara överflödigt att lägga till något. Men när det gäller en fråga som berör varje enskilds rätt och samtidigt påverkar allmänna välfärden och släktens utveckling till fördel för kännetecken och fader, är det mer än man kan förvänta sig vid första ögonblicket. Därför tillåter jag mig att göra några enklare observationer i detta sammanhang.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 1,
+      "archive_ref": "bib13506739_17800131_144030_24_0001.jpg",
+      "original_spelling": "Då ännret, rörande Husbänders och Tjänstefolkets rättigheter, uti Dageliga Tidningarnar blifvit så ofta och mycket omtvistade, at däruti nästan ingen ting synes vara osagt, skulle och väl tyckas vara öfverflödigt at något däruti tillägga. Men då det angår en fråga, som så dint rörer hvars och ens enkilda rätt, samt tillika inlyter på allmänna wälfarend och det tilvärande släktets danande til kynne och fader, mer än man vid första påseende tyckes kunna sig föreställa, så torde och mig tillåttes, at därvid göra en och annan ökonstlad anmärkning.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Dageliga Tidningarnar"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0001:3:taxor-pa-arslonen",
+    "label": "Taxor på årslönen",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "Jag vill allenaft i förväg nämna de omtvistade taxer på års lönen, som jag, även av grund, anser vara onödiga och överflödiga. Deras fortsättning genom de försurna tidernas årsskatter betyder att det inte är möjligt att hantera dem, och en ny, efter nu gällande myntvärde inrättad taxa skulle bara vara en ny orsak till att års lönen stiger i mjuka utdöningar över dess tidigare nivå.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 1,
+      "archive_ref": "bib13506739_17800131_144030_24_0001.jpg",
+      "original_spelling": "Jag wil allenaft i förbigående nämna de omtvistade Taxor på årslönen, dem jag, äfven af den grund, för onödiga och öfverflödiga anser, at derafs efterlevnad, genom de försurne tiders årssareshet, befanns os möjligt at handhafwa, och at en ny, efter nu varande Mynt-wärde inrättad Taxa blott skulle blifwa en ny anledning til årslönernes stegrande i mjugg utdöver densamma.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0001:4:tjanstefolkets-skurkhet",
+    "label": "Tjänstefolkets skurkhet",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "Om tjänstemäklarnas skurkhet, slarvigheten, olyckliga livsformer och vad man vill kalla deras mångfaldiga uppräknade vantar, å ena sidan. Samt husförvaltarens otillräckliga och förhållandevis stränga regler, med flera, å andra sidan flagomål, varje änden orimlig att antingen avlägsna eller vidare påverka, då det ligger för allas ögon i öppen dag att sådana osederliga, Gud bättre, är inväntade och måste i alla tider mer eller mindre visa sig, så länge mänskliga släkter består av en blandning av goda och onda.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 1,
+      "archive_ref": "bib13506739_17800131_144030_24_0001.jpg",
+      "original_spelling": "De öfwer Tjänstefolkets skurkhet, wärdslöshet, olydna, sielfswäld och hvad man wil kalla deras mång-faldigt upräknade wanarter, å ena, samt Husbänders orättvisa och otidiga stränghet, med mera, å andra sidan förde flagomål, wore äfven orimneligit, at antingen wederlägga eller widare påyrka, då det ligger för allas ögon i öppen dag, at sådane oseder, Gud bättre, äro invritade, och måste i alla tider mer eller mindre visa sig, så länge Människo-släktet består af en blandning af goda och onda.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0001:5:lagstifterns-ognamarke",
+    "label": "Lagstifterns ögnamärke",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "Men vad jag i detta märker värdefullt är att ändra förordningen så att den tjänar till deje varters inskränkande, inte genom taxer och böter, vilka alltid blivit otillräckliga medel mot den vanartade merandels och snarast förlorat deras verkan. I stället skall en sådan förordning, i enlighet med dess egenskaper, nödvändigt påverka folklagens finn och fader.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 1,
+      "archive_ref": "bib13506739_17800131_144030_24_0001.jpg",
+      "original_spelling": "Men hvad jag in detta mäl anser wärdigt Lagstifterns ögnamärke, är, at få lämpa författningen, at den tjänar til deje varters inskränkande, ej genom Taxor och böter, hvilka altid blifwa otillräckelige medel, som emot den wanartige merendels och snarast förlora derb werkan, utan igenom det inlytande som en sådan författning, enligt dess beskaffenhet, nödvändigt på folkslagets finnen och fader bör werka.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0001:6:lagstifrande-magtens-beslut",
+    "label": "Lagstifrande Magtens beslut",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "En sådan tydlig författning bör därför, osförgripeligen sagt, hafta avseende på de särskilda klasserna, af vilka statens arbetande befolkning består. Eftersom en generell och gällande lag utan avseende på deras olika villkor skulle medföra en mot ändamålet stridig verkan.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 1,
+      "archive_ref": "bib13506739_17800131_144030_24_0001.jpg",
+      "original_spelling": "Vid en dylig författning bör således, osförgripeligen sagt, Lagstifrande Magten hafta afseende på de sär-fiklde Claser, af hvilka Statens arbetande folkmängd består, emedan en generel och för alla, utan afseende på deras olika wilkor, gällande Lag wäserlig skulle medföra en emot ändamålet stridig werkan.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0001:7:tjanstehions-stradga",
+    "label": "Tjänstehions-Stradga",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "Denna ändamål vid Tjänsterättslagen bör väl vara att den ej skall bli folknummers tillsvärt hinderlig, eller begränsa naturliga rättigheter för delen av Nationen som hela sin egendom består i sin industri och arbete, med vilket han måste och bör nå. Och när frågan ställs hur långt dessa rättigheter skall sträcka sig? så svarar jag med full övertygelse att de talar ingen annan begränsning än den som är nödvändig för att förebygga sedernas förfall och möjliga hopens wanläggande till en lättare livsstandard och överdrift, vilket gör dem till en belastning och påstående för staten. Därför måste alla åren och dygderna snart eller senare förbättras.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 1,
+      "archive_ref": "bib13506739_17800131_144030_24_0001.jpg",
+      "original_spelling": "Detta ändamål wid en Tjänstehions-Stradga bör wiserligen vara, at den ej må blifwa folknummers tilsvärt hinderlig, eller inskränka naturliga rättigheterne, för den del af Nationen, hvars hela egendom består i dess industrie och arbete, hwarmed han måste och bör sig nåra: och då frågan blifvet, huru längt dessa rättigheter sig skola sträka? så svarar jag af full öfvertygelie, at de tala ingen annan inskränkning, än den, som är nödvändig, at förekomma sedernas förfall och meniga hopens wanlägtande til en lättefull lefnad och öfverdåd, hwärigennom den blifwer för Staten en börd och påst, så at all åra och dygd, snart eller senare landförwises.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0001:8:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-01-31",
+    "address": "Stortorget",
+    "description": "En ensam man föreställer sig en menighet där dess medlemmar är uppvuxna och uppfostrade i Backsträger under föräldrars tillsyn, men dessa har saknat uppfostran till dygd och arbetsamhet. Dessa måste sikt lösas av folks afhödande, minst i andra generationen, vilket innebär att de inte själva kan arbeta eller sköta om sina barn, eftersom de inte har något att syslosätta dem med: vad för afhödande falla därav upvära? Jo, lättingar som i brist av hår till arbete måste ta sig på stöld eller bedrägeri och då utgör de en mängd som kan upväga i antal den öfriga nationen. Omstider blir det upppekbar plundring och våldsinnehet, där landet omstider måste uppsynas av tjuvar, rössare och banditer samt allmän fäkerhet blifva landsflygtig.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 1,
+      "archive_ref": "bib13506739_17800131_144030_24_0001.jpg",
+      "original_spelling": "Man föreställe sig allenaft en Menighet, hvars ringare Medlemmar äru tilkomne och upföddde i Backsträgor, under Föräldrars tilsyn, som sjelfsive saknat upfoftan til dygd och arbetsamhet, tv sådane måste sikt lös folks afhöda, atminstone i andra generationen, blifwa, hwilka således hwarken sjelfwe idas arbeta, eller sköta om, at därtill hålla sina Barn, icke eller hafwa något at syslosätta dem med: Hvad för afhöda falla därav upvära? Jo, lättingar, som i brist af hog til arbete, måste til sitt usla lifs bårning slå sig på stöld eller bedrägeri, och då de utgör en mängd, som kan upväga i antal den öfriga Nationen, omstider på uppekbar plundring och wäldsinnehter, då Landet omstider måste upsyllas af tjuwar, rössare och Banditer, samt all både enkildt och allmän fäkerhet blifwa landsflygtig.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0001:9:lagstifning-och-samhallets-rattigheter",
+    "label": "Lagstifning och samhällets rättigheter",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "Att förhindra detta onda måste ju vara lagstifternas ansvar: och de bestämmelser som leder till dess avbrott, kan aldrig få namn på ojämlik inskränkning av folkets rättigheter. Den borgerska samverkan kan ju aldrig upprätthållas, eftersom dess syfte är allmänhet och säkerhet, om inte varje enskild person som därtill inträder eller föds, av sina naturliga rättigheter avstår och underlättar den styrande makten så stor delen som utan att förse Statens välstånd ej kan utlösas: och den lagstiftning som ej rättfångar denna makt till att besegra sitt eget makt, som roten och fröet till all varighet som strider emot Samhällets syfte, skulle tillfoga Staten mer ondt än det hårdaste slavskap, medan dock enkelt säkerhet mellan människor står att förbättras.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 1,
+      "archive_ref": "bib13506739_17800131_144030_24_0001.jpg",
+      "original_spelling": "At förekomma detta onda måste ju vara Lagstifaren om hjärkat: och de författningar, som leda til dess afbjanande, kunna aldrig få namn af ojälig inskränkning af folkters rätt. Den Borgerliga sammanlefnaden kan ju aldrig besta, eftir dess ändamål, som är allmän-ro och säkerhet, winnas, med mindre en och hvar, sem därtuti inträder eller är född, af sina naturliga rättigheter afstår och underfakar den styrande Magtens wäl-bag så stor del, som utan at försera Statens wälfarend ei kan utlösas: och den Lagstifning, som ei rättefåen nöttjar denna magten, til at afsegra sielfswäld, säsom roten och fröet til all wanart, sem strider emot Samhällets ändamål, skulle tilfoga Staten mera ondt, än det hårdaste tråldoms-ök, hwarmed dock at-minskone enkild säkerhet emellan står at förenas.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800131_144030_24_0001:10:tjanstehions-forfattningar",
+    "label": "Tjänstehions-författningar",
+    "date": "1780-01-31",
+    "address": null,
+    "description": "Denna text handlar om att ta hänsyn till äldre och nyare tjänstehållningsförfattningar och deras försäljning, vilket naturligtvis måste haft sin betydelse. Man tror inte att det blir svårt att hitta förbättringar i detta område, eftersom det skulle innebära både en hög risk och stora ekonomiska förluster för både allmänheten och enskilda intressen.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-31",
+      "page": 1,
+      "archive_ref": "bib13506739_17800131_144030_24_0001.jpg",
+      "original_spelling": "Då häraf göres tillkomning til wäre äldre och nyare Tjänstehions-författningar och deras sälger, dem de naturligt wis måste hafta, öfvervägas, synes ej blifwa svart at finna, hurudan förbättring de betarfs wa, och at det wore både en högst skadelig och för den allmänna så wäl som enkilda wälsärden äsventyr.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

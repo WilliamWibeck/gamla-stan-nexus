@@ -136,6 +136,11 @@ export function categorizeNode(
 
   const meta: Meta = metadata ?? {}
   const inner: Meta = (meta.metadata as Meta | undefined) ?? {}
+
+  // Records from the extraction pipelines carry an explicit category; trust it.
+  const explicit = metaString(inner, 'category') ?? metaString(meta, 'category')
+  if (explicit && CATEGORY_BY_ID.has(explicit as CategoryId)) return explicit as CategoryId
+
   const themes = metaThemes(meta, inner)
   const text = `${name} ${metaString(meta, 'description') ?? ''}`.toLowerCase()
 

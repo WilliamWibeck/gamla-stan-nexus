@@ -1,0 +1,590 @@
+[
+  {
+    "id": "bib13506739_17800212_144030_35_0002:1:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-12",
+    "address": "Stortorget",
+    "description": "Som utsattes egenom västra delen av Morea till Hafshugten vid Candia, då alla våldförande Skepp blev af Turkiske Krigsskepp anhuggna och tvungne att årfsatta all tilsogad Skada. Franse Ambassadören skall härvid haft förklarat, det han trodde därför hårmed var nögd, men den Engelska därav motsatte sig att han twiflade om därför Konung härrut ville inga, och han an tyckte sig finna huru Franse Nation endast därav drog den måtta fördel.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"som utsattes egenom västra delen af Morea til Hafshugten wid Candia, då alla våldförande Skepp blefwo af Turkiske Krigs-Skepp anhuinne och twungne at årfsatta all tilsogad Skada.\" Franſe Ambahadeuwen ſall härvid hafwa förklarat, det han trodde dæs Høf hårmed wara nøgd, men den Engelsfe däræmot fghes hafwa hetrat fg at han twiflade om dæs Konung håruti willen inga, hals h an tycke ſig finna huru Franſe Nation endaft dæræ droge den måtta fórdele.\"",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Morea",
+        "Hafshugten",
+        "Candia"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:2:brev-fran-bre-t",
+    "label": "Brev från Breſt",
+    "date": "1780-01-21",
+    "address": null,
+    "description": "Paris, den 21 januari. Enligt brev från Brest säger flottan att Don Gaston inte är i öppet hav.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"Paris 8. 21 Januarii. Enligt bref från Breſt år Flottan under Don Gaston annv icke i öpna sjön.\"",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Breſt",
+        "Flottan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:3:engelske-amiraler",
+    "label": "Engelske Amiraler",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Det kommer väl att vara för sent att kunna hinna med den engelska flottan under amiral Rodney, om denne och E-squadern under amiral Ross verkligen avgår till Gibraltar undsättning. Enligt rykten har amiral Rodney blivit utskickad att täcka en engelsk handelsflotta på 300 segel från Azorerna, där han sedan skulle återvända till England och lämna den nämnda handelsflottan under ett antal av 5-6 tre-deckare.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"Den kommer wäl då för ſent at kunna hinna den Engelsfe under Amiral Rodney, om denne, jamte E-squadern under Amiral Roß werfeligen afgådt til Gibrltors undsfättning, emedan rykter går at Amiral Rodney blotz blifvit afſkickat at til de Azoriske Ŝarne betäcka en Engelsk Handels-Flotta af 300 segel, hwarifrän han ſedan ſulle återgå til England och lämna nämde Handels-Flotta under eicert af 5 a 6 Tre-gatter.\"",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Gibrltors",
+        "Azoriske Ŝarne"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:4:bref-fran-bre-t",
+    "label": "Bref från Breſt",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Alla brev från Brest berättar om en anfallet till ett läger där det finns runt 20.000 soldater i några städer. Av varje regemente, som ligger vid kusterna, ska 300 man skickas bort för att inspektera, och ordnas att dessa 300 man ska snabbt ersättas av ny rekrytering, lika som de redan förlorades.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"Alla bref från Breſt omtala anfælster til et Campement dærädes för några och 20,000 man i någa Wär. Af hwart Regemente, som ligger wid kusterne ſkola 300 man detachersas, fórmodeligen til inspe-pning, ordres åro ock glfne at dæs 300 man ſkola straxt årfsatts af Recruter, likaſom de redan woro förlorade.\"",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Breſt",
+        "Campement"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:5:london-rapport-om-fransk-kapare",
+    "label": "London rapport om fransk kapare",
+    "date": "1780-01-14",
+    "address": null,
+    "description": "London den 14 Januari. Det följer att Amiral Rodney redan skickat rapporten om hur han tagit en fransk kaper med 28 kanoner, tre franska västindiska handelsfartyg och en amerikansk fregatt med besked från kongressen till hovet i Versailles. Kapten Goodall ska också ha fått åtta holländska fartyg med krigsföremål lastade, avsedda för Toulon.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"London den 14 Jan. Det förljudes at Amiral Rodney redan insändt rapport at han borttagit en Franſk Kapare om 28 Canoner, 3 Franſe Westindiske Handels-Skepp och 1 Amerikans Fregatt med Depescher från Congresen til Hofwet i Versailles. Capitain Goodall ſall ock haftwa aūsfatt 8 Holländfe med krigs-förendenheter lastade Skepp, åmnade til Toulon.\"",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "London",
+        "Versailles"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:6:mylord-sandwich-har-d-verlammat",
+    "label": "Mylord Sandwich har dæverlåmmat",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Lord Sandwich har idag presenterat en plan för kungen om hur sjömagtan ska operera denna år. Enligt den samma planen har vi haft 50 linjeskepp i kanalen, 36 i Västindien, 3 i New York, 12 i Östindien och 15 i Medelhavet.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"Mylord Sandwich har i deze dagar dæverlåmmat til Kor-nungen Planen huru war Sjömagt detta år ſall operera; enligt densamma ſola wi haftwa 50 Linie-Skepp i Canalen, 36 i Westindien, 3 i Neu York, 12 i Ostindien och 15 i Medelhafswet.\"",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kornungen",
+        "Canalen",
+        "Westindien",
+        "Neu York",
+        "Ostindien",
+        "Medelhafswet"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:7:nyflaggad-ore-i-darlington",
+    "label": "Nyflaggad Ore i Darlington",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "I Darlington har det nyligen flaggats en Oregon, troligen den första man som någonsin såldes i England; tungan var 14 mark och han blev såld för x pund.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"- I Darlington är ny-ligen flagtad en Ore, fórmodeligen den förſte man ſedt i England; Tungan allena wägde 14 marker och blef sälj för x Guinee.\"",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Darlington"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:8:afsattning-ulf-regementek",
+    "label": "Afsättning: Ulf-Regementek",
+    "date": "1780-02-13",
+    "address": null,
+    "description": "Den 13 februari har Lieutenanten vid Ulfregementet till Høft J.E. von Rosen århållit nödigt afsæd, med tilsand at som kapten ska quara i armén; och efter honom har Kungl. Maj:t i nåder befördrat Qvartermästaren Friherre C.Wrede till Cornet vid samma regemente.",
+    "resident": "J.E. von Rosen",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"Under den 13 febril. Januarii har Lteutenanten wid Ulf-Regementek til Høft J. E. von Rosen århållit nädigt Afsæd, med tilsand at som Capitaine ſkä quar i Armeen; och efter honom har Kngl. Maj:t i nåder befördrat Qvartermästaren Friherre C. Wrede til Cornet wid samma Regemente.\"",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "J.E. von Rosen",
+          "role": "kapten"
+        },
+        {
+          "name": "C.Wrede",
+          "role": "friherre, kvartermästare"
+        }
+      ],
+      "locations": [
+        "Ulf-Regementek"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:9:utnamning-av-under-officerar",
+    "label": "Utnämning av Under-Officerar",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Den 21 i samma månad har Kungl. Maj:t i nåder utnämnt Underofficerarna Baron C. Rappe och Renkierna, den förre till Fänrik vid Calmarregementet och den senare till Cornett vid Bohusläns Dragæne-regementet.",
+    "resident": "C. Rappe",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"Den 21 i samma måndad har Kngl. Maj:t i nåder utnämnt Under-Officerane Baron C. Rappe och Renkierna, den förre til Fänrick wid Calmare Regemente och den ſenare til Cornett wid Bohus Låns Dra-gæne:Regemente.\"",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "C. Rappe",
+          "role": "Baron"
+        },
+        {
+          "name": "Renkierna",
+          "role": null
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:10:uppgifter-om-militara-tjanster",
+    "label": "Uppgifter om militära tjänster",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Den 2 februari årö i nåder befördrade: Wid Smålands Cavallerie-Regemente till Cornett, Vägen hos Hennes Kungl. Høghet Prinsesan C. E. Silfversparre. Wid Westgötha Dahls Regemente: till Regements-Prest, Extraordinarie Bataillons-Predikanten vid Regementet, A. Alenius; samt vid Arméns Flotta och Finnska Escadren, till Bataillons-Predikant, Extraordinarie Bataillons-Predikanten vid Flottan, Magister J. Waldius.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"Den 2 Februart årö i nåder befördrade: Wid Smålands Cavallerie-Regemente, til Cornett, Vagen hos Hennes Kngl. Høghet Prinsesan C. E. Silfversparre. Wid Westgötha Dahls Regemente: til Regements-Präst, Extraordinarie Bataillons-Predikanten wid Regementet, A. Alenius; samt wid Armeens Flotta och Finnska Escadren, til Bataillons-Predikant, Extraordinarie Bataillons-Predikanten wid Flottan, Magifter J. Waldius.\"",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Höghet Prinsesan C. E.",
+        "Regements-Präst",
+        "Extraordinarie Bataillons-Predikanten wid Regementet"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:11:krigs-archlemastaren-kohler",
+    "label": "Krigs-Archlemästaren Köhler",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "S.D. har Krigs-Archiepistemen Köhler århållit Kungl. Maj:ts nådiga Fullmäktighet på sin innehavande befälning, samt afsektade Stjärnepiloten vid Arméns Flotta, A. von Björckau, undfätt Lieutenant namn och heder.",
+    "resident": "Krigs-Archlemästaren Köhler",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"S. D. har Krigs-Archlemästaren Köhler århållit Kngl. Maj:ts nådiga Fullmægt på sin innehafwande befällning, samt afſekedade Štyckjunkaren wid Armeens Flotta, A. von Björckau, undfätt Lieutenants namn och heder.\"",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Krigs-Archlemästaren Köhler",
+          "role": null
+        },
+        {
+          "name": "Štyckjunkaren wid Armeens Flotta, A. von Björckau",
+          "role": "Lieutenant"
+        }
+      ],
+      "locations": [
+        "Armeens Flotta"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:12:ankomne-refand",
+    "label": "Ankomne Refandæ",
+    "date": "1780-02-12",
+    "address": "Hornsgatan",
+    "description": "Ankomna Refandæ.\nCapitain och Riddaren C.G. v. Matern från Oithebora bor i huset N:o 94 vid Ridboregatan hos Hyrfukten Sman. - Tullfrišwaren Bengt Ljungman från Nyad och Høfflagaren Magnus Sandström från Warberg bor i huset N:o 156 vid Hornsgatan. - Bataillons-Predikanten Magifter Samuel Berg från Hel-sflngland bor uti St. Catharina Kyrkoherde-hus vid Høgbergsgatan. - Conducteuren Dewall från Nykfs-ping bor på Källaren Stjernan.",
+    "resident": "C. G. v. Matern",
+    "lat": 59.3175,
+    "lng": 18.059,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"Ankomne Refandæ.\nCapitain och Riddaren C. G. v. Matern från Oithebora, bor i huset N:o 94 wid Ridboregatan hos Hyrfukten Sman. - Tullfriſwaren Bengt Ljungman från Nyad och Høfflagaren Magnus Sandström från Warberg, bo i huset N:o 156 wid Hornsgatan. - Bataillons-Predikanten Magifter Samuel Berg från Hel-sflngland, bor uti St. Catharina Kyrkoherde-hus wid Høgbergsgatan. - Conducteuren Dewall från Nykfs-ping, bor på Källaren Stjernan.\"",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "C. G. v. Matern",
+          "role": "Capitain och Riddaren"
+        },
+        {
+          "name": "Bengt Ljungman",
+          "role": "Tullfriſwaren"
+        },
+        {
+          "name": "Magnus Sandström",
+          "role": "Høfflagaren"
+        },
+        {
+          "name": "Magifter Samuel Berg",
+          "role": "Bataillons-Predikanten"
+        },
+        {
+          "name": "Dewall",
+          "role": "Conducteuren"
+        }
+      ],
+      "locations": [
+        "Ridboregatan",
+        "Hornsgatan",
+        "St. Catharina Kyrkoherde-hus wid Høgbergsgatan",
+        "Källaren Stjernan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Hornsgatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:13:torg-priser-den-11-februart-1780",
+    "label": "Torg-Priser den 11 Februart 1780",
+    "date": "1780-02-12",
+    "address": "Stortorget",
+    "description": "Marknadsvärden den 11 februari 2023.\nEn tunna svartsocker kostar 54, 57 och 59 daler. En tunna råg är 40, 42 och 43 daler. En tunna korn kostar 32, 33 och 34 daler. En tunna blandadtärning är 27 och 28 daler. En tunna hästskinn är 24 och 25 daler. En tunna arter är 42 och 46 daler.\nEn tunna sill kostar 66, 67 och 68 daler. Smör kostar 33, 34 och 35 daler. Svartmellanbröd kostar 7 och 8 daler. Kråkmellanbröd kostar 5 och 6 daler. Östrådmellanbröd kostar 4 daler. Helgryn kostar 7 och 8 daler. Korngryn kostar 6 och 7 daler. Arter är 3 och 4 daler. Fläsk kostar 17 och 18 daler.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"Torg-Priser den 11 Februart 1780.\nEn tunna Swete 54, 57 a 59 dal. En tunna Råg, 40, 42 a 43 dal. En tunna Korn 32, 33 a 34 dalers. En tunna Blandsjäd 27 a 28 dal. En tunna Haſra 24 a 25 dal. En tunna Arter 42 a 46 dalers.\nEn tunna Sill 66 a 68 dal. Et lisp. Smör 33 a 34 dal. Et lisp. Swetemjdl 7 a 8 dal. Et lisp. Krådt Rågmjdl 5 a 6 dal. Et lisp. oſtråd Rågmjdl 4 dal. Et lisp. Helgryn 7 a 8 dal. Et lisp. Korngryn 6 a 7 dal. Et lisp. Arter 3 a 4 dal. Et lisp. Fläsk 17 a 18 dal.\"",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:14:auktion-drangar-vid-torget",
+    "label": "Auktion: Drängar vid Torget",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Frøgas: Om Poškar som tjänar hederliga Husbärs som Bodetjänare, tillföra med en hop Drängar, haft frihet att däverfalla hederligt Folk med påkar och skålsord, då de nämnda årna i frid gå hem till fina hus, dem de äga som en friskad? Men då ej deras onfkan funnat vinnan sin fullboerdon, sjökt släcka sitt hefta finne med slagmål på Torget, uti en af de Södra Städerna, den 16 Januari kl. 6 om aftenen, och om ej wederbörande sådant enligt Lag borde förkomma?",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"Frøgas: Om Poſkar, som tjäna hederwärda Husbänder ſom Bodetjänker, tilfka med en hop Drängar, hafwa frihet at dæverfalla hederligt Folk med påkar och skålsord, då de ffinämde årna i frid gå hem til fine hus, dem de äga ſom en friskad? Men då ej deras onfkan funnat winna sin fullboerdon, sjökt släcka ſitt hefta finne med slagmål på Torget, uti en af de Södra Ståderne, den 16 Januarii kl. 6 om aftenen,\noch om ej wederbörande sådant enligt Lag borde förkomma?\"",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Torget",
+        "Södra Ståderne"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800212_144030_35_0002:15:auktion-bors-salen",
+    "label": "Auktion: Börs-Salen",
+    "date": "1780-02-12",
+    "address": null,
+    "description": "Ålvsåre av gatuadresser. I morgon söndag den 13 februari kommer att hållas en assembly i Stora Börssalen vanligt tids. Biljetter till detta samlingspunkt säljs enkelt på lördagen den 12, båda före och eftermiddagen, samt från klockan 3 till 5 på morgonen på Börskontoret. De höga och speciella herrarna som vill besöka assemblyn, täckas i god tid för de dagar, och innan entrén börjar, kan de hämta sina biljetter, eftersom det är olämpligt av trängsel på kontoret vid själva entrén måste undvikas.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-12",
+      "page": 2,
+      "archive_ref": "bib13506739_17800212_144030_35_0002.jpg",
+      "original_spelling": "\"Ålfsare af gatuſred.\nI morgon Šondag den 13 Febr. blifver Aſsemblee uti Stora Børs-Salen vanlig tima. Billetterne dær-till fdesäljas enkelt i dag Lørdag d. 12 denne's både før och eftermiddagen, samt i morgon ifrån kl. 3 til 5 eftermiddagen på Børs-Contoiret. De høga och ſpective Herrskaper, som behago kwiſita Aſsembleen,\ntäckas i god tild berörde dagar, och föbre an Entreen börjar, låta afhånta fine Billetter, på det olägenhet af trængsel i Contoiret wid ſelfiva Entreen må undwika.\"",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stora Børs-Salen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

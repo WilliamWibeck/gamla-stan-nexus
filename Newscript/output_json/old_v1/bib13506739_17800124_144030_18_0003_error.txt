@@ -1,0 +1,94 @@
+[
+  {
+    "label": "Borttappad snusdosa",
+    "date": null,
+    "address": "Engelska Källaren, Söder Sluss",
+    "description": "A notice seeking the return of a lost snuffbox.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800124_144030_18_0003.jpg",
+      "original_spelling": "Stiernan. — Capitaine Michael Humble, bor på Engelska Källaren vid Söder Sluss.",
+      "themes": ["Lost & Found"],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {"name": "Michael Humble", "role": "Capitaine"},
+        {"name": "Šdgrene", "role": "Lieutenant"}
+      ],
+      "locations": ["Engelska Källaren, Söder Sluss"],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Borttappad snusdosa",
+    "date": null,
+    "address": "Köpmanstorget",
+    "description": "A notice seeking the return of a lost snuffbox.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800124_144030_18_0003.jpg",
+      "original_spelling": "Lieutenant Šdgrene med Fru och Betjent från Carlserona, bo hos Alardi vid Köpmanstorget.",
+      "themes": ["Lost & Found"],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {"name": "Šdgrene", "role": "Lieutenant"},
+        {"name": "Alardi", "role": null}
+      ],
+      "locations": ["Köpmanstorget"],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Borttappad snusdosa",
+    "date": null,
+    "address": "stora Nygatan",
+    "description": "A notice seeking the return of a lost snuffbox.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800124_144030_18_0003.jpg",
+      "original_spelling": "Inspectoren Nils Bresander från Nerike, bor hos Guldsmeden Barvander vid stora Nygatan.",
+      "themes": ["Lost & Found"],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {"name": "Nils Bresander", "role": "Inspectoren"},
+        {"name": "Barvander", "role": "Guldsmeden"}
+      ],
+      "locations": ["stora Nygatan"],
+      "crime": null,
+      "suspect": null,
+      "victim": null,
+      "parish_event": null,
+      "geocode_status": "pending",
+      "location_approximate": true
+    }
+  },
+  {
+    "label": "Event Summary",
+    "date": "1780-01-21",
+    "address": "Amsterdam",
+    "description": "A summary of events occurring on January 21, 1780 in Amsterdam.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "archive_ref": "bib13506739_17800124_144030_18_0003.jpg",
+      "original_spelling": "Den 21 Januarii war Coursen: På Amsterdam = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

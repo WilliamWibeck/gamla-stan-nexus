@@ -1,0 +1,468 @@
+[
+  {
+    "id": "bib13506739_17800125_144030_19_0003:1:dodsfall-alderman-peter-wassberg",
+    "label": "Dödsfall: Skepparåldermannen Peter Wassberg",
+    "date": "1780-01-18",
+    "address": null,
+    "description": "Skepparåldermannen Peter Wassberg avled den 18 januari i en ålder av 64 år och 9 månader.",
+    "resident": "Peter Wassberg",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Skeppare Äldermanen Peter Wassberg död den 18 Januari t en ålder af 64 år och 9 månader.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Peter Wassberg",
+          "role": "Älderman"
+        }
+      ],
+      "locations": [],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": "dödsfall",
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:2:kongl-nummer-lotteriets-dragning",
+    "label": "Kungliga Nummerlotteriets Dragning",
+    "date": "1779-02-02",
+    "address": null,
+    "description": "Kungliga Nummerlotteriets 108:e dragning äger rum nästkommande onsdag den 2 februari, vilket härmed ges tillkänna, för att den eller de som önskar delta i detta lotteri må inom vanlig tid infinna sig hos Lotteriets kontor.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Kongl. Nummer-Lotteriets 108:de Dragning sker nåsikommende Onsdag den 2 Februari hvilket härmes elskanna gifves, på det den eller de som ästunda deltaga uti detta lotterie måge inom wanlig tid sig ti Lotter:s Vadfænde insinna.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stockholm"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:3:samhallsledamoternas-mote",
+    "label": "Samhällsledamöternas möte",
+    "date": "1780-01-26",
+    "address": "Haga",
+    "description": "Herrar Ledamöter av Samhället pro Patria, andra Avdelningen, behagade i morgon onsdag den 26 januari klockan 4 eftermiddagen på vanligt ställe enhälligt sammanträda.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Herrar Ledamöster af Samhället pro Patria, andra Afsdelningen, behagade t morgon Onsdag d. 26 Jan. Clockan 4 eftermiddagen å wanligt ståle enhäligt sammanträda.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Samhällsledamöternas möte"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:4:auktion-boklador",
+    "label": "Auktion: Franska och svenska encyklopedier",
+    "date": "1780-01-25",
+    "address": "Haga",
+    "description": "Till salu finns: I Uppfostringssällskapets boklåda delas gratis provarket av den franska och svenska ordboken ut, samt provartiklarna Luft, Djur och Gibraltar, av Svenska Encyklopedien, vilka båda verk av ett sällskap lärda utarbetas och hädanefter från trycket beständigt utges. Prenumeration på vartdera verket är 1 riksdaler. I samma boklåda finns två nya utländska journaler i kommission, nämligen Journal Militaire par une Societé d'anciens Militaires, började i Paris i april 1778 och innefattar alla nuvarande krigshändelser till lands och sjöss, med tillhöriga reflektioner i krigsvetenskapen, så att det tillika är att anse som ett verk i taktiken. Subscription på 24 partier är 6 riksdaler, och delarna 1-32 kan redan erhållas. Vidare Tableau raisonné de l'Histoire Litteraire du Dix-huitieme Siecle, redigerad av en Societé de Gens de Lettres, en journal som började utges i Overdon med januari 1779, och innefattar, utom egna recensioner, omtryckta upplagor av Journal Encyclopedique, Mercure de France och Herr Roziers Journal för Naturalhistorien. Varje månad utgår således ett stort band, upplyst även med kopparstick, och denna journal kan anses som ett bihang till nyaste eller Berniska upplagan av stora Encyklopedien, med avseende på fortsättningen av alla de nya upptäckter i vetenskaper och konster som le Tableau raisonné samlar ur alla de nyaste verk vilka nu och framdeles utkommer. Subscriptionen på alla 12 banden av denna Tableau är 10 riksdaler, och varav de sju första banden redan erhålls. De några få ännu kvarstående exemplaren av volymerna 7-12 av den förenämnda Berniska Encyklopedien behagade prenumeranterna hämta ut. Nästa sommar lämnas icke allenast vidare continuation av detta stora verk, utan kan också fås helt kompletta sviter från början för dem som behagar anteckna sig som prenumeranter och erlägga subscriptionen med 2 riksdaler. Ny katalog på de i förestående boklåda till salu varande böcker delas ut gratis.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Til salu finnes: I Upfostrings-Sällskapets Boklåda utdelas gratis Prof-Arket af den Fransyska och Swenska Ordbo-ken, samt Prof-Artiklarne Luft, Djur och Gidraltar, af Swenska Encyclopedien, hvilka båge Werk af et Sällskap Lärde utarbetas och hådanester ifran Trycket beständigt utgā. Prenumeration på hvaradera Werket är 1 R:daier. I samma Boklåda finnas 2:ne nya utlänsta Journaler i commision, neml. Journal Militaire par une Societé d'anciens Militaires, bbrjad i Paris i April 1778 och innesattar alla nu varande Krigs-händelser til Lands och Sjöds, med tilhorige reflextioner i Krigs-Wetenfapen, så at det tillika år at anse, som et Werk i Tactiquen. Subscription på 24 partier är 6 R:daier, och Part. 1-32 kunna redan ere hållas. Widare Tableau raisonné de l'Histoire Litteraire du Dix-huitieme Siecle, redigé par une Societé de Gens de Lettres, en Journal, som begnades i Overdon med Jan. 1779, och innefattar, utom egne Res eensioner, omtröcke Uplagor af Journal Encyclopedique, Mercure de France o H:r Roziers Journal för Natural-Historein. Hwar Månad utgår sälades et stort Band, uplyst åsven med Kopparstick, och kan denna Journal anses som et Bihang til nyaste eller Berniska Uplagan af stora Encyclopedien, i anseende til fortsättningen af alla de nya uptäcker i Wetenskaper och Konster, som le Tableau raisonné hopsamlar utur alla de nyaste Werken hvilka nu och frändeltes urkomma. Subscriptionen på alla 12 Banden af denna Tableau är 10 R:daier, och hvoraf de syra första Banden redan erhållas. De några få ännu kverstående Exemplaren af T. 7-12 at fören. Berniska Encyclopedie behagade Subscribersnerne uttaga. Nåsk. Sommar lämnas tcke allenaft widare continuation af detta stora Werk, utan funna och så fås helt complete Suiter ifrån början för dem, som behaga anteckna sig som Subscriberser och erlägga Subscriptionen med 2 R:daier. Ny Catalog på de i förestående Boklåda til salu varande Böcker utdelas gratis.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Upfostrings-Sällskapets Boklåda"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:5:bokbindarne-kumblin-ahlmark-och-nisling-i-upsala-disting",
+    "label": "Bokbindarna Kumblin, Ahlmark och Nisling i Uppsala: Nytt utbud",
+    "date": "1780-01-25",
+    "address": null,
+    "description": "Hos bokbindarna Kumblin, Ahlmark och Nisling i Uppsala distrikt, utöver det vanliga sortimentet, finns den nya Svenska Ekonomiska Dictionnaire. Den utkomna Suiten av kapten och riddaren Stålhammars Fransyska och Svenska samt Svenska och Fransyska lexikon, varpå man prenumererar för 1 riksdaler. Joseph Andrews och hans väns Abraham Adams händelser av Fielding, två delar. Inventarium över alla modeller i Modellkammaren. Magister Jungblads predikan på 17:e söndagen efter Trinitatis. Läkedom emot syndans fördärv, 4 §. Avhandling om svinkreaturens rätta och fördelaktiga skötsel, jämte underrättelse hur de kan födas och gödas, även utan säd och drank, hur deras fläsk och skinkor bör hanteras, m.m.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Hos Bokbindarne Kumblin, Ahlmark och Nisling i Upsala Disting, utom wanlige Akortiments, den nya Swenska Economiske Dictionairen. Den utkomne Suiten af Capit. och Ridd. Stålhammars Fransyska och Swenska samt Swenska och Fransyska Lexicon, hvorå prenumereras med 1 R:daier. Joseph Andrews och hans Wans Abraham Adams Händelser af Fielding, 2:ne Delar. Inventarium öfver alla Modeller uti Modell-Kammaren. Mag. Jungblads Predikan på 17:de Söndagen Trinit. Läkedom emot Synda Förderstvret, 4 §. Afsändling om Swin-kreaturen's rätta och fördelaktige fjsfjsel, jämt underättelse huru de kunna födas och gddas, åtven utan Såd och Drank, huru deras Fläst och Skinkor börha handteras, m. m.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Uppsala Disting"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:6:salj-drakt",
+    "label": "Till salu: Skrift om dräkt",
+    "date": "1780-01-25",
+    "address": "Stora Nygatan",
+    "description": "Av en år 1774 tryckt skrift kallad, Ett Folk: en Dräkt, författad av Kunglige sekreteraren J. Lannér, finns till salu i Kumbliniska Tryckeriet vid Stora Nygatan, huset nummer 76, andra upplagan, varuti, förutom flera tillägg, förekommer underrättelse om de av särskilda Kungliga kollegier och stater valda särskilda färger jämte förslag till flera; Exemplaret säljs för 3 daler.",
+    "resident": null,
+    "lat": 59.32421,
+    "lng": 18.06922,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Afs en år 1774 tevekt Skrift kallad, Et Folk: en Drägt, författad af Kgl. Secreteraren J. Lannér, finnes til salu i Kumbliniska Tryckeriet wid stora Nygatan huset N:o 76, andra Uplagan, hvorut, utom flere tildrängar, förekommer underättelse om de af särskilde Kgl. Collegier och Stater walde fars- skildte färgor jämta förslag til flere; Exemplaret sålles hästat til 3 §.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kumbliniska Tryckeriet",
+        "Stora Nygatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stora Nygatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:7:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-01-25",
+    "address": null,
+    "description": "I dag, den 25 i denna månad, försäljs den nuvarande återstoden av Baron Härlemans bibliotek på Bokauktionskammaren. I morgon påbörjas försäljningen av biskop Kizenings' samling, då en mängd boklådor även kommer att säljas.",
+    "resident": null,
+    "lat": 59.325,
+    "lng": 18.07082,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "I dag den 25 hujus försäljes nuteliga återstoden af Baron Härlemans Bibliothque på Bok-Auctions-Kammaren, och i morgon ser början med Bislopen Kizenings, då en mångd af Bok-lårar åsven komma at såljas.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bok-Auctions-Kammaren",
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:8:auktion-mobler-vid-stortorget",
+    "label": "Till salu: Kafferost med brännare och panna",
+    "date": "1780-01-25",
+    "address": null,
+    "description": "En utländsk kafferost med brännare och panna, i ganska gott skick, lämpligt för kaffehus, är till salu. Information lämnas i Kryddboden i Lilla Rantmästarehuset.",
+    "resident": null,
+    "lat": 59.325,
+    "lng": 18.07082,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "En utländsk Caffe-Ovare med Brännare och Panna, uti ganzka godt stand, tjenligt til Caffehus, åro til salu; underättelse lämnas uti Kryddboden i lilla Rantmästarehuset.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Kryddboden",
+        "lilla Rantmästarehuset"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:9:stenhuse-vid-realgatan",
+    "label": "Stenhus vid Regeringsgatan",
+    "date": "1780-01-25",
+    "address": null,
+    "description": "Ett välkonditionerat stenhus vid Regeringsgatan på Norrmalm är till salu, varpå det finns ett offentligt lån och köps kontant för 22.000 daler kopparmynt; vidare underrättelse lämnar Öström från Kungliga Bergskollegium.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Et väl conditionerat Stenhuse wid reeal gata på Norr, är til salu, hvorap är publiskt län och köpes eontant med 22.000 daler Kmt; widare underättelse lämnar Öström urit Kgl. Bergs-Collegio.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Realgatan",
+        "Norr"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:10:auktion-hastar-hus-och-smedja",
+    "label": "Till salu eller uthyrning: Stall, vagnbod och stenhus vid Packartorget",
+    "date": "1780-01-25",
+    "address": "Packartorget",
+    "description": "Till salu: Två stall med sina kusk-kamrar, det ena för 7 och det andra för 2 hästar, samt en vagnbod för tre övertäckta vagnar, med brunn på gården, samt ett litet stenhus ovanför brunnen med flera boningsrum och bagarstuga däri. Detta är att hyra där hovslagarsmedjan är på Packartorget. Upplysningar fås därstädes.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0745,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Astundas at köpa: Ewanne Stall med sine Kuks-Kamrar, det ena för 7 och det andra för 2:ne Hästor, tilika med Wagner-hus för stree dswertäckte Wagner, med Brunn i-gården, samt et litet Stenhuse åswanför Bruun med flere Bonings-rum och Bagaresugga uti; detta år at hyra där Hofslagare-Smedjan är på Packartorget; underättelse fäb därestades.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Packartorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Packartorget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:11:hyra-lagenhet-i-malmorne-eller-ladugardslandet",
+    "label": "Hyra: Lägenhet i Malmarna eller Ladugårdslandet",
+    "date": "1780-01-25",
+    "address": "Ladugårdslandet",
+    "description": "Önskas att hyra: Hos någon i Malmarna eller Ladugårdslandet, en våning en eller två trappor upp, bestående av 6 till 7 rum utom kök och drängkammare, samt övriga för ett hushåll nödvändiga bekvämligheter; skriftlig adress lämnas i Snusboden mitt emot Kungliga Posthuset.",
+    "resident": null,
+    "lat": 59.335,
+    "lng": 18.085,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Astundas at hyra: Vå någon af Malmorne eller Ladugårdslandet, en Wåning en eller 2:ne krappor up, bestående af 6 a 7 Runt utom Kök och Drängkaninare, samt öfrige för et hushåll nödige begwänligheter; striftelig a- dräc lämnas i Snusboden gent emot Kgl. Posthuset.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Malmörne",
+        "Ladugårdslandet"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Ladugårdslandet",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:12:hyra-rum-och-kok",
+    "label": "Hyra rum och kök",
+    "date": "1780-01-25",
+    "address": "Mynttorget",
+    "description": "För ett litet och stilla hushåll önskas nästa lördag att hyra 2 à 3 Rum och Kök, på Norr, inte långt från Norrmalmstorg, helst kring Klaratrakten. Upplysning om hyresvärden lämnas på Nummerlotterikontoret nr 20 vid Lilla Mynttorget.",
+    "resident": null,
+    "lat": 59.32675,
+    "lng": 18.06893,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "För et litet och stilla hushåll åsundas nästa sardag at hyra 2 a 3 Rum och Kök, på Norr icke långt frän Norrmalms-torg, hälst kring Clara trakten; om hyresman lämnas underättelse på Num. Lotterie Con- toiret N:o 20 wid lilla Mynttorget.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Norrmalmstorg",
+        "Clara trakten",
+        "Mynttorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Mynttorget",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0003:13:hyra-bostadsrum",
+    "label": "Hyra bostadsrum",
+    "date": "1780-01-25",
+    "address": null,
+    "description": "Önskas att hyra två boningsrum och kök, som kan anpassas till kopparslagarverkstad, på Norrmalm, vid Drottninggatan, Regeringsgatan eller Smedjegatan, eller också på någon välbelägen tomt. Svar begäres snarast i denna tidning.",
+    "resident": null,
+    "lat": 59.333,
+    "lng": 18.0628,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 3,
+      "archive_ref": "bib13506739_17800125_144030_19_0003.jpg",
+      "original_spelling": "Astundas at hyra twa Bonings-rum och Kök, som kan paka til Kopparlagare-werkslad, pa Norrmalm, Drotninge:s Regerings- eller Smedjegatorne, eller och utt någon veel grund; swar begäres med förba urt dessa Wåg.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Norrmalm",
+        "Drottninggatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Drottninggatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

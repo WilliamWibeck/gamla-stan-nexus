@@ -1,0 +1,152 @@
+[
+  {
+    "id": "bib13506739_17800124_144030_18_0003:1:capitaine-michael-humble-bor-pa-engelska-kallaren",
+    "label": "Kapten Michael Humble bor på Engelska Källaren",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Stjärnan. – Kapten Michael Humble bor på Engelska Källaren vid Söder Sluss.",
+    "resident": null,
+    "lat": 59.3222,
+    "lng": 18.0716,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 3,
+      "archive_ref": "bib13506739_17800124_144030_18_0003.jpg",
+      "original_spelling": "Stiernan. — Capitaine Michael Humble, bor på Engelska Källaren vid Söder Slus.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Engelska Källaren",
+        "Söder Slus"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Söder Sluss",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0003:2:boende-tillkannagivande",
+    "label": "Boende tillkännagivande",
+    "date": "1780-01-24",
+    "address": null,
+    "description": "Löjtnant Šo grene med fru och betjänt från Carlskrona, bor hos Alardi vid Köpmanstorget.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 3,
+      "archive_ref": "bib13506739_17800124_144030_18_0003.jpg",
+      "original_spelling": "Lieutenant Šo grene med Fru och Betjent från Carlserona, bo hos Alardi vid Köpmanstorget.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Köpmanstorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0003:3:inspektor-nils-bres-ander",
+    "label": "Inspektör Nils Bres återvänder från Närke",
+    "date": "1780-01-24",
+    "address": "Stora Nygatan",
+    "description": "Inspektören Nils Bres återvänder från Närke och bor hos guldsmeden Barvander vid Stora Nygatan.",
+    "resident": "Nils Bres",
+    "lat": 59.32421,
+    "lng": 18.06922,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 3,
+      "archive_ref": "bib13506739_17800124_144030_18_0003.jpg",
+      "original_spelling": "Inspectoren Nils Bres ander från Nerike, bor hos Guldsmeden Barvander vid stora Nygatan.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Nils Bres",
+          "role": "inspektör"
+        },
+        {
+          "name": "Barvander",
+          "role": "guldsmed"
+        }
+      ],
+      "locations": [
+        "Stora Nygatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stora Nygatan",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800124_144030_18_0003:4:coursen-den-21-januarii",
+    "label": "Kursen den 21 januari",
+    "date": "1780-01-21",
+    "address": null,
+    "description": "Den 21 januari var kursen:",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-24",
+      "page": 3,
+      "archive_ref": "bib13506739_17800124_144030_18_0003.jpg",
+      "original_spelling": "Den 21 Januarii war Coursen:",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Coursen"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

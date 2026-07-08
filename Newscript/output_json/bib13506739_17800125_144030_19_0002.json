@@ -1,0 +1,440 @@
+[
+  {
+    "id": "bib13506739_17800125_144030_19_0002:1:oden-och-fodelsestatistik",
+    "label": "Öden och födelsestatistik",
+    "date": "1779-12-21",
+    "address": "London",
+    "description": "London den 21 december. Från den 15 december 1778 till den 14 december 1779 har i denna staden dött 20420 personer, och fötts 16769 barn.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 2,
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "London den 21 Dec. Från den 15 Dec. 1778 tfl d. 14 Dec. 1779, åro i denne Staden öde 20420 personer, och födde 16769 barn.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "London"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0002:2:nyhet-om-fredsforhandlingar-med-amerika",
+    "label": "Nyhet om fredsförhandlingar med Amerika",
+    "date": "1780-01-08",
+    "address": "Boston",
+    "description": "Den 8 januari. Alla i England och på flera ställen spridda rykten om fredsförhandlingar med Amerika överensstämmer däri: att åtskilliga makter har erbjudit Huset Bourbon sin medling för att återupprätta freden med England, men varpå följde svaret att ingen fred kunde ingås, utan att Amerika samtidigt, som en oberoende och suverän makt, inkluderades. Sedan Kongressen fått kunskap härom, har den försett Herr D. Adams med fullmakter som extraordinär ambassadör, att på de amerikanska förenade staternas vägnar och i deras namn, svara på alla de propositioner som i detta avseende kunde göras. Herr Adams har också den 22 november avrest från Boston till Europa med den franska fregatten La Sensible.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 2,
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Sag den 8 Januarii. Alla k England och på flere ställen gångne rygten om någon Freds-underskaffing med America stamma däruti öfwerens: At ärstillinge Magter tilbudit Bourboniske Huset sin förmedling till fredens återstående med Engeland, men hwarpa fölgt det swar at ingen fred kunde ingås, utan at Amerika tillika, som en independent och Souveräne Magt, innebegreps. Sedan Congreken fådt kunskap här-om, har den förset H:r D. Adams med Fullmakter som Ambassadeur Extraordinaire, att på de Amerikanske förenade Staternes vägnar och i deras namn, swara till alla de propositioner hvilka i denne väg kunde gåras. Herr Adams är öck d. 22 Nov. afgången från Boston til Europa mrd Franse Fregatten la Sensible.",
+      "category": "foreign",
+      "themes": [
+        "Foreign Dispatches"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Boston",
+        "Europa"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0002:3:odmjukt-memorial",
+    "label": "Ödmjukt Memorial",
+    "date": "1780-01-25",
+    "address": null,
+    "description": "Av allmänna handlingar är det bekant hur vice borgmästaren Isaac Wacklin, både utan födelsebrödernas kunskap och mot deras vilja, inte endast har förlett och övertalat min dotter Catharina Christina Backman att ingå äktenskap med honom, utan också antagligen med ett falskt prästbetyg i Frötuna socken fått lysning, samt den 1 sistlidne augusti därstädes låtit viga sig med henne.",
+    "resident": "Isaac Wacklin",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 2,
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Ödmjukt Memorial.\nAv allmänna Papperen är bekant, huruledes vice Borgmästaren Isaac Wacklin, både utom Födelbrarnes kunskap och emot deras wilja, icke alleenast förledt och öfvertalt min Dotter Catharina Christina Backman, att inlåta sig med honom i ägtenkaps-handel, utan ock anteligen på et fälskt Präste-betyg, i Frötuna Socken utvärrat Lysning, samt den 1 siff. Augusti därsamnastades låtit sig med henne wiga.",
+      "category": "church",
+      "themes": [
+        "Church & Parish"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Isaac Wacklin",
+          "role": "Borgmästare"
+        },
+        {
+          "name": "Catharina Christina Backman",
+          "role": "Dotter"
+        }
+      ],
+      "locations": [
+        "Frötuna Socken"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": "begravning",
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0002:4:begaran-om-stamning",
+    "label": "Begäran om stämning",
+    "date": "1780-01-25",
+    "address": null,
+    "description": "Då nu detta giftermål på ett så lönskligt och tillika svekfullt sätt tillkommit, har jag hos Herr Häradshövdingen sett mig föranlåten att ödmjukligen anhålla om stämning på bemälte vice Borgmästare Wacklin, som nu uppehåller sig i Uleåborgs stad i Österbotten, till instundande Häradsting vid besagda Frötuna socken, att såväl svara för detta sitt bedrägliga uppförande, som till de därav blivande följder, till detta olagliga äktenskaps upphävande och det mera. Varefter jag sedan, som omständigheterna det medger, får anledning att föra min talan emot dem, som i en eller annan måtto därtill bidragit, samt blir i stånd satt, om Wacklin så ästundar, i laglig ordning och vid vederbörlig domstol för en kristlig och dygdeälskande allmänhet ådagalägga, att fullgoda skäl och icke egennyttiga avsikter, mindre tvång, trug eller hot, härutinnan styrker den mig åliggande faderliga ömhet och omvårdnad för mitt barns väl och nödvändiga utkomst.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 2,
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Då nu detta gistermål på et så lönskt och tilika swekfullt seft tilskommit, har hos Herr Häradsbärdin- gen sedt mig föranläten ödmjukeligen anhålla om stämning på bemälte vice Borgmästare Wacklin, som nu uppehåller sig i Uleåborgs Stad i Österbotten, til instundande Härads-Ting med besagle Frötuna Socken, at så väl swara för detta sit bedragerliga upförande, som til de därav blisvande fölger, til detta olagliga ägtenaps upphåsande och det mera, hwarefter jag sedan, som omständigheterne det medgifwa, får anledning pända min talan emot dem, som i en eller annan måtto därtill bidragit, samt bliswer i stand satt, om Wacklin så ästundar, i laglig ordning och wid wederbördelig Domstol för en christkelig och dygdåfiske Allmänhet ådaga lägga, at fullgoda skäl och icke egennyttiga afšíger, mindre twäng, trug eller hot, härutinnan styrk Den mig älliggande Faderliga ömnhet och omvärdnad för mitt Barns väl och nödlösa utkomst.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Uleåborgs Stad",
+        "Frötuna Socken"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0002:5:prosten-forseen-s-warning",
+    "label": "Prosten Forseen's Warning",
+    "date": "1780-01-25",
+    "address": "Stockholms län",
+    "description": "Och då prosten och kyrkoherden i omnämnda Frötuna socken, den högvördige och höglärde Herr Magister Olof Forseen, på det viset har främjat detta lagstridiga gästermål, att han, trots att goda män å mina vägnar, samma dag den andra lysningen ägde rum, till hans kännedom upptäckte att mitt samtycke därtill aldrig blivit lämnat, samt i följd därav gjorde honom en behörig föreställning om att ett sådant beskaffat äktenskapsmål inte skulle befordras med vidare åtgärd, icke desto mindre, med den av honom beviljade lysningen, fortsatte tredje gången, och till sist tillät vigsel, trots att Herr Prosten, strax efter nedkomsten från predikstolen, i sakristian, erhöll Kungl. Maj:ts respektive Befallningshavandes i Stockholms län, emot nämnda gästermål utfärdade förbudsbeslut. Så har jag även ödmjukeligen velat anhålla, att Herr Prosten Forseen i dessa delar, må inför mig som genpart vid ovanberörda Frötuna sockens nästinstundande härads-ting inkallas, såväl som för den rättegångskostnad han genom detta sitt förhållande mig orsakat. Nykarleby den 20 december 1779.",
+    "resident": "Magister Olof Forseen",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 2,
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Och som Prosten och Kyrkoherden i ommände Frötuna Socken, Högårewörddie och Höglårde Herr Magister Olof Forseen, i den wag befrämjat detta Lagstridiga Gistermål, at han, oaktadt at gode Män å mive vågnar, somma dag andra Lysningen för sig gick, til hans kännedom upptäcke, at mitt samtycke därtill aldrig bliswit lämnat, samt i följe därav gjorde honom behörig föreställning, at med widare åtgård et så bezaffat Ägtenaps-mål ej besfordra, icke desto mindre, med den of honom bemiljade Lysningen, tredje gången fortsor, och omfider Wigsel tilstädde, ehuru H:r Prosten, strakt efter nedkomsten från Predikostolen, i Sæcristian, erhölt Kngl. Maj:ts respective Befallningshafwandes i Stockholms Län, emot meromtalte Gistermål utfärdade Förbud-s-Utslag. Så har jag åswen ödmjukeligen anhålla skolat, at Herr Prosten Forseen i decke delar, må mig til genmale wid ofstoberöde Frötuna Sockens nästinstundande Härads-Ting inkallas, så väl som för den Rättegångs-kostnad han igenom detta sit förhållande mig tilsyndat. NytCarleby den 20 December 1779.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Magister Olof Forseen",
+          "role": "Biskop"
+        },
+        {
+          "name": "Prosten",
+          "role": "Kyrkoherde"
+        }
+      ],
+      "locations": [
+        "Frötuna socken, Högårewörddie och Höglårde",
+        "Stockholms län"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0002:6:stamning-pa-sir-vice-borgmastaren-isaac-wacklin",
+    "label": "Stämning på Sir vice Borgmästaren Isaac Wacklin",
+    "date": "1780-01-25",
+    "address": null,
+    "description": "Med anledning härav blev Herr vice borgmästare Isaac Wacklin härmed kallad och stämd till Frötuna och Länna skeppslags nästkommande vinterting, som den tjugofjärde februari innevarande år infaller på Bergshamra gästgivaregård, att svara Herr sekreteraren och hovrättsadvokaten Reinh. Wilh. Backman angående vad detta stämningsmemorial innehåller. Denna stämning ska Herr vice borgmästaren åtlyda vid laga ansvar.",
+    "resident": "Isaac Wacklin",
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 2,
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Stämning på Sir vice Borgmästaren Isaac Wacklin.\nI anledning härav warde Herr vice Borgmästaren Isaac Wacklin härigenom fallad och ståmd til Frötuna och Länna Skepslags näskommande Winter-Ting, som den tjugufierde Febr. innewarande ör infaller utle Bergshamra Gästgifwaregård, at göra Herr Secreteraren och Hof-Räkts-Advocaten Reinh. Wilh. Backman gemmale uti hvad detta Stämnings-Memorial innehåller. Denne Stämning har Herr vice Borgmästaren at ålyda wid Laga answar.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Isaac Wacklin",
+          "role": "vice mayor"
+        },
+        {
+          "name": "Reinh. Wilh. Backman",
+          "role": "secretary and court advocate"
+        }
+      ],
+      "locations": [
+        "Bergshamra Gästgifwaregård",
+        "Frötuna",
+        "Länna Skepslags"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0002:7:ingemar-johan-thingwalls-vagn",
+    "label": "Ingemar Johan Thingwalls vagn",
+    "date": "1780-01-14",
+    "address": null,
+    "description": "Stockholm den 14 januari 1780. På ämbetsvagnar: Ingemar Johan Thingwall.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 2,
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Stockholm den 14 Januarii 1780.\nPå Embetes wagnar Ingemar Johan Thingwall.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Embete"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0002:8:stamning-pa-sir-prosten-olof-forseen",
+    "label": "Stämning mot Herr Prosten Olof Forseen",
+    "date": "1780-01-25",
+    "address": null,
+    "description": "Med anledning härav blir Herr Prosten och Kyrkoherden, den högärevördige och höglärde Herr Magister Olof Forseen, härmed kallad och stämd till Frötuna och Länna skeppslags nästkommande vinterting, som infaller den tjugofjärde februari innevarande år, i Bergshamra gästgivaregård. Där ska han ge Herr Sekreteraren och Hovrättsadvokaten Reinh. Wilh. Backman genmäle angående vad detta stämningsmemorial innehåller. Denna stämning åligger Herr Prosten att lyda vid laga ansvar.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 2,
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Stämning på Sir Prosten Olof Forseen.\nI anledning härav warde Herr Prosten och Kyrkoherden Högårewörddie och Höglårde Herr Magister Olof Forseen, härigenom fallad och ståmd, til Frötuna och Länna Skepslags näskommande Winter-Ting, som den tjugufierde Februari innewarande är infaller, uti Bergshamra Gästgifwaregård, at göra Herr Secreteraren o Hof-Räkts-Advocaten Reinh. Wilh. Backman gemmale uti hvad detta Stämnings-Memorial innehåller. Denne Stämning åligger Herr Prosten wid Laga answar at ålyda.",
+      "category": "court",
+      "themes": [
+        "Court & State"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Bergshamra Gästgifwaregård"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0002:9:ingemar-johan-thingwalls-vagn",
+    "label": "Ingemar Johan Thingwalls vagn",
+    "date": "1780-01-14",
+    "address": null,
+    "description": "Stockholm den 14 januari 1780. På ämbetets vagnar: Ingemar Johan Thingwall.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 2,
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Stockholm d. 14 Jan. 1780.\nPå Embetes wagnar Ingemar Johan Thingwall.",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Embete"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800125_144030_19_0002:10:ankomna-refande-handelsman-och-officiella",
+    "label": "Ankomna Resande: Handelsmän och Officiella",
+    "date": "1780-01-25",
+    "address": "Riddarholmen",
+    "description": "Handelsman Johan Hortulan från Eslstuna, bor hos traktören Anders Teberg vid Besvärsgatan i gården nummer 209. — Krigskommissarien Korfeman med betjänt från Roslagen, bor i stads-cabéuren Charmwouths hus vid Norra Smedjegats brunn. — Fältväbeln Silfversvärd och sergeanten Meyer från Finland, bor hos hustru Mogelia i Grytgjutaregränden. — Åbon Carl Gustaf Stare från Mariestad, bor i Sterkefska huset på Riddarholmen. — Konsuln P. E. Wulff och stadssekreteraren Sven Darin från Marstrand, bor hos perukmakaren Frestare vid Hornsgatan. — Grosshandlaren Petter Wiberg från Norrköping, bor på Källaren Tre Tunnor. — Kaptenen von Herzenhielm från Falun, bor vid Källaren Holländska Dyn. — Löjtnanten Broman med betjänt från Singöland, logerar i Styckgjutarebacken och huset nummer 42. — Handelsmännen Koloff och Hanquiss från Västervik, bor hos direktören Björkman vid Syhuset. — Volontären vid Arméns flotta Adolph Fredr. Nicander, bor på Källaren Freden. — Styckgjutaren Nils Hellberg, bor hos parmmätaren vid Packartorget. — Kapten baron Axel Roxendorff med betjänt från Södermanland, bor hos guldsmeden Nils Lund vid Västerlånggatan.",
+    "resident": "Johan Hortulan",
+    "lat": 59.3249,
+    "lng": 18.063,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-01-25",
+      "page": 2,
+      "archive_ref": "bib13506739_17800125_144030_19_0002.jpg",
+      "original_spelling": "Ankomne Refande:\nHandelsman Johan Hortulan från Eslstuna, bor hos Tracteuren Anders Teberg wid Besvärgatan i Gården N:o 209. — Krigs-Commissarien Korfeman med Betjent frän Roslagen, bor i Stads-Cabéurens Charmwouths hus wid Norra Smedegats Brunn. — Fältvåbelen Silfversvärd och Sergeanten Meyer frän Finland, bo hos Hustru Mogelia i Gryrosutaregränden. — Åkobonen Carl Gustaf Stare frän Mariästad, bor i Sterkifsa huset på Riddarholmen. — Consulen P. E. Wulff och Stads-Secreteraren Sven Darin frän Marstrand, bo hos Peruquemakaren Frestare wid Hornsgatan. — Groshandlaren Petter Wiberg frän Norr-Öping, bor på Källaren z Tunnor. — Captainen von Herzenhielm frän Jahlun, bor vid Källaren Hol-ländska Dyhn. Lieutenant Broman med Betjent frän Singåland, logerar i Styckgiutarebacken och huset N:o 42. — Handelsmännen Koloff och Hanquiss frän Westervik, bo hos Directeuren Björkman wid Sythuset. — Volontairen wid Armeens Flotta Adolph Fredr. Nicander, bor på Källaren Freden. — Styckgiutareni Mils Hellberg, bor hos Parm-mätraren wid Packartorget. — Capit. Baron Axel Roxendorff med Betjent frän Södermanland, bor hos Guldsmeden Nils Lund wid Wästerlånggatan",
+      "category": "daily",
+      "themes": [
+        "City Life"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [
+        {
+          "name": "Johan Hortulan",
+          "role": "Handelsman"
+        },
+        {
+          "name": "Krigs-Commissarien Korfeman",
+          "role": "Officiell"
+        },
+        {
+          "name": "Silfversvärd och Sergeanten Meyer",
+          "role": "Fältvåbelen och Sergeant från Finland"
+        },
+        {
+          "name": "Carl Gustaf Stare",
+          "role": "Åkobon"
+        },
+        {
+          "name": "P. E. Wulff och Sven Darin",
+          "role": "Consulen och Stads-Secreteraren från Marstrand"
+        },
+        {
+          "name": "Petter Wiberg",
+          "role": "Groshandlare"
+        },
+        {
+          "name": "Captainen von Herzenhielm",
+          "role": "Officer från Jahlun"
+        },
+        {
+          "name": "Lieutenant Broman",
+          "role": "Betjent från Singåland"
+        },
+        {
+          "name": "Koloff och Hanquiss",
+          "role": "Handelsmän från Westervik"
+        },
+        {
+          "name": "Adolph Fredr. Nicander",
+          "role": "Volontär i Arméns Flotta"
+        },
+        {
+          "name": "Mils Hellberg",
+          "role": "Styckgiutareni"
+        },
+        {
+          "name": "Axel Roxendorff",
+          "role": "Capit. Baron med Betjent från Södermanland"
+        }
+      ],
+      "locations": [
+        "Besvärgatan i Gården N:o 209",
+        "Charmwouths hus wid Norra Smedegats Brunn",
+        "Gryrosutaregränden",
+        "Riddarholmen",
+        "Hornsgatan",
+        "Sythuset",
+        "Packartorget",
+        "Wästerlånggatan"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Riddarholmen",
+      "geocode_status": "matched",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

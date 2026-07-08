@@ -1,0 +1,262 @@
+[
+  {
+    "id": "bib13506739_17800210_144030_33_0007:1:auktion-panter",
+    "label": "Auktion: Panter",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "Förteckning över de Panter, som kommer att ha middag från kl. 2 till 6 på Contoirets Auctions-Kammare, samt för morgonen från klockan 9 till 12.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 7,
+      "archive_ref": "bib13506739_17800210_144030_33_0007.jpg",
+      "original_spelling": "Förteckning up på de Panter, hvilka nå middagen ifrån kl. 2 til 6 komma at Contoirets Auctions-Kammare, samt förmiddagen ifrån klockan 9 til 12 fö",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Contoirets Auctions-Kammare"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0007:2:auktion-smycken",
+    "label": "Auktion: Smycken",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "Pantnummer: 9971.\n\nNummer 1: I Svenskt Silfver-Ur av Walleen.\n\nNummer 6102:\n\n2. I Guld-Dosa, 35 och 3-4 dels Ducat.\n\n3. I Ring med Rosen- och Taffelstenar.\n\n4. I Guld-Ur.\n\n5. I graverad dito.\n\n6. I Svenskt Guld-Ur.\n\nNummer 8158:\n\n7. I Guld-Ur av Hovenshild med Fruntimmers Guld-kjed och 3 Berloquer-\n\nNummer 8237:\n\n8. I Stål-Wårja incrusterad med Guld.\n\nNummer 8288:\n\n9. I Fruntimmers-Bireau med Stenskifwa.\n\nNummer 8088:\n\n10. I Guld-Ur med dito Kjed och 2 Berloquer-\n\nNummer: \n\n11. 1 Guld-ur med 3 Guldb Berloquer.\n\nNummer 9239:\n\n12. 1 par Girandoller med 38 Rosenst. i foder.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 7,
+      "archive_ref": "bib13506739_17800210_144030_33_0007.jpg",
+      "original_spelling": "Pant-Nummern 9971.\nN:o 1. I Svenskt Silfwer-Ur af Walleen.\nN:o 6102.\n2. I Guld-Dosa, 35 och 3-4:delss Ducat.\n3. I Ring med Rosen- och Taffelstenar.\n4. I Guld-Ur.\n5. I graverat dito.\n6. I Svenskt Guld-Ur.\nN:o 8158.\n7. I Guld-Ur af Hovenshild med Fruntimmers Guld-kjed och 3 Berloquer-\nN:o 8237.\n8. I Stål-Wårja incrusterad med Guld.\nN:o 8288.\n9. I Fruntimmers-Bireau med Stenskifwa.\nN:o 8088.\n10. I Guld-Ur med dito Kjed och 2 Berloquer-\nN:o\n11. 1 Guld-ur med 3 Guldb Berloquer.\nN:o 9239.\n12. 1 par Girandoller med 38 Rosenst. i foder.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Svenskt Silfwer-Ur",
+        "Guld-Dosa",
+        "Ring med Rosen- och Taffelstenar",
+        "Guld-Ur",
+        "Svenskt Guld-Ur",
+        "Stål-Wårja incrusterad med Guld",
+        "Fruntimmers-Bireau med Stenskifwa"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0007:3:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-10",
+    "address": "Stortorget",
+    "description": "N:o C 962.\n13. 1 emaljerat guldur med nyckel.\n14. 1 dito dito med dito.\n\nN:o 5517.\n15. Caracterer av elfenben och ebenholt komplett till schackspel i 1 Mazar-akt.\n\nN:o 4268.\n16. 1 ring med stor gul topas carmoiserad med 11 större rosenstenar.\n\nN:o 7708.\n17. 1 guldur med stenar och guldkedja.\n\nN:o 8908.\n18. 1 guldur av rock i Stockholm.\n\nN:o 1281.\n19. 2 förgyllda bord.\n\nN:o 491 r.\n20. r Damascenerad bösa med kulform.\n\nN:o D 477.\n21. r Spanskt ndr med guldknapp.\n22. r Guldur med stenar, guldkedja och 3 berlock.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 7,
+      "archive_ref": "bib13506739_17800210_144030_33_0007.jpg",
+      "original_spelling": "N:o C 962.\n13. 1 emaillerat Guld-ur med Nyckel.\n14. 1 dito dito med dito.\nN:o 5517.\n15. Caracterer af Elphenben och Ebenholz complett til Schackspel i 1 Mazar-akt.\nN:o 4268.\n16. 1 Ring med stor gul Topas carmoiserad med 11 större Rosenstenar.\nN:o 7708.\n17. 1 Guld-ur med Stenar och Guldkjed.\nN:o 8908.\n18. 1 Guld-ur af Rock i Stockholm.\nN:o 1281.\n19. 2 förgylte Bord.\nN:o 491 r.\n20. r Damascerad Bösa med Kulform.\nN:o D 477.\n21. r Spanskt Ndr med Guldknapp.\n22. r Guld-Ur med Stenar, Guld-kjed och 3 Berloquer.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0007:4:auktion-mobler-vid-stortorget",
+    "label": "Auktion: Möbler vid Stortorget",
+    "date": "1780-02-10",
+    "address": "Stortorget",
+    "description": "N:o J 361.\n23. r fan. Mans Skrif-Bureu med lås och nyckel.\n\nN:o A 246.\n24. r stor modern Spigel med 2 Glas och förgold Ram.\n25. r dito med dito och dito.\n26. r mindre dito med 2 Glas i förgylld Ram.\nhastkommande lördag den 12 febr. efter-\nsat försäljas på kongl. general assistance-\net därfannastådes i morgon och lördags\nförut kan beses, neml:\n\nN:o A 808.\n27. i förnyld pendul af Ljungdahl.\n\nN:o A 556.\n28. i soffa med 8 tageldynor och tattun.\n\nN:o A 647.\n29. i fan, bireau med stenskifwa, lås och nyckel.",
+    "resident": null,
+    "lat": 59.3249967,
+    "lng": 18.0708198,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 7,
+      "archive_ref": "bib13506739_17800210_144030_33_0007.jpg",
+      "original_spelling": "N:o J 361.\n23. r fan. Mans Skrif-Bireau med lås och nyckel.\nN:o A 246.\n24. r stor modern Spigel med 2 Glas och förgold Ram.\n25. r dito med dito och dito.\n26. r mindre dito med 2 Glas i förgylld Ram.\nhastkommande lördag den 12 febr. efter-\nsat försäljas på kongl. general assistance-\nent därfannastådes i morgon och lördags\nförut kan beses, neml:\nN:o A 808.\n27. i förnyld pendul af Ljungdahl.\nN:o A 556.\n28. i soffa med 8 tageldynor och tattun.\nN:o A 647.\n29. i fan, bireau med stenskifwa, lås och nyckel.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Stortorget"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": "Stortorget",
+      "geocode_status": "geocoded_osm",
+      "location_approximate": false,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0007:5:auktion-smycken",
+    "label": "Auktion: Smycken",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "N:o E 485.\n30. i Kristalls ljuskrona.\nN:o 7794.\n31. i par armband med stora orientalska pärlor och guld-lås i foder.\nN:o 7795.\n32. i par stora Rosenstens Girandolser i foder.\nN:o 8020.\n33. i Guld-Dosa, 17 Ducater i foder.\nN:o 8086.\n34. i Ring med 19 Rosenstenar i foder.\nN:o 8132.\n35. i Silfver Twättfat och Kanna, 107 och\n7=8:delb lop.\nN:o 3028.\n36. 1 par Girandoller med 82 Rosenst. i foder.\nN:o 7282.\n37. 1 Ring med 1 stor Brillant, dubbelt carmoiserad med Brillianter i foder.\nN:o 763r.\n38. 1 Lord-Studsare, modern och väl arbetad av förgylt Mässing, slår fulla timmar.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 7,
+      "archive_ref": "bib13506739_17800210_144030_33_0007.jpg",
+      "original_spelling": "N:o E 485.\n30. i Christals ljuskrona.\nN:o 7794.\n31. i par armband med stora orientalske pärs-\nlor och guld-lås i foder.\nN:o 7795.\n32. i par stora Rosenstens Girandolser i foder.\nN:o 8020.\n33. i Guld-Dosa, 17 Ducater i foder.\nN:o 8086.\n34. i Ring med 19 Rosenstenar i foder.\nN:o 8132.\n35. i Silfwer Twättfat och Kanna, 107 och\n7=8:delb lop.\nN:o 3028.\n36. 1 par Girandoller med 82 Rosenst. i foder.\nN:o 7282.\n37. 1 Ring med 1 stor Brillant, dubbelt carmoiserad med Brillianter i foder.\nN:o 763r.\n38. 1 Lord-Studsare, modern och väl arbetad af förgylt Mässing, slår fulla timar.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Christals ljuskrona",
+        "par armband med stora orientalske pärs-lor och guld-lås i foder",
+        "Rosenstens Girandolser i foder",
+        "Guld-Dosa, 17 Ducater i foder",
+        "Ring med 19 Rosenstenar i foder",
+        "Silfwer Twättfat och Kanna, 107 och 7=8:delb lop",
+        "par Girandoller med 82 Rosenst. i foder",
+        "Ring med 1 stor Brillant, dubbelt carmoiserad med Brillianter i foder",
+        "Lord-Studsare"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0007:6:auktion-smycken",
+    "label": "Auktion: Smycken",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "N:o 3479.\n39. 1 Ring med 16 Rosenstenar:\n40. 1 dito carmoiserad med 8 Rosenstenar:\n41. 1 Ring med r Rosensten.\n\nN:o 7783.\n42. 1 Ring med 19 Brillianter i foder.\n\nN:o 7784.\n43. 1 Etui af Guld med Bleckhorn och Instrumenter med Guld, samt Sigill, i foder.\n\nN:o 7856\n44. r par Örhängen med 20 Rosenst. i foder.\n\nN:o 7994.\n45. r Spaniskt Rör med emaillerad Guld-krycka.\n\nN:o 8091.\n46. r Guld-ur med Brilliants-träckare och wisare, samt Fruntimmers Guld-fjed i foder.\n47. r Guld Swampdosa, 8 och en half Ducat i foder:",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 7,
+      "archive_ref": "bib13506739_17800210_144030_33_0007.jpg",
+      "original_spelling": "N:o 3479.\n39. 1 Ring med 16 Rosenstenar:\n40. 1 dito carmoiserad med 8 Rosenstenar:\n41. 1 Ring med r Rosensten.\nN:o 7783.\n42. 1 Ring med 19 Brillianter i foder.\nN:o 7784.\n43. 1 Etui af Guld med Bleckhorn och Instrumenter med Guld, samt Sigill, i foder.\nN:o 7856\n44. r par Örhängen med 20 Rosenst. i foder.\nN:o 7994.\n45. r Spaniskt Rör med emaillerad Guld-krycka.\nN:o 8091.\n46. r Guld-ur med Brilliants-träckare och wisare, samt Fruntimmers Guld-fjed i foder.\n47. r Guld Swampdosa, 8 och en half Ducat i foder:",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Ring",
+        "Etui af Guld"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  },
+  {
+    "id": "bib13506739_17800210_144030_33_0007:7:auktion-guld-ur",
+    "label": "Auktion: Guld-ur",
+    "date": "1780-02-10",
+    "address": null,
+    "description": "N:o 8067.\n48. En guldför ur av Sundberg med guldfjäder och berlock.",
+    "resident": null,
+    "lat": null,
+    "lng": null,
+    "metadata": {
+      "source_paper": "Dagligt Allehanda",
+      "issue_date": "1780-02-10",
+      "page": 7,
+      "archive_ref": "bib13506739_17800210_144030_33_0007.jpg",
+      "original_spelling": "N:o 8067.\n48. r Guld-ur af Sundberg med Guld-fjed och Berloquer.",
+      "category": "commerce",
+      "themes": [
+        "Trade & Notices"
+      ],
+      "record_type": "Newspaper Notice",
+      "people": [],
+      "locations": [
+        "Sundberg"
+      ],
+      "crime": null,
+      "fire_cause": null,
+      "parish_event": null,
+      "matched_place": null,
+      "geocode_status": "district_fallback",
+      "location_approximate": true,
+      "ocr_model": "qwen2.5vl:7b",
+      "display_cleaned": true,
+      "description_modernized": true
+    }
+  }
+]

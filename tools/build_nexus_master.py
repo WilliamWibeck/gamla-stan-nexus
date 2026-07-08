@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import importlib.util
 import json
 import os
 import re
@@ -60,6 +61,34 @@ def slug(value: str) -> str:
     txt = normalize_text(value)
     txt = re.sub(r"\s+", "-", txt)
     return txt or "unknown"
+
+
+_geocode_record_fn = None
+
+
+def resolve_record_coordinates(row: Dict[str, Any]) -> Tuple[Optional[float], Optional[float], Optional[str]]:
+    """Re-geocode a newspaper record so all sources share canonical street coords."""
+    global _geocode_record_fn
+    if _geocode_record_fn is None:
+        geocode_path = Path(__file__).resolve().parent.parent / "Newscript" / "local_text_test.py"
+        spec = importlib.util.spec_from_file_location("local_text_test", geocode_path)
+        if spec is None or spec.loader is None:
+            return None, None, None
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        _geocode_record_fn = mod.geocode_record
+
+    meta = row.get("metadata") if isinstance(row.get("metadata"), dict) else {}
+    locations = [loc for loc in meta.get("locations", []) if isinstance(loc, str)]
+    lat, lng, matched_place, _status = _geocode_record_fn(
+        row.get("address") or meta.get("address"),
+        locations,
+        row.get("label"),
+        row.get("description"),
+        meta.get("original_spelling"),
+        online=False,
+    )
+    return lat, lng, matched_place
 
 
 def first_match(d: Dict[str, Any], candidates: Iterable[str]) -> Any:
@@ -229,6 +258,16 @@ def parse_local_records(
 
         lat = to_float(first_match(row, ["lat", "latitude"]))
         lng = to_float(first_match(row, ["lng", "lon", "longitude"]))
+        inner = row.get("metadata") if isinstance(row.get("metadata"), dict) else {}
+        if inner.get("record_type") in {"Newspaper", "Newspaper Notice"} or row.get("record_type") == "Newspaper Notice":
+            resolved_lat, resolved_lng, matched_place = resolve_record_coordinates(row)
+            if resolved_lat is not None and resolved_lng is not None:
+                lat, lng = resolved_lat, resolved_lng
+                if matched_place:
+                    inner = dict(inner)
+                    inner["matched_place"] = matched_place
+                    row = dict(row)
+                    row["metadata"] = inner
         kvarter = first_match(row, ["kvarter", "kvartersnamn", "block", "block_name"])
         address = first_match(row, ["address", "street", "street_address"])
         date = first_match(row, ["date", "year", "event_date"])
@@ -268,6 +307,11 @@ def parse_local_records(
 
 
 def infer_node_type(row: Dict[str, Any], source_file: str) -> str:
+    # Records from the extraction pipelines are always events.
+    inner = row.get("metadata")
+    record_type = row.get("record_type") or (inner.get("record_type") if isinstance(inner, dict) else None)
+    if record_type == "Newspaper Notice":
+        return "event"
     row_text = normalize_text(" ".join(str(v) for v in row.values() if v is not None))
     file_text = normalize_text(source_file)
     joined = f"{row_text} {file_text}"
@@ -489,7 +533,30 @@ def ensure_valid_output(payload: Dict[str, Any]) -> None:
             raise ValueError(f"Link references unknown node: {link}")
 
 
-def build_payload(local_data_dir: Path) -> Dict[str, Any]:
+def read_extra_json_files(paths: List[Path]) -> List[Dict[str, Any]]:
+    """Read additional record arrays (e.g. Newscript/output_json/all_records.json)."""
+    records: List[Dict[str, Any]] = []
+    for path in paths:
+        if not path.exists():
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except Exception as e:  # noqa: BLE001
+            print(f"Warning: Could not parse {path}: {e}")
+            continue
+        if isinstance(data, list):
+            for rec in data:
+                if isinstance(rec, dict):
+                    rec["_source_file"] = path.name
+                    records.append(rec)
+    return records
+
+
+def build_payload(
+    local_data_dir: Path,
+    extra_json: Optional[List[Path]] = None,
+    include_ksamsok: bool = False,
+) -> Dict[str, Any]:
     session = requests.Session() if requests else None
     if session:
         session.headers.update({"User-Agent": "nexus-data-engine/1.0"})
@@ -499,18 +566,21 @@ def build_payload(local_data_dir: Path) -> Dict[str, Any]:
     person_names: List[str] = []
     live_ok = True
 
-    # 1) K-Samsok ingestion
-    if session:
+    # 1) K-Samsok ingestion (opt-in; newspaper pipeline is the primary source now)
+    if session and include_ksamsok:
         try:
             ks_records = fetch_ksamsok_records(session)
             all_nodes.extend(parse_ksamsok_to_nodes(ks_records))
         except Exception:
             live_ok = False
+    elif not include_ksamsok:
+        pass
     else:
         live_ok = False
 
-    # 2) Local CSV/JSON ingestion
+    # 2) Local CSV/JSON ingestion (data_sources/ plus extra record files)
     records = read_local_files(local_data_dir)
+    records.extend(read_extra_json_files(extra_json or []))
     local_nodes, local_links, local_person_names = parse_local_records(records)
     all_nodes.extend(local_nodes)
     all_links.extend(local_links)
@@ -582,6 +652,18 @@ def parse_args() -> argparse.Namespace:
         default=str(default_output),
         help=f"Output JSON path (default: {default_output})",
     )
+    default_newscript = project_root / "Newscript" / "output_json" / "all_records.json"
+    parser.add_argument(
+        "--extra-json",
+        nargs="*",
+        default=[str(default_newscript)],
+        help=f"Extra JSON record files to ingest (default: {default_newscript})",
+    )
+    parser.add_argument(
+        "--include-ksamsok",
+        action="store_true",
+        help="Include K-Samsok heritage objects in the graph (off by default)",
+    )
     return parser.parse_args()
 
 
@@ -590,7 +672,11 @@ def main() -> int:
     local_data_dir = Path(args.local_data_dir)
     output_path = Path(args.output)
 
-    payload = build_payload(local_data_dir=local_data_dir)
+    payload = build_payload(
+        local_data_dir=local_data_dir,
+        extra_json=[Path(p) for p in args.extra_json],
+        include_ksamsok=args.include_ksamsok,
+    )
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as f:
